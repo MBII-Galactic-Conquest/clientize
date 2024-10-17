@@ -1,0 +1,100 @@
+
+ClassInfo
+{
+	name			"s_14fel_bh1"
+	classflags		CFL_REALTD|CFL_BPFREEJUMPS|CFL_FASTHACKING|CFL_HEAVYMELEE|CFL_SEEING_STEALTH
+	APmultiplier	0.8
+    forcepool       65
+	maxhealth		150
+	maxarmor		100
+	uishader		"models/players/IG88/mb2_icon_default"
+	speed 			1.16
+	saber1			droidmelee_legends
+	saber2			droidmelee_legends
+
+	saberStanceAnim		BOTH_RAGESTAND
+	WalkForward 		SBD_WALK_NOGUN
+	WalkBackward		SBD_WALKBACK_NOGUN
+
+	resource	RESOURCE_FORCE
+
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_BRYAR_PISTOL
+	WeaponBasedOff		WP_BOWCASTER
+	NewWorldModel		"models/weapons2/imp_pistol/pistol_w.glm"
+	NewViewModel		"models/weapons2/imp_pistol/pistol_fpv.md3"
+	Icon				"gfx/hud/w_icon_imp_pistol"
+	WeaponName			"Pistol"
+	FlashSound0 "sound/weapsup/r/wpn_imp_pistol_fire.wav"
+    AltFlashSound0  "sound/weapsup/r/wpn_imp_pistol_fire.wav"
+}
+
+WeaponInfo1
+{
+	WeaponToReplace WP_SABER
+	WeaponBasedOff  WP_SABER
+	NewWorldModel		"models/weapons2/dummy/dummy.glm"
+	NewViewModel		"models/weapons2/dummy/dummy.md3"
+	Icon			"models/weapons2/halo_melee/icon.png"
+	WeaponName		"Droid Melee"
+	primGore		1
+	altGore			1
+}
+
+WeaponInfo2
+{
+	WeaponToReplace		WP_PROJ				//Required: Weapon Slot of weapon you're replacing
+	WeaponBasedOff		WP_SBD				//Required: For future use, should be the same as WeaponToReplace
+	NewWorldModel		"models/weapons2/dlt20a/dlt20a_w.glm"
+	NewViewModel		"models/weapons2/dlt20a/dlt20a.md3"
+	MuzzleEffect		"Blaster/MuzzleFlash01Y" 				//Optional: New muzzle effect
+	MissileEffect		"Blaster/Shot04Y"				//Optional: New effect to be displayed on the projectile
+	FlashSound0			"sound/weapons/pulse_cannon/fire.wav"  			//Optional: Sound played when the weapon fires
+	Icon				"gfx/hud/w_icon_DLT20a"
+	WeaponName			"Pulse Cannon"    					//Required: Weapon change display name
+	CustomAmmo	10
+	clipSize 1
+	FPMult     			1.5
+}
+
+ForceInfo0
+{
+	ForceToReplace	FP_SEE
+	Icon		"gfx/forcepowers/radar"
+	ForcePowerName	"Bondsman Guild Scanner"
+}
+
+description	"Generic Leader: Bounty Hunter Sniper
+
+	[GC]
+Unlocked With:
+Leader Bonus
+
+Weaponry:
+Thermal Detonator (1)
+Frag Grenade (2)
+Illegal Pulse Cannon
+Droid Arms (strong style)
+Pistol (3)
+EE4 (3)
+
+Gadgets:
+Stealth Field Generator
+Bondsman Guild Scanner
+
+Attributes
+Self-Repairing Ablative Armor
+Droid Lethality (wookie melee)
+Close Combat Training (2)
+IG-88 Swiftness (speed)
+Cortosis Plating
+Flamethrower
+Quick Throw (2)
+Beskar (3)
+Gun Bash
+
+A contracted imperial bounty hunter, he looks incredibly terrifying."
+

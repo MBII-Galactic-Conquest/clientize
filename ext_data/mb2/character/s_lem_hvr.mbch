@@ -1,0 +1,76 @@
+
+ClassInfo
+{
+	name			"s_lem_hvr"
+	maxhealth		100
+	maxarmor		75
+	speed			1.0
+	uishader		"models/players/legoguy/mb2_icon_sandtrooper"
+
+	WP_PLX1Flags	HELD_SLOW
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_BLASTER_PISTOL
+	WeaponBasedOff		WP_BLASTER_PISTOL
+	NewWorldModel		"models/weapons2/lego_blaster/blaster_w.glm"
+	NewViewModel		"models/weapons2/lego_blaster/blaster.md3"
+	Icon			"gfx/mplevels/legosw/icon_blaster"
+	WeaponName		"Blaster Pistol"
+	FlashSound0 "sound/weapsup/r/wpn_imp_pistol_fire.wav"
+    AltFlashSound0  "sound/weapsup/r/wpn_imp_pistol_fire.wav"
+}
+
+WeaponInfo1
+{
+	WeaponToReplace		WP_BLASTER
+	WeaponBasedOff		WP_BLASTER
+	NewWorldModel		"models/weapons2/lego_blaster/blaster_w.glm"
+	NewViewModel		"models/weapons2/lego_blaster/blaster.md3"
+	Icon			"gfx/mplevels/legosw/icon_blaster"
+	WeaponName		"Blaster"
+	FlashSound0 "sound/weapsup/r/wpn_imp_blaster_fire.wav"
+    AltFlashSound0  "sound/weapsup/r/wpn_imp_blaster_fire.wav"
+    customAmmo      500
+    clipSize        100
+    FPMult          0.8
+}
+
+WeaponInfo2
+{
+	WeaponToReplace		WP_PLX1
+	WeaponBasedOff		WP_PLX1
+	NewWorldModel		"models/weapons2/MiniMag_launcher/launcher_w.glm"
+	NewViewModel		"models/weapons2/MiniMag_launcher/launcher.md3"
+	Icon				"gfx/hud/w_icon_MiniMag"
+	WeaponName			"MiniMag PTL Launcher"
+	customAmmo           1
+}
+
+WeaponInfo3
+{
+	WeaponToReplace		WP_MELEE
+	WeaponBasedOff		WP_MELEE  
+  NewWorldModel		"models/weapons2/dummy/dummy.glm"
+  NewViewModel		"models/weapons2/dummy/dummy.md3"
+  Icon			"gfx/mplevels/legosw/icon_melee"
+	WeaponName		"Melee"
+}
+
+description	"Imperial Heavy Rocket Trooper
+
+Weapons
+Frag Grenades (2)
+Rocket Launcher (1)
+Lego Pistol (2)
+Lego E-11 (3)
+
+Abilities:
+Reinforcements (1)
+Close Combat Training (2)
+Dexterity (1)
+Stamina (2)
+Gun Bash
+
+An Imperial Heavy Rocket Trooper."

@@ -1,0 +1,60 @@
+
+ClassInfo
+{
+	name			"s_lem_vet"
+	maxhealth		100
+	maxarmor		75
+	speed			0.7
+	uishader		"models/players/legoguy/mb2_icon_sandtrooper"
+
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_BLASTER_PISTOL
+	WeaponBasedOff		WP_BLASTER_PISTOL
+	NewWorldModel		"models/weapons2/lego_blaster/blaster_w.glm"
+	NewViewModel		"models/weapons2/lego_blaster/blaster.md3"
+	Icon			"gfx/mplevels/legosw/icon_blaster"
+	WeaponName		"Blaster Pistol"
+	FlashSound0 "sound/weapsup/r/wpn_imp_pistol_fire.wav"
+    AltFlashSound0  "sound/weapsup/r/wpn_imp_pistol_fire.wav"
+}
+
+WeaponInfo1
+{
+	WeaponToReplace		WP_T21
+	WeaponBasedOff		WP_T21
+	NewWorldModel		"models/weapons2/lego_blaster/blaster_w.glm"
+	NewViewModel		"models/weapons2/lego_blaster/blaster.md3"
+	Icon			"gfx/mplevels/legosw/icon_blaster"
+	WeaponName		"Blaster"
+    customAmmo      500
+    clipSize        100
+    FPMult          0.8
+}
+
+WeaponInfo2
+{
+	WeaponToReplace		WP_MELEE
+	WeaponBasedOff		WP_MELEE  
+  NewWorldModel		"models/weapons2/dummy/dummy.glm"
+  NewViewModel		"models/weapons2/dummy/dummy.md3"
+  Icon			"gfx/mplevels/legosw/icon_melee"
+	WeaponName		"Melee"
+}
+
+description	"Imperial Veteran
+
+Weapons
+Frag Grenade (1)
+Concussion Grenade (1)
+Lego Pistol (2)
+Lego T-21 (3)
+
+Abilities:
+Reinforcements (1)
+Close Combat Training (2)
+Bounty Hunter Kick
+
+An imperial veteran, who has seen some action, carrying a backpack of supplies and better arsenal to match."

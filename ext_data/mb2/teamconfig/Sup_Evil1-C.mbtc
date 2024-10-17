@@ -1,0 +1,16 @@
+//Galactic Conquest/Supremacy siegeteam file - Created by 2cwldys & John
+//Galactic Civil War
+
+name "Sup_Evil1-C"
+
+ClassesAllowed 1
+TimePeriod 5
+EUAllowed 0
+
+Classes
+
+{
+class1	"s_1em_solc"
+}
+
+//1-6

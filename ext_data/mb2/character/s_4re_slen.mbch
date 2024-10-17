@@ -1,0 +1,121 @@
+
+ClassInfo
+{
+	name			"s_4re_slen"
+	classflags		CFL_STRONGAGAINSTPHYSICAL
+	saber1			kotor_vibrosword_supremacy
+	maxhealth		75
+	maxarmor		25
+	forcepool       25
+	uishader		"models/players/sithtrooper/mb2_icon_default"
+	speed			0.8
+
+	WP_BlasterPistolFlags	HELD_ALTRELOAD|HELD_AMMOREGEN
+	WP_BlasterFlags		HELD_ALTRELOAD|HELD_AMMOREGEN
+
+	resource	RESOURCE_STAMINA
+
+	isCustomBuild        1
+	mbPoints	40
+
+    c_att_skill_0        MB_ATT_INVALID
+    c_att_names_0        "Energy Boost"
+    c_att_ranks_0        -1
+
+    c_att_skill_1        MB_ATT_INVALID
+    c_att_names_1        " "
+    c_att_ranks_1        -1
+
+    c_att_skill_2        MB_ATT_INVALID
+    c_att_names_2        "^5-Bonus Availability-"
+    c_att_ranks_2        -1
+    
+    c_att_skill_3        MB_ATT_STAMINA
+    c_att_names_3        "Stamina: ^3[CS1]"
+    c_att_ranks_3        15,5
+
+	c_att_skill_4		 MB_ATT_DEXTERITY
+	c_att_names_4		 "Dexterity: ^3[CS4]"
+	c_att_ranks_4		 15,5
+
+	c_att_skill_5		 MB_ATT_INVALID
+	c_att_names_5		 " "
+	c_att_ranks_5		 -1
+
+	c_att_skill_6		 MB_ATT_INVALID
+	c_att_names_6		 "^5-Impacted Stats-"
+	c_att_ranks_6		 -1
+
+	c_att_skill_7		 MB_ATT_INVALID
+	c_att_names_7		 "^3Vibrosword Defense (BP)"
+	c_att_ranks_7		 -1
+
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_SABER			
+	WeaponBasedOff		WP_SABER			
+	NewWorldModel		"models/weapons2/kotor_longsword/saber_w.glm"  
+	NewViewModel		"models/weapons2/dummy/dummy.md3" 	  
+	Icon			"gfx/hud/w_icon_vibrosword"
+	WeaponName		"Cortosis Vibrosword"    	 			
+}
+
+WeaponInfo1
+{
+	WeaponToReplace		WP_BRYAR_PISTOL
+	WeaponBasedOff		WP_BOWCASTER
+	NewWorldModel		"models/weapons2/kotor_bpistol2/kotor_bpistol2_w.glm"
+	NewViewModel		"models/weapons2/kotor_bpistol2/kotor_bpistol2.md3"
+	Icon				"gfx/hud/w_icon_kotor_bpistol2"
+	WeaponName			"BP-2 Hand Pistol"
+	FlashSound0			"sound/weapons/kotor/fire_light.wav"
+    AltFlashSound0		"sound/weapons/kotor/fire_hvy.wav"
+}
+
+WeaponInfo2
+{
+    WeaponToReplace        WP_BLASTER                           //Required: Weapon Slot of weapon you're replacing
+    WeaponBasedOff        WP_BLASTER                          //Required: For future use, should be the same as WeaponToReplace
+    NewWorldModel        "models/weapons2/kotor_brifle2/kotor_brifle2_w.glm"      //Required: New 3rd person/dropped weapon model
+    NewViewModel        "models/weapons2/kotor_brifle2/kotor_brifle2.md3"       //Required: New 1st person weapon model
+    Icon                "gfx/hud/w_icon_kotor_brifle2"                 //Required: Weapon change icon
+    WeaponName            "Sith Assault Rifle"                        //Required: Weapon change display name
+	FlashSound0			"sound/weapons/kotor/fire_med.wav"
+    AltFlashSound0		"sound/weapons/kotor/fire_hvy.wav"
+	idleAnim  			TORSO_WEAPONREADY3
+    customAmmo      500
+    clipSize        100
+    FPMult          0.8
+}
+
+description	"Revanite Sith - Soldier - Energy Boost
+
+	[GC]
+Unlocked With:
+Energy Boost Bonus
+
+Weaponry:
+Concussion Grenade (1)
+Frag Grenade (1)
+BP-2 Hand Pistol (2)
+Sith Assault Rifle (2)
+Cortosis Vibrosword *
+
+Vibrosword Info:
+Medium Style
+Offense (2)
+Defense (1)
+
+Attributes
+Reinforcements (3)
+Melee Resistant Plating
+Close Combat Training (2)
+Stamina (1)
+Dexterity (2)
+Gun Bash
+Assemble
+
+
+A standard soldier in the employ of the Sith, a constant reminder of their galactic oppression."

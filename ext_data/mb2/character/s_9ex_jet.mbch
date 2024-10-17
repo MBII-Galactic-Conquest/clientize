@@ -1,0 +1,86 @@
+
+ClassInfo
+{
+	name			"s_9ex_jet"
+	saber1			kotor_vibrosword_supremacy
+	forceregen		0
+	maxhealth		100
+	maxarmor		50
+	uishader		"models/players/prisoner/mb2_icon_oldrepsold_helm_FA"
+	speed			1.0
+
+
+	resource	RESOURCE_FUEL
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_SABER			
+	WeaponBasedOff		WP_SABER			
+	NewWorldModel		"models/weapons2/kotor_longsword/saber_w.glm"  
+	NewViewModel		"models/weapons2/dummy/dummy.md3" 	  
+	Icon			"gfx/hud/w_icon_vibrosword"
+	WeaponName		"Cortosis Vibrosword"    	 			
+}
+
+WeaponInfo1
+{
+	WeaponToReplace		WP_BRYAR_PISTOL
+	WeaponBasedOff		WP_BOWCASTER
+	NewWorldModel		"models/weapons2/kotor_bpistol2/kotor_bpistol2_w.glm"
+	NewViewModel		"models/weapons2/kotor_bpistol2/kotor_bpistol2.md3"
+	Icon				"gfx/hud/w_icon_kotor_bpistol2"
+	WeaponName			"BP-2 Hand Pistol"
+	FlashSound0			"sound/weapons/kotor/fire_light.wav"
+    AltFlashSound0		"sound/weapons/kotor/fire_hvy.wav"
+	ChargeEffect		"gfx/effects/clonefrontflash"
+	OverchargeEffect	"Blaster/MuzzleFlash04B"
+	PowerupShotEffect	"Blaster/Shot04B"
+	MuzzleEffect		"Blaster/MuzzleFlash01B"
+	AltMuzzleEffect		"Blaster/MuzzleFlash01B"
+	MissileEffect		"blaster/Shot01B"
+	AltMissileEffect 	"blaster/Shot01B"
+}
+
+WeaponInfo2
+{
+    WeaponToReplace        WP_BLASTER                           //Required: Weapon Slot of weapon you're replacing
+    WeaponBasedOff        WP_BLASTER                          //Required: For future use, should be the same as WeaponToReplace
+    NewWorldModel        "models/weapons2/kotor_brifle2/kotor_brifle2_w.glm"      //Required: New 3rd person/dropped weapon model
+    NewViewModel        "models/weapons2/kotor_brifle2/kotor_brifle2.md3"       //Required: New 1st person weapon model
+    Icon                "gfx/hud/w_icon_kotor_brifle2"                 //Required: Weapon change icon
+    WeaponName            "Republic Assault Rifle"                        //Required: Weapon change display name
+	FlashSound0			"sound/weapons/kotor/fire_med.wav"
+    AltFlashSound0		"sound/weapons/kotor/fire_hvy.wav"
+	MuzzleEffect		"Blaster/MuzzleFlash01B"
+	AltMuzzleEffect		"Blaster/MuzzleFlash01B"
+	MissileEffect		"blaster/Shot01B"
+	AltMissileEffect 	"blaster/Shot01B"
+    customAmmo      500
+    clipSize        100
+    FPMult          0.8
+}
+
+description	"Old Republic - Jet Trooper
+
+Weaponry:
+Pulse Grenades (2)
+BP-2 Hand Pistol (2)
+Republic Assault Rifle (2)
+Cortosis Vibrosword *
+
+Vibrosword Info:
+Medium Style
+Offense (2)
+Defense (1)
+
+Attributes
+Reinforcements (1)
+Close Combat Training (2)
+Quick Throw (1)
+Jetpack (1)
+Fuel (2)
+Gun Bash
+Assemble
+
+A valiant soldier of the Old Republic."

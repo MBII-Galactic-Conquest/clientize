@@ -1,0 +1,33 @@
+
+ClassInfo
+{
+	name			"s_int_com"
+	maxhealth		100
+	maxarmor		50
+	uishader		"models/players/imperial/mb2_icon_officer"
+	speed			0.8
+
+	uishader_1		"models/players/imperial_fml/mb2_icon_default"
+}
+
+WeaponInfo0
+{
+    WeaponToReplace        WP_CLONE_PISTOL                           //Required: Weapon Slot of weapon you're replacing
+    WeaponBasedOff        WP_CLONE_PISTOL                          //Required: For future use, should be the same as WeaponToReplace
+    NewWorldModel        "models/weapons2/dc-17/dc-17_w.glm"      //Required: New 3rd person/dropped weapon model
+    NewViewModel        "models/weapons2/dc-17/dc-17.md3"       //Required: New 1st person weapon model
+    Icon                "gfx/hud/w_icon_dc-17"                 //Required: Weapon change icon
+    WeaponName            "DC-17 Clone Pistol"                        //Required: Weapon change display name
+    FlashSound0 "sound/weapsup/sup/wpn_rep_pistol_fire.wav"
+    AltFlashSound0  "sound/weapsup/sup/wpn_rep_pistol_fire.wav"
+	FlashSound4	"sound/weapsup/sup/wpn_rep_pistol_fire.wav"
+	AltFlashSound4	"sound/weapsup/sup/wpn_rep_pistol_fire.wav"
+	ChargeEffect	"gfx/effects/clonefrontflash"
+	MuzzleEffect		"Blaster/MuzzleFlash01B"
+	MissileEffect		"blaster/Shot01B"
+	AltMissileEffect 	"blaster/Shot01B"
+    customAmmo      200
+    clipSize        100
+}
+
+description	"Team Commander"

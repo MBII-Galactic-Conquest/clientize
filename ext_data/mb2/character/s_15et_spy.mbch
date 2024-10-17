@@ -1,0 +1,99 @@
+
+ClassInfo
+{
+	name			"s_15et_spy"
+	saber1			kotor_vibrosword_supremacy
+	APmultiplier	0.8
+    forcepool       65
+	maxhealth		60
+	maxarmor		35
+	classflags		CFL_BPFREEJUMPS|CFL_HEAVYMELEE|CFL_SEEING_STEALTH
+    speed			1.0
+	uishader		"models/players/weequay/mb2_icon_default"
+
+	uishader_1		"models/players/weequay/mb2_icon_rgb_abyssin"
+
+	uishader_2		"models/players/gran/mb2_icon_default"
+
+    uishader_3      "models/players/rodian/mb2_icon_default"
+
+	uishader_4		"models/players/bossk/mb2_icon_default"
+
+
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_SABER			
+	WeaponBasedOff		WP_SABER			
+	NewWorldModel		"models/weapons2/kotor_longsword/saber_w.glm"  
+	NewViewModel		"models/weapons2/dummy/dummy.md3" 	  
+	Icon			"gfx/hud/w_icon_vibrosword"
+	WeaponName		"Cortosis Vibrosword"    	 			
+}
+
+WeaponInfo1
+{
+	WeaponToReplace		WP_BLASTER_PISTOL
+	WeaponBasedOff		WP_BLASTER
+	NewWorldModel		"models/weapons2/kotor_bpistol2/kotor_bpistol2_w.glm"
+	NewViewModel		"models/weapons2/kotor_bpistol2/kotor_bpistol2.md3"
+	Icon				"gfx/hud/w_icon_kotor_bpistol2"
+	WeaponName			"BP-2 Hand Pistol"    					//Required: Weapon change display name
+	FlashSound0			"sound/weapons/kotor/fire_light.wav"
+    AltFlashSound0		"sound/weapons/kotor/fire_hvy.wav"
+	MuzzleEffect		"Blaster/MuzzleFlash01B"
+	AltMuzzleEffect		"Blaster/MuzzleFlash01B"
+	MissileEffect		"blaster/Shot01B"
+	Missile3Effect		"Blaster/Shot10B"
+	AltMissileEffect	"blaster/Shot01B"
+	PowerupShotEffect	"Blaster/Shot10B"
+	ChargeEffect		"gfx/effects/clonefrontflash"
+	OverchargeEffect	"Blaster/MuzzleFlash04B"
+	altfireenabled	1
+	firingAnim		BOTH_ATTACK2
+	idleAnim		TORSO_WEAPONIDLE2
+}
+
+WeaponInfo2
+{           
+WeaponToReplace        	WP_TRIP_MINE
+WeaponBasedOff         	WP_TRIP_MINE
+NewWorldModel		"models/weapons2/laser_trap/laser_trap_w.glm"  	
+NewViewModel	  	"models/weapons2/laser_trap/laser_trap.md3"  	
+Icon             	"gfx/hud/w_icon_tripmine"
+WeaponName		"Trip Mine"
+customAmmo    		3
+}
+
+
+description	"Eternal Empire - Spy
+
+	[GC]
+Unlocked With:
+Sabotage Bonus
+
+Weaponry:
+Trip Mine (2)
+Overcharged BP-2 Hand Pistol (3)
+Cortosis Vibrosword *
+
+Vibrosword Info:
+Blue and Medium Styles
+Offense (3)
+Defense (1)
+
+Gadgets:
+Stealth field generator [Inventory Use]
+Disguise [press saber style/gun mode switch while in melee]
+
+Attributes
+Reinforcements (1)
+Grappling Hook (2)
+Dexterity (2)
+Stamina (2)
+Immune to Sense
+Flip Kick (1)
+Gun Bash
+
+A valiant saboteur of the Eternal Empire, equipped with a stealth field generator and thermal plating."

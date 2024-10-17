@@ -1,0 +1,88 @@
+
+ClassInfo
+{
+	name			"s_lem_spy"
+	APmultiplier	0.8	
+    forcepool       65
+	maxhealth		60
+	maxarmor		35
+	classflags		CFL_BPFREEJUMPS|CFL_HEAVYMELEE|CFL_SEEING_STEALTH
+    speed			1.0
+	saber1			legends_Knife
+	uishader		"models/players/legoguy/mb2_icon_stormtrooper"
+
+
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_BLASTER_PISTOL
+	WeaponBasedOff		WP_BLASTER_PISTOL
+	NewWorldModel		"models/weapons2/lego_blaster/blaster_w.glm"
+	NewViewModel		"models/weapons2/lego_blaster/blaster.md3"
+	Icon			"gfx/mplevels/legosw/icon_blaster"
+	WeaponName		"Blaster Pistol"
+	FlashSound0 "sound/weapsup/r/wpn_imp_pistol_fire.wav"
+    AltFlashSound0  "sound/weapsup/r/wpn_imp_pistol_fire.wav"
+}
+
+WeaponInfo1
+{
+		WeaponToReplace		WP_SABER
+		WeaponBasedOff		WP_SABER
+		NewWorldModel		"models/weapons2/ct_weapon/ct_knife_F.glm"
+		NewViewModel		"models/weapons2/dummy/dummy.md3"
+		Icon			"gfx/hud/w_icon_prisonknife"
+		WeaponName		"Vibro Knife"
+}
+
+WeaponInfo2
+{           
+WeaponToReplace        	WP_TRIP_MINE
+WeaponBasedOff         	WP_TRIP_MINE
+NewWorldModel		"models/weapons2/laser_trap/laser_trap_w.glm"  	
+NewViewModel	  	"models/weapons2/laser_trap/laser_trap.md3"  	
+Icon             	"gfx/hud/w_icon_tripmine"
+WeaponName		"Trip Mine"
+customAmmo    		3
+}
+
+WeaponInfo3
+{
+	WeaponToReplace		WP_MELEE
+	WeaponBasedOff		WP_MELEE  
+  NewWorldModel		"models/weapons2/dummy/dummy.glm"
+  NewViewModel		"models/weapons2/dummy/dummy.md3"
+  Icon			"gfx/mplevels/legosw/icon_melee"
+	WeaponName		"Melee"
+}
+
+description	"Imperial Spy
+
+	[GC]
+Unlocked With:
+Sabotage Bonus
+
+Weaponry:
+Vibro Knife (Medium & Fast)
+Trip Mine (2)
+Lego Pistol (3)
+
+Gadgets:
+Stealth field generator [Inventory Use]
+Disguise [press saber style/gun mode switch while in melee]
+
+Attributes
+Reinforcements (1)
+Grappling Hook (2)
+Dexterity (2)
+Stamina (2)
+Immune to Sense
+Flip Kick (1)
+Gun Bash
+
+Vibro Knife Attributes:
+Knife Offense (3)
+Knife Defense (1)
+
+An imperial spy, equipped with a stealth field generator and thermal plating."

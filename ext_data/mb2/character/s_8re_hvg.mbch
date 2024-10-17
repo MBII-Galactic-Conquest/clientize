@@ -1,0 +1,86 @@
+
+ClassInfo
+{
+	name			"s_8re_hvg"
+	maxhealth		100
+	maxarmor		75
+	speed			0.6
+	uishader		"models/players/rebel_gag/mb2_icon_grenadier"
+	
+
+	uishader_1		"models/players/rebel_commando/mb2_icon_default"
+
+	uishader_2		"models/players/rebel_commando/mb2_icon_bith_forest"
+
+	uishader_3		"models/players/rebel_commando/mb2_icon_duros"
+
+	uishader_4		"models/players/rebel_commando/mb2_icon_quarren_hoth"
+
+	uishader_5		"models/players/rebel_commando/mb2_icon_duros_hoth"
+
+	uishader_6		"models/players/rebel_commando/mb2_icon_hoth"
+
+	rateoffire		1.4
+	damageGiven		1
+
+    WP_MinigunFlags	HELD_ALTRELOAD|HELD_LOWDAMAGE|HELD_SLOW
+
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_BRYAR_PISTOL
+	WeaponBasedOff		WP_BOWCASTER
+	NewWorldModel		"models/weapons2/LPA_NN-14/lpa_nn-14_w.glm"
+	NewViewModel		"models/weapons2/LPA_NN-14/lpa_nn-14.md3"
+	Icon				"gfx/hud/w_icon_lpa_nn-14"
+	WeaponName			"NN-14 Pistol"
+	FlashSound0 "sound/weapsup/sup/pistol_fire.wav"
+    AltFlashSound0  "sound/weapsup/sup/pistol_altfire.wav"
+}
+
+WeaponInfo1
+{
+	WeaponToReplace WP_MINIGUN
+	WeaponBasedOff  WP_MINIGUN
+	NewWorldModel "models/weapons2/z6_rotary/rotary_cannon_w.glm"
+	NewViewModel  "models/weapons2/z6_rotary/rotary_cannon.md3"
+	Icon  "gfx/hud/w_icon_rotary_cannon"
+	WeaponName  "Z-6 Rotary Cannon"
+    FlashSound0 "sound/weapsup/sup/minigun_fire.mp3"
+    FlashSound1 "sound/weapsup/sup/minigun_fire.mp3"
+    FlashSound2 "sound/weapsup/sup/minigun_fire.mp3"
+    FlashSound3 "sound/weapsup/sup/minigun_fire.mp3"
+    AltFlashSound0 "sound/weapsup/sup/minigun_fire.mp3"
+    AltFlashSound1 "sound/weapsup/sup/minigun_fire.mp3"
+    AltFlashSound2 "sound/weapsup/sup/minigun_fire.mp3"
+    AltFlashSound3 "sound/weapsup/sup/minigun_fire.mp3"
+	MuzzleEffect		"Blaster/MuzzleFlash01B"
+	AltMuzzleEffect		"Blaster/MuzzleFlash01B"
+	MissileEffect		"blaster/Shot03B"
+	AltMissileEffect 	"blaster/Shot03B"
+	customAmmo         500
+	clipSize		   100
+	isMinigun			1
+	ReloadTimeModifier	2
+	FPMult     			0.9
+}
+
+
+description	"Resistance - Heavy MG Trooper
+
+Weapons
+Fire Grenades (2)
+NN-14 Pistol (2)
+Z-6 Rotary Cannon *
+
+* Special Weapon Descriptions:
+--- Z-6 Rotary Cannon
+- Based on Minigun
+
+Abilities:
+Reinforcements (1)
+Close Combat Training (2)
+Bounty Hunter Kick
+
+A Resistance Heavy MG Trooper."

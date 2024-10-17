@@ -1,0 +1,40 @@
+
+ClassInfo
+{
+  name  			"s_6vr_dtr"
+  maxhealth 		100
+  maxarmor      100
+	uishader  		"models/players/deathtrooper/mb2_icon_default"
+  classflags		CFL_SEEING_STEALTH
+}
+
+WeaponInfo0
+{
+	WeaponToReplace WP_CLONE_RIFLE
+	WeaponBasedOff  WP_CLONE_RIFLE
+	NewWorldModel "models/weapons2/blaster_r/blaster_w.glm"
+	NewViewModel  "models/weapons2/blaster_r/blaster.md3"
+	Icon  "gfx/hud/w_icon_e11"
+	WeaponName  "E-11D"
+	MuzzleEffect  "Blaster/MuzzleFlash01R"
+	MissileEffect "Blaster/Shot02R"
+    FlashSound0 "sound/weapsup/r/wpn_imp_blaster_fire.wav"
+    AltFlashSound0  "sound/weapsup/r/wpn_imp_blaster_fire.wav"
+}
+
+description	"Veer's Remnant - Death Trooper
+
+Weaponry:
+E-11D (Based on Clone Rifle 2)
+
+Attributes
+Gunbash
+Magnetic Plating Armor
+Dexterity (2)
+Armour (3)
+Ammo (3)
+Stamina (2)
+Cannot be Sensed
+Reinforcements (1)
+
+Death troopers were an elite variant of the Galactic Empire's stormtroopers. They served as protective details and bodyguards for important Imperial officers and members of the Tarkin Initiative. They wore black suits of armor and specialized helmets that scrambled verbal communications."

@@ -1,0 +1,82 @@
+
+ClassInfo
+{
+	name			"s_lem_hvg"
+	maxhealth		100
+	maxarmor		75
+	speed			0.6
+	uishader		"models/players/legoguy/mb2_icon_sandtrooper"
+
+	rateoffire		1.4
+	damageGiven		1
+
+    WP_MinigunFlags	HELD_ALTRELOAD|HELD_LOWDAMAGE|HELD_SLOW
+
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_BLASTER_PISTOL
+	WeaponBasedOff		WP_BLASTER_PISTOL
+	NewWorldModel		"models/weapons2/lego_blaster/blaster_w.glm"
+	NewViewModel		"models/weapons2/lego_blaster/blaster.md3"
+	Icon			"gfx/mplevels/legosw/icon_blaster"
+	WeaponName		"Blaster Pistol"
+	FlashSound0 "sound/weapsup/r/wpn_imp_pistol_fire.wav"
+    AltFlashSound0  "sound/weapsup/r/wpn_imp_pistol_fire.wav"
+}
+
+WeaponInfo1
+{
+	WeaponToReplace WP_MINIGUN
+	WeaponBasedOff  WP_MINIGUN
+	NewWorldModel		"models/weapons2/lego_blaster/blaster_w.glm"
+	NewViewModel		"models/weapons2/lego_blaster/blaster.md3"
+	Icon			"gfx/mplevels/legosw/icon_blaster"
+	WeaponName  "Heavy Blaster MG"
+	FlashSound0	"sound/weapons/DLT19/fire.wav"
+	FlashSound1	"sound/weapons/DLT19/fire.wav"	
+	FlashSound2	"sound/weapons/DLT19/fire.wav"	
+	FlashSound3	"sound/weapons/DLT19/fire.wav"
+	AltFlashSound0	"sound/weapons/DLT19/fire.wav"
+	AltFlashSound1	"sound/weapons/DLT19/fire.wav"	
+	AltFlashSound2	"sound/weapons/DLT19/fire.wav"	
+	AltFlashSound3	"sound/weapons/DLT19/fire.wav"	
+	MuzzleEffect  "Blaster/MuzzleFlash01R"
+	AltMuzzleEffect	"Blaster/MuzzleFlash01R"
+	MissileEffect		"Blaster/Shot03R"
+	AltMissileEffect	"Blaster/Shot03R"
+	customAmmo         500
+	clipSize		   100
+	isMinigun			1
+	ReloadTimeModifier	2
+	FPMult     			0.9
+}
+
+WeaponInfo2
+{
+	WeaponToReplace		WP_MELEE
+	WeaponBasedOff		WP_MELEE  
+  NewWorldModel		"models/weapons2/dummy/dummy.glm"
+  NewViewModel		"models/weapons2/dummy/dummy.md3"
+  Icon			"gfx/mplevels/legosw/icon_melee"
+	WeaponName		"Melee"
+}
+
+description	"Imperial Heavy MG Trooper
+
+Weapons
+Fire Grenades (2)
+Lego Pistol (2)
+Lego DLT-19 *
+
+* Special Weapon Descriptions:
+--- DLT-19
+- Based on Minigun
+
+Abilities:
+Reinforcements (1)
+Close Combat Training (2)
+Bounty Hunter Kick
+
+An Imperial Heavy MG Trooper."

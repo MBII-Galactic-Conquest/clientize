@@ -1,0 +1,69 @@
+
+ClassInfo
+{
+	name			"s_7cd_bd3"
+	maxhealth		40
+	maxarmor		50
+	speed			0.6
+	uishader		"models/players/battledroid/mb2_icon_deathwatch"
+	
+
+}
+
+WeaponInfo0
+{
+    WeaponToReplace        WP_BLASTER_PISTOL                           //Required: Weapon Slot of weapon you're replacing
+    WeaponBasedOff        WP_BLASTER_PISTOL                          //Required: For future use, should be the same as WeaponToReplace
+    NewWorldModel        "models/weapons2/se-14c_pistol/blaster_pistol_w.glm"      //Required: New 3rd person/dropped weapon model
+    NewViewModel        "models/weapons2/se-14c_pistol/blaster_pistol.md3"       //Required: New 1st person weapon model
+    Icon                "gfx/hud/w_icon_se-14c"                 //Required: Weapon change icon
+    WeaponName            "SE-14c BlasTech Pistol"                        //Required: Weapon change display name
+    FlashSound0 "sound/weapsup/sup/wpn_cis_pistol_fire.wav"
+    AltFlashSound0  "sound/weapsup/sup/wpn_cis_pistol_fire.wav"
+	FlashSound4	"sound/weapsup/sup/wpn_cis_pistol_fire.wav"
+	AltFlashSound4 "sound/weapsup/sup/wpn_cis_pistol_fire.wav"
+	MuzzleEffect		"Blaster/MuzzleFlash01R"
+	MissileEffect		"blaster/Shot01R"
+	AltMissileEffect 	"blaster/Shot01R"
+    customAmmo      200
+    clipSize        100
+}
+
+WeaponInfo1
+{
+	WeaponToReplace WP_CLONE_RIFLE
+	WeaponBasedOff  WP_SBD
+	NewWorldModel "models/weapons2/z6_rotary/rotary_cannon_w.glm"
+	NewViewModel  "models/weapons2/z6_rotary/rotary_cannon.md3"
+	Icon  "gfx/hud/w_icon_rotary_cannon"
+	WeaponName  "Z-6m TF Rotary Cannon"
+    FlashSound0 "sound/weapsup/sup/wpn_cis_blaster_fire.wav"
+	MuzzleEffect		"Blaster/MuzzleFlash01R"
+	MissileEffect		"blaster/Shot01R"
+	AltMissileEffect 	"blaster/Shot01R"
+	customAmmo         900
+	FPMult     			0.9
+}
+
+description	"Crimson Dawn - Heavy Blaster Droid
+
+Weapons
+Fire Grenades (2)
+SE-14c Blaster Pistol (1)
+Z-6m Rotary Cannon *
+
+* Special Weapon Descriptions:
+--- Modified Z-6 Rotary Cannon
+- Based on Minigun
+
+Abilities:
+Reinforcements (2)
+Close Combat Training (2)
+Bounty Hunter Kick
+Beskar (1)
+
+A heavy blaster battle droid of the Trade Federation, equipped with fast-firing weaponry.
+
+Numerous, and plentiful, they are expendable. Resistant to blaster fire, and weak to EMP devices.
+
+This crimson painted battle droid appears worn, and serves as a constant reminder of the galaxies past."

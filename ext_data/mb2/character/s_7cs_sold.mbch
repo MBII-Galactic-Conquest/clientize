@@ -1,0 +1,48 @@
+
+ClassInfo
+{
+	name			"s_7cs_sold"
+	maxhealth		75
+	maxarmor		25
+	uishader		"models/players/weequay/mb2_icon_default"
+	speed			0.8
+
+	uishader_1		"models/players/weequay/mb2_icon_rgb_abyssin"
+
+	uishader_2		"models/players/gran/mb2_icon_default"
+
+    uishader_3      "models/players/rodian/mb2_icon_default"
+
+	uishader_4		"models/players/bossk/mb2_icon_default"
+}
+
+WeaponInfo0
+{
+    WeaponToReplace        WP_BLASTER                           //Required: Weapon Slot of weapon you're replacing
+    WeaponBasedOff        WP_BLASTER                          //Required: For future use, should be the same as WeaponToReplace
+    NewWorldModel        "models/weapons2/blaster_r/blaster_w.glm"      //Required: New 3rd person/dropped weapon model
+    NewViewModel        "models/weapons2/blaster_r/blaster.md3"       //Required: New 1st person weapon model
+    Icon                "gfx/hud/w_icon_e11"                 //Required: Weapon change icon
+    WeaponName            "Stolen E-11 Carbine"                        //Required: Weapon change display name
+    FlashSound0 "sound/weapsup/r/wpn_imp_blaster_fire.wav"
+    AltFlashSound0  "sound/weapsup/r/wpn_imp_blaster_fire.wav"
+    customAmmo      500
+    clipSize        100
+    FPMult          0.8
+}
+
+description	"Crymorah Syndicate - Thug
+
+Weaponry:
+Concussion Grenade (1)
+Frag Grenade (1)
+Pistol (2)
+E-11 (2)
+
+Attributes
+Reinforcements (2)
+Close Combat Training (2)
+Gun Bash
+Assemble
+
+An armed alien thug, of the Crymorah Syndicate."

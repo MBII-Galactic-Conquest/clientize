@@ -1,0 +1,65 @@
+
+ClassInfo
+{
+	name			"s_7py_sold"
+	maxhealth		75
+	maxarmor		50
+	uishader		"models/players/pyke2/mb2_icon_default"
+	speed			0.8
+
+	uishader_1		"models/players/weequay/mb2_icon_default"
+
+	uishader_2		"models/players/weequay/mb2_icon_rgb_abyssin"
+
+	uishader_3		"models/players/gran/mb2_icon_default"
+
+    uishader_4      "models/players/rodian/mb2_icon_default"
+
+	uishader_5		"models/players/bossk/mb2_icon_default"
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_BLASTER_PISTOL       					//Required: Weapon Slot of weapon you're replacing
+	WeaponBasedOff		WP_BLASTER_PISTOL      					//Required: For future use, should be the same as WeaponToReplace
+	NewWorldModel		"models/weapons2/kotor_hobpistol/kotor_hobpistol_w.glm"  	//Required: New 3rd person/dropped weapon model
+	NewViewModel		"models/weapons2/kotor_hobpistol/kotor_hobpistol.md3"   	//Required: New 1st person weapon model
+	Icon				"gfx/hud/w_icon_kotor_hobpistol_na" 				//Required: Weapon change icon
+	WeaponName			"Syndicate Pistol"    					//Required: Weapon change display name
+    FlashSound0			"sound/weapsup/sup/wpn_cis_sonicBlaster_fire.wav"
+    AltFlashSound0  	"sound/weapons/E-5s/alt_fire.mp3"
+	customAmmo      500
+	clipSize        100
+	FPMult          0.8
+}
+
+WeaponInfo1
+{
+	WeaponToReplace		WP_BLASTER       					//Required: Weapon Slot of weapon you're replacing
+	WeaponBasedOff		WP_BLASTER      					//Required: For future use, should be the same as WeaponToReplace
+	NewWorldModel		"models/weapons2/kotor_ionrifle/kotor_ionrifle.glm"  	//Required: New 3rd person/dropped weapon model
+	NewViewModel		"models/weapons2/kotor_ionrifle/kotor_ionrifle.md3"   	//Required: New 1st person weapon model
+	Icon				"gfx/hud/w_icon_kotor_ionrifle" 				//Required: Weapon change icon
+	WeaponName			"Syndicate Rifle"    					//Required: Weapon change display name
+    FlashSound0 "sound/weapons/E-5s/fire.mp3"
+    AltFlashSound0  "sound/weapons/E-5s/alt_fire.mp3"
+	customAmmo      500
+	clipSize        100
+	FPMult          0.8
+}
+
+description	"Pyke Syndicate - Thug
+
+Weaponry:
+Concussion Grenade (1)
+Frag Grenade (1)
+Syndicate Pistol (2)
+Syndicate Rifle (3)
+
+Attributes
+Reinforcements (2)
+Close Combat Training (2)
+Gun Bash
+Assemble
+
+An armed alien thug, of the Pyke Syndicate."

@@ -1,0 +1,113 @@
+
+ClassInfo
+{
+	name			"s_10em_slcs"
+	maxhealth		75
+	maxarmor		35
+	uishader		"models/players/clonetrooper_p2/mb2_icon_default"
+	speed			0.8
+
+	WP_BlasterPistolFlags	HELD_ALTRELOAD|HELD_AMMOREGEN
+	WP_BlasterFlags		HELD_ALTRELOAD|HELD_AMMOREGEN
+
+	isCustomBuild        1
+	mbPoints	25
+
+    c_att_skill_0        MB_ATT_INVALID
+    c_att_names_0        "Combat Shielding & Supplies"
+    c_att_ranks_0        -1
+
+    c_att_skill_1        MB_ATT_INVALID
+    c_att_names_1        " "
+    c_att_ranks_1        -1
+
+    c_att_skill_2        MB_ATT_INVALID
+    c_att_names_2        "^5-Bonus Availability-"
+    c_att_ranks_2        -1
+    
+    c_att_skill_3        MB_ATT_SHIELD_RECHARGE
+    c_att_names_3        "Combat Shielding:"
+    c_att_ranks_3        15
+
+	c_att_skill_4		 MB_ATT_FRAGS
+	c_att_names_4		 "Frag Grenades:"
+	c_att_ranks_4		 5,5
+
+	c_att_skill_5		MB_ATT_INVALID
+	c_att_names_5		" "
+	c_att_ranks_5		-1
+
+	c_att_skill_6		MB_ATT_INVALID
+	c_att_names_6		"^5-Impacted Stats-"
+	c_att_ranks_6		-1
+
+	c_att_skill_7		MB_ATT_INVALID
+	c_att_names_7		"^2+10 Armor"
+	c_att_ranks_7		-1
+
+	c_att_skill_8		MB_ATT_INVALID
+	c_att_names_8		"^3+100 Ammo"
+	c_att_ranks_8		-1
+
+	c_att_skill_9		MB_ATT_INVALID
+	c_att_names_9		"^3+50 Magazine"
+	c_att_ranks_9		-1
+
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_BRYAR_PISTOL
+	WeaponBasedOff		WP_BOWCASTER
+    NewWorldModel        "models/weapons2/dc-17/dc-17_w.glm"      //Required: New 3rd person/dropped weapon model
+    NewViewModel        "models/weapons2/dc-17/dc-17.md3"       //Required: New 1st person weapon model
+    Icon                "gfx/hud/w_icon_dc-17"
+	WeaponName			"DC-17r Pistol"
+	FlashSound0 "sound/weapsup/sup/pistol_fire.wav"
+    AltFlashSound0  "sound/weapsup/sup/pistol_altfire.wav"
+}
+
+WeaponInfo1
+{
+    WeaponToReplace        WP_BLASTER                           //Required: Weapon Slot of weapon you're replacing
+    WeaponBasedOff        WP_BLASTER                          //Required: For future use, should be the same as WeaponToReplace
+    NewWorldModel        "models/weapons2/dc-15s/dc-15s_w.glm"      //Required: New 3rd person/dropped weapon model
+    NewViewModel        "models/weapons2/dc-15s/dc-15s.md3"       //Required: New 1st person weapon model
+    Icon                "gfx/hud/w_icon_dc-15s"                 //Required: Weapon change icon
+    WeaponName            "DC-15s Imperial Carbine"                        //Required: Weapon change display name
+    FlashSound0 "sound/weapsup/sup/f11_fire.mp3"
+    AltFlashSound0  "sound/weapsup/sup/f11_alt_fire.mp3"
+    customAmmo      600
+    clipSize        150
+    FPMult          0.8
+
+	idleAnim		DC15_READY
+	firingAnim		DC15_FIRE
+	altFiringAnim	DC15_FIRE
+}
+
+description	"Early Empire - Clone Trooper - Combat Shielding & Supplies
+
+	[GC]
+Unlocked With:
+Combat Shielding Bonus
+Supplies Bonus
+
+Weaponry:
+Concussion Grenade (1)
+Frag Grenade (2)
+DC-17r Pistol (2)
+E-11 Carbine (2) *
+
+* Weapon Specifics:
+- Increased Ammo (+100)
+- Increased Clip Size (+50)
+
+Attributes
+Reinforcements (2)
+Close Combat Training (2)
+Shield Recharge (1)
+Gun Bash
+Assemble
+
+A clone trooper of the Galactic Empire."

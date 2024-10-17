@@ -1,0 +1,83 @@
+
+ClassInfo
+{
+	name			"s_3mf_spy"
+	APmultiplier	0.8	
+    forcepool       65
+	maxhealth		60
+	maxarmor		35
+	classflags		CFL_BPFREEJUMPS|CFL_HEAVYMELEE|CFL_SEEING_STEALTH|CFL_STRONGAGAINSTPHYSICAL
+    speed			1.0
+	saber1			kotor_vibrosword_supremacy
+	uishader		"models/players/manda_et/mb2_icon_default"
+
+
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_SABER			
+	WeaponBasedOff		WP_SABER			
+	NewWorldModel		"models/weapons2/kotor_longsword/saber_w.glm"  
+	NewViewModel		"models/weapons2/dummy/dummy.md3" 	  
+	Icon			"gfx/hud/w_icon_vibrosword"
+	WeaponName		"Cortosis Vibrosword"    	 			
+}
+
+
+WeaponInfo1
+{
+	WeaponToReplace		WP_BRYAR_PISTOL
+	WeaponBasedOff		WP_BOWCASTER
+	NewWorldModel		"models/weapons2/kotor_bpistol2/kotor_bpistol2_w.glm"
+	NewViewModel		"models/weapons2/kotor_bpistol2/kotor_bpistol2.md3"
+	Icon				"gfx/hud/w_icon_kotor_bpistol2"
+	WeaponName			"BP-2 Hand Pistol"
+	FlashSound0 "sound/weapons/kotor/fire_hvy.wav"
+    AltFlashSound0  "sound/weapons/kotor/fire_hvy.wav"
+}
+
+
+WeaponInfo2
+{           
+	WeaponToReplace        	WP_TRIP_MINE
+	WeaponBasedOff         	WP_TRIP_MINE
+	NewWorldModel		"models/weapons2/laser_trap/laser_trap_w.glm"  	
+	NewViewModel	  	"models/weapons2/laser_trap/laser_trap.md3"  	
+	Icon             	"gfx/hud/w_icon_tripmine"
+	WeaponName		"Trip Mine"
+	customAmmo    		3
+}
+
+description	"Mandalorian Neo Crusader - Spy Lieutenant
+
+	[GC]
+Unlocked With:
+Sabotage Bonus
+
+Weaponry:
+Cortosis Vibrosword *
+Trip Mine (2)
+BP-2 Hand Pistol (3)
+
+Vibrosword Info:
+Fast and Medium Style
+Offense (3)
+Defense (1)
+
+Gadgets:
+Stealth field generator [Inventory Use]
+Disguise [press saber style/gun mode switch while in melee]
+
+Attributes
+Reinforcements (1)
+Melee Resistant Plating
+Grappling Hook (2)
+Dexterity (2)
+Stamina (2)
+Immune to Sense
+Force Block (2)
+Flip Kick (1)
+Beskar (1)
+
+An elite mandalorian neo crusader, a master of stealth, equipped with a stealth field generator and thermal plating."

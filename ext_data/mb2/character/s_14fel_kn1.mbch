@@ -1,0 +1,69 @@
+
+ClassInfo
+{
+	name			"s_14fel_kn1"
+	classflags		CFL_BPFREEJUMPS
+	maxhealth       100
+	maxarmor		50
+	forcepool		100
+	speed			1.0
+	BPmultiplier    1.0
+	APmultiplier    1.0
+	
+	damageGiven        1.10
+		
+	uishader		"models/players/imperialknight/mb2_icon_foxheart"
+
+	uishader_1		"models/players/imperialknight/mb2_icon_jiix"
+
+	uishader_2		"models/players/imperialknight/mb2_icon_kaizen"
+
+	uishader_3		"models/players/imperialknight/mb2_icon_dain"
+
+	uishader_4		"models/players/imperialknight/mb2_icon_draconis"
+
+	uishader_5		"models/players/imperialknight/mb2_icon_vuk"
+	
+	saber1			saber_imperial_supremacy
+	saber2			none
+	
+	saber1_1		lightsaber_pike_supremacy
+	saber2_1		none
+
+
+}
+
+description	"Fel-Empire - Imperial Knight - Guardian
+
+	[GC]
+Unlocked With:
+Leader Bonus
+
+Class: Jedi.
+Class Summary: 
+A single-life Jedi saberist.
+
+Weapons
+Pistol (3)
+
+Lightsaber:
+- Defense (2)
+- Deflect (2)
+- Can use Blue, Red, and Yellow styles
+
+Force Powers:
+- Jump (3)
+- Push (3)
+- Pull (3)
+- Speed (2)
+- Sense (2)
+- Force Block (2)
+- Force Focus (1)
+
+Attributes
+- Extra Life
+- Flip Kick (1)
+- Cortosis
+- Assemble
+
+The Imperial Knights of the Fel Empire, sworn protectors of it's dynasty, trained seperately in the arts of the force: to protect their Emperor until breath flee body. Only to turn on them if they fell to the dark side of the force..."

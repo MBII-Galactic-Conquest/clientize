@@ -1,0 +1,79 @@
+
+ClassInfo
+{
+	name			"s_14fel_shck"
+	maxhealth		100
+	maxarmor		75
+	uishader  		"models/players/darktrooper/mb2_icon_default"
+	speed			1.0
+
+	WP_BowcasterFlags HELD_SLOW|HELD_PULSE|HELD_ALTRELOAD
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_BRYAR_PISTOL
+	WeaponBasedOff		WP_BOWCASTER
+	NewWorldModel		"models/weapons2/imp_pistol/pistol_w.glm"
+	NewViewModel		"models/weapons2/imp_pistol/pistol_fpv.md3"
+	Icon				"gfx/hud/w_icon_imp_pistol"
+	WeaponName			"Pistol"
+	FlashSound0 "sound/weapsup/r/wpn_imp_pistol_fire.wav"
+    AltFlashSound0  "sound/weapsup/r/wpn_imp_pistol_fire.wav"
+}
+
+WeaponInfo1
+{
+    WeaponToReplace        WP_BLASTER                           //Required: Weapon Slot of weapon you're replacing
+    WeaponBasedOff        WP_BLASTER                          //Required: For future use, should be the same as WeaponToReplace
+    NewWorldModel        "models/weapons2/blaster_r/blaster_w.glm"      //Required: New 3rd person/dropped weapon model
+    NewViewModel        "models/weapons2/blaster_r/blaster.md3"       //Required: New 1st person weapon model
+    Icon                "gfx/hud/w_icon_e11"                 //Required: Weapon change icon
+    WeaponName            "E-11 Imperial Carbine"                        //Required: Weapon change display name
+    FlashSound0 "sound/weapsup/r/wpn_imp_blaster_fire.wav"
+    AltFlashSound0  "sound/weapsup/r/wpn_imp_blaster_fire.wav"
+    customAmmo      500
+    clipSize        100
+    FPMult          0.8
+}
+
+WeaponInfo2
+{
+	WeaponToReplace		WP_BOWCASTER				//Required: Weapon Slot of weapon you're replacing
+	WeaponBasedOff		WP_SBD					//Required: For future use, should be the same as WeaponToReplace
+	NewWorldModel		"models/weapons2/arc_caster/arc_caster_w.glm"  	
+	NewViewModel		"models/weapons2/arc_caster/model.md3"    	//Required: New 1st person weapon model
+	Icon				"gfx/hud/w_icon_arc_caster" 					//Required: Weapon change icon
+	WeaponName			"Arc Caster"    				//Required: Weapon change display name
+	firingAnim	        BOTH_ATTACK4
+	MuzzleEffect		"arc_caster/ArcCasterMuzzle"
+	MissileEffect		"arc_caster/ArcCasterShock"
+ 	MissileHitHumanEffect	"SBD/Cortosis_blue"
+	MissileHitDroidEffect	"SBD/Cortosis_blue"
+	MissileMissEffect	"SBD/Cortosis_blue"
+	FlashSound0		"sound/ambience/thunder1.mp3"
+	altFlashSound0 "sound/ambience/thunder1.mp3"
+	altfireenabled		0
+	clipsize   2
+	customammo 300
+}
+
+description	"Fel-Empire - Imperial Shock Trooper
+
+Weaponry:
+Pulse Grenade (2)
+Pistol (2)
+Arc Caster (2)
+E-11 (2)
+
+Attributes
+Reinforcements (1)
+Close Combat Training (2)
+Jetpack Fuel (1)
+Jetpack
+Gun Bash
+Assemble
+
+An imperial shock trooper, equipped with ways to weaponize lightning in order to disable their opponents.
+
+The Fel-Empire is known for it's conquering of large parts of the galaxy from their capital of Bastion, with their victory through peace edicts; vowing to repair the galaxy through good-gestured aid, peace and stability after the Yuuzhan Vong war."

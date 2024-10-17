@@ -1,0 +1,58 @@
+
+ClassInfo
+{
+	name			"s_7cd_ma2"
+	classflags		CFL_STRONGAGAINSTPHYSICAL
+	saber1			kotor_vibrosword_supremacy
+	forcepool		50
+	maxhealth		100
+	maxarmor		30
+	uishader		"models/players/deathwatch/red"
+	speed			0.8
+
+	resource	RESOURCE_FUEL
+
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_CLONE_PISTOL
+	WeaponBasedOff		WP_MANDO_PISTOL
+	NewWorldModel           "models/weapons2/westar35/westar35.glm"
+	NewViewModel            "models/weapons2/westar35/model.md3"
+	Icon                    "gfx/hud/w_icon_westar35_dual"
+	FlashSound0			"sound/weapons/westar/fire.mp3"
+	AltFlashSound0		"sound/weapons/westar/alt_fire.mp3"
+	MuzzleEffect		"Blaster/MuzzleCharge01R"
+	AltMuzzleEffect		"Blaster/MuzzleFlash01R"
+	MissileEffect		"Blaster/Shot02r"
+	Missile3Effect		"Blaster/Shot04r"
+	AltMissileEffect	"Blaster/Shot04r"
+	PowerupShotEffect	"Blaster/Shot04r"
+	ChargeEffect		"gfx/effects/bryarfrontflash"
+	WeaponName			"Dual Westar Pistols"
+	customAmmo			800
+}
+
+description	"Crimson Dawn - Mandalorian - Support
+
+Weaponry:
+Pulse Grenade (2)
+Dual Westar Pistols (3)
+Mandalorian Rocket (1) (CS1)
+
+Wrist Gadgets:
+Flamethrower (CS2)
+
+Attributes
+Reinforcements (1)
+Close Combat Training (2)
+Melee Resistant Plating
+Quick Throw (1) (CS4)
+Force Block (2)
+Dexterity (2)
+Jet Pack (3)
+Beskar (2)
+Assemble
+
+An elite mandalorian of the Crimson Dawn, fitted in their finest beskar and clan regalia."

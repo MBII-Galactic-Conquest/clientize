@@ -1,0 +1,125 @@
+
+ClassInfo
+{
+	name			"s_14fel_slbc"
+	maxhealth		85
+	maxarmor		35
+	uishader		"models/players/stormie/mb2_icon_default"
+	speed			0.8
+
+	uishader_1		"models/players/duros_stormie/mb2_icon_default"
+
+	uishader_2		"models/players/rodian_stormtrooper/mb2_icon_default"
+
+	uishader_3		"models/players/stormie_alien/mb2_icon_bith"
+
+	uishader_4		"models/players/stormie_alien/mb2_icon_weequay"
+
+	uishader_5		"models/players/stormie_alien/mb2_icon_aqualish"
+
+	uishader_6		"models/players/stormie_alien/mb2_icon_nikto"
+
+	uishader_7		"models/players/stormie_alien/mb2_icon_gotal"
+
+	uishader_8		"models/players/stormie_alien/mb2_icon_abyssin"
+
+	uishader_9		"models/players/rebel/mb2_icon_default"
+
+	WP_BlasterPistolFlags	HELD_ALTRELOAD|HELD_AMMOREGEN
+	WP_BlasterFlags		HELD_ALTRELOAD|HELD_AMMOREGEN
+
+	isCustomBuild        1
+	mbPoints	30
+
+    c_att_skill_0        MB_ATT_INVALID
+    c_att_names_0        "Bacta Tank & Combat Shielding"
+    c_att_ranks_0        -1
+
+    c_att_skill_1        MB_ATT_INVALID
+    c_att_names_1        " "
+    c_att_ranks_1        -1
+
+    c_att_skill_2        MB_ATT_INVALID
+    c_att_names_2        "^5-Bonus Availability-"
+    c_att_ranks_2        -1
+    
+    c_att_skill_3        MB_ATT_HEALING
+    c_att_names_3        "Passive Healing:"
+    c_att_ranks_3        15
+
+	c_att_skill_4		 MB_ATT_SHIELD_RECHARGE
+	c_att_names_4		 "Combat Shielding:"
+	c_att_ranks_4		 15
+
+	c_att_skill_5		MB_ATT_INVALID
+	c_att_names_5		" "
+	c_att_ranks_5		-1
+
+	c_att_skill_6		MB_ATT_INVALID
+	c_att_names_6		"^5-Impacted Stats-"
+	c_att_ranks_6		-1
+
+	c_att_skill_7		MB_ATT_INVALID
+	c_att_names_7		"^1+10 Health"
+	c_att_ranks_7		-1
+
+	c_att_skill_8		MB_ATT_INVALID
+	c_att_names_8		"^2+10 Armor"
+	c_att_ranks_8		-1
+
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_BRYAR_PISTOL
+	WeaponBasedOff		WP_BOWCASTER
+	NewWorldModel		"models/weapons2/imp_pistol/pistol_w.glm"
+	NewViewModel		"models/weapons2/imp_pistol/pistol_fpv.md3"
+	Icon				"gfx/hud/w_icon_imp_pistol"
+	WeaponName			"Pistol"
+	FlashSound0 "sound/weapsup/r/wpn_imp_pistol_fire.wav"
+    AltFlashSound0  "sound/weapsup/r/wpn_imp_pistol_fire.wav"
+}
+
+WeaponInfo1
+{
+    WeaponToReplace        WP_BLASTER                           //Required: Weapon Slot of weapon you're replacing
+    WeaponBasedOff        WP_BLASTER                          //Required: For future use, should be the same as WeaponToReplace
+    NewWorldModel        "models/weapons2/blaster_r/blaster_w.glm"      //Required: New 3rd person/dropped weapon model
+    NewViewModel        "models/weapons2/blaster_r/blaster.md3"       //Required: New 1st person weapon model
+    Icon                "gfx/hud/w_icon_e11"                 //Required: Weapon change icon
+    WeaponName            "E-11 Imperial Carbine"                        //Required: Weapon change display name
+    FlashSound0 "sound/weapsup/r/wpn_imp_blaster_fire.wav"
+    AltFlashSound0  "sound/weapsup/r/wpn_imp_blaster_fire.wav"
+    customAmmo      500
+    clipSize        100
+    FPMult          0.8
+}
+
+description	"Fel-Empire - Soldier - Bacta & Combat Shielding
+
+	[GC]
+Unlocked With:
+Bacta Tank Bonus
+Combat Shielding Bonus
+
+Weaponry:
+Concussion Grenade (1)
+Frag Grenade (1)
+Pistol (2)
+E-11 (2)
+
+Gadgets:
+Personal Small Bacta (1)
+
+Attributes
+Reinforcements (2)
+Close Combat Training (2)
+Passive Healing (1)
+Shield Recharge (1)
+Gun Bash
+Assemble
+
+A soldier aiding the Fel-Imperial Regime, with a bandolier of medical supplies.
+
+The Fel-Empire is known for it's conquering of large parts of the galaxy from their capital of Bastion, with their victory through peace edicts; vowing to repair the galaxy through good-gestured aid, peace and stability after the Yuuzhan Vong war."

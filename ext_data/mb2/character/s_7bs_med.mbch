@@ -1,0 +1,60 @@
+
+ClassInfo
+{
+	name			"s_7bs_med"
+	classflags		CFL_STATVIEWER
+	maxhealth		100
+	maxarmor		20
+	uishader		"models/players/weequay/mb2_icon_default"
+	speed			0.8
+
+	uishader_1		"models/players/weequay/mb2_icon_rgb_abyssin"
+
+	uishader_2		"models/players/gran/mb2_icon_default"
+
+    uishader_3      "models/players/rodian/mb2_icon_default"
+
+	uishader_4		"models/players/bossk/mb2_icon_default"
+
+
+}
+
+WeaponInfo0
+{
+    WeaponToReplace        WP_BLASTER                           //Required: Weapon Slot of weapon you're replacing
+    WeaponBasedOff        WP_BLASTER                          //Required: For future use, should be the same as WeaponToReplace
+    NewWorldModel        "models/weapons2/blaster_r/blaster_w.glm"      //Required: New 3rd person/dropped weapon model
+    NewViewModel        "models/weapons2/blaster_r/blaster.md3"       //Required: New 1st person weapon model
+    Icon                "gfx/hud/w_icon_e11"                 //Required: Weapon change icon
+    WeaponName            "Stolen E-11 Carbine"                        //Required: Weapon change display name
+    FlashSound0 "sound/weapsup/r/wpn_imp_blaster_fire.wav"
+    AltFlashSound0  "sound/weapsup/r/wpn_imp_blaster_fire.wav"
+    customAmmo      500
+    clipSize        100
+    FPMult          0.8
+}
+
+description	"Black Sun - Medic
+
+	[GC]
+Unlocked With:
+Bacta Tank Bonus
+
+Weaponry:
+Pistol (2)
+E-11 (2)
+
+Gadgets:
+Personal Small Bacta (1)
+Personal Large Bacta (1)
+
+Attributes
+Close Combat Training (2)
+Hero Heal on Use
+Flip Kick (2)
+Dodge (2)
+Dash (2)
+Gun Bash
+
+An armed alien gangster of the Black Sun Criminal Syndicate, who happens to have medical expertise."
+

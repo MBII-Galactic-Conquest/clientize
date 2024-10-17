@@ -1,0 +1,83 @@
+
+ClassInfo
+{
+	name			"s_4re_ofc"
+	classflags		CFL_STRONGAGAINSTPHYSICAL
+	saber1			kotor_vibrosword_supremacy
+	maxhealth		100
+	maxarmor		100
+	forcepool		85
+	uishader		"models/players/sith_officer/mb2_icon_default"
+	rateoffire		0.675
+	speed			1.0
+
+	uishader_1		"models/players/sithtrooper/mb2_icon_red"
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_SABER			
+	WeaponBasedOff		WP_SABER			
+	NewWorldModel		"models/weapons2/kotor_longsword/saber_w.glm"  
+	NewViewModel		"models/weapons2/dummy/dummy.md3" 	  
+	Icon			"gfx/hud/w_icon_vibrosword"
+	WeaponName		"Cortosis Vibrosword"    	 			
+}
+
+WeaponInfo1
+{
+	WeaponToReplace		WP_BRYAR_PISTOL
+	WeaponBasedOff		WP_BOWCASTER
+	NewWorldModel		"models/weapons2/kotor_bpistol2/kotor_bpistol2_w.glm"
+	NewViewModel		"models/weapons2/kotor_bpistol2/kotor_bpistol2.md3"
+	Icon				"gfx/hud/w_icon_kotor_bpistol2"
+	WeaponName			"BP-2 Hand Pistol"
+	FlashSound0 "sound/weapons/kotor/fire_light.wav"
+    AltFlashSound0  "sound/weapons/kotor/fire_hvy.wav"
+}
+
+WeaponInfo2
+{
+	WeaponToReplace		WP_A280       					//Required: Weapon Slot of weapon you're replacing
+	WeaponBasedOff		WP_BLASTER      					//Required: For future use, should be the same as WeaponToReplace
+	NewWorldModel		"models/weapons2/kotor_carbine/model.glm"
+	NewViewModel		"models/weapons2/kotor_carbine/model.MD3"
+	Icon				"gfx/hud/w_icon_kotorcarbine"
+	WeaponName			"Sith Elite Carbine"    					//Required: Weapon change display name
+	FlashSound0			"sound/weapons/kotor_carbine/fire.wav"
+    AltFlashSound0  	"sound/weapons/kotor_carbine/fire.wav"
+	customAmmo      500
+	clipSize        100
+	FPMult          0.8
+}
+
+description	"Revanite Sith - Commissioned Officer
+
+Weaponry:
+Cryogenic Grenade (1)
+Sonic Screamer (1)
+BP-2 Hand Pistol (3)
+Sith Elite Carbine (3)
+Cortosis Vibrosword *
+
+Vibrosword Info:
+Medium & Strong Style
+Offense (2)
+Defense (3)
+
+Gadgets:
+Shield Generator (1)
+Web Turret (1)
+Binoculars (1)
+
+Attributes
+Close Combat Training (2)
+Force Block (3)
+Dexterity (2)
+Stamina (2)
+Blast Armor
+Gun Bash
+Rally
+
+
+An elite Sith battle commander, he looks inspiring."

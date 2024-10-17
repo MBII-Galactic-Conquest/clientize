@@ -1,0 +1,98 @@
+
+Classinfo
+{
+	name			"s_9ex_flm"
+	saber1			kotor_vibrosword_supremacy
+	forcepool		50
+	maxhealth		100
+	maxarmor		75
+	speed           0.7
+	
+	rateOfFire      0.95
+	
+MBclass
+	WP_ThrowerFlags HELD_ALTRELOAD
+	
+	Damagegiven 1.1
+
+	
+	uishader		"models/players/prisoner/mb2_icon_oldrepsold_helm_FA"
+
+	uishader_1		"models/players/prisoner/mb2_icon_oldrepsold_helm2_FA"
+	
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_SABER			
+	WeaponBasedOff		WP_SABER			
+	NewWorldModel		"models/weapons2/kotor_longsword/saber_w.glm"  
+	NewViewModel		"models/weapons2/dummy/dummy.md3" 	  
+	Icon			"gfx/hud/w_icon_vibrosword"
+	WeaponName		"Cortosis Vibrosword"    	 			
+}
+
+WeaponInfo1
+{
+    WeaponToReplace        WP_BLASTER                           //Required: Weapon Slot of weapon you're replacing
+    WeaponBasedOff        WP_BLASTER                          //Required: For future use, should be the same as WeaponToReplace
+    NewWorldModel        "models/weapons2/kotor_brifle2/kotor_brifle2_w.glm"      //Required: New 3rd person/dropped weapon model
+    NewViewModel        "models/weapons2/kotor_brifle2/kotor_brifle2.md3"       //Required: New 1st person weapon model
+    Icon                "gfx/hud/w_icon_kotor_brifle2"                 //Required: Weapon change icon
+    WeaponName            "Republic Assault Rifle"                        //Required: Weapon change display name
+	FlashSound0			"sound/weapons/kotor/fire_med.wav"
+    AltFlashSound0		"sound/weapons/kotor/fire_hvy.wav"
+	MuzzleEffect		"Blaster/MuzzleFlash01B"
+	AltMuzzleEffect		"Blaster/MuzzleFlash01B"
+	MissileEffect		"blaster/Shot01B"
+	AltMissileEffect 	"blaster/Shot01B"
+    customAmmo      500
+    clipSize        100
+    FPMult          0.8
+}
+
+WeaponInfo2
+{
+	WeaponToReplace		WP_THROWER			//Required: Weapon Slot of weapon you're replacing
+	WeaponBasedOff		WP_THROWER					//Required: For future use, should be the same as WeaponToReplace
+	NewWorldModel		"models/weapons2/CR-24_flamerifle/rifle_w.glm"  	//Required: New 3rd person/dropped weapon model
+	NewViewModel		"models/weapons2/CR-24_flamerifle/rifle.md3"		
+	Icon				"gfx/hud/w_icon_cr-24_flamerifle" 				//Required: Weapon change icon
+	WeaponName			"RP-24 Flamethrower"    					//Required: Weapon change display name
+	customAmmo		600
+	clipsize		120
+	idleAnim  DC15_READY
+	firingAnim  DC15_FIRE
+	ReloadTimeModifier 	1.4
+}
+
+description "Old Republic - Flame Trooper
+
+Weaponry:
+Republic Assault Rifle (3)
+RP-24 Flamethrower *
+Cortosis Vibrosword *
+Fire Grenades (2)
+
+* Special Weapon Descriptions:
+--- CR-24 Flamethrower 
+Flamethrower Rifle
+Higher damage than Wrist-Flamethrower
+Magazine style reload
+--- Vibrosword Info:
+Medium Style
+Offense (2)
+Defense (2)
+
+Attributes
+Extra Life
+Assemble
+Blast Armor
+Shield Regeneration (1)
+Close Combat Training (2)
+Dexterity (1)
+Stamina (2)
+Dodge (1)
+Gun Bash
+
+A valiant soldier of the Old Republic, equipped with incendiary weapons."

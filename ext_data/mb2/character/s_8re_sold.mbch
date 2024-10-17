@@ -1,0 +1,66 @@
+
+ClassInfo
+{
+	name			"s_8re_sold"
+	maxhealth		75
+	maxarmor		25
+	uishader		"models/players/rebel_vanguard/mb2_icon_default"
+	speed			0.8
+
+	uishader_1		"models/players/rebel_gag/mb2_icon_default"
+
+	uishader_2		"models/players/rebel_commando/mb2_icon_default"
+
+	uishader_3		"models/players/rebel_commando/mb2_icon_nikto"
+
+	uishader_4		"models/players/rebel_commando/mb2_icon_hoth"
+
+	uishader_5		"models/players/rebel_commando/mb2_icon_nikto_hoth"
+
+	WP_BlasterPistolFlags	HELD_ALTRELOAD|HELD_AMMOREGEN
+	WP_BlasterFlags		HELD_ALTRELOAD|HELD_AMMOREGEN
+
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_BRYAR_PISTOL
+	WeaponBasedOff		WP_BOWCASTER
+	NewWorldModel		"models/weapons2/LPA_NN-14/lpa_nn-14_w.glm"
+	NewViewModel		"models/weapons2/LPA_NN-14/lpa_nn-14.md3"
+	Icon				"gfx/hud/w_icon_lpa_nn-14"
+	WeaponName			"NN-14 Pistol"
+	FlashSound0 "sound/weapsup/sup/pistol_fire.wav"
+    AltFlashSound0  "sound/weapsup/sup/pistol_altfire.wav"
+}
+
+WeaponInfo1
+{
+    WeaponToReplace        WP_BLASTER                           //Required: Weapon Slot of weapon you're replacing
+    WeaponBasedOff        WP_BLASTER                          //Required: For future use, should be the same as WeaponToReplace
+    NewWorldModel        "models/weapons2/EL-16/EL-16_w.glm"      //Required: New 3rd person/dropped weapon model
+    NewViewModel        "models/weapons2/EL-16/EL-16.md3"       //Required: New 1st person weapon model
+    Icon                "gfx/hud/w_icon_el-16"                 //Required: Weapon change icon
+    WeaponName            "EL-16 Resistance Carbine"                        //Required: Weapon change display name
+    FlashSound0 "sound/weapsup/sup/EL-16_fire.mp3"
+    AltFlashSound0  "sound/weapsup/sup/EL-16_alt_fire.mp3"
+    customAmmo      500
+    clipSize        100
+    FPMult          0.8
+}
+
+description	"Resistance - Soldier
+
+Weaponry:
+Concussion Grenade (1)
+Frag Grenade (1)
+NN-14 Pistol (2)
+EL-16 Carbine (2)
+
+Attributes
+Reinforcements (2)
+Close Combat Training (2)
+Gun Bash
+Assemble
+
+A resistance soldier."

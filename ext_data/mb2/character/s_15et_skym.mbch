@@ -1,0 +1,117 @@
+
+ClassInfo
+{
+	name			"s_15et_skym"
+	maxhealth		30
+	maxarmor		20
+	uishader		"models/players/skytrooper/mb2_icon_default"
+	speed			0.8
+
+
+	deathAnim		SBD_DEATH
+	WalkForward 	SBD_WALK_NOGUN
+	WalkBackward	SBD_WALKBACK_NOGUN
+
+	WP_BlasterFlags		HELD_ALTRELOAD|HELD_AMMOREGEN
+
+	resource	RESOURCE_FUEL
+
+	damageGiven		1.2
+
+	isCustomBuild        1
+	mbPoints	25
+
+    c_att_skill_0        MB_ATT_INVALID
+    c_att_names_0        "Most Valued Player (Campaign)"
+    c_att_ranks_0        -1
+
+    c_att_skill_1        MB_ATT_INVALID
+    c_att_names_1        " "
+    c_att_ranks_1        -1
+
+    c_att_skill_2        MB_ATT_INVALID
+    c_att_names_2        "^5-Bonus Availability-"
+    c_att_ranks_2        -1
+    
+    c_att_skill_3        MB_ATT_BLASTER
+    c_att_names_3        "Blaster Accuracy:"
+    c_att_ranks_3        15,5,5
+
+	c_att_skill_4		MB_ATT_INVALID
+	c_att_names_4		" "
+	c_att_ranks_4		-1
+
+	c_att_skill_5		MB_ATT_INVALID
+	c_att_names_5		"^5-Impacted Stats-"
+	c_att_ranks_5		-1
+
+	c_att_skill_6		MB_ATT_INVALID
+	c_att_names_6		"^1+5 Health"
+	c_att_ranks_6		-1
+
+	c_att_skill_7		MB_ATT_INVALID
+	c_att_names_7		"^2+5 Armor"
+	c_att_ranks_7		-1
+
+	c_att_skill_8		MB_ATT_INVALID
+	c_att_names_8		"^3+50 Ammo"
+	c_att_ranks_8		-1
+
+	c_att_skill_9		MB_ATT_INVALID
+	c_att_names_9		"^3+25 Magazine"
+	c_att_ranks_9		-1
+
+	c_att_skill_10		MB_ATT_INVALID
+	c_att_names_10		"^1+2% Damage"
+	c_att_ranks_10		-1
+
+}
+
+WeaponInfo0
+{
+    WeaponToReplace        WP_BLASTER                           //Required: Weapon Slot of weapon you're replacing
+    WeaponBasedOff        WP_BLASTER                          //Required: For future use, should be the same as WeaponToReplace
+    NewWorldModel        "models/weapons2/beamRIFLE/beamrifle_w.glm"      //Required: New 3rd person/dropped weapon model
+    NewViewModel        "models/weapons2/beamRIFLE/beamrifle.md3"       //Required: New 1st person weapon model
+    Icon                "gfx/hud/w_icon_droidassassin"                 //Required: Weapon change icon
+    WeaponName            "Skytrooper Carbine"                        //Required: Weapon change display name
+	FlashSound0			"sound/weapons/kotor/fire_med.wav"
+    AltFlashSound0		"sound/weapons/kotor/fire_hvy.wav"
+	MuzzleEffect		"Blaster/MuzzleFlash01B"
+	AltMuzzleEffect		"Blaster/MuzzleFlash01B"
+	MissileEffect		"blaster/Shot01B"
+	AltMissileEffect 	"blaster/Shot01B"
+
+    customAmmo      550
+    clipSize        125
+    FPMult          0.8
+
+	idleAnim		DC15_READY
+	firingAnim		DC15_FIRE
+	altFiringAnim	DC15_FIRE
+}
+
+description	"Eternal Empire - Sky Trooper - MVP
+
+	[GC]
+Unlocked With:
+Weekly MVP Status
+
+Class: Mandalorian
+
+Weaponry:
+Concussion Grenade (1)
+Frag Grenade (1)
+Skytrooper Carbine (3)
+
+Attributes
+Reinforcements (2)
+Jump Pack (Fuel 1)
+Magnetic Plating (1)
+Advanced Sensor Plating (ANTI-MT) (1)
+Cortosis (1)
+Beskar (1)
+Recharge (1)
+Assemble
+
+A skytrooper, a standard combat droid of the Eternal Empire."

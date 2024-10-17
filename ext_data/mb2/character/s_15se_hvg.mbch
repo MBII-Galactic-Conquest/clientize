@@ -1,0 +1,74 @@
+
+ClassInfo
+{
+	name			"s_15se_hvg"
+	maxhealth		100
+	maxarmor		75
+	speed			0.6
+	uishader		"models/players/sithtrooper_tor/mb2_icon_default"
+	
+	rateoffire		1.4
+	damageGiven		1
+
+    WP_MinigunFlags	HELD_ALTRELOAD|HELD_LOWDAMAGE|HELD_SLOW
+
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_BRYAR_PISTOL
+	WeaponBasedOff		WP_BOWCASTER
+	NewWorldModel		"models/weapons2/kotor_bpistol2/kotor_bpistol2_w.glm"
+	NewViewModel		"models/weapons2/kotor_bpistol2/kotor_bpistol2.md3"
+	Icon				"gfx/hud/w_icon_kotor_bpistol2"
+	WeaponName			"Sith Hand Pistol"
+	FlashSound0			"sound/weapons/kotor/fire_light.wav"
+    AltFlashSound0		"sound/weapons/kotor/fire_hvy.wav"
+}
+
+WeaponInfo1
+{
+	WeaponToReplace WP_MINIGUN
+	WeaponBasedOff  WP_MINIGUN
+	NewWorldModel "models/weapons2/z6_rotary/rotary_cannon_w.glm"
+	NewViewModel  "models/weapons2/z6_rotary/rotary_cannon.md3"
+	Icon  "gfx/hud/w_icon_rotary_cannon"
+	WeaponName  "Sith Suppressing MG"
+    FlashSound0 "sound/weapsup/sup/minigun_fire.mp3"
+    FlashSound1 "sound/weapsup/sup/minigun_fire.mp3"
+    FlashSound2 "sound/weapsup/sup/minigun_fire.mp3"
+    FlashSound3 "sound/weapsup/sup/minigun_fire.mp3"
+    AltFlashSound0 "sound/weapsup/sup/minigun_fire.mp3"
+    AltFlashSound1 "sound/weapsup/sup/minigun_fire.mp3"
+    AltFlashSound2 "sound/weapsup/sup/minigun_fire.mp3"
+    AltFlashSound3 "sound/weapsup/sup/minigun_fire.mp3"
+	MuzzleEffect		"Blaster/MuzzleFlash01R"
+	AltMuzzleEffect		"Blaster/MuzzleFlash01R"
+	MissileEffect		"blaster/Shot03R"
+	AltMissileEffect	"blaster/Shot03R"
+	customAmmo         500
+	clipSize		   100
+	isMinigun			1
+	ReloadTimeModifier	2
+	FPMult     			0.9
+}
+
+description	"Sith Empire - Heavy Gunner
+
+Weapons
+Fire Grenades (2)
+Sith Hand Pistol (2)
+Sith Suppressing MG *
+
+* Special Weapon Descriptions:
+--- Sith Suppressing MG
+- Based on Minigun
+
+Abilities:
+Reinforcements (1)
+Close Combat Training (2)
+Bounty Hunter Kick
+Dexterity (2)
+Stamina (2)
+
+An imperial heavy MG trooper of the sith empire."

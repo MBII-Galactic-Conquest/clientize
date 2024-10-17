@@ -1,0 +1,63 @@
+
+ClassInfo
+{
+	name			"s_7bs_man"
+	maxhealth		100
+	maxarmor		50
+	uishader		"models/players/mbmandy/mb2_icon_mbrgb2"
+	speed			0.8
+
+	resource	RESOURCE_FUEL
+
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_BRYAR_PISTOL
+	WeaponBasedOff		WP_BOWCASTER
+	NewWorldModel       "models/weapons2/westar34/westar34.glm"
+	NewViewModel        "models/weapons2/westar34/westar34.md3"
+	Icon                "gfx/hud/w_icon_westar"
+	WeaponName			"Westar Pistol"
+	FlashSound0			"sound/weapons/westar/fire.mp3"
+	AltFlashSound0		"sound/weapons/westar/alt_fire.mp3"
+}
+
+WeaponInfo1
+{
+	WeaponToReplace		WP_EE4
+	WeaponBasedOff		WP_EE4
+	NewWorldModel		"models/weapons2/ee-3/ee-3_w.glm"
+	NewViewModel		"models/weapons2/ee-3/ee-3.md3"
+	Icon				"gfx/hud/w_icon_ee-3"
+	WeaponName			"Mandalorian EE-3 Rifle"
+	customAmmo			600
+	clipSize            60
+	firingAnim	        BOTH_ATTACK4
+	ReloadTimeModifier 	2
+	FPMult     			0.9
+}
+
+description	"Black Sun - Mandalorian Mercenary
+
+	[GC]
+Unlocked With:
+Class Purchase
+
+Weaponry:
+Frag Grenade (1)
+Pulse Grenade (1)
+Westar Pistol (2)
+Mandalorian Rocket (1) (CS1)
+Flamethrower (CS2)
+Wrist Laser (CS3)
+EE-3 (3)
+
+Attributes
+Reinforcements (1)
+Close Combat Training (2)
+Quick Throw (1) (CS4)
+Jet Pack (2)
+Beskar (2)
+
+A mandalorian mercenary, contracted to assist the Black Sun criminal syndicate."

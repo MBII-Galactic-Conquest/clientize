@@ -1,0 +1,46 @@
+
+ClassInfo
+{
+	name			"s_7bs_elt"
+	maxhealth		100
+	maxarmor		75
+	speed			0.7
+	uishader		"models/players/weequay/mb2_icon_default"
+
+	uishader_1		"models/players/weequay/mb2_icon_rgb_abyssin"
+
+	uishader_2		"models/players/gran/mb2_icon_default"
+
+    uishader_3      "models/players/rodian/mb2_icon_default"
+
+	uishader_4		"models/players/bossk/mb2_icon_default"
+
+}
+
+WeaponInfo0
+{
+    WeaponToReplace        WP_A280                           //Required: Weapon Slot of weapon you're replacing
+    WeaponBasedOff        WP_BLASTER                          //Required: For future use, should be the same as WeaponToReplace
+    NewWorldModel        "models/weapons2/DLT20a/dlt20a_w.glm"      //Required: New 3rd person/dropped weapon model
+    NewViewModel        "models/weapons2/DLT20a/dlt20a.md3"       //Required: New 1st person weapon model
+    Icon                "gfx/hud/w_icon_DLT20a"                 //Required: Weapon change icon
+    WeaponName            "DLT20A Rifle"                        //Required: Weapon change display name
+    customAmmo      500
+    clipSize        100
+    FPMult          0.8
+}
+
+description	"Black Sun - Elite Thug
+
+Weapons
+Frag Grenade (1)
+Concussion Grenade (1)
+Pistol (2)
+DLT20A (3)
+
+Abilities:
+Reinforcements (1)
+Close Combat Training (2)
+Bounty Hunter Kick
+
+An elite thug of the Black Sun criminal syndicate, a veteran of their organization, equipped with better arsenal."

@@ -1,0 +1,74 @@
+
+ClassInfo
+{
+	name			"s_1ra_eng"
+	classflags		CFL_FASTHACKING
+	forcepool		50
+	maxhealth		100
+	maxarmor		20
+	speed			0.7
+	uishader		"models/players/rebel_gag/mb2_icon_default"
+
+	uishader_1		"models/players/rebel_pilot/mb2_icon_default"
+
+
+	WP_ShotgunFlags HELD_ALTRELOAD
+
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_BRYAR_PISTOL
+	WeaponBasedOff		WP_BOWCASTER
+	NewWorldModel		"models/weapons2/blaster_pistol/blaster_pistol_w.glm"
+	NewViewModel		"models/weapons2/blaster_pistol/blaster_pistol.md3"
+	Icon				"gfx/hud/w_icon_blaster_pistol"
+	WeaponName			"Pistol"
+	FlashSound0 "sound/weapsup/r/wpn_rebel_pistol_fire.wav"
+    AltFlashSound0  "sound/weapsup/r/wpn_rebel_pistol_fire.wav"
+}
+
+WeaponInfo1
+{
+    WeaponToReplace			WP_SHOTGUN
+    WeaponBasedOff			WP_BOWCASTER
+   	NewWorldModel        "models/weapons2/CR-1_cannon/rifle_w.glm"      //Required: New 3rd person/dropped weapon model
+    NewViewModel        "models/weapons2/CR-1_cannon/rifle.md3"       //Required: New 1st person weapon model
+    Icon                "gfx/hud/w_icon_cr1_blastcannon"
+    FlashSound0 		"sound/weapsup/r/wpn_all_bowcaster_fire.wav"              
+    WeaponName             "CR-1 Blast Cannon"
+    MuzzleEffect         "flechette/muzzle_flash"
+    customAmmo           432
+    clipsize             36
+    AltFireEnabled       0
+}
+
+ForceInfo0
+{
+	ForceToReplace	FP_SEE
+	Icon		"gfx/forcepowers/radar"
+	ForcePowerName	"Radar Scanner"
+}
+
+description	"Rebel Engineer
+
+Weapons
+Frag Grenades (2)
+Pistol (2)
+CR-1 Blast Cannon
+
+Gadgets:
+Deployable Floor Turret (1)
+Seeker Droid (1)
+Radar Scanner (sense 2)
+
+Abilities:
+Reinforcements (1)
+Close Combat Training (2)
+Armor Repair Kit
+Ammo Bandolier
+Quick Throw (2)
+Fast Hack
+Assemble
+
+A Rebel Engineer, with an ammunition bandolier, and an armor repair kit."

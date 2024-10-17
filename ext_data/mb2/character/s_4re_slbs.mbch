@@ -1,0 +1,134 @@
+
+ClassInfo
+{
+	name			"s_4re_slbs"
+	classflags		CFL_STRONGAGAINSTPHYSICAL
+	saber1			kotor_vibrosword_supremacy
+	maxhealth		85
+	maxarmor		25
+	forcepool       0
+	uishader		"models/players/sithtrooper/mb2_icon_default"
+	speed			0.8
+
+	WP_BlasterPistolFlags	HELD_ALTRELOAD|HELD_AMMOREGEN
+	WP_BlasterFlags		HELD_ALTRELOAD|HELD_AMMOREGEN
+
+	isCustomBuild        1
+	mbPoints	25
+
+    c_att_skill_0        MB_ATT_INVALID
+    c_att_names_0        "Bacta Tank & Supplies"
+    c_att_ranks_0        -1
+
+    c_att_skill_1        MB_ATT_INVALID
+    c_att_names_1        " "
+    c_att_ranks_1        -1
+
+    c_att_skill_2        MB_ATT_INVALID
+    c_att_names_2        "^5-Bonus Availability-"
+    c_att_ranks_2        -1
+    
+    c_att_skill_3        MB_ATT_HEALING
+    c_att_names_3        "Passive Healing:"
+    c_att_ranks_3        15
+
+	c_att_skill_4		 MB_ATT_FRAGS
+	c_att_names_4		 "Frag Grenades:"
+	c_att_ranks_4		 5,5
+
+	c_att_skill_5		MB_ATT_INVALID
+	c_att_names_5		" "
+	c_att_ranks_5		-1
+
+	c_att_skill_6		MB_ATT_INVALID
+	c_att_names_6		"^5-Impacted Stats-"
+	c_att_ranks_6		-1
+
+	c_att_skill_7		MB_ATT_INVALID
+	c_att_names_7		"^1+10 Health"
+	c_att_ranks_7		-1
+
+	c_att_skill_8		MB_ATT_INVALID
+	c_att_names_8		"^3+100 Ammo"
+	c_att_ranks_8		-1
+
+	c_att_skill_9		MB_ATT_INVALID
+	c_att_names_9		"^3+50 Magazine"
+	c_att_ranks_9		-1
+
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_SABER			
+	WeaponBasedOff		WP_SABER			
+	NewWorldModel		"models/weapons2/kotor_longsword/saber_w.glm"  
+	NewViewModel		"models/weapons2/dummy/dummy.md3" 	  
+	Icon			"gfx/hud/w_icon_vibrosword"
+	WeaponName		"Cortosis Vibrosword"    	 			
+}
+
+WeaponInfo1
+{
+	WeaponToReplace		WP_BRYAR_PISTOL
+	WeaponBasedOff		WP_BOWCASTER
+	NewWorldModel		"models/weapons2/kotor_bpistol2/kotor_bpistol2_w.glm"
+	NewViewModel		"models/weapons2/kotor_bpistol2/kotor_bpistol2.md3"
+	Icon				"gfx/hud/w_icon_kotor_bpistol2"
+	WeaponName			"BP-2 Hand Pistol"
+	FlashSound0			"sound/weapons/kotor/fire_light.wav"
+    AltFlashSound0		"sound/weapons/kotor/fire_hvy.wav"
+}
+
+WeaponInfo2
+{
+    WeaponToReplace        WP_BLASTER                           //Required: Weapon Slot of weapon you're replacing
+    WeaponBasedOff        WP_BLASTER                          //Required: For future use, should be the same as WeaponToReplace
+    NewWorldModel        "models/weapons2/kotor_brifle2/kotor_brifle2_w.glm"      //Required: New 3rd person/dropped weapon model
+    NewViewModel        "models/weapons2/kotor_brifle2/kotor_brifle2.md3"       //Required: New 1st person weapon model
+    Icon                "gfx/hud/w_icon_kotor_brifle2"                 //Required: Weapon change icon
+    WeaponName            "Sith Assault Rifle"                        //Required: Weapon change display name
+	FlashSound0			"sound/weapons/kotor/fire_med.wav"
+    AltFlashSound0		"sound/weapons/kotor/fire_hvy.wav"
+	idleAnim  			TORSO_WEAPONREADY3
+    customAmmo      600
+    clipSize        150
+    FPMult          0.8
+}
+
+description	"Revanite Sith - Soldier - Kolto & Supplies
+
+	[GC]
+Unlocked With:
+Kolto Bonus
+Supplies Bonus
+
+Weaponry:
+Concussion Grenade (1)
+Frag Grenade (2)
+BP-2 Hand Pistol (2)
+Sith Assault Rifle (2) *
+Cortosis Vibrosword *
+
+* Weapon Specifics:
+- Increased Ammo (+100)
+- Increased Clip Size (+50)
+
+Vibrosword Info:
+Medium Style
+Offense (2)
+Defense (1)
+
+Gadgets:
+Personal Small Kolto (1)
+
+Attributes
+Reinforcements (3)
+Melee Resistant Plating
+Close Combat Training (2)
+Passive Healing (1)
+Gun Bash
+Assemble
+
+
+A standard soldier in the employ of the Sith, a constant reminder of their galactic oppression. This soldier has a bandolier of medical supplies."

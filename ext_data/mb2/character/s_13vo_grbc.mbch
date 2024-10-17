@@ -1,0 +1,157 @@
+
+ClassInfo
+{
+	name			"s_13vo_grbc"
+	classflags		CFL_BPFREEJUMPS|CFL_ACIDBLOOD|CFL_BLOODYMELEE|CFL_HEAVYMELEE|CFL_SEEING_STEALTH
+	maxhealth       85
+	maxarmor		10
+	forcepool		100
+	speed			0.8
+	
+	damageGiven        1.10
+		
+	uishader		"models/players/vong_pilot/icon_default"
+
+	rateoffire		1.2
+	rateoffire_melee	2
+
+
+	WP_BlasterFlags 	HELD_POISON|HELD_ALTRELOAD
+
+	tauntAnim	BOTH_TUSKENTAUNT1
+	flourishAnim	BOTH_TUSKENTAUNT1
+	gloatAnim     BOTH_TUSKENTAUNT1
+
+	resource	RESOURCE_FORCE
+
+	isCustomBuild        1
+	mbPoints	30
+
+    c_att_skill_0        MB_ATT_INVALID
+    c_att_names_0        "Bacta Tank & Combat Shielding"
+    c_att_ranks_0        -1
+
+    c_att_skill_1        MB_ATT_INVALID
+    c_att_names_1        " "
+    c_att_ranks_1        -1
+
+    c_att_skill_2        MB_ATT_INVALID
+    c_att_names_2        "^5-Bonus Availability-"
+    c_att_ranks_2        -1
+    
+    c_att_skill_3        MB_ATT_HEALING
+    c_att_names_3        "Passive Healing:"
+    c_att_ranks_3        15
+
+	c_att_skill_4		 MB_ATT_SHIELD_RECHARGE
+	c_att_names_4		 "Combat Shielding:"
+	c_att_ranks_4		 15
+
+	c_att_skill_5		MB_ATT_INVALID
+	c_att_names_5		" "
+	c_att_ranks_5		-1
+
+	c_att_skill_6		MB_ATT_INVALID
+	c_att_names_6		"^5-Impacted Stats-"
+	c_att_ranks_6		-1
+
+	c_att_skill_7		MB_ATT_INVALID
+	c_att_names_7		"^1+10 Health"
+	c_att_ranks_7		-1
+
+	c_att_skill_8		MB_ATT_INVALID
+	c_att_names_8		"^2+10 Armor"
+	c_att_ranks_8		-1
+
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_MELEE
+	WeaponBasedOff		WP_MELEE  
+  NewWorldModel		"models/weapons2/dummy/dummy.glm"
+  NewViewModel		"models/weapons2/dummy/dummy.md3"
+  Icon			"gfx/mplevels/aliens3/aliens_claws"
+	WeaponName		"Claws"
+	primGore		1
+	altGore			1
+}
+
+WeaponInfo1
+{
+	WeaponToReplace		WP_BLASTER
+	WeaponBasedOff		WP_BLASTER
+	NewWorldModel		"models/weapons2/geonosian/sonicrifle.glm" 
+	NewViewModel		"models/weapons2/geonosian/sonicrifle.md3"
+	Icon				"gfx/hud/w_icon_sonicrifle" 			
+	WeaponName			"Vong Acid Thrower"
+	
+	ChargeEffect		"gfx/effects/greenfrontflash"
+	MissileMissEffect 	"effects/sonic_pistol/wall_impact"
+	AltMissileMissEffect	"effects/sonic_pistol/wall_impact"
+	MuzzleEffect		"Disruptor/muzzle_flash"
+	AltMuzzleEffect		"Disruptor/muzzle_flash"
+	MissileEffect		"effects/sonic_pistol/projectile"
+	AltMissileEffect	"effects/sonic_pistol/projectile" 	
+	FlashSound0		"sound/weapsup/vong/acidthrower.mp3"
+	AltFlashSound0	"sound/weapsup/vong/acidthrower2.mp3"
+
+	CustomAmmo 	500
+	ClipSize 	100
+	FPmult  1.25
+
+	idleAnim		DC15_READY
+	firingAnim		DC15_FIRE
+	altFiringAnim	DC15_FIRE
+}
+
+ForceInfo0
+{
+	ForceToReplace	FP_ABSORB
+	Icon		"gfx/mplevels/dc_universe/fp_sinestro"
+	ForcePowerName	"Natural Force Resist"
+}
+
+description	"Yuuzhan Vong - Warrior Caste - Grunt (Bacta & Combat Shielding)
+
+	[GC]
+Unlocked With:
+Bacta Tank Bonus
+Combat Shielding Bonus
+
+Attributes
+Reinforcements (3)
+Weighted Resilience (Wookiee Strength 3)
+Yuuzhan Vong Bio-Armor (Cortosis)
+Acid Blood (DoT on melee death)
+Enduring Exoskeleton (Beskar 2)
+Resistant to Mind Trick
+Immune to the Force
+Cannot be Force Focused
+Cannot be Knocked Down
+Cannot be Sensed
+
+Gadgets:
+Vong Bio-Gel (Bacta)
+
+Abilities:
+Anti-Force Resilience (Absorb 2)
+Passive Healing (1)
+Shield Recharge (1)
+Gun Bash
+Assemble
+
+Weakness:
+* - Yuuzhan Vong does not have armor, relying upon their health.
+
+Weapons
+Heavy Melee (Claws)
+Yuuzhan Vong Acid Thrower (E11) (2) *
+Vong Bio-Grenade (Frag)
+
+Weapon Properties:
+
+* Acid Thrower is capable of functioning as an e-11 blaster, applying poison DOT.
+* Acid Thrower faces slightly decreased Rate of Fire.
+
+The Yuuzhan Vong are a horde of crusading warrior-like extradimensional aliens, who have slayed millions in their conquest against the known galaxy. With their horrific visage, resistance to the midichlorians, and their deadly countenance: their war against the galaxy has been swift yet tumultuous."

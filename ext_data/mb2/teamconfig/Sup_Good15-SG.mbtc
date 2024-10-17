@@ -1,0 +1,32 @@
+//Galactic Conquest/Supremacy siegeteam file - Created by 2cwldys & John
+//Conquest of the Eternal Empire
+
+name "Sup_Good15-SG"
+
+ClassesAllowed 6
+TimePeriod 5
+EUAllowed 0
+
+Classes
+
+{
+class1	"s_5se_slsg"
+class2	"s_5se_ofc"
+class3	"s_5se_hvg"
+class4	"s_5se_hvr"
+class5  "s_5se_md2"
+class6  "s_5se_spy"
+}
+
+//1-6
+
+SubclassesForClass1
+
+{
+Subclass1  "s_5se_flm"
+Subclass2  "s_5se_eng"
+Subclass3  "s_5se_jet"
+Subclass4  "s_5se_gs3"
+}
+
+//1-11

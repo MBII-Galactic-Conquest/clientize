@@ -1,0 +1,16 @@
+//Galactic Conquest/Supremacy siegeteam file - Created by 2cwldys & John
+//Hordes of the Yuuzhan Vong
+
+name "Sup_Evil13-EB"
+
+ClassesAllowed 1
+TimePeriod 5
+EUAllowed 0
+
+Classes
+
+{
+class1	"s_13vo_greb"
+}
+
+//1-6

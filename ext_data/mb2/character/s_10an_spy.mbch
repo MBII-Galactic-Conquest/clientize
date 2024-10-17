@@ -1,0 +1,82 @@
+
+ClassInfo
+{
+	name			"s_10an_spy"
+	APmultiplier	0.8	
+    forcepool       65
+	maxhealth		60
+	maxarmor		35
+	classflags		CFL_BPFREEJUMPS|CFL_HEAVYMELEE|CFL_SEEING_STEALTH
+    speed			1.0
+	saber1			legends_Knife
+	uishader		"models/players/bothan-spy/mb2_icon_default"
+
+
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_BLASTER_PISTOL
+	WeaponBasedOff		WP_BLASTER
+	NewWorldModel		"models/weapons2/sc-10_holdout/sc-10_holdout_w.glm"  	//Required: New 3rd person/dropped weapon model
+	NewViewModel		"models/weapons2/sc-10_holdout/sc-10_holdout.md3"   	//Required: New 1st person weapon model
+	Icon					"gfx/hud/w_icon_sc-10_holdout" 					//Required: Weapon change icon
+	WeaponName			"Holdout Pistol"    					//Required: Weapon change display name
+	FlashSound0			"sound/weapons/spy_pistol/fire.wav"
+	AltFlashSound0		"sound/weapons/spy_pistol/alt_fire.wav"
+	altfireenabled	1
+	firingAnim		BOTH_ATTACK2
+	idleAnim		TORSO_WEAPONIDLE2
+}
+
+WeaponInfo1
+{
+		WeaponToReplace		WP_SABER
+		WeaponBasedOff		WP_SABER
+		NewWorldModel		"models/weapons2/ct_weapon/ct_knife_F.glm"
+		NewViewModel		"models/weapons2/dummy/dummy.md3"
+		Icon			"gfx/hud/w_icon_prisonknife"
+		WeaponName		"Vibro Knife"
+}
+
+WeaponInfo2
+{           
+WeaponToReplace        	WP_TRIP_MINE
+WeaponBasedOff         	WP_TRIP_MINE
+NewWorldModel		"models/weapons2/laser_trap/laser_trap_w.glm"  	
+NewViewModel	  	"models/weapons2/laser_trap/laser_trap.md3"  	
+Icon             	"gfx/hud/w_icon_tripmine"
+WeaponName		"Trip Mine"
+customAmmo    		3
+}
+
+
+description	"Axis Resistance - Spy
+
+	[GC]
+Unlocked With:
+Sabotage Bonus
+
+Weaponry:
+Vibro Knife (Medium & Fast)
+Trip Mine (2)
+Pistol (3)
+
+Gadgets:
+Stealth field generator [Inventory Use]
+Disguise [press saber style/gun mode switch while in melee]
+
+Attributes
+Reinforcements (1)
+Grappling Hook (2)
+Dexterity (2)
+Stamina (2)
+Immune to Sense
+Flip Kick (1)
+Gun Bash
+
+Vibro Knife Attributes:
+Knife Offense (3)
+Knife Defense (1)
+
+A resistance spy, equipped with a stealth field generator and thermal plating."

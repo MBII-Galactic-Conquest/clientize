@@ -1,0 +1,72 @@
+
+ClassInfo
+{
+	name  "s_uzo_ofc"
+	saber1  re_crimsonR
+	saber2  re_crimsonL
+	maxhealth 100
+	uishader  "models/players/imperial/mb2_icon_zombie"
+	speed 1.15
+	forcepool 20
+	classflags  CFL_NOPICKUPS|CFL_BLOODYMELEE|CFL_HEAVYMELEE
+classnumberlimit
+
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_SABER
+	WeaponBasedOff		WP_SABER
+	NewWorldModel		"models/weapons2/noweap/noweap.glm"
+	NewViewModel		"models/weapons2/dummy/dummy.md3"
+	Icon			"gfx/hud/w_icon_melee"
+	WeaponName		"Claws"
+}
+
+WeaponInfo1
+{
+    WeaponToReplace        WP_BLASTER                           //Required: Weapon Slot of weapon you're replacing
+    WeaponBasedOff        WP_BLASTER                          //Required: For future use, should be the same as WeaponToReplace
+    NewWorldModel        "models/weapons2/blaster_r/blaster_w.glm"      //Required: New 3rd person/dropped weapon model
+    NewViewModel        "models/weapons2/blaster_r/blaster.md3"       //Required: New 1st person weapon model
+    Icon                "gfx/hud/w_icon_e11"                 //Required: Weapon change icon
+    WeaponName            "Rusted E-11"                        //Required: Weapon change display name
+    FlashSound0 "sound/weapsup/r/wpn_imp_blaster_fire.wav"
+    AltFlashSound0  "sound/weapsup/r/wpn_imp_blaster_fire.wav"
+    customAmmo      500
+    clipSize        100
+    FPMult          0.8
+}
+
+WeaponInfo2
+{
+	WeaponToReplace		WP_MELEE
+	WeaponBasedOff		WP_MELEE  
+  NewWorldModel		"models/weapons2/dummy/dummy.glm"
+  NewViewModel		"models/weapons2/dummy/dummy.md3"
+  Icon			"gfx/hud/w_icon_melee"
+	WeaponName		"Melee"
+	FlashSound0		"Sound/chars/Death_Trooper/misc/melee.wav"
+	AltFlashSound0  "Sound/chars/Death_Trooper/misc/melee.wav"
+	primGore		1
+	altGore			1
+	idleAnim  BOTH_INAIRBACK1
+	firingAnim  BOTH_BURSTMISS
+}
+
+description "Zombie Imperial Officer
+
+Weaponry:
+Rusted E-11 (2)
+Wookiee Melee
+Claws
+
+Abilities:
+Wookiee Strength (3)
+Wookiee Fury (1)
+Self Healing (2)
+Fast Movement
+Gun Bash
+Rally
+
+^1Brainzzzzzzzz"

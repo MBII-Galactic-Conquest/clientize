@@ -1,0 +1,58 @@
+
+ClassInfo
+{
+	name			"s_lca_ofc"
+	maxhealth		100
+	maxarmor		100
+	uishader		"models/players/legoguy/mb2_icon_clone_captain"
+	speed			0.7
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_CLONE_PISTOL
+	WeaponBasedOff		WP_CLONE_PISTOL
+	NewWorldModel		"models/weapons2/lego_repeater/heavy_repeater_w.glm"
+	NewViewModel		"models/weapons2/lego_repeater/demp2.md3"
+	Icon			"gfx/mplevels/legosw/icon_repeater"
+	WeaponName		"Dual Clone Pistols"
+    FlashSound0 "sound/weapsup/sup/wpn_rep_pistol_fire.wav"
+    AltFlashSound0  "sound/weapsup/sup/wpn_rep_pistol_fire.wav"
+	FlashSound4	"sound/weapsup/sup/wpn_rep_pistol_fire.wav"
+	AltFlashSound4	"sound/weapsup/sup/wpn_rep_pistol_fire.wav"
+	MuzzleEffect		"Blaster/MuzzleFlash01B"
+	MissileEffect		"blaster/Shot01B"
+	AltMissileEffect 	"blaster/Shot01B"
+}
+
+WeaponInfo1
+{
+	WeaponToReplace		WP_MELEE
+	WeaponBasedOff		WP_MELEE  
+  NewWorldModel		"models/weapons2/dummy/dummy.glm"
+  NewViewModel		"models/weapons2/dummy/dummy.md3"
+  Icon			"gfx/mplevels/legosw/icon_melee"
+	WeaponName		"Melee"
+}
+
+description	"Clone Officer
+
+Weaponry:
+Cryogenic Grenade (1)
+Sonic Screamer (1)
+Lego Dual Pistols (3)
+
+Gadgets:
+Shield Generator (1)
+Web Turret (1)
+Binoculars (1)
+
+Attributes
+Close Combat Training (2)
+Dexterity (3)
+Stamina (3)
+Blast Armor
+Gun Bash
+Rally
+
+A Clone Officer, he looks inspiring."

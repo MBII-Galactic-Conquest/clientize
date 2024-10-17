@@ -1,0 +1,73 @@
+
+ClassInfo
+{
+	name			"s_lca_vang"
+	maxhealth		100
+	maxarmor		75
+	uishader		"models/players/legoguy/mb2_icon_clone_arc2"
+	speed			1.0
+
+	
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_CLONE_PISTOL
+	WeaponBasedOff		WP_CLONE_PISTOL
+	NewWorldModel		"models/weapons2/lego_repeater/heavy_repeater_w.glm"
+	NewViewModel		"models/weapons2/lego_repeater/demp2.md3"
+	Icon			"gfx/mplevels/legosw/icon_repeater"
+	WeaponName		"Clone Pistol"
+    FlashSound0 "sound/weapsup/sup/wpn_rep_pistol_fire.wav"
+    AltFlashSound0  "sound/weapsup/sup/wpn_rep_pistol_fire.wav"
+	FlashSound4	"sound/weapsup/sup/wpn_rep_pistol_fire.wav"
+	AltFlashSound4	"sound/weapsup/sup/wpn_rep_pistol_fire.wav"
+	MuzzleEffect		"Blaster/MuzzleFlash01B"
+	MissileEffect		"blaster/Shot01B"
+	AltMissileEffect 	"blaster/Shot01B"
+}
+
+WeaponInfo1
+{
+    WeaponToReplace        WP_BLASTER                           //Required: Weapon Slot of weapon you're replacing
+    WeaponBasedOff        WP_BLASTER                          //Required: For future use, should be the same as WeaponToReplace
+	NewWorldModel		"models/weapons2/lego_repeater/heavy_repeater_w.glm"
+	NewViewModel		"models/weapons2/lego_repeater/heavy_repeater.md3"
+	Icon			"gfx/mplevels/legosw/icon_repeater"
+    WeaponName            "Heavy Blaster"                        //Required: Weapon change display name
+    FlashSound0 "sound/weapsup/sup/wpn_rep_blaster_fire.wav"
+    AltFlashSound0  "sound/weapsup/sup/wpn_rep_blaster_fire.wav"
+	MuzzleEffect		"Blaster/MuzzleFlash01B"
+	AltMuzzleEffect		"Blaster/MuzzleFlash01B"
+	MissileEffect		"blaster/Shot01B"
+	AltMissileEffect 	"blaster/Shot01B"
+    customAmmo      500
+    clipSize        100
+    FPMult          0.8
+}
+
+WeaponInfo2
+{
+	WeaponToReplace		WP_MELEE
+	WeaponBasedOff		WP_MELEE  
+  NewWorldModel		"models/weapons2/dummy/dummy.glm"
+  NewViewModel		"models/weapons2/dummy/dummy.md3"
+  Icon			"gfx/mplevels/legosw/icon_melee"
+	WeaponName		"Melee"
+}
+
+description	"Clone Vanguard
+
+Weaponry:
+Concussion Grenade (1)
+Frag Grenade (1)
+Lego Pistol (2)
+Lego Heavy Blaster (A280) (3)
+
+Attributes
+Reinforcements (1)
+Close Combat Training (2)
+Gun Bash
+Assemble
+
+A clone vanguard, a veteran of the clone army equipped with better arsenal."

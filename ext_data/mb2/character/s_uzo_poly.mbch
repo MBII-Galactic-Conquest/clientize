@@ -1,0 +1,59 @@
+
+ClassInfo
+{
+	name  "s_uzo_poly"
+	saber1  uds_ClawR
+	saber2  uds_ClawL
+	maxhealth 150
+	uishader  "models/players/noghri/mb2_icon_polymorph"
+	speed 1.00
+	forceregen  2
+	forcepool 80
+	classflags  CFL_NOPICKUPS|CFL_BLOODYMELEE|CFL_HEAVYMELEE|CFL_SEEING_STEALTH
+classnumberlimit
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_MELEE
+	WeaponBasedOff		WP_MELEE  
+ 	 NewWorldModel		"models/weapons2/dummy/dummy.glm"
+  	NewViewModel		"models/weapons2/dummy/dummy.md3"
+ 	 Icon			"gfx/hud/w_icon_melee"
+	WeaponName		"Melee"
+	FlashSound0		"Sound/chars/Death_Trooper/misc/melee.wav"
+	AltFlashSound0  	"Sound/chars/Death_Trooper/misc/melee.wav"
+	primGore		1
+	altGore			1
+	idleAnim 		 BOTH_INAIRBACK1
+	firingAnim  		BOTH_BURSTMISS
+}
+
+WeaponInfo1
+{
+	WeaponToReplace		WP_SABER
+	WeaponBasedOff		WP_SABER
+	NewWorldModel		"models/weapons2/noweap/noweap.glm"
+	NewViewModel		"models/weapons2/dummy/dummy.md3"
+	Icon			"gfx/hud/w_icon_melee"
+	WeaponName		"Claws"
+}
+
+description	"Polymorph Zombie
+
+Weaponry:
+Heavy Melee
+Claws
+
+Gadgets:
+Cloaking Device
+
+Attributes
+Jump (3)
+Self Healing (1)
+Superhuman Speed (3)
+Disguise
+
+An extremely agile, polymorphing zombie capable of taking shape of survivors: in order to undermine them to succumb to the dathomir horde.
+
+^1Brainzzzzzzzz"

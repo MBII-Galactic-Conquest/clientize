@@ -1,0 +1,52 @@
+
+ClassInfo
+{
+	name				"s_2da_ps1"
+
+
+	maxhealth			200
+	maxarmor			10
+	
+	speed				1.0
+	rateOfFire			1.15
+
+
+	uishader		    "models/players/sbd/mb2_icon_default"
+	
+	uishader_1		    "models/players/sbd/mb2_icon_mando"
+
+	uishader_2		    "models/players/sbd/mb2_icon_rusty"
+		
+	meleeMoves				M_PUNCH|M_KICK
+	
+}
+
+description	"Phase 1 - B2 Super Battle Droid
+
+Class: SBD.
+Class Summary:
+A heavily modified advanced Super Battle Droid with tougher armor, that can engage in melee and ranged combat.
+
+Weaponry:
+Arm Blaster + Arm Cannon 
+(toggle via gun mode / lightsaber style control)
+Heavy Melee
+
+Attributes
+Firepower (1)
+Magnetic Plating
+Blast Armor
+Advanced Logic (2)
+--- Advanced Electronics
+Can continue firing at a reduced rate while pulsed
+--- Reactive Servos
+Only Strength (3) level characters and upwards can cause melee knockdowns
+--- Prototype Force Shield
+Cannot be targeted by force powers
+
+Abilities:
+- Recharge (1) [Class Special 1]
+- Radar (Enter recharge mode to reveal enemies on radar screen)
+- Advanced Targeting [Class Special 2]
+
+A B2 Super Battle Droid, engineered by the Techno Union, for the use of the Confederacy of Independent Systems in their ever growing war machine."

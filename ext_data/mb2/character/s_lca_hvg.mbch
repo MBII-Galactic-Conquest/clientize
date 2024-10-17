@@ -1,0 +1,86 @@
+
+ClassInfo
+{
+	name			"s_lca_hvg"
+	maxhealth		100
+	maxarmor		75
+	speed			0.6
+	uishader		"models/players/legoguy/mb2_icon_clone_arc2"
+	
+	rateoffire		1.4
+	damageGiven		1
+
+    WP_MinigunFlags	HELD_ALTRELOAD|HELD_LOWDAMAGE|HELD_SLOW
+
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_CLONE_PISTOL
+	WeaponBasedOff		WP_CLONE_PISTOL
+	NewWorldModel		"models/weapons2/lego_repeater/heavy_repeater_w.glm"
+	NewViewModel		"models/weapons2/lego_repeater/demp2.md3"
+	Icon			"gfx/mplevels/legosw/icon_repeater"
+	WeaponName		"Clone Pistol"
+    FlashSound0 "sound/weapsup/sup/wpn_rep_pistol_fire.wav"
+    AltFlashSound0  "sound/weapsup/sup/wpn_rep_pistol_fire.wav"
+	FlashSound4	"sound/weapsup/sup/wpn_rep_pistol_fire.wav"
+	AltFlashSound4	"sound/weapsup/sup/wpn_rep_pistol_fire.wav"
+	MuzzleEffect		"Blaster/MuzzleFlash01B"
+	MissileEffect		"blaster/Shot01B"
+	AltMissileEffect 	"blaster/Shot01B"
+}
+
+WeaponInfo1
+{
+	WeaponToReplace WP_MINIGUN
+	WeaponBasedOff  WP_MINIGUN
+	NewWorldModel		"models/weapons2/lego_repeater/heavy_repeater_w.glm"
+	NewViewModel		"models/weapons2/lego_repeater/heavy_repeater.md3"
+	Icon			"gfx/mplevels/legosw/icon_repeater"
+	WeaponName  "Heavy Blaster MG"
+    FlashSound0 "sound/weapsup/sup/wpn_rep_blaster_fire.wav"
+    FlashSound1 "sound/weapsup/sup/wpn_rep_blaster_fire.wav"
+    FlashSound2 "sound/weapsup/sup/wpn_rep_blaster_fire.wav"
+    FlashSound3 "sound/weapsup/sup/wpn_rep_blaster_fire.wav"
+    AltFlashSound0  "sound/weapsup/sup/wpn_rep_blaster_fire.wav"
+    AltFlashSound1  "sound/weapsup/sup/wpn_rep_blaster_fire.wav"
+    AltFlashSound2  "sound/weapsup/sup/wpn_rep_blaster_fire.wav"
+    AltFlashSound3  "sound/weapsup/sup/wpn_rep_blaster_fire.wav"
+	MuzzleEffect		"Blaster/MuzzleFlash01B"
+	AltMuzzleEffect		"Blaster/MuzzleFlash01B"
+	MissileEffect		"blaster/Shot03B"
+	AltMissileEffect 	"blaster/Shot03B"
+    customAmmo      500
+    clipSize        100
+	ReloadTimeModifier	2
+    FPMult          0.9
+}
+
+WeaponInfo2
+{
+	WeaponToReplace		WP_MELEE
+	WeaponBasedOff		WP_MELEE  
+  NewWorldModel		"models/weapons2/dummy/dummy.glm"
+  NewViewModel		"models/weapons2/dummy/dummy.md3"
+  Icon			"gfx/mplevels/legosw/icon_melee"
+	WeaponName		"Melee"
+}
+
+description	"Clone Heavy MG Trooper
+
+Weapons
+Fire Grenades (2)
+Lego Pistol (2)
+Lego Repeater *
+
+* Special Weapon Descriptions:
+--- Lego Repeater
+- Based on Minigun
+
+Abilities:
+Reinforcements (1)
+Close Combat Training (2)
+Bounty Hunter Kick
+
+A Clone Heavy MG Trooper."

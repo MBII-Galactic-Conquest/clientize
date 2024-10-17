@@ -1,0 +1,101 @@
+
+ClassInfo
+{
+	name			"s_3or_eng"
+	classflags		CFL_FASTHACKING
+	saber1			kotor_vibrosword_supremacy
+	forcepool		50
+	maxhealth		100
+	maxarmor		20
+	speed			0.7
+	uishader		"models/players/prisoner/mb2_icon_oldrepsold_helm_FA"
+
+	uishader_1		"models/players/prisoner/mb2_icon_oldrepsold_helm2_FA"
+
+
+	WP_ShotgunFlags HELD_ALTRELOAD
+
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_SABER			
+	WeaponBasedOff		WP_SABER			
+	NewWorldModel		"models/weapons2/kotor_longsword/saber_w.glm"  
+	NewViewModel		"models/weapons2/dummy/dummy.md3" 	  
+	Icon			"gfx/hud/w_icon_vibrosword"
+	WeaponName		"Cortosis Vibrosword"    	 			
+}
+
+WeaponInfo1
+{
+	WeaponToReplace		WP_BRYAR_PISTOL
+	WeaponBasedOff		WP_BOWCASTER
+	NewWorldModel		"models/weapons2/kotor_bpistol2/kotor_bpistol2_w.glm"
+	NewViewModel		"models/weapons2/kotor_bpistol2/kotor_bpistol2.md3"
+	Icon				"gfx/hud/w_icon_kotor_bpistol2"
+	WeaponName			"BP-2 Hand Pistol"
+	FlashSound0			"sound/weapons/kotor/fire_light.wav"
+    AltFlashSound0		"sound/weapons/kotor/fire_hvy.wav"
+	ChargeEffect		"gfx/effects/clonefrontflash"
+	OverchargeEffect	"Blaster/MuzzleFlash04B"
+	PowerupShotEffect	"Blaster/Shot04B"
+	MuzzleEffect		"Blaster/MuzzleFlash01B"
+	AltMuzzleEffect		"Blaster/MuzzleFlash01B"
+	MissileEffect		"blaster/Shot01B"
+	AltMissileEffect 	"blaster/Shot01B"
+}
+
+WeaponInfo2
+{
+    WeaponToReplace        WP_SHOTGUN                           //Required: Weapon Slot of weapon you're replacing
+    WeaponBasedOff        WP_BOWCASTER                          //Required: For future use, should be the same as WeaponToReplace
+    NewWorldModel        "models/weapons2/canderous_blaster/cand_blaster_w.glm"      //Required: New 3rd person/dropped weapon model
+    NewViewModel        "models/weapons2/canderous_blaster/cand_blaster.md3"       //Required: New 1st person weapon model
+    Icon                "gfx/hud/w_icon_candblaster"                 //Required: Weapon change icon
+    WeaponName            "F-5b Blast Cannon"                        //Required: Weapon change display name
+    FlashSound0 		"sound/weapsup/r/wpn_all_bowcaster_fire.wav"
+	MissileEffect		"blaster/Shot01B"
+	MuzzleEffect         "flechette/muzzle_flash"
+	AltMuzzleEffect		"Blaster/MuzzleFlash01B"
+    customAmmo           432
+    clipsize             36
+    AltFireEnabled       0
+}
+
+ForceInfo0
+{
+	ForceToReplace	FP_SEE
+	Icon		"gfx/forcepowers/radar"
+	ForcePowerName	"Radar Scanner"
+}
+
+description	"Old Republic - Engineer
+
+Weapons
+Frag Grenades (2)
+BP-2 Hand Pistol (2)
+F-5b Blast Cannon
+Cortosis Vibrosword *
+
+Vibrosword Info:
+Medium Style
+Offense (2)
+Defense (2)
+
+Gadgets:
+Deployable Floor Turret (1)
+Seeker Droid (1)
+Radar Scanner (sense 2)
+
+Abilities:
+Close Combat Training (2)
+Armor Repair Kit
+Ammo Bandolier
+Quick Throw (2)
+Dexterity (1)
+Stamina (2)
+Fast Hack
+Assemble
+
+A valiant engineer of the Old Republic."

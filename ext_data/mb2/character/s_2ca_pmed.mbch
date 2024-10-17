@@ -1,0 +1,73 @@
+
+ClassInfo
+{
+	name			"s_2ca_pmed"
+	classflags		CFL_STATVIEWER
+	maxhealth		100
+	maxarmor		20
+	uishader		"models/players/clonetrooper_p1/mb2_icon_rgb"
+	speed			0.8
+
+
+}
+
+WeaponInfo0
+{
+    WeaponToReplace        WP_CLONE_PISTOL                           //Required: Weapon Slot of weapon you're replacing
+    WeaponBasedOff        WP_BLASTER_PISTOL                          //Required: For future use, should be the same as WeaponToReplace
+    NewWorldModel        "models/weapons2/dc-17/dc-17_w.glm"      //Required: New 3rd person/dropped weapon model
+    NewViewModel        "models/weapons2/dc-17/dc-17.md3"       //Required: New 1st person weapon model
+    Icon                "gfx/hud/w_icon_dc-17"                 //Required: Weapon change icon
+    WeaponName            "DC-17 Clone Pistol"                        //Required: Weapon change display name
+    FlashSound0 "sound/weapsup/sup/wpn_rep_pistol_fire.wav"
+    AltFlashSound0  "sound/weapsup/sup/wpn_rep_pistol_fire.wav"
+	FlashSound4	"sound/weapsup/sup/wpn_rep_pistol_fire.wav"
+	MuzzleEffect		"Blaster/MuzzleFlash01B"
+	MissileEffect		"blaster/Shot01B"
+	AltMissileEffect 	"blaster/Shot01B"
+    customAmmo      200
+    clipSize        100
+}
+
+WeaponInfo1
+{
+    WeaponToReplace        WP_BLASTER                           //Required: Weapon Slot of weapon you're replacing
+    WeaponBasedOff        WP_BLASTER                          //Required: For future use, should be the same as WeaponToReplace
+    NewWorldModel        "models/weapons2/dc-15s/dc-15s_w.glm"      //Required: New 3rd person/dropped weapon model
+    NewViewModel        "models/weapons2/dc-15s/dc-15s.md3"       //Required: New 1st person weapon model
+    Icon                "gfx/hud/w_icon_dc-15s"                 //Required: Weapon change icon
+    WeaponName            "DC-15s Clone Rifle"                        //Required: Weapon change display name
+    FlashSound0 "sound/weapsup/sup/wpn_rep_blaster_fire.wav"
+    AltFlashSound0  "sound/weapsup/sup/wpn_rep_blaster_fire.wav"
+	MuzzleEffect		"Blaster/MuzzleFlash01B"
+	AltMuzzleEffect		"Blaster/MuzzleFlash01B"
+	MissileEffect		"blaster/Shot01B"
+	AltMissileEffect 	"blaster/Shot01B"
+    customAmmo      500
+    clipSize        100
+    FPMult          0.8
+}
+
+description	"Phase 1 - Clone Medic
+
+	[GC]
+Unlocked With:
+Bacta Tank Bonus
+
+Weaponry:
+Clone Pistol (1)
+DC-15s (3)
+
+Gadgets:
+Personal Small Bacta (1)
+Hero Heal on Use
+
+Attributes
+Close Combat Training (2)
+Flip Kick (2)
+Dash (2)
+Dodge (2)
+Gun Bash
+
+A phase one clone medic, with a bandolier of medical supplies."
+

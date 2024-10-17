@@ -1,0 +1,122 @@
+
+ClassInfo
+{
+	name			"s_13vo_sni"
+	classflags		CFL_BPFREEJUMPS|CFL_ACIDBLOOD|CFL_BLOODYMELEE|CFL_HEAVYMELEE|CFL_SEEING_STEALTH
+	maxhealth       200
+	forcepool		100
+	speed			1.06
+	
+
+	damageGiven        1.10
+	rateoffire		2
+		
+	uishader		"models/players/yuuzhanvongketo/icon_default"
+
+	uishader_1		"models/players/nom_anor/mb2_icon_default"
+
+
+	WP_StunBatonFlags 	HELD_POISON
+
+	tauntAnim	BOTH_TUSKENTAUNT1
+	flourishAnim	BOTH_TUSKENTAUNT1
+	gloatAnim     BOTH_TUSKENTAUNT1
+
+	resource		RESOURCE_FORCE
+
+	resource	RESOURCE_FORCE
+	
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_MELEE
+	WeaponBasedOff		WP_MELEE  
+  NewWorldModel		"models/weapons2/dummy/dummy.glm"
+  NewViewModel		"models/weapons2/dummy/dummy.md3"
+  Icon			"gfx/mplevels/aliens3/aliens_claws"
+	WeaponName		"Claws"
+	primGore		1
+	altGore			1
+}
+
+WeaponInfo1
+{
+	WeaponToReplace		WP_PROJ
+	WeaponBasedOff		WP_PROJ
+	NewWorldModel		"models/weapons2/sherruck_blaster/sher_rifle_w.glm"
+	NewViewModel		"models/weapons2/sherruck_blaster/sher_rifle.md3"	
+	Icon				"gfx/hud/w_icon_sherruck_na"	
+	WeaponName			"Yuuzhan Vong Bio-Sniper"
+	
+	ChargeEffect		"gfx/effects/greenfrontflash"
+	MissileMissEffect 	"effects/sonic_pistol/wall_impact"
+	MuzzleEffect		"Disruptor/muzzle_flash"
+	MissileEffect		"effects/sonic_pistol/projectile"
+	AltMissileEffect	"effects/sonic_pistol/projectile" 	
+	FlashSound0		"sound/weapsup/vong/acidthrower.mp3"
+}
+
+ForceInfo0
+{
+	ForceToReplace	FP_RAGE
+	Icon		"gfx/forcepowers/snoke"
+	ForcePowerName	"Null Ability Slot"
+}
+
+ForceInfo1
+{
+	ForceToReplace	FP_SPEED
+	Icon		"gfx/mplevels/aliens3/aliens_claws"
+	ForcePowerName	"Supernatural Speed"
+}
+
+ForceInfo1
+{
+	ForceToReplace	FP_ABSORB
+	Icon		"gfx/mplevels/dc_universe/fp_sinestro"
+	ForcePowerName	"Natural Force Resist"
+}
+
+
+description	"Yuuzhan Vong - Warrior Caste - Sniper Brute
+
+Wookiee Subclass
+* - Ability to Slap
+* - Ability to Rage
+
+Yuuzhan Vong Fury:
+* - 2x Slower Melee
+* - Increased Melee Damage
+
+Attributes
+Reinforcements (1)
+Weighted Resilience (Wookiee Strength 3)
+Yuuzhan Vong Bio-Armor (Cortosis & Mag Plating)
+Rage of the Hordes (Wookiee Fury 1)
+Enduring Exoskeleton (Beskar 3)
+Acid Blood (DoT on melee death)
+Immune to the Force
+Cannot be Force Focused
+Cannot be Knocked Down
+Cannot be Mind Tricked
+Cannot be Sensed
+
+Abilities:
+Uncanny Supernatural Speed (Force Speed 1)
+Anti-Force Resilience (Absorb 2)
+Flip Kick (2)
+Gun Bash
+
+Weakness:
+* - Yuuzhan Vong does not have armor, relying upon their health.
+
+Weapons
+Heavy Melee (Claws)
+Yuuzhan Vong Bio-Sniper *
+
+Weapon Properties:
+
+* Yuuzhan Vong Bio-Sniper functions as a projectile rifle.
+
+The Yuuzhan Vong are a horde of crusading warrior-like extradimensional aliens, who have slayed millions in their conquest against the known galaxy. With their horrific visage, resistance to the midichlorians, and their deadly countenance: their war against the galaxy has been swift yet tumultuous."

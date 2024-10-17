@@ -1,0 +1,31 @@
+
+ClassInfo
+{
+	name				"s_15se_md1"
+	uishader			"models/players/droideka/mb2_icon_elite"
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_BRYAR_PISTOL
+	WeaponBasedOff		WP_BRYAR_PISTOL
+	NewWorldModel		"models/weapons2/blaster_pistol/blaster_pistol_w.glm"
+	NewViewModel		"models/weapons2/blaster_pistol/blaster_pistol.md3"
+	Icon				"gfx/hud/w_icon_dekaarm"
+	WeaponName			"Destroyer Droid Turrets"
+}
+
+description	"Sith Empire - Sith Destroyer Droid - Blaster
+
+Unlocked by default
+
+Abilities:
+Power Management (X)
+Shield Projector (3)
+Shield Strength (2)
+Hull Strength (1)
+Firepower (3)
+
+
+A terrifying sith destroyer droid."
+

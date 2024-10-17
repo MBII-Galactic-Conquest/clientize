@@ -1,0 +1,72 @@
+
+ClassInfo
+{
+	name			"s_lem_gs1"
+	classflags		CFL_BPFREEJUMPS
+	maxhealth       100
+	forcepool		100
+	speed           1.00
+	BPmultiplier    1.0
+	APmultiplier    1.0
+	
+	damageGiven        1.10
+	
+	
+	
+	uishader		"models/players/legoguy/mb2_icon_sith"
+		
+	saber1			lego_supremacy_single
+	saber2			none
+
+
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_MELEE
+	WeaponBasedOff		WP_MELEE  
+  NewWorldModel		"models/weapons2/dummy/dummy.glm"
+  NewViewModel		"models/weapons2/dummy/dummy.md3"
+  Icon			"gfx/mplevels/legosw/icon_melee"
+	WeaponName		"Melee"
+}
+
+WeaponInfo1
+{
+	WeaponToReplace		WP_SABER
+	WeaponBasedOff		WP_SABER  
+  NewWorldModel		"models/weapons2/legosaber/legosaber.glm"
+  NewViewModel		"models/weapons2/dummy/dummy.md3"
+  Icon			"gfx/mplevels/legosw/icon_saber"
+	WeaponName		"Lightsaber"
+}
+
+description	"Generic Leader: Sith Inquisitor
+
+	[GC]
+Unlocked With:
+Leader Bonus
+
+Class: Sith.
+Class Summary: 
+A single-life Sith saberist.
+
+Lightsaber:
+- Defense (2)
+- Deflect (2)
+- Can use Blue, Red, and Yellow styles
+
+Force Powers:
+- Jump (3)
+- Push (3)
+- Pull (3)
+- Sense (2)
+- Grip (2)
+- Lightning (2)
+- Force Block (2)
+- Force Focus (1)
+
+Attributes
+- Assemble
+
+Loyal devotees of the Dark Side trained in the art of saber combat."

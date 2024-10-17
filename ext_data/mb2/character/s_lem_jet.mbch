@@ -1,0 +1,65 @@
+
+ClassInfo
+{
+	name			"s_lem_jet"
+	maxhealth		100
+	maxarmor		50
+	uishader		"models/players/legoguy/mb2_icon_boba"
+	speed			0.7
+
+	resource	RESOURCE_FUEL
+
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_MANDO_PISTOL
+	WeaponBasedOff		WP_MANDO_PISTOL
+	NewWorldModel		"models/weapons2/lego_blaster/blaster_w.glm"
+	NewViewModel		"models/weapons2/lego_blaster/blaster.md3"
+	Icon			"gfx/mplevels/legosw/icon_blaster"
+	WeaponName		"Blaster Pistol"
+	FlashSound0			"sound/weapons/westar/fire.mp3"
+	AltFlashSound0		"sound/weapons/westar/alt_fire.mp3"
+}
+
+WeaponInfo1
+{
+	WeaponToReplace		WP_EE4
+	WeaponBasedOff		WP_EE4
+	NewWorldModel		"models/weapons2/lego_blaster/blaster_w.glm"
+	NewViewModel		"models/weapons2/lego_blaster/blaster.md3"
+	Icon			"gfx/mplevels/legosw/icon_blaster"
+	WeaponName		"Blaster"
+	firingAnim	        BOTH_ATTACK4
+    customAmmo      500
+    clipSize        100
+    FPMult          0.8
+}
+
+WeaponInfo2
+{
+	WeaponToReplace		WP_MELEE
+	WeaponBasedOff		WP_MELEE  
+  NewWorldModel		"models/weapons2/dummy/dummy.glm"
+  NewViewModel		"models/weapons2/dummy/dummy.md3"
+  Icon			"gfx/mplevels/legosw/icon_melee"
+	WeaponName		"Melee"
+}
+
+description	"Mandalorian Jet Trooper
+
+Weaponry:
+Pulse Grenade (2)
+Lego Blaster Pistol (2)
+Lego Blaster (EE4) (3)
+
+Attributes
+Reinforcements (1)
+Close Combat Training (2)
+Bounty Hunter Kick
+Quick Throw (1)
+Jet Pack (2)
+Assemble
+
+A Mandalorian Jet Trooper."

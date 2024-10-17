@@ -1,0 +1,112 @@
+
+ClassInfo
+{
+	name			"s_5me_bh1"
+	classflags		CFL_REALTD|CFL_BPFREEJUMPS|CFL_HEAVYMELEE|CFL_SEEING_STEALTH
+	APmultiplier	0.8
+    forcepool       65
+	maxhealth		200
+	maxarmor		100
+	uishader		"models/players/human_merc/mb2_icon_default"
+	rateoffire		0.675
+	speed			1.0
+	saber1			kotor_vibrosword_supremacy
+
+	uishader_1	"models/players/human_merc/mb2_icon_arcona"
+
+	uishader_2	"models/players/human_merc/mb2_icon_kaleesh"
+
+	uishader_3	"models/players/human_merc/mb2_icon_devaronian"
+
+	uishader_4	"models/players/calonord/mb2_icon_default"
+
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_SABER			
+	WeaponBasedOff		WP_SABER			
+	NewWorldModel		"models/weapons2/kotor_longsword/saber_w.glm"  
+	NewViewModel		"models/weapons2/dummy/dummy.md3" 	  
+	Icon			"gfx/hud/w_icon_vibrosword"
+	WeaponName		"Cortosis Vibrosword"    	 			
+}
+
+WeaponInfo1
+{
+	WeaponToReplace		WP_BLASTER_PISTOL
+	WeaponBasedOff		WP_BLASTER_PISTOL
+	NewWorldModel		"models/weapons2/kotor_bpistol2/kotor_bpistol2_w.glm"
+	NewViewModel		"models/weapons2/kotor_bpistol2/kotor_bpistol2.md3"
+	Icon				"gfx/hud/w_icon_kotor_bpistol2"
+	WeaponName			"Overcharged Sith Hand Pistol"
+	FlashSound0 "sound/weapons/kotor/fire_light.wav"
+	FlashSound4	"sound/weapons/kotor/fire_hvy.wav"
+	idleAnim		MAND_SPISTOL 
+	firingAnim		MAND_SPISTOL_FIRE
+}
+
+WeaponInfo2
+{
+	WeaponToReplace		WP_PROJ				//Required: Weapon Slot of weapon you're replacing
+	WeaponBasedOff		WP_SBD				//Required: For future use, should be the same as WeaponToReplace
+	NewWorldModel		"models/weapons2/dlt20a/dlt20a_w.glm"
+	NewViewModel		"models/weapons2/dlt20a/dlt20a.md3"
+	MuzzleEffect		"Blaster/MuzzleFlash01Y" 				//Optional: New muzzle effect
+	MissileEffect		"Blaster/Shot04Y"				//Optional: New effect to be displayed on the projectile
+	FlashSound0			"sound/weapons/pulse_cannon/fire.wav"  			//Optional: Sound played when the weapon fires
+	Icon				"gfx/hud/w_icon_DLT20a"
+	WeaponName			"Illegal Pulse Cannon"    					//Required: Weapon change display name
+	CustomAmmo	10
+	clipSize 1
+	FPMult     			1.5
+}
+
+WeaponInfo3
+{
+	WeaponToReplace		WP_A280       					//Required: Weapon Slot of weapon you're replacing
+	WeaponBasedOff		WP_BLASTER      					//Required: For future use, should be the same as WeaponToReplace
+	NewWorldModel		"models/weapons2/kotor_carbine/model.glm"
+	NewViewModel		"models/weapons2/kotor_carbine/model.MD3"
+	Icon				"gfx/hud/w_icon_kotorcarbine"
+	WeaponName			"Bounty Hunter Carbine"    					//Required: Weapon change display name
+	FlashSound0			"sound/weapons/kotor_carbine/fire.wav"
+    AltFlashSound0  	"sound/weapons/kotor_carbine/fire.wav"
+	customAmmo      500
+	clipSize        100
+	FPMult          0.8
+}
+
+description	"Generic Leader: Bounty Hunter Sniper
+
+	[GC]
+Unlocked With:
+Leader Bonus
+
+Weaponry:
+Thermal Detonator (1)
+Frag Grenade (2)
+Illegal Pulse Cannon
+Overcharged Sith Hand Pistol (3)
+Bounty Hunter Carbine (3)
+Cortosis Vibrosword *
+
+Vibrosword Info:
+Medium and Strong Styles
+Offense (3)
+Defense (3)
+
+Gadgets:
+Stealth Field Generator
+
+Attributes
+Close Combat Training (2)
+Deadly Punches (Wookie Melee)
+Quick Throw (2)
+Flip Kick (2)
+Dexterity (2)
+Stamina (2)
+Dodge (3)
+Gun Bash
+
+A bounty hunter contracted by the Sith, he looks incredibly terrifying."

@@ -1,0 +1,61 @@
+
+ClassInfo
+{
+	name			"s_4re_wdr"
+	maxhealth		20
+	maxarmor		60
+	forcepool		50
+	forceregen		2
+	classflags		CFL_NOLOCATIONDAMAGE|CFL_DISMEMBERFRAGILE		
+	speed			0.5
+	uishader  		"models/players/wardroid/mb2_icon_default"
+
+	deathAnim		SBD_DEATH
+	WalkForward 	SBD_WALK_NOGUN
+	WalkBackward	SBD_WALKBACK_NOGUN
+
+	resource	RESOURCE_BATTERY
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_EE4			
+	WeaponBasedOff		WP_BLASTER    			
+	NewWorldModel		"models/weapons2/kotor_brifle2/kotor_brifle2_w.glm"
+	NewViewModel		"models/weapons2/kotor_brifle2/kotor_brifle2.md3"
+	Icon			"gfx/hud/w_icon_kotor_brifle2"
+	WeaponName		"Scoped Sith Rifle"
+	FlashSound0			"sound/weapons/kotor/fire_med.wav"
+    AltFlashSound0		"sound/weapons/kotor/fire_hvy.wav"
+    idleAnim  			TORSO_WEAPONREADY3
+    customAmmo      800
+    clipSize        100
+    FPMult          0.8
+}
+
+description	"Revanite Sith - Sentinel War Droid - Star Forge
+
+    [GC]
+Unlocked With:
+Star Forge
+
+Can be used as a normal soldier, at the expense of lower lives.
+
+Class: SBD
+
+Weaponry:
+Scoped Sith Rifle (3)
+
+Attributes
+Reinforcements (2)
+Beskar Armor Plating (3)
+Magnetized Armor Plating (1)
+Immune to Mind Tricks
+No Locational Damage
+Recharge (1)
+Assemble
+
+
+Rakatan Sentinel Droids used by the Sith. They're more resilient to blaster fire than regular sith troopers, but are still vulnerable to pulse grenades and melee attacks.
+
+Their extreme resistance to punishment made them frequent frontliners for sith troopers to shield behind in strategic advances."

@@ -1,0 +1,62 @@
+
+ClassInfo
+{
+	name			"s_8fo_ofc"
+	maxhealth		100
+	maxarmor		100
+	uishader		"models/players/stormie_tfa/mb2_icon_pauldron_red"
+	rateoffire		0.675
+	speed			0.8
+
+	uishader_1		"models/players/mudtrooper/mb2_icon_andor"
+
+	uishader_2		"models/players/FO_Female/mb2_icon_default"
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_BRYAR_PISTOL
+	WeaponBasedOff		WP_BOWCASTER
+	NewWorldModel		"models/weapons2/SE-44C/se-44c_w.glm"
+	NewViewModel		"models/weapons2/SE-44C/se-44c.md3"
+	Icon				"gfx/hud/w_icon_SE-44c"
+	WeaponName			"SE-44c Pistol"
+	FlashSound0 "sound/weapsup/sup/pistol_fire.wav"
+    AltFlashSound0  "sound/weapsup/sup/pistol_altfire.wav"
+}
+
+WeaponInfo1
+{
+	WeaponToReplace		WP_A280       					//Required: Weapon Slot of weapon you're replacing
+	WeaponBasedOff		WP_BLASTER      					//Required: For future use, should be the same as WeaponToReplace
+	NewWorldModel		"models/weapons2/f11d_blaster/F11D_Stock_w.glm"  	//Required: New 3rd person/dropped weapon model
+	NewViewModel		"models/weapons2/f11d_blaster/blaster.md3"   	//Required: New 1st person weapon model
+	Icon				"gfx/hud/w_icon_f11" 				//Required: Weapon change icon
+	WeaponName			"F-11d Burst Carbine"    					//Required: Weapon change display name
+    FlashSound0 "sound/weapsup/sup/f11_fire.mp3"
+    AltFlashSound0  "sound/weapsup/sup/f11_alt_fire.mp3"
+	customAmmo      500
+	clipSize        100
+	FPMult          0.8
+}
+
+description	"First Order - Officer
+
+Weaponry:
+Cryogenic Grenade (1)
+Sonic Screamer (1)
+SE-44c Pistol (3)
+F-11d (A280) (3)
+
+Gadgets:
+Shield Generator (1)
+Web Turret (1)
+Binoculars (1)
+
+Attributes
+Close Combat Training (2)
+Blast Armor
+Gun Bash
+Rally
+
+A First Order officer, they look inspiring."

@@ -1,0 +1,37 @@
+
+ClassInfo
+{
+	name			"s_int_pad"
+	maxhealth       400
+	maxarmor		100
+	forcepool		500
+	speed			1.0
+	BPmultiplier    1.0
+	APmultiplier    1.0
+
+
+	uishader		"models/players/jedi_tf/mb2_icon_default"
+
+	uishader_1		"models/players/jedi_rm/mb2_icon_default"
+				
+	saber1			jediknight_supremacy1
+	saber2			none
+			
+	saber1_1    	jediknight_supremacy2
+	saber2_1		none	
+		
+	saber1_2  		jediknight_supremacy3
+	saber2_2		none	
+	
+	saber1_3		jediknight_supremacy4
+	saber2_3		none
+	
+	saber1_4		jediknight_supremacy5
+	saber2_4		none
+
+
+	damageTaken		0
+	damageGiven		0
+}
+
+description	"Padawan"

@@ -1,0 +1,26 @@
+
+ClassInfo
+{
+	name			"s_int_jed"
+	classflags		CFL_BPFREEJUMPS|CFL_HASQ3
+	maxhealth       400
+	maxarmor		100
+	forcepool		500
+	speed			1.0
+	BPmultiplier    1.0
+	APmultiplier    1.0
+
+
+	uishader		"models/players/anakin_tcw/mb2_icon_cw"
+
+	uishader_1		"models/players/obiwan_cw/mb2_icon_obiwan_cw"
+				
+	saber1			jediknight_supremacy1
+	saber2			none
+	
+
+	damageTaken		0
+	damageGiven		0
+}
+
+description	"Campaign Coordinator"

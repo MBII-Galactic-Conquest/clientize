@@ -1,0 +1,80 @@
+
+ClassInfo
+{
+	name			"s_2ca_pgc"
+	maxhealth		100
+	maxarmor		75
+	speed			0.6
+	uishader		"models/players/clonetrooper_p1/mb2_icon_arc"
+	
+	rateoffire		1.4
+	damageGiven		1
+
+    WP_MinigunFlags	HELD_ALTRELOAD|HELD_LOWDAMAGE|HELD_SLOW
+
+}
+
+WeaponInfo0
+{
+    WeaponToReplace        WP_CLONE_PISTOL                           //Required: Weapon Slot of weapon you're replacing
+    WeaponBasedOff        WP_BLASTER_PISTOL                          //Required: For future use, should be the same as WeaponToReplace
+    NewWorldModel        "models/weapons2/dc-17/dc-17_w.glm"      //Required: New 3rd person/dropped weapon model
+    NewViewModel        "models/weapons2/dc-17/dc-17.md3"       //Required: New 1st person weapon model
+    Icon                "gfx/hud/w_icon_dc-17"                 //Required: Weapon change icon
+    WeaponName            "DC-17 Clone Pistol"                        //Required: Weapon change display name
+    FlashSound0 "sound/weapsup/sup/wpn_rep_pistol_fire.wav"
+    AltFlashSound0  "sound/weapsup/sup/wpn_rep_pistol_fire.wav"
+	FlashSound4	"sound/weapsup/sup/wpn_rep_pistol_fire.wav"
+	AltFlashSound4	"sound/weapsup/sup/wpn_rep_pistol_fire.wav"
+	MuzzleEffect		"Blaster/MuzzleFlash01B"
+	MissileEffect		"blaster/Shot01B"
+	AltMissileEffect 	"blaster/Shot01B"
+    customAmmo      200
+    clipSize        100
+}
+
+WeaponInfo1
+{
+	WeaponToReplace WP_MINIGUN
+	WeaponBasedOff  WP_MINIGUN
+	NewWorldModel "models/weapons2/z6_rotary/rotary_cannon_w.glm"
+	NewViewModel  "models/weapons2/z6_rotary/rotary_cannon.md3"
+	Icon  "gfx/hud/w_icon_rotary_cannon"
+	WeaponName  "Z-6 Rotary Cannon"
+    FlashSound0 "sound/weapsup/sup/minigun_fire.mp3"
+    FlashSound1 "sound/weapsup/sup/minigun_fire.mp3"
+    FlashSound2 "sound/weapsup/sup/minigun_fire.mp3"
+    FlashSound3 "sound/weapsup/sup/minigun_fire.mp3"
+    AltFlashSound0 "sound/weapsup/sup/minigun_fire.mp3"
+    AltFlashSound1 "sound/weapsup/sup/minigun_fire.mp3"
+    AltFlashSound2 "sound/weapsup/sup/minigun_fire.mp3"
+    AltFlashSound3 "sound/weapsup/sup/minigun_fire.mp3"
+	MuzzleEffect		"Blaster/MuzzleFlash01B"
+	AltMuzzleEffect		"Blaster/MuzzleFlash01B"
+	MissileEffect		"blaster/Shot03B"
+	AltMissileEffect 	"blaster/Shot03B"
+	customAmmo         500
+	clipSize		   100
+	isMinigun			1
+	ReloadTimeModifier	2
+	FPMult     			0.9
+}
+
+description	"Phase 1 - Clone Heavy MG
+
+Weapons
+Pulse Grenade (1)
+Fire Grenades (1)
+Clone Pistol (1)
+Z-6 Rotary Cannon (3) * 
+
+* Special Weapon Descriptions:
+--- Z-6 Rotary Cannon
+- Based on Minigun
+
+Abilities:
+Reinforcements (1)
+Close Combat Training (2)
+Bounty Hunter Kick
+
+A phase one heavy clone MG trooper."

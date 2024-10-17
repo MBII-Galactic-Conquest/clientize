@@ -1,0 +1,99 @@
+
+ClassInfo
+{
+	name			"s_9ex_hvg"
+	saber1			kotor_vibrosword_supremacy
+	forcepool		50
+	maxhealth		100
+	maxarmor		75
+	speed			1.0
+	uishader		"models/players/prisoner/mb2_icon_oldrepsold_helm_FA"
+
+	uishader_1		"models/players/prisoner/mb2_icon_oldrepsold_helm2_FA"
+
+	rateoffire		1.4
+	damageGiven		1
+
+    WP_MinigunFlags	HELD_ALTRELOAD|HELD_LOWDAMAGE|HELD_SLOW
+
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_SABER			
+	WeaponBasedOff		WP_SABER			
+	NewWorldModel		"models/weapons2/kotor_longsword/saber_w.glm"  
+	NewViewModel		"models/weapons2/dummy/dummy.md3" 	  
+	Icon			"gfx/hud/w_icon_vibrosword"
+	WeaponName		"Cortosis Vibrosword"    	 			
+}
+
+WeaponInfo1
+{
+	WeaponToReplace		WP_BRYAR_PISTOL
+	WeaponBasedOff		WP_BOWCASTER
+	NewWorldModel		"models/weapons2/kotor_bpistol2/kotor_bpistol2_w.glm"
+	NewViewModel		"models/weapons2/kotor_bpistol2/kotor_bpistol2.md3"
+	Icon				"gfx/hud/w_icon_kotor_bpistol2"
+	WeaponName			"BP-2 Hand Pistol"
+	FlashSound0			"sound/weapons/kotor/fire_light.wav"
+    AltFlashSound0		"sound/weapons/kotor/fire_hvy.wav"
+	ChargeEffect		"gfx/effects/clonefrontflash"
+	OverchargeEffect	"Blaster/MuzzleFlash04B"
+	PowerupShotEffect	"Blaster/Shot04B"
+	MuzzleEffect		"Blaster/MuzzleFlash01B"
+	AltMuzzleEffect		"Blaster/MuzzleFlash01B"
+	MissileEffect		"blaster/Shot01B"
+	AltMissileEffect 	"blaster/Shot01B"
+}
+
+WeaponInfo2
+{
+	WeaponToReplace WP_MINIGUN
+	WeaponBasedOff  WP_MINIGUN
+	NewWorldModel "models/weapons2/z6_rotary/rotary_cannon_w.glm"
+	NewViewModel  "models/weapons2/z6_rotary/rotary_cannon.md3"
+	Icon  "gfx/hud/w_icon_rotary_cannon"
+	WeaponName  "Republic Suppressing MG"
+    FlashSound0 "sound/weapsup/sup/minigun_fire.mp3"
+    FlashSound1 "sound/weapsup/sup/minigun_fire.mp3"
+    FlashSound2 "sound/weapsup/sup/minigun_fire.mp3"
+    FlashSound3 "sound/weapsup/sup/minigun_fire.mp3"
+    AltFlashSound0 "sound/weapsup/sup/minigun_fire.mp3"
+    AltFlashSound1 "sound/weapsup/sup/minigun_fire.mp3"
+    AltFlashSound2 "sound/weapsup/sup/minigun_fire.mp3"
+    AltFlashSound3 "sound/weapsup/sup/minigun_fire.mp3"
+	MuzzleEffect		"Blaster/MuzzleFlash01B"
+	AltMuzzleEffect		"Blaster/MuzzleFlash01B"
+	MissileEffect		"blaster/Shot03B"
+	AltMissileEffect	"blaster/Shot03B"
+	customAmmo         500
+	clipSize		   100
+	isMinigun			1
+	ReloadTimeModifier	2
+	FPMult     			0.9
+}
+
+description	"Old Republic - Heavy Gunner
+
+Weapons
+Fire Grenades (2)
+BP-2 Hand Pistol (2)
+Republic Suppressing MG *
+Cortosis Vibrosword *
+
+* Special Weapon Descriptions:
+--- Repubic Suppressing MG
+Based on Minigun 
+--- Vibrosword Info:
+Medium Style
+Offense (2)
+Defense (2)
+
+Abilities:
+Reinforcements (1)
+Close Combat Training (2)
+Dexterity (1)
+Stamina (2)
+
+A valiant heavy gunner of the Old Republic."

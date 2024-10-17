@@ -1,0 +1,16 @@
+//Galactic Conquest/Supremacy siegeteam file - Created by 2cwldys & John
+//Clone Wars
+
+name "Sup_GoodPH2-2-EB"
+
+ClassesAllowed 1
+TimePeriod 5
+EUAllowed 0
+
+Classes
+
+{
+class1	"s_2ca_cs1eb"
+}
+
+//1-6

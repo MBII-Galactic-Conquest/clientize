@@ -1,0 +1,49 @@
+
+ClassInfo
+{
+	name			"s_8fo_vet"
+	maxhealth		100
+	maxarmor		75
+	speed			0.7
+	uishader		"models/players/stormie_tfa/mb2_icon_pauldron"
+
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_BRYAR_PISTOL
+	WeaponBasedOff		WP_BOWCASTER
+	NewWorldModel		"models/weapons2/SE-44C/se-44c_w.glm"
+	NewViewModel		"models/weapons2/SE-44C/se-44c.md3"
+	Icon				"gfx/hud/w_icon_SE-44c"
+	WeaponName			"SE-44c Pistol"
+	FlashSound0 "sound/weapsup/sup/pistol_fire.wav"
+    AltFlashSound0  "sound/weapsup/sup/pistol_altfire.wav"
+}
+
+WeaponInfo1
+{
+	WeaponToReplace		WP_T21
+	WeaponBasedOff		WP_T21
+	NewWorldModel		"models/weapons2/FWMB-10/fwmb-10_w.glm"
+	NewViewModel		"models/weapons2/FWMB-10/fwmb-10.md3"
+	Icon				"gfx/hud/w_icon_fwmb-10"
+	WeaponName			"FWMB-10 Rifle"
+    FlashSound0 "sound/weapsup/sup/f11_fire.mp3"
+    AltFlashSound0  "sound/weapsup/sup/f11_alt_fire.mp3"
+}
+
+description	"First Order - Stormtrooper Veteran
+
+Weapons
+Frag Grenade (1)
+Concussion Grenade (1)
+SE-44c Pistol (2)
+FWMB-10 (T21) (3)
+
+Abilities:
+Reinforcements (1)
+Close Combat Training (2)
+Bounty Hunter Kick
+
+An First Order stormtrooper veteran, who has seen some action, carrying a backpack of supplies and better arsenal to match."

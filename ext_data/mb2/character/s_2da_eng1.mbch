@@ -1,0 +1,79 @@
+
+ClassInfo
+{
+	name			"s_2da_eng1"
+	classflags		CFL_FASTHACKING
+	forcepool		50
+	maxhealth		40
+	maxarmor		20
+	speed			1.0
+	uishader		"models/players/battledroid/mb2_icon_pilot_rgb"
+
+
+	WP_ShotgunFlags HELD_ALTRELOAD
+
+}
+
+WeaponInfo0
+{
+    WeaponToReplace        WP_BLASTER_PISTOL                           //Required: Weapon Slot of weapon you're replacing
+    WeaponBasedOff        WP_BLASTER_PISTOL                          //Required: For future use, should be the same as WeaponToReplace
+    NewWorldModel        "models/weapons2/se-14c_pistol/blaster_pistol_w.glm"      //Required: New 3rd person/dropped weapon model
+    NewViewModel        "models/weapons2/se-14c_pistol/blaster_pistol.md3"       //Required: New 1st person weapon model
+    Icon                "gfx/hud/w_icon_se-14c"                 //Required: Weapon change icon
+    WeaponName            "SE-14c BlasTech Pistol"                        //Required: Weapon change display name
+    FlashSound0 "sound/weapsup/sup/wpn_cis_pistol_fire.wav"
+    AltFlashSound0  "sound/weapsup/sup/wpn_cis_pistol_fire.wav"
+	FlashSound4	"sound/weapsup/sup/wpn_cis_pistol_fire.wav"
+	AltFlashSound4 "sound/weapsup/sup/wpn_cis_pistol_fire.wav"
+	MuzzleEffect		"Blaster/MuzzleFlash01R"
+	MissileEffect		"blaster/Shot01R"
+	AltMissileEffect 	"blaster/Shot01R"
+    customAmmo      200
+    clipSize        100
+}
+
+WeaponInfo1
+{
+    WeaponToReplace        WP_SHOTGUN                           //Required: Weapon Slot of weapon you're replacing
+    WeaponBasedOff        WP_BOWCASTER                          //Required: For future use, should be the same as WeaponToReplace
+    NewWorldModel        "models/weapons2/e5/e5_w.glm"      //Required: New 3rd person/dropped weapon model
+    NewViewModel        "models/weapons2/e5/e5.md3"       //Required: New 1st person weapon model
+    Icon                "gfx/hud/w_icon_e5"                 //Required: Weapon change icon
+    WeaponName            "E-5e TF Blast Cannon"                        //Required: Weapon change display name
+    FlashSound0 		"sound/weapsup/r/wpn_all_bowcaster_fire.wav"
+	MuzzleEffect         "flechette/muzzle_flash"
+    customAmmo           432
+    clipsize             36
+    AltFireEnabled       0
+}
+
+ForceInfo0
+{
+	ForceToReplace	FP_SEE
+	Icon		"gfx/forcepowers/radar"
+	ForcePowerName	"Radar Scanner"
+}
+
+description	"Battle Droid Engineer
+
+Weapons
+Droid Frag Grenades (2)
+SE-14c Blaster Pistol (1)
+E-5e Blast Cannon
+
+Gadgets:
+Deployable Floor Turret (1)
+Seeker Droid (1)
+
+Abilities:
+Reinforcements (2)
+Close Combat Training (2)
+Armor Repair Kit
+Ammo Bandolier
+Quick Throw (2)
+Fast Hack
+Gun Bash
+Assemble
+
+A battle droid engineer of the Trade Federation, with an ammunition bandolier, and an armor repair kit."

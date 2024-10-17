@@ -1,0 +1,62 @@
+
+ClassInfo
+{
+	name			"s_14nr_ofc"
+	maxhealth		100
+	maxarmor		100
+	uishader		"models/players/rebel/mb2_icon_desert"
+	rateoffire		0.675
+	speed			0.8
+
+	uishader_1		"models/players/jedi_hm/mb2_icon_hothelite2"
+
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_BRYAR_PISTOL
+	WeaponBasedOff		WP_BOWCASTER
+	NewWorldModel		"models/weapons2/blaster_pistol/blaster_pistol_w.glm"
+	NewViewModel		"models/weapons2/blaster_pistol/blaster_pistol.md3"
+	Icon				"gfx/hud/w_icon_blaster_pistol"
+	WeaponName			"Pistol"
+	FlashSound0 "sound/weapsup/r/wpn_rebel_pistol_fire.wav"
+    AltFlashSound0  "sound/weapsup/r/wpn_rebel_pistol_fire.wav"
+}
+
+WeaponInfo1
+{
+	WeaponToReplace		WP_A280       					//Required: Weapon Slot of weapon you're replacing
+	WeaponBasedOff		WP_BLASTER      					//Required: For future use, should be the same as WeaponToReplace
+	NewWorldModel		"models/weapons2/EE4_carbine/model_w.glm"  	//Required: New 3rd person/dropped weapon model
+	NewViewModel		"models/weapons2/EE4_carbine/blaster.md3"   	//Required: New 1st person weapon model
+	Icon				"gfx/hud/w_icon_ee-4" 				//Required: Weapon change icon
+	WeaponName			"EE-4 Carbine Rifle"    					//Required: Weapon change display name
+    FlashSound0 "sound/weapsup/r/wpn_rebel_blaster_fire.wav"
+    AltFlashSound0  "sound/weapsup/r/wpn_rebel_blaster_fire.wav"
+	customAmmo      500
+	clipSize        100
+	FPMult          0.8
+}
+
+description	"New Republic Officer
+
+Weaponry:
+Cryogenic Grenade (1)
+Sonic Screamer (1)
+Pistol (2)
+EE-4 (3)
+
+Gadgets:
+Shield Generator (1)
+Web Turret (1)
+Binoculars (1)
+
+Attributes
+Reinforcements (1)
+Close Combat Training (2)
+Blast Armor
+Gun Bash
+Rally
+
+A New Republic Officer, he looks inspiring."

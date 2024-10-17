@@ -1,0 +1,69 @@
+
+ClassInfo
+{
+	name			"s_15et_hvg"
+	maxhealth		40
+	maxarmor		50
+	uishader		"models/players/skytrooper/mb2_icon_default"
+	speed			0.8
+	
+	rateoffire		1.4
+	damageGiven		1
+
+    WP_MinigunFlags	HELD_ALTRELOAD|HELD_LOWDAMAGE|HELD_SLOW
+
+
+	resource	RESOURCE_FUEL
+}
+
+WeaponInfo0
+{
+    WeaponToReplace        WP_MINIGUN                           //Required: Weapon Slot of weapon you're replacing
+    WeaponBasedOff        WP_MINIGUN                          //Required: For future use, should be the same as WeaponToReplace
+	NewWorldModel		"models/weapons2/mgun/heavy_repeater_w.glm"
+	NewViewModel		"models/weapons2/mgun/heavy_repeater.md3"
+	NewHandsModel		"models/weapons2/mgun/heavy_repeater_hand.md3"
+	NewBarrelModel		"models/weapons2/mgun/heavy_repeater_barrel.md3"
+    Icon                "gfx/hud/w_icon_rotary_cannon"                 //Required: Weapon change icon
+    WeaponName            "Skytrooper Minigun"                        //Required: Weapon change display name
+    FlashSound0 "sound/weapsup/sup/minigun_fire.mp3"
+    FlashSound1 "sound/weapsup/sup/minigun_fire.mp3"
+    FlashSound2 "sound/weapsup/sup/minigun_fire.mp3"
+    FlashSound3 "sound/weapsup/sup/minigun_fire.mp3"
+    AltFlashSound0 "sound/weapsup/sup/minigun_fire.mp3"
+    AltFlashSound1 "sound/weapsup/sup/minigun_fire.mp3"
+    AltFlashSound2 "sound/weapsup/sup/minigun_fire.mp3"
+    AltFlashSound3 "sound/weapsup/sup/minigun_fire.mp3"
+	MuzzleEffect		"Blaster/MuzzleFlash01B"
+	AltMuzzleEffect		"Blaster/MuzzleFlash01B"
+	MissileEffect		"blaster/Shot03B"
+	AltMissileEffect 	"blaster/Shot03B"
+	
+    customAmmo      500
+    clipSize        100
+	ReloadTimeModifier	2
+    FPMult          0.8
+}
+
+description	"Eternal Empire - Sky Trooper (MG)
+
+Class: SBD
+
+Weaponry:
+Fire Grenade (2)
+Skytrooper Minigun *
+
+* Special Weapon Descriptions:
+--- Skytrooper Minigun
+- Based on Minigun
+
+Attributes
+Reinforcements (1)
+Jump Pack (Fuel 1)
+Magnetic Plating (1)
+Advanced Sensor Plating (ANTI-MT) (1)
+Cortosis (1)
+Beskar (1)
+Recharge (1)
+
+A skytrooper, a standard combat droid of the Eternal Empire."

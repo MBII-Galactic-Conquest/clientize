@@ -1,0 +1,68 @@
+
+ClassInfo
+{
+	name			"s_7cd_ma1"
+	classflags		CFL_STRONGAGAINSTPHYSICAL
+	forcepool		50
+	maxhealth		100
+	maxarmor		30
+	uishader		"models/players/mbmandy/mb2_icon_mbrgb2"
+	speed			0.8
+
+	resource	RESOURCE_FUEL
+
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_BRYAR_PISTOL
+	WeaponBasedOff		WP_BOWCASTER
+	NewWorldModel       "models/weapons2/westar34/westar34.glm"
+	NewViewModel        "models/weapons2/westar34/westar34.md3"
+	Icon                "gfx/hud/w_icon_westar"
+	WeaponName			"Mandalorian Westar Pistol"
+	FlashSound0			"sound/weapons/westar/fire.mp3"
+	AltFlashSound0		"sound/weapons/westar/alt_fire.mp3"
+}
+
+WeaponInfo1
+{
+	WeaponToReplace		WP_EE4
+	WeaponBasedOff		WP_EE4
+	NewWorldModel		"models/weapons2/kotor_brifle1/kotor_brifle1_w.glm"
+	NewViewModel		"models/weapons2/kotor_brifle1/kotor_brifle1.md3"
+	Icon				"gfx/hud/w_icon_kotor_brifle1"
+	WeaponName			"Mandalorian Heavy Rifle"
+	FlashSound0			"sound/weapons/kotor/fire_hvy.wav"
+    AltFlashSound0		"sound/weapons/kotor/fire_hvy.wav"
+	customAmmo			600
+	clipSize            60
+	firingAnim	        BOTH_ATTACK4
+	ReloadTimeModifier 	2
+	FPMult     			0.9
+}
+
+description	"Clan Ordo - Mandalorian - Multi-Purpose
+
+Weaponry:
+Pulse Grenade (2)
+Mandalorian Westar Pistol (2)
+Mandalorian Heavy Rifle (3)
+Mandalorian Rocket (1) (CS1)
+
+Wrist Gadgets:
+-- Middle mouse button to cycle
+Flamethrower (CS2)
+Wrist Laser	(CS3)
+
+Attributes
+Close Combat Training (2)
+Melee Resistant Plating
+Quick Throw (1) (CS4)
+Force Block (2)
+Dexterity (2)
+Jet Pack (2)
+Beskar (2)
+Assemble
+
+An elite mandalorian of Clan Ordo, fitted in their finest beskar and family regalia."

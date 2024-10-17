@@ -1,0 +1,64 @@
+
+ClassInfo
+{
+	name			"s_1em_med"
+	classflags		CFL_STATVIEWER
+	maxhealth		100
+	maxarmor		20
+	uishader		"models/players/stormie/mb2_icon_vader"
+	speed			0.8
+
+
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_BRYAR_PISTOL
+	WeaponBasedOff		WP_BOWCASTER
+	NewWorldModel		"models/weapons2/imp_pistol/pistol_w.glm"
+	NewViewModel		"models/weapons2/imp_pistol/pistol_fpv.md3"
+	Icon				"gfx/hud/w_icon_imp_pistol"
+	WeaponName			"Pistol"
+	FlashSound0 "sound/weapsup/r/wpn_imp_pistol_fire.wav"
+    AltFlashSound0  "sound/weapsup/r/wpn_imp_pistol_fire.wav"
+}
+
+WeaponInfo1
+{
+    WeaponToReplace        WP_BLASTER                           //Required: Weapon Slot of weapon you're replacing
+    WeaponBasedOff        WP_BLASTER                          //Required: For future use, should be the same as WeaponToReplace
+    NewWorldModel        "models/weapons2/blaster_r/blaster_w.glm"      //Required: New 3rd person/dropped weapon model
+    NewViewModel        "models/weapons2/blaster_r/blaster.md3"       //Required: New 1st person weapon model
+    Icon                "gfx/hud/w_icon_e11"                 //Required: Weapon change icon
+    WeaponName            "E-11 Imperial Carbine"                        //Required: Weapon change display name
+    FlashSound0 "sound/weapsup/r/wpn_imp_blaster_fire.wav"
+    AltFlashSound0  "sound/weapsup/r/wpn_imp_blaster_fire.wav"
+    customAmmo      500
+    clipSize        100
+    FPMult          0.8
+}
+
+description	"Imperial Medic
+
+	[GC]
+Unlocked With:
+Bacta Tank Bonus
+
+Weaponry:
+Pistol (2)
+E-11 (2)
+
+Gadgets:
+Personal Small Bacta (1)
+Personal Large Bacta (1)
+
+Attributes
+Close Combat Training (2)
+Hero Heal on Use
+Flip Kick (2)
+Dodge (2)
+Dash (2)
+Gun Bash
+
+An imperial medic."
+

@@ -1,0 +1,71 @@
+
+ClassInfo
+{
+	name			"s_10em_hvr"
+	maxhealth		100
+	maxarmor		75
+	speed			1.0
+	uishader		"models/players/clonetrooper_p2/mb2_icon_default"
+
+	WP_PLX1Flags	HELD_SLOW
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_BRYAR_PISTOL
+	WeaponBasedOff		WP_BOWCASTER
+    NewWorldModel        "models/weapons2/dc-17/dc-17_w.glm"      //Required: New 3rd person/dropped weapon model
+    NewViewModel        "models/weapons2/dc-17/dc-17.md3"       //Required: New 1st person weapon model
+    Icon                "gfx/hud/w_icon_dc-17"
+	WeaponName			"DC-17r Pistol"
+	FlashSound0 "sound/weapsup/sup/pistol_fire.wav"
+    AltFlashSound0  "sound/weapsup/sup/pistol_altfire.wav"
+}
+
+
+WeaponInfo1
+{
+    WeaponToReplace        WP_BLASTER                           //Required: Weapon Slot of weapon you're replacing
+    WeaponBasedOff        WP_BLASTER                          //Required: For future use, should be the same as WeaponToReplace
+    NewWorldModel        "models/weapons2/dc-15s/dc-15s_w.glm"      //Required: New 3rd person/dropped weapon model
+    NewViewModel        "models/weapons2/dc-15s/dc-15s.md3"       //Required: New 1st person weapon model
+    Icon                "gfx/hud/w_icon_dc-15s"                 //Required: Weapon change icon
+    WeaponName            "DC-15s Imperial Carbine"                        //Required: Weapon change display name
+    FlashSound0 "sound/weapsup/sup/f11_fire.mp3"
+    AltFlashSound0  "sound/weapsup/sup/f11_alt_fire.mp3"
+    customAmmo      500
+    clipSize        100
+    FPMult          0.8
+
+	idleAnim		DC15_READY
+	firingAnim		DC15_FIRE
+	altFiringAnim	DC15_FIRE
+}
+
+WeaponInfo2
+{
+	WeaponToReplace		WP_PLX1
+	WeaponBasedOff		WP_PLX1
+	NewWorldModel		"models/weapons2/MiniMag_launcher/launcher_w.glm"
+	NewViewModel		"models/weapons2/MiniMag_launcher/launcher.md3"
+	Icon				"gfx/hud/w_icon_MiniMag"
+	WeaponName			"MiniMag PTL Launcher"
+	customAmmo           1
+}
+
+description	"Early Empire - Heavy Rocket Trooper
+
+Weapons
+Frag Grenades (2)
+Rocket Launcher (1)
+DC-17r Pistol (2)
+E-11 Carbine (3)
+
+Abilities:
+Reinforcements (1)
+Close Combat Training (2)
+Dexterity (1)
+Stamina (2)
+Gun Bash
+
+A clone Heavy Rocket Trooper."

@@ -1,0 +1,86 @@
+
+ClassInfo
+{
+	name			"s_4cz_sold"
+	saber1			kotor_vibrosword_supremacy
+	maxhealth		75
+	maxarmor		25
+	forcepool		25
+	uishader		"models/players/rebel_gag/mb2_icon_default"
+	speed			0.8
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_SABER			
+	WeaponBasedOff		WP_SABER			
+	NewWorldModel		"models/weapons2/kotor_longsword/saber_w.glm"  
+	NewViewModel		"models/weapons2/dummy/dummy.md3" 	  
+	Icon			"gfx/hud/w_icon_vibrosword"
+	WeaponName		"Cortosis Vibrosword"    	 			
+}
+
+WeaponInfo1
+{
+	WeaponToReplace		WP_BRYAR_PISTOL
+	WeaponBasedOff		WP_BOWCASTER
+	NewWorldModel		"models/weapons2/kotor_bpistol2/kotor_bpistol2_w.glm"
+	NewViewModel		"models/weapons2/kotor_bpistol2/kotor_bpistol2.md3"
+	Icon				"gfx/hud/w_icon_kotor_bpistol2"
+	WeaponName			"Czerka Pistol"
+	FlashSound0			"sound/weapons/kotor/fire_light.wav"
+    AltFlashSound0		"sound/weapons/kotor/fire_hvy.wav"
+	ChargeEffect		"gfx/effects/blasterfrontflash"
+	MuzzleEffect		"Blaster/MuzzleFlash01R"
+	AltMuzzleEffect		"Blaster/MuzzleFlash01R"
+	MissileEffect		"Blaster/Shot02Y"
+	AltMissileEffect 	"Blaster/Shot02Y"
+	PowerupShotEffect	"Blaster/Shot04Y"
+	OverchargeEffect	"Blaster/Shot04Y"
+}
+
+WeaponInfo2
+{
+    WeaponToReplace        WP_BLASTER                           //Required: Weapon Slot of weapon you're replacing
+    WeaponBasedOff        WP_BLASTER                          //Required: For future use, should be the same as WeaponToReplace
+	NewWorldModel		"models/weapons2/kotor_brifle1/kotor_brifle1_w.glm"
+	NewViewModel		"models/weapons2/kotor_brifle1/kotor_brifle1.md3"
+	Icon				"gfx/hud/w_icon_kotor_brifle1"
+    WeaponName            "Czerka Assault Rifle"                        //Required: Weapon change display name
+	FlashSound0			"sound/weapons/kotor/fire_med.wav"
+    AltFlashSound0		"sound/weapons/kotor/fire_hvy.wav"
+	FlashSound1			"sound/weapons/kotor/fire_med.wav"
+	AltFlashSound1		"sound/weapons/kotor/fire_hvy.wav"
+	FlashSound2			"sound/weapons/kotor/fire_med.wav"
+	AltFlashSound2		"sound/weapons/kotor/fire_hvy.wav"
+	MuzzleEffect		"Blaster/MuzzleFlash01R"
+	AltMuzzleEffect		"Blaster/MuzzleFlash01R"
+	MissileEffect		"Blaster/Shot02Y"
+	AltMissileEffect	"Blaster/Shot02Y"
+    customAmmo      500
+    clipSize        100
+    FPMult          0.8
+}
+
+description	"Czerka Corporation - Soldier
+
+Weaponry:
+Concussion Grenade (1)
+Frag Grenade (1)
+Czerka Pistol (2)
+Czerka Assault Rifle (2)
+Cortosis Vibrosword *
+
+Vibrosword Info:
+Medium Style
+Offense (2)
+Defense (1)
+
+Attributes
+Reinforcements (3)
+Close Combat Training (2)
+Stamina (1)
+Gun Bash
+Assemble
+
+A czerka corporation soldier, member of their asset protection and retrieval."

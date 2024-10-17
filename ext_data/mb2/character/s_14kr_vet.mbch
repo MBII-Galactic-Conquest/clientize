@@ -1,0 +1,40 @@
+
+ClassInfo
+{
+	name			"s_14kr_vet"
+	maxhealth		100
+	maxarmor		75
+	speed			0.7
+	uishader		"models/players/stormie/mb2_icon_sandtrooper"
+
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_BRYAR_PISTOL
+	WeaponBasedOff		WP_BOWCASTER
+	NewWorldModel		"models/weapons2/imp_pistol/pistol_w.glm"
+	NewViewModel		"models/weapons2/imp_pistol/pistol_fpv.md3"
+	Icon				"gfx/hud/w_icon_imp_pistol"
+	WeaponName			"Pistol"
+	FlashSound0 "sound/weapsup/r/wpn_imp_pistol_fire.wav"
+    AltFlashSound0  "sound/weapsup/r/wpn_imp_pistol_fire.wav"
+}
+
+description	"Krayt Empire - Imperial Veteran
+
+Weapons
+Frag Grenade (1)
+Concussion Grenade (1)
+Pistol (2)
+T-21 (3)
+
+Abilities:
+Reinforcements (1)
+Close Combat Training (2)
+Dexterity (2)
+Stamina (2)
+
+An imperial veteran, who has seen some action, carrying a backpack of supplies and better arsenal to match.
+
+Darth Krayt's Empire, the contender to the Imperial Throne, in the belief of returning the rule of two to the galaxy, and the oppression of the Sith. Is at an all out open war with the New Republic, and the Fel-Empire."

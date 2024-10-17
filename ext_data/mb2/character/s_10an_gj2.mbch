@@ -1,0 +1,68 @@
+
+ClassInfo
+{
+	name			"s_10an_gj2"
+	maxhealth       100
+	forcepool		200
+	speed			1.0
+	BPmultiplier    1.0
+	APmultiplier    1.0
+	
+	damageGiven        1.10
+		
+	uishader		"models/players/jeditrainer/mb2_icon_default"
+	
+	uishader_1		"models/players/jedi/mb2_icon_default"
+	
+	uishader_2		"models/players/jedi/mb2_icon_master"
+
+	uishader_3		"models/players/jedi_female/mb2_icon_rcnaat"
+				
+	saber1			jediknight_supremacy1
+	saber2			none
+			
+	saber1_1    	jediknight_supremacy2
+	saber2_1		none	
+		
+	saber1_2  		jediknight_supremacy3
+	saber2_2		none	
+	
+	saber1_3		jediknight_supremacy4
+	saber2_3		none
+	
+	saber1_4		jediknight_supremacy5
+	saber2_4		none
+
+
+}
+
+description	"Generic Leader: Jedi Sorcerer Exile
+
+	[GC]
+Unlocked With:
+Leader Bonus
+
+Class: Jedi.
+Class Summary: 
+A single-life Jedi sorcerer.
+
+Lightsaber:
+- Defense (0)
+- Can use Blue and Red styles
+
+Force Powers:
+- Jump (3)
+- Push (3)
+- Pull (3)
+- Sense (3)
+- Speed (3)
+- Mind Trick (3)
+- Protect (3)
+- Absorb (3)
+- Team Heal (2)
+- Team Energize (2)
+- Force Block (2)
+- Force Focus (1)
+- Repulse
+
+For over a thousand generations, the Jedi Knights were the guardians of peace and justice in the Old Republic."

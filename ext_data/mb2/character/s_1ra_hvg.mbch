@@ -1,0 +1,76 @@
+
+ClassInfo
+{
+	name			"s_1ra_hvg"
+	maxhealth		100
+	maxarmor		75
+	speed			0.6
+	uishader		"models/players/rebel/mb2_icon_default_tan"
+	
+
+	uishader_1		"models/players/rebel_commando/mb2_icon_default"
+
+	uishader_2		"models/players/rebel_commando/mb2_icon_hoth"
+
+	rateoffire		1.4
+	damageGiven		1
+
+    WP_MinigunFlags	HELD_ALTRELOAD|HELD_LOWDAMAGE|HELD_SLOW
+
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_BRYAR_PISTOL
+	WeaponBasedOff		WP_BOWCASTER
+	NewWorldModel		"models/weapons2/blaster_pistol/blaster_pistol_w.glm"
+	NewViewModel		"models/weapons2/blaster_pistol/blaster_pistol.md3"
+	Icon				"gfx/hud/w_icon_blaster_pistol"
+	WeaponName			"Pistol"
+	FlashSound0 "sound/weapsup/r/wpn_rebel_pistol_fire.wav"
+    AltFlashSound0  "sound/weapsup/r/wpn_rebel_pistol_fire.wav"
+}
+
+WeaponInfo1
+{
+	WeaponToReplace WP_MINIGUN
+	WeaponBasedOff  WP_MINIGUN
+	NewWorldModel "models/weapons2/DLT-19_HeavyBlaster/model_scope.glm"
+	NewViewModel  "models/weapons2/DLT-19_HeavyBlaster/riflescoped.md3"
+	Icon  "gfx/hud/w_icon_dlt19scoped"
+	WeaponName  "DLT-19"
+	FlashSound0	"sound/weapons/DLT19/fire.wav"
+	FlashSound1	"sound/weapons/DLT19/fire.wav"
+	FlashSound2	"sound/weapons/DLT19/fire.wav"
+	FlashSound3	"sound/weapons/DLT19/fire.wav"
+	AltFlashSound0	"sound/weapons/DLT19/fire.wav"
+	AltFlashSound1	"sound/weapons/DLT19/fire.wav"
+	AltFlashSound2	"sound/weapons/DLT19/fire.wav"
+	AltFlashSound3	"sound/weapons/DLT19/fire.wav"
+	MuzzleEffect  "Blaster/MuzzleFlash01R"
+	AltMuzzleEffect	"Blaster/MuzzleFlash01R"
+	MissileEffect		"Blaster/Shot03R"
+	customAmmo         500
+	clipSize		   100
+	isMinigun			1
+	ReloadTimeModifier	2
+	FPMult     			0.9
+}
+
+description	"Rebel Heavy MG Trooper
+
+Weapons
+Fire Grenades (2)
+Pistol (2)
+DLT-19 *
+
+* Special Weapon Descriptions:
+--- DLT-19
+- Based on Minigun
+
+Abilities:
+Reinforcements (1)
+Close Combat Training (2)
+Bounty Hunter Kick
+
+A Rebel Heavy MG Trooper."

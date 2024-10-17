@@ -1,0 +1,76 @@
+
+ClassInfo
+{
+	name			"s_7py_ofc"
+	saber1			kotor_vibrosword_supremacy
+	maxhealth		125
+	maxarmor		125
+	uishader		"models/players/pyke2/mb2_icon_default3"
+	rateoffire		0.675
+	speed			1.0
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_BLASTER_PISTOL       					//Required: Weapon Slot of weapon you're replacing
+	WeaponBasedOff		WP_BLASTER_PISTOL      					//Required: For future use, should be the same as WeaponToReplace
+	NewWorldModel		"models/weapons2/kotor_hobpistol/kotor_hobpistol_w.glm"  	//Required: New 3rd person/dropped weapon model
+	NewViewModel		"models/weapons2/kotor_hobpistol/kotor_hobpistol.md3"   	//Required: New 1st person weapon model
+	Icon				"gfx/hud/w_icon_kotor_hobpistol_na" 				//Required: Weapon change icon
+	WeaponName			"Syndicate Pistol"    					//Required: Weapon change display name
+    FlashSound0			"sound/weapsup/sup/wpn_cis_sonicBlaster_fire.wav"
+    AltFlashSound0  	"sound/weapons/E-5s/alt_fire.mp3"
+	customAmmo      500
+	clipSize        100
+	FPMult          0.8
+}
+
+WeaponInfo1
+{
+	WeaponToReplace		WP_SABER			
+	WeaponBasedOff		WP_SABER			
+	NewWorldModel		"models/weapons2/kotor_longsword/saber_w.glm"  
+	NewViewModel		"models/weapons2/dummy/dummy.md3" 	  
+	Icon			"gfx/hud/w_icon_vibrosword"
+	WeaponName		"Cortosis Vibrosword"    	 			
+}
+
+WeaponInfo2
+{
+	WeaponToReplace		WP_A280       					//Required: Weapon Slot of weapon you're replacing
+	WeaponBasedOff		WP_BLASTER      					//Required: For future use, should be the same as WeaponToReplace
+	NewWorldModel		"models/weapons2/kotor_ionrifle/kotor_ionrifle.glm"  	//Required: New 3rd person/dropped weapon model
+	NewViewModel		"models/weapons2/kotor_ionrifle/kotor_ionrifle.md3"   	//Required: New 1st person weapon model
+	Icon				"gfx/hud/w_icon_kotor_ionrifle" 				//Required: Weapon change icon
+	WeaponName			"Syndicate Rifle"    					//Required: Weapon change display name
+    FlashSound0 "sound/weapons/E-5s/fire.mp3"
+    AltFlashSound0  "sound/weapons/E-5s/alt_fire.mp3"
+	customAmmo      500
+	clipSize        100
+	FPMult          0.8
+}
+
+description	"Pyke Syndicate - Low Boss
+
+Weaponry:
+Cryogenic Grenade (1)
+Sonic Screamer (1)
+Syndicate Pistol (3)
+Syndicate Rifle (A280) (3)
+
+Vibrosword Info:
+Saber Offense (2)
+Saber Defense (1)
+
+Gadgets:
+Shield Generator (1)
+Web Turret (1)
+Binoculars (1)
+
+Attributes
+Close Combat Training (2)
+Blast Armor
+Gun Bash
+Rally
+
+A criminal ringleader of the Pyke Syndicate, he looks inspiring."

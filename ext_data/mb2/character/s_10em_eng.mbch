@@ -1,0 +1,76 @@
+
+ClassInfo
+{
+	name			"s_10em_eng"
+	classflags		CFL_FASTHACKING
+	forcepool		50
+	maxhealth		100
+	maxarmor		20
+	speed			0.7
+	uishader		"models/players/clonetrooper_p2/mb2_icon_13"
+
+
+	WP_ShotgunFlags HELD_ALTRELOAD
+
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_BRYAR_PISTOL
+	WeaponBasedOff		WP_BOWCASTER
+    NewWorldModel        "models/weapons2/dc-17/dc-17_w.glm"      //Required: New 3rd person/dropped weapon model
+    NewViewModel        "models/weapons2/dc-17/dc-17.md3"       //Required: New 1st person weapon model
+    Icon                "gfx/hud/w_icon_dc-17"
+	WeaponName			"DC-17r Pistol"
+	FlashSound0 "sound/weapsup/sup/pistol_fire.wav"
+    AltFlashSound0  "sound/weapsup/sup/pistol_altfire.wav"
+}
+
+WeaponInfo1
+{
+    WeaponToReplace        WP_SHOTGUN                           //Required: Weapon Slot of weapon you're replacing
+    WeaponBasedOff        WP_BOWCASTER                          //Required: For future use, should be the same as WeaponToReplace
+    NewWorldModel        "models/weapons2/blaster_r/blaster_w.glm"      //Required: New 3rd person/dropped weapon model
+    NewViewModel        "models/weapons2/blaster_r/blaster.md3"       //Required: New 1st person weapon model
+    Icon                "gfx/hud/w_icon_e11"                 //Required: Weapon change icon
+    WeaponName            "E-11e Blast Cannon"                        //Required: Weapon change display name
+    FlashSound0 		"sound/weapsup/r/wpn_all_bowcaster_fire.wav"
+	MuzzleEffect         "flechette/muzzle_flash"
+    customAmmo           432
+    clipsize             36
+    AltFireEnabled         0
+
+	idleAnim		DC15_READY
+	firingAnim		DC15_FIRE
+	altFiringAnim	DC15_FIRE
+}
+
+ForceInfo0
+{
+	ForceToReplace	FP_SEE
+	Icon		"gfx/forcepowers/radar"
+	ForcePowerName	"Radar Scanner"
+}
+
+description	"Early Empire - Engineer
+
+Weapons
+Frag Grenades (2)
+DC-17r Pistol (2)
+E-11e Blast Cannon
+
+Gadgets:
+Deployable Floor Turret (1)
+Seeker Droid (1)
+Radar Scanner (sense 2)
+
+Abilities:
+Close Combat Training (2)
+Armor Repair Kit
+Ammo Bandolier
+Quick Throw (2)
+Fast Hack
+Gun Bash
+Assemble
+
+A clone trooper engineer, with an ammunition bandolier, and an armor repair kit."

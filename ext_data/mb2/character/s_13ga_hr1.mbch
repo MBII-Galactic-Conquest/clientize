@@ -1,0 +1,107 @@
+
+ClassInfo
+{
+	name			"s_13ga_hr1"
+	classflags		CFL_REALTD|CFL_BPFREEJUMPS|CFL_HEAVYMELEE|CFL_SEEING_STEALTH
+	APmultiplier	0.8
+    forcepool       65
+	maxhealth		200
+	maxarmor		100
+	uishader		"models/players/dash_rendar/mb2_icon_default"
+	speed			0.7
+	saber1			legends_knife
+
+
+	resource	RESOURCE_STAMINA
+
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_SABER
+	WeaponBasedOff		WP_SABER
+	NewWorldModel		"models/weapons2/ct_weapon/ct_knife_F.glm"
+	NewViewModel		"models/weapons2/dummy/dummy.md3"
+	Icon			"gfx/hud/w_icon_prisonknife"
+	WeaponName		"Vibro Knife"
+}
+
+WeaponInfo1
+{
+	WeaponToReplace		WP_BLASTER_PISTOL
+	WeaponBasedOff		WP_BLASTER_PISTOL
+	NewWorldModel		"models/weapons2/briar_pistol/briar_pistol_w.glm"
+	NewViewModel		"models/weapons2/briar_pistol/briar_pistol.md3"
+	Icon				"gfx/hud/w_icon_briar"
+	WeaponName			"Bryar Pistol"
+	MuzzleEffect		"Blaster/MuzzleFlash01Y"
+	AltMuzzleEffect		"Blaster/MuzzleFlash01Y"
+	MissileEffect		"Blaster/Shot02Y"
+	Missile3Effect		"Blaster/Shot02Y"
+	AltMissileEffect	"Blaster/Shot02Y"
+	PowerupShotEffect	"Blaster/Shot04Y"
+	ChargeEffect		"gfx/effects/yellow_bryarFrontFlash"
+	OverchargeEffect	"Blaster/MuzzleFlash01Y"
+}
+
+WeaponInfo2
+{
+    WeaponToReplace        WP_BLASTER                           //Required: Weapon Slot of weapon you're replacing
+    WeaponBasedOff        WP_BLASTER                          //Required: For future use, should be the same as WeaponToReplace
+    NewWorldModel        "models/weapons2/dh-17/dh-17_w.glm"      //Required: New 3rd person/dropped weapon model
+    NewViewModel        "models/weapons2/dh-17/dh-17.md3"       //Required: New 1st person weapon model
+    Icon                "gfx/hud/w_icon_dh-17"                 //Required: Weapon change icon
+    WeaponName            "DH-17 Carbine"                        //Required: Weapon change display name
+    FlashSound0 "sound/weapsup/r/wpn_rebel_blaster_fire.wav"
+    AltFlashSound0  "sound/weapsup/r/wpn_rebel_blaster_fire.wav"
+    customAmmo      500
+    clipSize        100
+    FPMult          0.8
+}
+
+WeaponInfo3
+{
+	WeaponToReplace		WP_PROJ				 
+	WeaponBasedOff      WP_SBD
+	NewWorldModel "models/weapons2/dlt-18_repeater/dlt-18_repeater_w.glm"
+	NewViewModel  "models/weapons2/dlt-18_repeater/dlt-18_repeater.md3"
+	Icon  "gfx/hud/w_icon_dlt-18"
+	FlashSound0  "sound/weapons/Glie-44/alt_fire.wav"		
+	WeaponName			"Valken-38x Sniper Rifle"    				 
+	CustomAmmo 	12
+	MuzzleEffect		"Blaster/MuzzleFlash01B"
+	MissileEffect		"Blaster/Shot10B"
+	fpmult 1.1
+}
+
+description	"Generic Leader: Hero Sniper
+
+	[GC]
+Unlocked With:
+Leader Bonus
+
+Weaponry:
+Vibro Knife
+Thermal Detonator (1)
+Frag Grenade (2)
+Valken-38x Sniper Rifle
+Pistol (3)
+DH-17 (3)
+
+Gadgets:
+Stealth Field Generator
+Flamethrower
+
+Attributes
+Close Combat Training (2)
+Deadly Punches (Wookie Melee)
+Spare Fuel (fuel regen)
+Bounty Hunter Kick
+Quick Throw (2)
+Flip Kick (2)
+Jet Pack (3)
+Dexterity (2)
+Stamina (2)
+Dodge (3)
+
+A hero of the Undeath Purge Coalition, he looks incredibly inspiring."

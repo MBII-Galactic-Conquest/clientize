@@ -1,0 +1,83 @@
+
+ClassInfo
+{
+	name			"s_3mf_ofc"
+	classflags		CFL_STRONGAGAINSTPHYSICAL
+	saber1			kotor_vibrosword_supremacy
+	maxhealth		100
+	maxarmor		100
+	forcepool		85
+	uishader		"models/players/manda_et/mb2_icon_default"
+	rateoffire		0.675
+	speed			1.0
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_SABER			
+	WeaponBasedOff		WP_SABER			
+	NewWorldModel		"models/weapons2/kotor_longsword/saber_w.glm"  
+	NewViewModel		"models/weapons2/dummy/dummy.md3" 	  
+	Icon			"gfx/hud/w_icon_vibrosword"
+	WeaponName		"Cortosis Vibrosword"    	 			
+}
+
+WeaponInfo1
+{
+	WeaponToReplace		WP_BRYAR_PISTOL
+	WeaponBasedOff		WP_BOWCASTER
+	NewWorldModel		"models/weapons2/kotor_bpistol2/kotor_bpistol2_w.glm"
+	NewViewModel		"models/weapons2/kotor_bpistol2/kotor_bpistol2.md3"
+	Icon				"gfx/hud/w_icon_kotor_bpistol2"
+	WeaponName			"BP-2 Hand Pistol"
+	FlashSound0 "sound/weapons/kotor/fire_light.wav"
+    AltFlashSound0  "sound/weapons/kotor/fire_hvy.wav"
+}
+
+WeaponInfo2
+{
+	WeaponToReplace		WP_A280       					//Required: Weapon Slot of weapon you're replacing
+	WeaponBasedOff		WP_BLASTER      					//Required: For future use, should be the same as WeaponToReplace
+	NewWorldModel		"models/weapons2/kotor_brifle2/kotor_brifle2_w.glm"
+	NewViewModel		"models/weapons2/kotor_brifle2/kotor_brifle2.md3"
+	Icon				"gfx/hud/w_icon_kotor_brifle2" 				//Required: Weapon change icon
+	WeaponName			"Mandalorian Elite Carbine"    					//Required: Weapon change display name
+	FlashSound0 "sound/weapons/kotor/fire_hvy.wav"
+    AltFlashSound0  "sound/weapons/kotor/fire_hvy.wav"
+	customAmmo      500
+	clipSize        100
+	FPMult          0.8
+}
+
+description	"Mandalorian Neo Crusader - Field Marshal
+
+Weaponry:
+Cryogenic Grenade (1)
+Sonic Screamer (1)
+BP-2 Hand Pistol (3)
+Mandalorian Elite Carbine (3)
+Cortosis Vibrosword *
+
+Vibrosword Info:
+Medium & Strong Style
+Offense (2)
+Defense (3)
+
+Gadgets:
+Shield Generator (1)
+Web Turret (1)
+Binoculars (1)
+
+Attributes
+Cortosis (Field Marshal Armor)
+Close Combat Training (2)
+Force Block (3)
+Dexterity (2)
+Stamina (2)
+Beskar (3)
+Dash (2)
+Blast Armor
+Gun Bash
+Rally
+
+An elite mandalorian neo crusader battle commander, layered in a golden exterior, he looks inspiring."

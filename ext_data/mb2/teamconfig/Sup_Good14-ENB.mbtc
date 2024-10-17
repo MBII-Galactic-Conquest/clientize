@@ -1,0 +1,17 @@
+//Galactic Conquest/Supremacy siegeteam file - Created by 2cwldys & John
+//Sith-Imperial War
+
+name "Sup_Good14-ENB"
+
+ClassesAllowed 2
+TimePeriod 5
+EUAllowed 0
+
+Classes
+
+{
+class1	"s_14fel_slenb"
+class2  "s_14fel_med"
+}
+
+//1-6

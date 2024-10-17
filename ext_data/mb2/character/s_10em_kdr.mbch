@@ -1,0 +1,56 @@
+ClassInfo
+{
+    name            "s_10em_kdr"
+    maxhealth       200
+    maxarmor            100
+    speed             1
+    uishader          "models/players/k2so/mb2_icon_default"
+    classflags              CFL_SEEING_STEALTH
+    DamageGiven         1.15
+    rateOfFire          1.15
+    damageTaken            0.9
+    WP_A280Flags     HELD_LOWDAMAGE|HELD_ALTRELOAD
+    JetpackFuelCap         .10
+}
+
+WeaponInfo0
+{
+    WeaponToReplace    WP_A280   
+    WeaponBasedOff  WP_BLASTER_PISTOL
+    NewWorldModel   "models/weapons2/se-14c_pistol/blaster_pistol_w.glm"
+    NewViewModel    "models/weapons2/se-14c_pistol/blaster_pistol.md3"
+    Icon            "gfx/hud/w_icon_se-14c"
+    WeaponName      "SE-14r"
+    FlashSound0       "sound/weapsup/sup/pistol_fire.wav"
+    altFlashSound0    "sound/weapons/se-14c/fire.mp3"
+    idleAnim        BOTH_STAND4TOATTACK2 
+    firingAnim        MAND_SPISTOL_FIRE
+    clipsize 20
+}
+
+description	"Early Empire - KX Security Droid
+
+Class: Wookiee.
+Class Summary: 
+A tanky brawler class with blaster damage resistances. 
+
+Weaponry (15% increase in damage):
+- Wookiee Style Melee 
+- SE-14r Pistol *
+
+* Special Weapon Descriptions:
+--- SE-14r Pistol
+- Based on A280 level (2)
+- Magazine style reload
+- Reduced clipsize
+
+Attributes
+- Strength (3)
+- Magnetic Plating
+- Invisible to Force Sense
+- Mind Trick Immunity (2)
+
+Abilities:
+- Shoulder-barge [Class Special 1]
+
+A KX-series security droid designed by the Galactic Empire, after recent security concerns regarding the Axis Network."

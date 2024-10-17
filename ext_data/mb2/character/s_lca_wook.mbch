@@ -1,0 +1,76 @@
+
+ClassInfo
+{
+	name				"s_lca_wook"
+	maxhealth			400
+	maxarmor			40
+		
+	uishader		"models/players/legoguy/mb2_icon_wookiee"
+
+	resource		RESOURCE_RAGE
+	
+	speed               1.06
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_BLASTER_PISTOL
+	WeaponBasedOff		WP_BLASTER_PISTOL
+	NewWorldModel		"models/weapons2/lego_blaster/blaster_w.glm"
+	NewViewModel		"models/weapons2/lego_blaster/blaster.md3"
+	Icon			"gfx/mplevels/legosw/icon_blaster"
+	WeaponName		"Blaster Pistol"
+}
+
+WeaponInfo1
+{
+    WeaponToReplace        WP_BOWCASTER                           //Required: Weapon Slot of weapon you're replacing
+    WeaponBasedOff        WP_BOWCASTER                          //Required: For future use, should be the same as WeaponToReplace
+	NewWorldModel		"models/weapons2/lego_blaster/blaster_w.glm"
+	NewViewModel		"models/weapons2/lego_blaster/bowcaster.md3"
+	Icon			"gfx/mplevels/legosw/icon_blaster"
+    WeaponName            "Bowcaster"                        //Required: Weapon change display name
+	ChargeEffect		"gfx/effects/greenfrontflash"
+	MuzzleEffect		"Bowcaster/muzzle_flash"
+	MissileEffect		"Bowcaster/shot"
+	AltMissileEffect	"Bowcaster/shot"
+    customAmmo      500
+    clipSize        100
+    FPMult          0.8
+}
+
+WeaponInfo2
+{
+	WeaponToReplace		WP_MELEE
+	WeaponBasedOff		WP_MELEE  
+  NewWorldModel		"models/weapons2/dummy/dummy.glm"
+  NewViewModel		"models/weapons2/dummy/dummy.md3"
+  Icon			"gfx/mplevels/legosw/icon_melee"
+	WeaponName		"Melee"
+}
+
+description	"Wookiee Soldier
+
+    [GC]
+Planetary Restriction:
+Kashyyyk
+
+Class: Wookiee
+
+Weaponry:
+Lego Pistol (2)
+Lego Bowcaster (3)
+Frag Grenades (2)
+
+Attributes
+Magnetic Plating (Wookiee Armor)
+Wookiee Health (3)
+Wookiee Strength (3)
+
+Abilities:
+Wookiee Fury (1) [Class Special 1 and 2 in Melee]
+Gunbash [Class Special 2]
+
+A wookie soldier enlisted in the forces of the Rebel Alliance, joining the battle against the ever growing injustice of the Empire; equipped with heavy blaster deflecting armor. They became a tanky frontliner of choice to be used by the Alliance.
+
+Tough fighters with a cunning feel for tactics, Wookiees hailed from the planet Kashyyyk. These hardy soldiers were great allies to the Rebel Alliance and their stand against evil in the known galaxy."

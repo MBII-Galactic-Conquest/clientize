@@ -1,0 +1,84 @@
+
+ClassInfo
+{
+	name			"s_lca_med"
+	classflags		CFL_STATVIEWER
+	maxhealth		100
+	maxarmor		20
+	uishader		"models/players/legoguy/mb2_icon_clone_ep2"
+	speed			0.8
+
+
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_CLONE_PISTOL
+	WeaponBasedOff		WP_CLONE_PISTOL
+	NewWorldModel		"models/weapons2/lego_repeater/heavy_repeater_w.glm"
+	NewViewModel		"models/weapons2/lego_repeater/demp2.md3"
+	Icon			"gfx/mplevels/legosw/icon_repeater"
+	WeaponName		"Clone Pistol"
+    FlashSound0 "sound/weapsup/sup/wpn_rep_pistol_fire.wav"
+    AltFlashSound0  "sound/weapsup/sup/wpn_rep_pistol_fire.wav"
+	FlashSound4	"sound/weapsup/sup/wpn_rep_pistol_fire.wav"
+	AltFlashSound4	"sound/weapsup/sup/wpn_rep_pistol_fire.wav"
+	MuzzleEffect		"Blaster/MuzzleFlash01B"
+	MissileEffect		"blaster/Shot01B"
+	AltMissileEffect 	"blaster/Shot01B"
+}
+
+WeaponInfo1
+{
+	WeaponToReplace		WP_CLONE_RIFLE
+	WeaponBasedOff		WP_CLONE_RIFLE
+	NewWorldModel		"models/weapons2/lego_repeater/heavy_repeater_w.glm"
+	NewViewModel		"models/weapons2/lego_repeater/heavy_repeater.md3"
+	Icon			"gfx/mplevels/legosw/icon_repeater"
+	WeaponName		"Clone Rifle"
+    FlashSound0 "sound/weapsup/sup/wpn_rep_blaster_fire.wav"
+    AltFlashSound0  "sound/weapsup/sup/wpn_rep_blaster_fire.wav"
+	MuzzleEffect		"Blaster/MuzzleFlash01B"
+	AltMuzzleEffect		"Blaster/MuzzleFlash01B"
+	MissileEffect		"blaster/Shot01B"
+	AltMissileEffect 	"blaster/Shot01B"
+    customAmmo      500
+    clipSize        100
+    FPMult          0.8
+}
+
+WeaponInfo2
+{
+	WeaponToReplace		WP_MELEE
+	WeaponBasedOff		WP_MELEE  
+  NewWorldModel		"models/weapons2/dummy/dummy.glm"
+  NewViewModel		"models/weapons2/dummy/dummy.md3"
+  Icon			"gfx/mplevels/legosw/icon_melee"
+	WeaponName		"Melee"
+}
+
+
+description	"Clone Medic
+
+	[GC]
+Unlocked With:
+Bacta Tank Bonus
+
+Weaponry:
+Lego Pistol (2)
+Lego Blaster (2)
+
+Gadgets:
+Personal Small Bacta (1)
+Personal Large Bacta (1)
+
+Attributes
+Close Combat Training (2)
+Hero Heal on Use
+Flip Kick (2)
+Dodge (2)
+Dash (2)
+Gun Bash
+
+A clone medic."
+

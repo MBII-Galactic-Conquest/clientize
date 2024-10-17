@@ -1,0 +1,99 @@
+
+ClassInfo
+{
+	name			"s_4or_med"
+	classflags		CFL_STATVIEWER
+	saber1			kotor_vibrosword_supremacy
+	forcepool		50
+	maxhealth		100
+	maxarmor		20
+	uishader		"models/players/prisoner/mb2_icon_oldrepsold_helm_FA"
+	speed			0.8
+
+	uishader_1		"models/players/prisoner/mb2_icon_oldrepsold_helm2_FA"
+
+
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_SABER			
+	WeaponBasedOff		WP_SABER			
+	NewWorldModel		"models/weapons2/kotor_longsword/saber_w.glm"  
+	NewViewModel		"models/weapons2/dummy/dummy.md3" 	  
+	Icon			"gfx/hud/w_icon_vibrosword"
+	WeaponName		"Cortosis Vibrosword"    	 			
+}
+
+WeaponInfo1
+{
+	WeaponToReplace		WP_BRYAR_PISTOL
+	WeaponBasedOff		WP_BOWCASTER
+	NewWorldModel		"models/weapons2/kotor_bpistol2/kotor_bpistol2_w.glm"
+	NewViewModel		"models/weapons2/kotor_bpistol2/kotor_bpistol2.md3"
+	Icon				"gfx/hud/w_icon_kotor_bpistol2"
+	WeaponName			"BP-2 Hand Pistol"
+	FlashSound0			"sound/weapons/kotor/fire_light.wav"
+    AltFlashSound0		"sound/weapons/kotor/fire_hvy.wav"
+	ChargeEffect		"gfx/effects/clonefrontflash"
+	OverchargeEffect	"Blaster/MuzzleFlash04B"
+	PowerupShotEffect	"Blaster/Shot04B"
+	MuzzleEffect		"Blaster/MuzzleFlash01B"
+	AltMuzzleEffect		"Blaster/MuzzleFlash01B"
+	MissileEffect		"blaster/Shot01B"
+	AltMissileEffect 	"blaster/Shot01B"
+}
+
+WeaponInfo2
+{
+    WeaponToReplace        WP_BLASTER                           //Required: Weapon Slot of weapon you're replacing
+    WeaponBasedOff        WP_BLASTER                          //Required: For future use, should be the same as WeaponToReplace
+    NewWorldModel        "models/weapons2/kotor_brifle2/kotor_brifle2_w.glm"      //Required: New 3rd person/dropped weapon model
+    NewViewModel        "models/weapons2/kotor_brifle2/kotor_brifle2.md3"       //Required: New 1st person weapon model
+    Icon                "gfx/hud/w_icon_kotor_brifle2"                 //Required: Weapon change icon
+    WeaponName            "Republic Assault Rifle"                        //Required: Weapon change display name
+	FlashSound0			"sound/weapons/kotor/fire_med.wav"
+    AltFlashSound0		"sound/weapons/kotor/fire_hvy.wav"
+	ChargeEffect		"gfx/effects/clonefrontflash"
+	MuzzleEffect		"Blaster/MuzzleFlash01B"
+	AltMuzzleEffect		"Blaster/MuzzleFlash01B"
+	MissileEffect		"blaster/Shot01B"
+	AltMissileEffect 	"blaster/Shot01B"
+    customAmmo      500
+    clipSize        100
+    FPMult          0.8
+}
+
+
+description	"Old Republic - Medic
+
+	[GC]
+Unlocked With:
+Kolto Bonus
+
+Weaponry:
+BP-2 Hand Pistol (2)
+Republic Assault Rifle (2)
+Cortosis Vibrosword *
+
+Vibrosword Info:
+Medium Style
+Offense (2)
+Defense (2)
+
+Gadgets:
+Personal Small Kolto (1)
+Personal Large Kolto (1)
+
+Attributes
+Close Combat Training (2)
+Hero Heal on Use
+Flip Kick (2)
+Dexterity (1)
+Stamina (2)
+Dodge (2)
+Dash (2)
+Gun Bash
+
+A valiant medic of the Old Republic."
+

@@ -1,0 +1,52 @@
+
+ClassInfo
+{
+	name  "s_uzo_nzo"
+	saber1  re_crimsonR
+	saber2  re_crimsonL
+	maxhealth 100
+	uishader  "models/players/reborn/mb2_icon_darkjedi"
+	speed 1.15
+	forcepool 100
+	classflags  CFL_NOPICKUPS|CFL_BLOODYMELEE|CFL_HEAVYMELEE
+classnumberlimit
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_SABER
+	WeaponBasedOff		WP_SABER
+	NewWorldModel		"models/weapons2/noweap/noweap.glm"
+	NewViewModel		"models/weapons2/dummy/dummy.md3"
+	Icon			"gfx/hud/w_icon_melee"
+	WeaponName		"Claws"
+}
+
+WeaponInfo1
+{
+	WeaponToReplace		WP_MELEE
+	WeaponBasedOff		WP_MELEE  
+  NewWorldModel		"models/weapons2/dummy/dummy.glm"
+  NewViewModel		"models/weapons2/dummy/dummy.md3"
+  Icon			"gfx/hud/w_icon_melee"
+	WeaponName		"Melee"
+	FlashSound0		"Sound/chars/Death_Trooper/misc/melee.wav"
+	AltFlashSound0  "Sound/chars/Death_Trooper/misc/melee.wav"
+	primGore		1
+	altGore			1
+	idleAnim  BOTH_INAIRBACK1
+	firingAnim  BOTH_BURSTMISS
+}
+
+description "Nightsister Zombie
+
+Weaponry:
+Heavy Melee
+Claws
+
+Attributes
+Nightsister Healing
+Superhuman Speed (3)
+Fast Movement
+
+^1Brainzzzzzzzz"

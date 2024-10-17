@@ -1,0 +1,60 @@
+
+ClassInfo
+{
+	name			"s_10em_sold"
+	maxhealth		75
+	maxarmor		25
+	uishader		"models/players/clonetrooper_p2/mb2_icon_default"
+	speed			0.8
+
+	WP_BlasterPistolFlags	HELD_ALTRELOAD|HELD_AMMOREGEN
+	WP_BlasterFlags		HELD_ALTRELOAD|HELD_AMMOREGEN
+
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_BRYAR_PISTOL
+	WeaponBasedOff		WP_BOWCASTER
+    NewWorldModel        "models/weapons2/dc-17/dc-17_w.glm"      //Required: New 3rd person/dropped weapon model
+    NewViewModel        "models/weapons2/dc-17/dc-17.md3"       //Required: New 1st person weapon model
+    Icon                "gfx/hud/w_icon_dc-17"
+	WeaponName			"DC-17r Pistol"
+	FlashSound0 "sound/weapsup/sup/pistol_fire.wav"
+    AltFlashSound0  "sound/weapsup/sup/pistol_altfire.wav"
+}
+
+WeaponInfo1
+{
+    WeaponToReplace        WP_BLASTER                           //Required: Weapon Slot of weapon you're replacing
+    WeaponBasedOff        WP_BLASTER                          //Required: For future use, should be the same as WeaponToReplace
+    NewWorldModel        "models/weapons2/dc-15s/dc-15s_w.glm"      //Required: New 3rd person/dropped weapon model
+    NewViewModel        "models/weapons2/dc-15s/dc-15s.md3"       //Required: New 1st person weapon model
+    Icon                "gfx/hud/w_icon_dc-15s"                 //Required: Weapon change icon
+    WeaponName            "DC-15s Imperial Carbine"                        //Required: Weapon change display name
+    FlashSound0 "sound/weapsup/sup/f11_fire.mp3"
+    AltFlashSound0  "sound/weapsup/sup/f11_alt_fire.mp3"
+    customAmmo      500
+    clipSize        100
+    FPMult          0.8
+
+	idleAnim		DC15_READY
+	firingAnim		DC15_FIRE
+	altFiringAnim	DC15_FIRE
+}
+
+description	"Early Empire - Clone Trooper
+
+Weaponry:
+Concussion Grenade (1)
+Frag Grenade (1)
+DC-17r Pistol (2)
+E-11 Carbine (2)
+
+Attributes
+Reinforcements (2)
+Close Combat Training (2)
+Gun Bash
+Assemble
+
+A clone trooper of the Galactic Empire."

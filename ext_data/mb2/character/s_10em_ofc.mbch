@@ -1,0 +1,66 @@
+
+ClassInfo
+{
+	name			"s_10em_ofc"
+	maxhealth		100
+	maxarmor		100
+	uishader		"models/players/imperial/mb2_icon_lieutenant"
+	rateoffire		0.675
+	speed			0.8
+
+	uishader_1		"models/players/imperial_fml/mb2_icon_daala"
+
+	uishader_2		"models/players/mudtrooper/mb2_icon_andor"
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_BRYAR_PISTOL
+	WeaponBasedOff		WP_BOWCASTER
+    NewWorldModel        "models/weapons2/dc-17/dc-17_w.glm"      //Required: New 3rd person/dropped weapon model
+    NewViewModel        "models/weapons2/dc-17/dc-17.md3"       //Required: New 1st person weapon model
+    Icon                "gfx/hud/w_icon_dc-17"
+	WeaponName			"DC-17r Pistol"
+	FlashSound0 "sound/weapsup/sup/pistol_fire.wav"
+    AltFlashSound0  "sound/weapsup/sup/pistol_altfire.wav"
+}
+
+WeaponInfo1
+{
+	WeaponToReplace		WP_A280       					//Required: Weapon Slot of weapon you're replacing
+	WeaponBasedOff		WP_BLASTER      					//Required: For future use, should be the same as WeaponToReplace
+    NewWorldModel        "models/weapons2/blaster_r/blaster_w.glm"      //Required: New 3rd person/dropped weapon model
+    NewViewModel        "models/weapons2/blaster_r/blaster.md3"       //Required: New 1st person weapon model
+    Icon                "gfx/hud/w_icon_e11"                 //Required: Weapon change icon
+	WeaponName			"E-11 Burst Carbine"    					//Required: Weapon change display name
+    FlashSound0 "sound/weapsup/sup/f11_fire.mp3"
+    AltFlashSound0  "sound/weapsup/sup/f11_alt_fire.mp3"
+	customAmmo      500
+	clipSize        100
+	FPMult          0.8
+
+	idleAnim		DC15_READY
+	firingAnim		DC15_FIRE
+	altFiringAnim	DC15_FIRE
+}
+
+description	"Early Empire - Officer
+
+Weaponry:
+Cryogenic Grenade (1)
+Sonic Screamer (1)
+DC-17r Pistol (3)
+E-11 (A280) (3)
+
+Gadgets:
+Shield Generator (1)
+Web Turret (1)
+Binoculars (1)
+
+Attributes
+Close Combat Training (2)
+Blast Armor
+Gun Bash
+Rally
+
+An early imperial officer, they look inspiring."

@@ -1,0 +1,100 @@
+
+ClassInfo
+{
+	name			"s_lca_spy"
+	APmultiplier	0.8	
+    forcepool       65
+	maxhealth		60
+	maxarmor		35
+	classflags		CFL_BPFREEJUMPS|CFL_HEAVYMELEE|CFL_SEEING_STEALTH
+    speed			1.0
+	saber1			legends_Knife
+	uishader		"models/players/legoguy/mb2_icon_clone_ep2"
+
+
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_BLASTER_PISTOL
+	WeaponBasedOff		WP_BLASTER_PISTOL
+	NewWorldModel		"models/weapons2/lego_repeater/heavy_repeater_w.glm"
+	NewViewModel		"models/weapons2/lego_repeater/demp2.md3"
+	Icon			"gfx/mplevels/legosw/icon_repeater"
+	WeaponName			"Overcharged Blaster Pistol"
+	MuzzleEffect		"Blaster/MuzzleFlash01B"
+	AltMuzzleEffect		"Blaster/MuzzleFlash01B"
+	MissileEffect		"blaster/Shot01B"
+	Missile3Effect		"Blaster/Shot10B"
+	AltMissileEffect	"blaster/Shot01B"
+	PowerupShotEffect	"Blaster/Shot10B"
+	ChargeEffect		"gfx/effects/clonefrontflash"
+	OverchargeEffect	"Blaster/MuzzleFlash04B"
+	FlashSound0 "sound/weapsup/sup/wpn_rep_pistol_fire.wav"
+	FlashSound4	"sound/weapsup/sup/wpn_rep_pistol_fire.wav"
+	idleAnim		MAND_SPISTOL 
+	firingAnim		BOTH_ATTACK2
+}
+
+
+WeaponInfo1
+{
+		WeaponToReplace		WP_SABER
+		WeaponBasedOff		WP_SABER
+		NewWorldModel		"models/weapons2/ct_weapon/ct_knife_F.glm"
+		NewViewModel		"models/weapons2/dummy/dummy.md3"
+		Icon			"gfx/hud/w_icon_prisonknife"
+		WeaponName		"Vibro Knife"
+}
+
+WeaponInfo2
+{           
+WeaponToReplace        	WP_TRIP_MINE
+WeaponBasedOff         	WP_TRIP_MINE
+NewWorldModel		"models/weapons2/laser_trap/laser_trap_w.glm"  	
+NewViewModel	  	"models/weapons2/laser_trap/laser_trap.md3"  	
+Icon             	"gfx/hud/w_icon_tripmine"
+WeaponName		"Trip Mine"
+customAmmo    		3
+}
+
+WeaponInfo3
+{
+	WeaponToReplace		WP_MELEE
+	WeaponBasedOff		WP_MELEE  
+  NewWorldModel		"models/weapons2/dummy/dummy.glm"
+  NewViewModel		"models/weapons2/dummy/dummy.md3"
+  Icon			"gfx/mplevels/legosw/icon_melee"
+	WeaponName		"Melee"
+}
+
+
+description	"Clone Spy
+
+	[GC]
+Unlocked With:
+Sabotage Bonus
+
+Weaponry:
+Vibro Knife (Medium & Fast)
+Trip Mine (2)
+Lego Pistol (3)
+
+Gadgets:
+Stealth field generator [Inventory Use]
+Disguise [press saber style/gun mode switch while in melee]
+
+Attributes
+Reinforcements (1)
+Grappling Hook (2)
+Dexterity (2)
+Stamina (2)
+Immune to Sense
+Flip Kick (1)
+Gun Bash
+
+Vibro Knife Attributes:
+Knife Offense (3)
+Knife Defense (1)
+
+A clone spy, equipped with a stealth field generator and thermal plating."

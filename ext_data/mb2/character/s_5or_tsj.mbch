@@ -1,0 +1,72 @@
+
+ClassInfo
+{
+	name			"s_5or_tsj"
+	maxhealth		100
+	maxarmor		50
+	uishader		"models/players/gwethenea/mb2_icon_jetpack"
+	speed			0.8
+
+	resource	RESOURCE_FUEL
+
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_BRYAR_PISTOL
+	WeaponBasedOff		WP_BOWCASTER
+	NewWorldModel		"models/weapons2/blaster_pistol/blaster_pistol_w.glm"
+	NewViewModel		"models/weapons2/blaster_pistol/blaster_pistol.md3"
+	Icon				"gfx/hud/w_icon_blaster_pistol"
+	WeaponName			"Temple Security Pistol"
+	FlashSound0			"sound/weapsup/r/wpn_rebel_pistol_fire.wav"
+    AltFlashSound0		"sound/weapsup/r/wpn_rebel_pistol_fire.wav"
+	ChargeEffect		"gfx/effects/clonefrontflash"
+	OverchargeEffect	"Blaster/MuzzleFlash01B"
+	PowerupShotEffect	"blaster/Shot01B"
+	MuzzleEffect		"Blaster/MuzzleFlash01B"
+	AltMuzzleEffect		"Blaster/MuzzleFlash01B"
+	MissileEffect		"blaster/Shot01B"
+	AltMissileEffect 	"blaster/Shot01B"
+}
+
+WeaponInfo1
+{
+    WeaponToReplace        WP_BLASTER                           //Required: Weapon Slot of weapon you're replacing
+    WeaponBasedOff        WP_BLASTER                          //Required: For future use, should be the same as WeaponToReplace
+    NewWorldModel        "models/weapons2/A280/A280_w.glm"      //Required: New 3rd person/dropped weapon model
+    NewViewModel        "models/weapons2/A280/A280.md3"       //Required: New 1st person weapon model
+    Icon                "gfx/hud/w_icon_A280"                 //Required: Weapon change icon
+    WeaponName            "Temple Security A280-B"                        //Required: Weapon change display name
+	FlashSound0			"sound/weapsup/r/wpn_rebel_blaster_fire.wav"
+    AltFlashSound0		"sound/weapsup/r/wpn_rebel_blaster_fire.wav"
+	MuzzleEffect		"Blaster/MuzzleFlash01B"
+	AltMuzzleEffect		"Blaster/MuzzleFlash01B"
+	MissileEffect		"blaster/Shot01B"
+	AltMissileEffect 	"blaster/Shot01B"
+    customAmmo      500
+    clipSize        100
+    FPMult          0.8
+}
+
+description	"Temple Security Force - Jet Trooper
+
+	[GC]
+Circumstantial Unlock:
+Jedi Leader
+
+Can be used without unlock, provided a jedi leader is in the field.
+
+Weaponry:
+Pulse Grenade (2)
+Temple Security Pistol (2)
+Temple Security A280-B (3)
+
+Attributes
+Reinforcements (1)
+Close Combat Training (2)
+Quick Throw (1)
+Jet Pack (2)
+Assemble
+
+A jetpack trooper of the Temple Security Force, protecting their jedi leader as an attached regiment from Coruscant."

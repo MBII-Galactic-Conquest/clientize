@@ -1,0 +1,113 @@
+
+ClassInfo
+{
+	name			"s_13vo_hgru"
+	classflags		CFL_BPFREEJUMPS|CFL_ACIDBLOOD|CFL_BLOODYMELEE|CFL_HEAVYMELEE|CFL_SEEING_STEALTH
+	maxhealth       125
+	forcepool		100
+	speed			0.7
+	
+	damageGiven        1.10
+		
+	uishader		"models/players/vong_pilot/icon_default"
+
+	rateoffire		1.0
+	rateoffire_melee	2
+
+
+	WP_BlasterFlags 	HELD_POISON|HELD_ALTRELOAD
+
+	tauntAnim	BOTH_TUSKENTAUNT1
+	flourishAnim	BOTH_TUSKENTAUNT1
+	gloatAnim     BOTH_TUSKENTAUNT1
+
+	resource	RESOURCE_FORCE
+
+classnumberlimit
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_MELEE
+	WeaponBasedOff		WP_MELEE  
+  NewWorldModel		"models/weapons2/dummy/dummy.glm"
+  NewViewModel		"models/weapons2/dummy/dummy.md3"
+  Icon			"gfx/mplevels/aliens3/aliens_claws"
+	WeaponName		"Claws"
+	primGore		1
+	altGore			1
+}
+
+WeaponInfo1
+{
+	WeaponToReplace		WP_BLASTER
+	WeaponBasedOff		WP_BLASTER
+	NewWorldModel		"models/weapons2/geonosian/sonicrifle.glm" 
+	NewViewModel		"models/weapons2/geonosian/sonicrifle.md3"
+	Icon				"gfx/hud/w_icon_sonicrifle" 			
+	WeaponName			"Vong Acid Thrower"
+	
+	ChargeEffect		"gfx/effects/greenfrontflash"
+	MissileMissEffect 	"effects/sonic_pistol/wall_impact"
+	AltMissileMissEffect	"effects/sonic_pistol/wall_impact"
+	MuzzleEffect		"mini_concussion/muzzle_flash"
+	AltMuzzleEffect		"mini_concussion/muzzle_flash"
+	MissileEffect		"effects/sonic_pistol/projectile"
+	AltMissileEffect	"effects/sonic_pistol/projectile" 	
+	FlashSound0		"sound/weapsup/vong/acidthrower.mp3"
+	AltFlashSound0	"sound/weapsup/vong/acidthrower2.mp3"
+
+	CustomAmmo 	500
+	ClipSize 	100
+	FPmult  1.25
+
+	idleAnim		DC15_READY
+	firingAnim		DC15_FIRE
+	altFiringAnim	DC15_FIRE
+}
+
+ForceInfo0
+{
+	ForceToReplace	FP_ABSORB
+	Icon		"gfx/mplevels/dc_universe/fp_sinestro"
+	ForcePowerName	"Natural Force Resist"
+}
+
+
+description	"Yuuzhan Vong - Warrior Caste - Head Grunt
+
+	[GC]
+Officer Equivalent
+
+Attributes
+Weighted Resilience (Wookiee Strength 3)
+Regenerative Bio Armor (HR Heal 1)
+Yuuzhan Vong Bio-Armor (Cortosis)
+Acid Blood (DoT on melee death)
+Enduring Exoskeleton (Beskar 2)
+Resistant to Mind Trick
+Immune to the Force
+Cannot be Force Focused
+Cannot be Knocked Down
+Cannot be Sensed
+
+Abilities:
+Anti-Force Resilience (Absorb 2)
+Dodge (2)
+Gun Bash
+Rally
+
+Weakness:
+* - Yuuzhan Vong does not have armor, relying upon their health.
+
+Weapons
+Heavy Melee (Claws)
+Yuuzhan Vong Acid Thrower (E11) (3)  *
+Vong Bio-Grenade (Fire)
+
+Weapon Properties:
+
+* Acid Thrower is capable of functioning as an E11, applying poison DOT.
+* Acid Thrower faces slightly faster rate of fire.
+
+The Yuuzhan Vong are a horde of crusading warrior-like extradimensional aliens, who have slayed millions in their conquest against the known galaxy. With their horrific visage, resistance to the midichlorians, and their deadly countenance: their war against the galaxy has been swift yet tumultuous."
