@@ -1,9 +1,7 @@
 hips,models/players/stormie/bodysuit.tga
-breather,*on
 breather,models/players/stormie/hazard
 l_leg_armor,*off
 r_leg_armor,*off
-
 hips_thighs,models/players/stormie/armor_clean.tga
 l_leg,models/players/stormie/armor_clean.tga
 
@@ -38,7 +36,7 @@ belt,models/players/stormie/armor_clean.tga
 holster,models/players/stormie/bodysuit.tga
 bomb,models/players/stormie/bomb.tga
 
-pauldron,/models/players/JPstormie/models/players/pauldron_rgb.tga
+pauldron,models/players/JPstormie/pauldron_rgb.tga
 
 head_cap_torso_off,models/players/stormtrooper/caps.tga
 torso_cap_head_off,models/players/stormtrooper/caps.tga

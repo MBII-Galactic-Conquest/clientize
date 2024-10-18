@@ -16,7 +16,7 @@ ClassInfo
 	
 	saber1			qstaff_supremacy
 	
-	uishader  			"models/players/s0ul/icon_default3"
+	uishader  			"models/players/T800/icon_default"
 	
 	WalkBackward	SBD_WALKBACK_NOGUN
 	WalkForward 	SBD_WALK_NOGUN
