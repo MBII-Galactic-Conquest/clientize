@@ -88,6 +88,10 @@ WeaponInfo1
     customAmmo      550
     clipSize        125
     FPMult          0.8
+
+	idleAnim		DC15_READY
+	firingAnim		DC15_FIRE
+	altFiringAnim	DC15_FIRE
 }
 
 description	"Purge Coalition - Soldier - MVP

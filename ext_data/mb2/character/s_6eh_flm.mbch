@@ -31,6 +31,10 @@ WeaponInfo0
     customAmmo      500
     clipSize        100
     FPMult          0.8
+
+	idleAnim		DC15_READY
+	firingAnim		DC15_FIRE
+	altFiringAnim	DC15_FIRE
 }
 
 WeaponInfo1

@@ -3,11 +3,13 @@ ClassInfo
 {
 	name			"s_3or_ofc"
 	saber1			kotor_vibrosword_supremacy
-	forcepool		85
+	forcepool		25
 	maxhealth		100
 	maxarmor		100
 	uishader		"models/players/sith_officer/mb2_icon_saul"
 	speed			1.0
+
+	resource		RESOURCE_RAGE
 }
 
 WeaponInfo0

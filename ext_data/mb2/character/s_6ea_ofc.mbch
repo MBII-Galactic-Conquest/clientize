@@ -4,6 +4,7 @@ ClassInfo
 	name			"s_6ea_ofc"
 	maxhealth		100
 	maxarmor		100
+	forcepool		25
 	uishader		"models/players/imperial/mb2_icon_lieutenant"
 	rateoffire		0.675
 	speed			0.8
@@ -12,6 +13,8 @@ ClassInfo
 
 	uishader_2		"models/players/stormie/mb2_icon_sandtrooper_rgb"
 
+
+	resource		RESOURCE_RAGE
 }
 
 WeaponInfo0

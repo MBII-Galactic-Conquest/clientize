@@ -92,6 +92,10 @@ WeaponInfo1
     customAmmo      600
     clipSize        150
     FPMult          0.8
+
+	idleAnim		DC15_READY
+	firingAnim		DC15_FIRE
+	altFiringAnim	DC15_FIRE
 }
 
 description	"Krayt Empire - Soldier - Energy Boost & Supplies

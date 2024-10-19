@@ -4,6 +4,7 @@ ClassInfo
 	name			"s_13ga_ofc"
 	maxhealth		100
 	maxarmor		100
+	forcepool		25
 	uishader		"models/players/rebel/mb2_icon_desert"
 	rateoffire		0.675
 	speed			0.8
@@ -11,6 +12,8 @@ ClassInfo
 	uishader_1		"models/players/imperial/mb2_icon_lieutenant"
 
 	uishader_2		"models/players/stormie/mb2_icon_officer_rgb"
+
+	resource		RESOURCE_RAGE
 }
 
 WeaponInfo0

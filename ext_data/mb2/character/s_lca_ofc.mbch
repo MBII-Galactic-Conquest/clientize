@@ -4,8 +4,11 @@ ClassInfo
 	name			"s_lca_ofc"
 	maxhealth		100
 	maxarmor		100
+	forcepool		25
 	uishader		"models/players/legoguy/mb2_icon_clone_captain"
 	speed			0.7
+
+	resource		RESOURCE_RAGE
 }
 
 WeaponInfo0

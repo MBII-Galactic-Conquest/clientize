@@ -88,6 +88,10 @@ WeaponInfo1
     customAmmo      700
     clipSize        150
     FPMult          0.8
+
+	idleAnim		DC15_READY
+	firingAnim		DC15_FIRE
+	altFiringAnim	DC15_FIRE
 }
 
 description	"Storm Trooper - Enhanced Blasters

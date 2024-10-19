@@ -3,7 +3,7 @@ ClassInfo
 {
 	name			"s_2ca_par"
 	saber1			assassin_shiv_legends
-	forcepool       35
+	forcepool       25
 	APmultiplier	1.1
 	maxhealth		100
 	maxarmor		100

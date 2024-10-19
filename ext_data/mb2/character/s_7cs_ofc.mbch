@@ -4,6 +4,7 @@ ClassInfo
 	name			"s_7cs_ofc"
 	maxhealth		100
 	maxarmor		100
+	forcepool		25
 	uishader		"models/players/weequay/mb2_icon_default"
 	rateoffire		0.675
 	speed			0.8
@@ -16,6 +17,8 @@ ClassInfo
 
 	uishader_4		"models/players/bossk/mb2_icon_default"
 
+
+	resource		RESOURCE_RAGE
 }
 
 WeaponInfo0

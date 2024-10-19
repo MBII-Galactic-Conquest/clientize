@@ -4,9 +4,12 @@ ClassInfo
 	name			"s_15se_ofc"
 	maxhealth		100
 	maxarmor		100
+	forcepool		25
 	uishader		"models/players/sithtrooper_tor/mb2_icon_default"
 	rateoffire		0.675
 	speed			0.8
+
+	resource		RESOURCE_RAGE
 }
 
 WeaponInfo0

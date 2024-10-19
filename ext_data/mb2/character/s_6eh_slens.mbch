@@ -86,6 +86,10 @@ WeaponInfo1
     customAmmo      600
     clipSize        150
     FPMult          0.8
+
+	idleAnim		DC15_READY
+	firingAnim		DC15_FIRE
+	altFiringAnim	DC15_FIRE
 }
 
 description	"Empire of the Hand - Storm Trooper - Energy Boost & Supplies

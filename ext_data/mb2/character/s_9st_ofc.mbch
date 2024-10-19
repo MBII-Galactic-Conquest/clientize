@@ -6,7 +6,7 @@ ClassInfo
 	saber1			kotor_vibrosword_supremacy
 	maxhealth		100
 	maxarmor		100
-	forcepool		85
+	forcepool		25
 	uishader		"models/players/sith_officer/mb2_icon_default"
 	rateoffire		0.675
 	speed			1.0
@@ -14,6 +14,8 @@ ClassInfo
 	uishader_1		"models/players/sithtrooper/mb2_icon_captain"
 
 	uishader_2		"models/players/sithtrooper/mb2_icon_red"
+
+	resource		RESOURCE_RAGE
 
 }
 

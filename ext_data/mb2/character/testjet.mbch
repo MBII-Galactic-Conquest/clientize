@@ -1,18 +1,17 @@
 
 ClassInfo
 {
-	name			"s_6eh_sold"
-	maxhealth		75
-	maxarmor		25
-	uishader		"models/players/stormie/mb2_icon_default"
+	name			"testjet"
+	maxhealth		100
+	maxarmor		50
+	uishader		"models/players/stormie_jet/mb2_icon_leg_priv.jpg"
 	speed			0.8
+	jetpackJetTag		*jetpack_jet1
+	jetpackJet2Tag		*jetpack_jet2
+	jetpackJetOffset	"0, 0, 4"
+	jetpackJet2Offset	"0, 0, 4"
 
-	uishader_1		"models/players/snowtrooper/mb2_icon_default"
-
-	uishader_2		"models/players/scouttrooper/mb2_icon_default"
-
-	WP_BlasterPistolFlags	HELD_ALTRELOAD|HELD_AMMOREGEN
-	WP_BlasterFlags		HELD_ALTRELOAD|HELD_AMMOREGEN
+	uishader_1		"models/players/manda_et_jet/mb2_icon_default.jpg"
 
 }
 
@@ -38,27 +37,27 @@ WeaponInfo1
     WeaponName            "E-11 Imperial Carbine"                        //Required: Weapon change display name
     FlashSound0 "sound/weapsup/r/wpn_imp_blaster_fire.wav"
     AltFlashSound0  "sound/weapsup/r/wpn_imp_blaster_fire.wav"
-    customAmmo      500
-    clipSize        100
-    FPMult          0.8
-
 	idleAnim		DC15_READY
 	firingAnim		DC15_FIRE
 	altFiringAnim	DC15_FIRE
+    customAmmo      500
+    clipSize        100
+    FPMult          0.8
 }
 
-description	"Empire of the Hand - Storm Trooper
+description	"Imperial Jet Trooper
 
 Weaponry:
-Concussion Grenade (1)
-Frag Grenade (1)
+Pulse Grenade (2)
 Pistol (2)
-E-11 (2)
+E-11 (3)
 
 Attributes
-Reinforcements (2)
+Reinforcements (1)
 Close Combat Training (2)
-Gun Bash
+Bounty Hunter Kick
+Quick Throw (1)
+Jet Pack (2)
 Assemble
 
-An Imperial Stormtrooper."
+An Imperial Jet Trooper."

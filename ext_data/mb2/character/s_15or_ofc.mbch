@@ -4,6 +4,7 @@ ClassInfo
 	name			"s_15or_ofc"
 	maxhealth		100
 	maxarmor		100
+	forcepool		50
 	uishader		"models/players/clonetrooper_p2/mb2_icon_212_cody"
 	speed			1.0
 

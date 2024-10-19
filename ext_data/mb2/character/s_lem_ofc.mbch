@@ -4,9 +4,12 @@ ClassInfo
 	name			"s_lem_ofc"
 	maxhealth		100
 	maxarmor		100
+	forcepool		25
 	uishader		"models/players/legoguy/mb2_icon_imperial"
 	rateoffire		0.675
 	speed			0.8
+
+	resource		RESOURCE_RAGE
 }
 
 WeaponInfo0

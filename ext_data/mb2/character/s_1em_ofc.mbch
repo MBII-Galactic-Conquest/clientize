@@ -4,6 +4,7 @@ ClassInfo
 	name			"s_1em_ofc"
 	maxhealth		100
 	maxarmor		100
+	forcepool		25
 	uishader		"models/players/imperial/mb2_icon_lieutenant"
 	rateoffire		0.675
 	speed			0.8
@@ -16,7 +17,7 @@ ClassInfo
 
 	uishader_4		"models/players/imperial_army/mb2_icon_atst"
 
-	uishader_5		"models/players/mudtrooper/mb2_icon_andor"
+	resource		RESOURCE_RAGE
 }
 
 WeaponInfo0
