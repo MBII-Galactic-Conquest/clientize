@@ -1,0 +1,15 @@
+head,models/players/rebel_vanguard/all_inf_vanguarddesert.tga
+hips,models/players/rebel_vanguard/legs.tga
+hips_torso,models/players/rebel_vanguard/torso.tga
+r_leg,models/players/rebel_vanguard/all.tga
+l_leg,models/players/rebel_vanguard/all.tga
+chest,models/players/rebel_vanguard/all_inf_vanguarddesert.tga
+belt,models/players/rebel_vanguard/all.jpg
+torso,models/players/rebel_vanguard/torso.tga
+
+r_arm,models/players/rebel_vanguard/torso.tga
+r_hand,models/players/rebel_vanguard/hands.tga
+
+l_arm,models/players/rebel_vanguard/torso.tga
+l_hand,models/players/rebel_vanguard/hands.tga
+
