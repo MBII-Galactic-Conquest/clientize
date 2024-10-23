@@ -5,10 +5,12 @@ ClassInfo
 	classflags		CFL_STATVIEWER
 	maxhealth		100
 	maxarmor		20
+	forcepool		50
 	uishader		"models/players/legoguy/mb2_icon_stormtrooper"
 	speed			0.8
 
 
+	resource	RESOURCE_RAGE
 }
 
 WeaponInfo0

@@ -5,10 +5,13 @@ ClassInfo
 	classflags		CFL_STATVIEWER
 	maxhealth		100
 	maxarmor		20
-	uishader		"models/players/rebel_gag/mb2_icon_default"
+	forcepool		50
+	uishader		"gfx/sup_icons/rebel_gag/mb2_icon_med"
 	speed			0.8
 
 
+
+	resource	RESOURCE_RAGE
 }
 
 WeaponInfo0

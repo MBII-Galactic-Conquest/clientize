@@ -4,16 +4,14 @@ ClassInfo
 	name			"s_1ra_sleng"
 	maxhealth		75
 	maxarmor		25
-	uishader		"models/players/rebel/mb2_icon_default"
+	uishader		"gfx/sup_icons/rebel/mb2_icon_sleng"
 	speed			0.8
 
-	uishader_1		"models/players/rebelvang_bfii/mb2_icon_default"
+	uishader_1		"gfx/sup_icons/rebel_guerilla/mb2_icon_sleng"
 
-	uishader_2		"models/players/rebel_guerilla/mb2_icon_default"
+	uishader_2		"gfx/sup_icons/rebel_commando/mb2_icon_sleng"
 
-	uishader_3		"models/players/rebel_commando/mb2_icon_default"
-
-	uishader_4		"models/players/rebel_commando/mb2_icon_hoth"
+	uishader_3		"gfx/sup_icons/rebel_commando_h/mb2_icon_sleng"
 
 	WP_BlasterPistolFlags	HELD_ALTRELOAD|HELD_AMMOREGEN
 	WP_BlasterFlags		HELD_ALTRELOAD|HELD_AMMOREGEN

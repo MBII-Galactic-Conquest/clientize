@@ -11,9 +11,9 @@ ClassInfo
 	rateoffire		0.675
 	speed			1.0
 
-	uishader_1		"models/players/sithtrooper/mb2_icon_captain"
+	uishader_1		"models/players/sithtrooper/mb2_icon_elite"
 
-	uishader_2		"models/players/sithtrooper/mb2_icon_red"
+	uishader_2		"models/players/sithtrooper/mb2_icon_captain"
 
 	resource		RESOURCE_RAGE
 

@@ -5,6 +5,7 @@ ClassInfo
 	classflags		CFL_STATVIEWER
 	maxhealth		100
 	maxarmor		20
+	forcepool		50
 	uishader		"models/players/weequay/mb2_icon_default"
 	speed			0.8
 
@@ -17,6 +18,7 @@ ClassInfo
 	uishader_4		"models/players/bossk/mb2_icon_default"
 
 
+	resource	RESOURCE_RAGE
 }
 
 WeaponInfo0

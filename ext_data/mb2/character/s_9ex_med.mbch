@@ -7,12 +7,14 @@ ClassInfo
 	forcepool		50
 	maxhealth		100
 	maxarmor		20
+	forcepool		50
 	uishader		"models/players/prisoner/mb2_icon_oldrepsold_helm_FA"
 	speed			0.8
 
 	uishader_1		"models/players/prisoner/mb2_icon_oldrepsold_helm2_FA"
 
 
+	resource	RESOURCE_RAGE
 }
 
 WeaponInfo0

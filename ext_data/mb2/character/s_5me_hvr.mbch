@@ -4,7 +4,7 @@ ClassInfo
 	name			"s_5me_hvr"
 	maxhealth		100
 	maxarmor		75
-	speed			1.0
+	speed			0.7
 	uishader		"models/players/sithtrooper_tor/mb2_icon_default"
 
 	WP_PLX1Flags	HELD_SLOW

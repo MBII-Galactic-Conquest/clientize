@@ -9,8 +9,6 @@ ClassInfo
 	rateoffire		0.675
 	speed			0.8
 
-	uishader_1		"models/players/jedi_hm/mb2_icon_hothelite2"
-
 	resource		RESOURCE_RAGE
 }
 

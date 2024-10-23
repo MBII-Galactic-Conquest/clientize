@@ -4,7 +4,7 @@ ClassInfo
 	name			"s_13vo_wea"
 	classflags		CFL_BPFREEJUMPS|CFL_ACIDBLOOD|CFL_BLOODYMELEE|CFL_HEAVYMELEE|CFL_SEEING_STEALTH|CFL_STATVIEWER
 	maxhealth       100
-	forcepool		100
+	forcepool		50
 	speed			0.8
 	
 	damageGiven        1.10
@@ -20,7 +20,7 @@ ClassInfo
 	flourishAnim	BOTH_TUSKENTAUNT1
 	gloatAnim     BOTH_TUSKENTAUNT1
 
-	resource	RESOURCE_FORCE
+	resource	RESOURCE_RAGE
 }
 
 WeaponInfo0

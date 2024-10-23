@@ -18,7 +18,7 @@ model                "models/weapons2/merr_sonn/projectile.md3"
 muzzleFX			"Droideka/MuzzleFlash"
 shotFX				"rockets/Missile"
 //impactFX			"effects/Grenades/EXP_Conc"
-impactFX            "/Grenades/EXP_Alt"
+impactFX            "/Grenades/EXP_Alt_E"
 loopSound            "sound/weapons/rocket/missleloop.wav"
 g2MarkShader        "gfx/damage/bodybigburnmark1"
 g2MarkSize			48

@@ -4,7 +4,7 @@ ClassInfo
 	name			"s_13ga_hvr"
 	maxhealth		100
 	maxarmor		75
-	speed			1.0
+	speed			0.7
 	uishader		"models/players/rebel/mb2_icon_default_tan"
 
 	uishader_1		"models/players/stormie/mb2_icon_officer"

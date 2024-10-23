@@ -4,7 +4,7 @@ ClassInfo
 	name			"s_14fel_hvr"
 	maxhealth		100
 	maxarmor		75
-	speed			1.0
+	speed			0.7
 	uishader		"models/players/stormie/mb2_icon_officer"
 
 	uishader_1		"models/players/rodian_stormtrooper/mb2_icon_default"

@@ -77,5 +77,11 @@ MarsMarshall -
 Psyk0Sith -
 `eg-5 jedi hunter droid`
 
-ZanderNao -
-`S0 series slicing droid`
+Omega -
+`T800 series terminator model`
+
+ViceDice -
+`rock the era systems work`
+
+Mako?Rehaps -
+`ai & python conquest map generation`

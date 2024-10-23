@@ -7,7 +7,7 @@ ClassInfo
 	forcepool		50
 	forceregen		2
 	classflags		CFL_NOLOCATIONDAMAGE|CFL_DISMEMBERFRAGILE		
-	speed			0.5
+	speed			0.6
 	uishader  		"models/players/wardroid/mb2_icon_default"
 
 	deathAnim		SBD_DEATH

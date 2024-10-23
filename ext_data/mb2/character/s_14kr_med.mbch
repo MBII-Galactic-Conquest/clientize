@@ -5,10 +5,12 @@ ClassInfo
 	classflags		CFL_STATVIEWER
 	maxhealth		100
 	maxarmor		20
+	forcepool		50
 	uishader		"models/players/stormpilot/mb2_icon_default"
 	speed			0.8
 
 
+	resource	RESOURCE_RAGE
 }
 
 WeaponInfo0

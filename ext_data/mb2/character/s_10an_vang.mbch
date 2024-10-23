@@ -12,6 +12,31 @@ ClassInfo
 	uishader_2		"models/players/rebel_commando/mb2_icon_default"
 
 	uishader_3		"models/players/rebel_commando/mb2_icon_hoth"
+
+	isCustomBuild        1
+	mbPoints	15
+
+    c_att_skill_0        MB_ATT_INVALID
+    c_att_names_0        "Axis Resistance Vanguard"
+    c_att_ranks_0        -1
+
+    c_att_skill_1        MB_ATT_INVALID
+    c_att_names_1        " "
+    c_att_ranks_1        -1
+
+    c_att_skill_2        MB_ATT_INVALID
+    c_att_names_2        "^5-Weapon Availability-"
+    c_att_ranks_2        -1
+    
+    c_att_skill_3        MB_ATT_T21
+    c_att_names_3        "Heavy A280:"
+    c_att_ranks_3        13,1,1
+
+    c_att_skill_4        MB_ATT_A280
+    c_att_names_4        "Burst A280:"
+    c_att_ranks_4        13,1,1
+
+
 }
 
 WeaponInfo0
@@ -29,11 +54,26 @@ WeaponInfo0
 WeaponInfo1
 {
     WeaponToReplace        WP_A280                           //Required: Weapon Slot of weapon you're replacing
-    WeaponBasedOff        WP_BLASTER                          //Required: For future use, should be the same as WeaponToReplace
+    WeaponBasedOff        WP_A280                          //Required: For future use, should be the same as WeaponToReplace
     NewWorldModel        "models/weapons2/A280/A280_w.glm"      //Required: New 3rd person/dropped weapon model
     NewViewModel        "models/weapons2/A280/A280.md3"       //Required: New 1st person weapon model
     Icon                "gfx/hud/w_icon_A280"                 //Required: Weapon change icon
-    WeaponName            "A280 Rifle"                        //Required: Weapon change display name
+    WeaponName            "A280 Burst Rifle"                        //Required: Weapon change display name
+    FlashSound0 "sound/weapsup/sup/a280_alt_fire.mp3"
+	AltFlashSound0	"sound/weapsup/sup/a280_fire.mp3"
+    customAmmo      500
+    clipSize        100
+    FPMult          0.8
+}
+
+WeaponInfo2
+{
+    WeaponToReplace        WP_T21                           //Required: Weapon Slot of weapon you're replacing
+    WeaponBasedOff        WP_T21                          //Required: For future use, should be the same as WeaponToReplace
+    NewWorldModel        "models/weapons2/A280/A280_w.glm"      //Required: New 3rd person/dropped weapon model
+    NewViewModel        "models/weapons2/A280/A280.md3"       //Required: New 1st person weapon model
+    Icon                "gfx/hud/w_icon_A280"                 //Required: Weapon change icon
+    WeaponName            "A280 Heavy Blaster"                        //Required: Weapon change display name
     FlashSound0 "sound/weapsup/sup/a280_fire.mp3"
 	AltFlashSound0	"sound/weapsup/sup/a280_alt_fire.mp3"
     customAmmo      500
