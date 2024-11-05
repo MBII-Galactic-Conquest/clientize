@@ -13,6 +13,8 @@ ClassInfo
 
 	WP_ShotgunFlags HELD_ALTRELOAD
 
+	resource	RESOURCE_RAGE
+
 }
 
 WeaponInfo0

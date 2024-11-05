@@ -7,7 +7,7 @@ ClassInfo
 	maxarmor		20
 	forcepool		50
 	uishader		"models/players/stormie/mb2_icon_vader"
-	speed			0.8
+	speed			0.7
 
 
 	resource	RESOURCE_RAGE

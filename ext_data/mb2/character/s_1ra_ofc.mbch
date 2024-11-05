@@ -5,10 +5,11 @@ ClassInfo
 	maxhealth		100
 	maxarmor		100
 	forcepool		25
-	uishader		"gfx/sup_icons/rebel_desert/mb2_icon_ofc"
+	uishader		"models/players/rebel/mb2_icon_desert"
 	rateoffire		0.675
 	speed			0.8
 
+	uishader_1		"models/players/jedi_hm/mb2_icon_hothelite2"
 
 	resource		RESOURCE_RAGE
 }

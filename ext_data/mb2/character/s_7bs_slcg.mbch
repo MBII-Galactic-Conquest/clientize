@@ -19,7 +19,7 @@ ClassInfo
 	WP_BlasterFlags		HELD_ALTRELOAD|HELD_AMMOREGEN
 
 	isCustomBuild        1
-	mbPoints	30
+	mbPoints	31
 
     c_att_skill_0        MB_ATT_INVALID
     c_att_names_0        "Combat Shielding & Garrison"

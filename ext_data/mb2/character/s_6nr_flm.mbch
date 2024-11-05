@@ -4,7 +4,7 @@ Classinfo
 	name			"s_6nr_flm"
 	maxhealth		100
 	maxarmor		75
-	speed           0.5
+	speed           0.7
 	
 	rateOfFire      0.95
 	

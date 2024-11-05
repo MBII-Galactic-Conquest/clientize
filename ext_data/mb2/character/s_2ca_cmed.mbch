@@ -6,7 +6,7 @@ ClassInfo
 	maxhealth		120
 	maxarmor		40
 	uishader		"models/players/clonetactician/mb2_icon_blue" // for phase2
-	speed			0.8
+	speed			0.7
 
 
 	resource	RESOURCE_RAGE

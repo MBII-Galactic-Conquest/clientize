@@ -19,7 +19,7 @@ ClassInfo
 	resource	RESOURCE_STAMINA
 
 	isCustomBuild        1
-	mbPoints	40
+	mbPoints	41
 
     c_att_skill_0        MB_ATT_INVALID
     c_att_names_0        "Energy Boost"
@@ -40,6 +40,10 @@ ClassInfo
 	c_att_skill_4		 MB_ATT_DEXTERITY
 	c_att_names_4		 "Dexterity: ^3[CS4]"
 	c_att_ranks_4		 15,5
+
+	c_att_skill_5		 MB_ATT_ASSEMBLE
+	c_att_names_5		 "Assemble:"
+	c_att_ranks_5		 1
 
 }
 

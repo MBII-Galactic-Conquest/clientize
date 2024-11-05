@@ -4,6 +4,7 @@ ClassInfo
 	name			"s_14fel_vet"
 	maxhealth		100
 	maxarmor		75
+	forcepool		25
 	speed			0.7
 	uishader		"models/players/stormie/mb2_icon_officer"
 
@@ -36,6 +37,8 @@ ClassInfo
     c_att_skill_4        MB_ATT_A280
     c_att_names_4        "Burst T-21:"
     c_att_ranks_4        13,1,1
+
+	resource	RESOURCE_RAGE
 
 
 }

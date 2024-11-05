@@ -26,6 +26,8 @@ SubclassesForClass1
 Subclass1  "s_9st_spy"
 Subclass2  "s_9st_flm"
 Subclass4  "s_9st_med"
+Subclass4  "s_9st_gs3"
+Subclass5  "s_9st_vet"
 }
 
 //1-11

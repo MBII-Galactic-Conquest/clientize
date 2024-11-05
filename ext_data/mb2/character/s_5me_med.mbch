@@ -7,7 +7,7 @@ ClassInfo
 	maxarmor		20
 	forcepool		50
 	uishader		"models/players/sithtrooper_tor/mb2_icon_korriban"
-	speed			0.8
+	speed			0.7
 
 
 	resource	RESOURCE_RAGE

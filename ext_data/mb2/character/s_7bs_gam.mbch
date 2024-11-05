@@ -16,6 +16,8 @@ ClassInfo
 	
 	
 
+	resource	RESOURCE_RAGE
+	
 
 }
 
@@ -68,7 +70,9 @@ Attributes
 - Blast Armor
 
 Abilities:
-- Fury (1) [Class Special 1 and 2 in Melee]
-- Gunbash [Class Special 2]
+- Fury (1) [Class Special 1]
+- Barge [Class Special 2]
+- Gunbash
+- Dash [Class Special 3]
 
 From the planet Gamorr, the Gamorrean species consists of brutish, porcine humanoids who maintain a feudal level of technology, and tolerate a remarkable amount of violence in their everyday activities."

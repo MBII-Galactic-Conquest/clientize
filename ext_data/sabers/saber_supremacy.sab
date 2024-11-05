@@ -552,30 +552,38 @@ kotor_vibrosword_supremacy
 {
 	name		"Vibrosword"
 	saberType	SABER_SINGLE
-	saberModel	"models/weapons2/vibrosword/sword_w.glm"
+	saberModel	"models/weapons2/kotor_vibroswords/vibrosword_w.glm"
+	soundOn	"sound/weapons/swordraiden/draw1.mp3"
+	soundLoop	"s/w/shwartz/saberhum1.wav"
+	soundOff	"s/w/shwartz/saberhup3.mp3"
+	saberLength	38
+	saberRadius	2
+	throwable	0
+	disarmable	1
+	notInMP		0
+	noDlight	1
+	noblade		1
+	noIdleEffect	1
+	onInWater	1
+	noWallMarks	1
+	trailStyle	2
+	noManualDeactivate	0
 	
-	
-	singleBladeStyle  medium
-	saberStyleLearned medium
-	saberStyle	      medium
+	saberColor	orange
 
-	soundOn	"sound/weapons/blade/draw1.mp3"
-	soundLoop	"sound/effects/null.wav"
-	soundOff	"sound/weapons/tai_weap/saberoff.wav"
-	
-	spinsound	"sound/weapons/tai_weap/swing3.wav"
-	
-	swingSound1	"sound/weapons/vibblade/swish1.mp3"
-	swingSound2	"sound/weapons/vibblade/swish2.mp3"
-	swingSound3	"sound/weapons/vibblade/swish1.mp3"
+	spinsound	"sound/vibblade/swish2.mp3"
+
+	swingSound1	"sound/weapons/swordraiden/swing1.mp3"
+	swingSound2	"sound/weapons/swordraiden/swing2.mp3"
+	swingSound3	"sound/weapons/swordraiden/swing3.mp3"
 
 	fallSound1	"sound/weapons/vibblade/fall1.mp3"
 	fallSound2	"sound/weapons/vibblade/fall1.mp3"
 	fallSound3	"sound/weapons/vibblade/fall1.mp3"
 
-	hitSound1	"sound/weapons/vibblade/hit1.wav"
-	hitSound2	"sound/weapons/vibblade/hit2.wav"
-	hitSound3	"sound/weapons/vibblade/hit3.wav"
+	hitSound1	"sound/weapons/knife/knifehit1.mp3"
+	hitSound2	"sound/weapons/knife/knifehit2.mp3"
+	hitSound3	"sound/weapons/knife/knifehit2.mp3"
 
 	blockSound1	"sound/weapons/vibblade/hit1.mp3"
 	blockSound2	"sound/weapons/vibblade/hit2.mp3"
@@ -584,26 +592,18 @@ kotor_vibrosword_supremacy
 	bounceSound1	"sound/weapons/vibblade/hit3.mp3"	
 	bounceSound2	"sound/weapons/vibblade/hit3.mp3"
 	bounceSound3	"sound/weapons/vibblade/hit3.mp3"
-	
-	
 	g2MarksShader "gfx/damage/bloodcutmark"
 	g2WeaponMarkShader "gfx/effects/bloodsplat"
 	blockEffect	"melee_weap/block.efx"
 	hitPersonEffect "melee_weap/attack.efx"
 	hitOtherEffect	"melee_weap/other.efx"
-
-	saberLength	42
-	saberColor	random
-	noDlight	1
-	noBlade	1
-	noIdleEffect	1
-	noWallMarks	1
-	trailStyle	1
-	onInWater	1
-	noManualDeactivate	0
-	damageScale	0.75
-	throwable 0
-	blasterblocking		0	
 	
-	disarmable 0
+	useGoreConfig	1
+	BlasterBlocking 0
+	noCartwheels 1
+	tauntAnim BOTH_ENGAGETAUNT
+	flourishAnim BOTH_SABERKILLER1
+	jumpAtkFwdMove LS_NONE
+	jumpAtkLeftMove LS_NONE
+	jumpAtkRightMove	 LS_NONE
 }

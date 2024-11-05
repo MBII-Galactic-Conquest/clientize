@@ -7,7 +7,7 @@ ClassInfo
 	maxarmor		20
 	forcepool		50
 	uishader		"models/players/weequay/mb2_icon_default"
-	speed			0.8
+	speed			0.7
 
 	uishader_1		"models/players/weequay/mb2_icon_rgb_abyssin"
 

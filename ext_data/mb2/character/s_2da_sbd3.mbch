@@ -7,13 +7,13 @@ ClassInfo
 	maxhealth			200
 	maxarmor			10
 	
-	speed				1.0
+	speed				0.7
 	rateOfFire			1.15
 
 
 	uishader		    "models/players/sbd/mb2_icon_jet"
 		
-	meleeMoves				M_PUNCH|M_KICK
+	meleeMoves			M_PUNCH|M_KICK
 
 	resource	RESOURCE_BATTERY
 	

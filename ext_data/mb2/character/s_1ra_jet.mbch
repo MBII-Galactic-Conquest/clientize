@@ -4,7 +4,7 @@ ClassInfo
 	name			"s_1ra_jet"
 	maxhealth		100
 	maxarmor		50
-	uishader		"gfx/sup_icons/gwethenea/mb2_icon_jet"
+	uishader		"models/players/gwethenea/mb2_icon_jetpack"
 	speed			0.8
 
 	resource	RESOURCE_FUEL

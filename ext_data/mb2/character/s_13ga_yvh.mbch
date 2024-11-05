@@ -7,7 +7,7 @@ ClassInfo
 	maxhealth 			50
 	maxarmor			125
 	forcepool			100
-	forceregen			2
+	forceregen			6
 	
 	
 	damageTaken 		0.85

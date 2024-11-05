@@ -7,12 +7,14 @@ ClassInfo
 	maxhealth		100
 	maxarmor		20
 	speed			0.7
-	uishader		"gfx/sup_icons/rebel_gag/mb2_icon_eng"
+	uishader		"models/players/rebel_gag/mb2_icon_default"
 
 	uishader_1		"models/players/rebel_pilot/mb2_icon_default"
 
 
 	WP_ShotgunFlags HELD_ALTRELOAD
+
+	resource	RESOURCE_RAGE
 
 }
 

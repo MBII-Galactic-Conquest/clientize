@@ -4,6 +4,7 @@ ClassInfo
 	name			"s_13ga_vang"
 	maxhealth		100
 	maxarmor		75
+	forcepool		25
 	uishader		"models/players/rebel/mb2_icon_default"
 	speed			1.0
 
@@ -31,6 +32,8 @@ ClassInfo
     c_att_skill_4        MB_ATT_A280
     c_att_names_4        "Burst DLT20a:"
     c_att_ranks_4        13,1,1
+
+    resource    RESOURCE_RAGE
 
 
 }

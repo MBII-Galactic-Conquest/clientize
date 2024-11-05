@@ -10,7 +10,7 @@ ClassInfo
 	rateoffire		1.4
 	damageGiven		1
 
-    WP_MinigunFlags	HELD_ALTRELOAD|HELD_LOWDAMAGE|HELD_SLOW
+    WP_MinigunFlags	HELD_ALTRELOAD|HELD_SLOW
 
 
 	resource	RESOURCE_FUEL

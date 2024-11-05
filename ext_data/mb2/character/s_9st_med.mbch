@@ -8,7 +8,7 @@ ClassInfo
 	maxhealth		100
 	maxarmor		10
 	uishader		"models/players/sithtrooper/mb2_icon_gold"
-	speed			0.8
+	speed			0.7
 
 
 	resource	RESOURCE_RAGE

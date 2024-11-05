@@ -21,6 +21,8 @@ ClassInfo
 	gloatAnim     BOTH_TUSKENTAUNT1
 
 
+	resource	RESOURCE_RAGE
+
 }
 
 WeaponInfo0

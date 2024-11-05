@@ -7,13 +7,13 @@ ClassInfo
 	maxhealth		100
 	maxarmor		50
 	forcepool       50
-	speed			1.0
+	speed			0.8
 	uishader		"models/players/manda_et/mb2_icon_default"
 	
 	rateoffire		1.4
 	damageGiven		1
 
-    WP_MinigunFlags	HELD_ALTRELOAD|HELD_LOWDAMAGE|HELD_SLOW
+    WP_MinigunFlags	HELD_ALTRELOAD|HELD_SLOW
 
 }
 

@@ -85,3 +85,6 @@ ViceDice -
 
 Mako?Rehaps -
 `ai & python conquest map generation`
+
+DarthStiv -
+`Rakatan playermodels`

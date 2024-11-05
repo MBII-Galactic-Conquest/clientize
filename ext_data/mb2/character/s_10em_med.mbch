@@ -7,7 +7,7 @@ ClassInfo
 	maxarmor		20
 	forcepool		50
 	uishader		"models/players/clonetrooper_p2/mb2_icon_shock"
-	speed			0.8
+	speed			0.7
 
 
 	resource	RESOURCE_RAGE

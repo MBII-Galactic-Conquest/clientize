@@ -1,0 +1,96 @@
+
+ClassInfo
+{
+	name			"s_16ie_gs1"
+	classflags		CFL_BPFREEJUMPS|CFL_BLOODYMELEE|CFL_HEAVYMELEE
+	maxhealth       300
+	maxarmor		10
+	forcepool		100
+	speed			1.06
+	BPmultiplier    1.0
+	APmultiplier    1.0
+	
+	damageGiven        1.10
+		
+	uishader		"models/players/Rakata/icon_default_3"
+
+	rateoffire		2
+	rateoffire_melee	2
+
+
+	saber1			rakatan_forcesaber_supremacy
+	saberStanceAnim     BOTH_TAVION_STANCE
+
+	tauntAnim		BOTH_MAUL_TAUNT
+	flourishAnim	BOTH_TUSKENTAUNT1
+	gloatAnim       BOTH_VICTORY_FAST
+
+	resource		RESOURCE_FORCE
+	
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_MELEE
+	WeaponBasedOff		WP_MELEE  
+  NewWorldModel		"models/weapons2/dummy/dummy.glm"
+  NewViewModel		"models/weapons2/dummy/dummy.md3"
+  Icon			"gfx/mplevels/aliens3/aliens_claws"
+	WeaponName		"Claws"
+	primGore		1
+	altGore			1
+}
+
+WeaponInfo1
+{
+	WeaponToReplace WP_SABER
+	WeaponBasedOff  WP_SABER
+	NewWorldModel "models/weapons2/saber_plasma/saber_bastila.glm"
+	NewViewModel  "models/weapons2/dummy/dummy.md3"
+	Icon  "gfx/hud/w_icon_lightsaber"
+	WeaponName  "Forcesaber"
+}
+
+ForceInfo0
+{
+	ForceToReplace	FP_RAGE
+	Icon		"gfx/forcepowers/snoke"
+	ForcePowerName	"Null Ability Slot"
+}
+
+
+description	"Infinite Empire - Rakatan Executor
+
+Wookiee Subclass
+* - Ability to Slap
+* - Ability to Barge [CS4]
+* - Ability to Rage
+
+Rakatan Fury:
+* - 2x Slower Melee
+* - Increased Melee Damage
+
+Forcesaber:
+Saber Offense (3)
+Saber Defense (2)
+Blaster Defense (3)
+Saber Deflect (2)
+Improved Saber Throw (3) [CS1]
+
+Force Powers:
+Force Block (1)
+Force Focus (3)
+Jump (2)
+Push (3)
+Pull (2)
+Speed (1)
+
+Abilities:
+Flip Kick (2)
+Wookiee Fury (1) [CS2]
+Wookiee Strength (2)
+Shield Recharge (1)
+Rakatan Armor (Beskar) (3)
+Cortosis (1)
+
+The Ancient Rakatans, cannabilistic conquerers of all the known ancient galaxy, are diabolical users of the Dark Side of the force. Enslaving all of the galaxy under their supremacy with the use of the Star Forge."
