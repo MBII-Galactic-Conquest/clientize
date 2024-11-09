@@ -9,6 +9,7 @@ ClassInfo
 	classflags		CFL_BPFREEJUMPS|CFL_HEAVYMELEE|CFL_SEEING_STEALTH
     speed			1.0
 	saber1			kotor_vibrosword_supremacy
+	saber1_1		kotor_vibrostaff_supremacy
 	uishader		"models/players/prisoner/mb2_icon_oldrepsold_helm_FA"
 
 	uishader_1		"models/players/prisoner/mb2_icon_oldrepsold_helm2_FA"

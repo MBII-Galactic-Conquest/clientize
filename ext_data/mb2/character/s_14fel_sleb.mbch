@@ -7,9 +7,9 @@ ClassInfo
 	uishader		"models/players/stormie/mb2_icon_default"
 	speed			0.8
 
-	uishader_1		"models/players/duros_stormie/mb2_icon_default"
+	uishader_1		"models/players/stormie_alien/mb2_icon_duros"
 
-	uishader_2		"models/players/rodian_stormtrooper/mb2_icon_default"
+	uishader_2		"models/players/stormie_alien/mb2_icon_rodian"
 
 	uishader_3		"models/players/stormie_alien/mb2_icon_bith"
 

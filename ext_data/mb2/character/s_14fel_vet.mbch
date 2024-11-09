@@ -8,11 +8,23 @@ ClassInfo
 	speed			0.7
 	uishader		"models/players/stormie/mb2_icon_officer"
 
-	uishader_1		"models/players/rodian_stormtrooper/mb2_icon_default"
+	uishader_1		"models/players/stormie_alien/mb2_icon_rodian_rgb"
 
-	uishader_2		"models/players/duros_stormie/mb2_icon_default"
+	uishader_2		"models/players/stormie_alien/mb2_icon_duros_rgb"
 
-	uishader_3		"models/players/snowtrooper/mb2_icon_default"
+	uishader_3		"models/players/stormie_alien/mb2_icon_bith_rgb"
+
+	uishader_4		"models/players/stormie_alien/mb2_icon_weequay_rgb"
+
+	uishader_5		"models/players/stormie_alien/mb2_icon_aqualish_rgb"
+
+	uishader_6		"models/players/stormie_alien/mb2_icon_nikto_rgb"
+
+	uishader_7		"models/players/stormie_alien/mb2_icon_gotal_rgb"
+
+	uishader_8		"models/players/stormie_alien/mb2_icon_abyssin_rgb"
+
+	uishader_9		"models/players/snowtrooper/mb2_icon_default"
 
 
 	isCustomBuild        1

@@ -21,9 +21,9 @@ WeaponInfo0
 {
 	WeaponToReplace		WP_EE4			
 	WeaponBasedOff		WP_BLASTER    			
-	NewWorldModel		"models/weapons2/kotor_brifle2/kotor_brifle2_w.glm"
-	NewViewModel		"models/weapons2/kotor_brifle2/kotor_brifle2.md3"
-	Icon			"gfx/hud/w_icon_kotor_brifle2"
+    NewWorldModel       "models/weapons2/kotor_reprifle/kotor_reprifle_w.glm"      //Required: New 3rd person/dropped weapon model
+    NewViewModel       "models/weapons2/kotor_reprifle/kotor_reprifle.md3"       //Required: New 1st person weapon model
+    Icon              "gfx/hud/w_icon_kotor_reprifle"                 //Required: Weapon change icon
 	WeaponName		"Scoped Sith Rifle"
 	FlashSound0			"sound/weapons/kotor/fire_med.wav"
     AltFlashSound0		"sound/weapons/kotor/fire_hvy.wav"

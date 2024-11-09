@@ -10,12 +10,12 @@ EUAllowed 0
 Classes
 
 {
-class1	"s_5se_slcg"
-class2	"s_5se_ofc"
-class3	"s_5se_hvg"
-class4	"s_5se_hvr"
-class5  "s_5se_md2"
-class6  "s_5se_spy"
+class1	"s_15se_slcg"
+class2	"s_15se_ofc"
+class3	"s_15se_hvg"
+class4	"s_15se_hvr"
+class5  "s_15se_md2"
+class6  "s_15se_spy"
 }
 
 //1-6
@@ -23,9 +23,10 @@ class6  "s_5se_spy"
 SubclassesForClass1
 
 {
-Subclass1  "s_5se_flm"
-Subclass2  "s_5se_jet"
-Subclass3  "s_5se_gs3"
+Subclass1  "s_15se_flm"
+Subclass2  "s_15se_jet"
+Subclass3  "s_15se_vet"
+Subclass4  "s_15se_gs3"
 }
 
 //1-11

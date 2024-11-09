@@ -4,6 +4,7 @@ ClassInfo
 	name			"s_9st_slcs"
 	classflags		CFL_STRONGAGAINSTPHYSICAL
 	saber1			kotor_vibrosword_supremacy
+	saber1_1		kotor_vibrostaff_supremacy
 	maxhealth		75
 	maxarmor		35
 	forcepool       0

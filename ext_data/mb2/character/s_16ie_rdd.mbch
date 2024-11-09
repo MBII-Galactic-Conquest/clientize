@@ -1,0 +1,33 @@
+
+ClassInfo
+{
+	name				"s_16ie_rdd"
+	uishader			"models/players/droideka/mb2_icon_white"
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_BRYAR_PISTOL
+	WeaponBasedOff		WP_BRYAR_PISTOL
+	NewWorldModel		"models/weapons2/blaster_pistol/blaster_pistol_w.glm"
+	NewViewModel		"models/weapons2/blaster_pistol/blaster_pistol.md3"
+	Icon				"gfx/hud/w_icon_dekaarm"
+	WeaponName			"Destroyer Droid Turrets"
+}
+
+description	"Infinite Empire - Rakatan Destroyer Droid - Star Forge
+
+	[GC]
+Unlocked With:
+Star Forge
+
+Abilities:
+Shockwave (X)
+Shield Projector (3)
+Shield Strength (2)
+Hull Strength (1)
+Firepower (3)
+
+
+A rakatan destroyer droid, a terrifying use of star forge technology used by the forerunner builder races of the known ancient galaxy."
+

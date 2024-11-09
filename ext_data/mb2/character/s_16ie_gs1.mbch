@@ -4,9 +4,9 @@ ClassInfo
 	name			"s_16ie_gs1"
 	classflags		CFL_BPFREEJUMPS|CFL_BLOODYMELEE|CFL_HEAVYMELEE
 	maxhealth       300
-	maxarmor		10
+	maxarmor		5
 	forcepool		100
-	speed			1.06
+	speed			1
 	BPmultiplier    1.0
 	APmultiplier    1.0
 	
@@ -15,10 +15,9 @@ ClassInfo
 	uishader		"models/players/Rakata/icon_default_3"
 
 	rateoffire		2
-	rateoffire_melee	2
 
 
-	saber1			rakatan_forcesaber_supremacy
+	saber1			lightsaber_pike_supremacy
 	saberStanceAnim     BOTH_TAVION_STANCE
 
 	tauntAnim		BOTH_MAUL_TAUNT
@@ -59,12 +58,11 @@ ForceInfo0
 }
 
 
-description	"Infinite Empire - Rakatan Executor
+description	"Infinite Empire - Rakatan Force Executor
 
 Wookiee Subclass
-* - Ability to Slap
 * - Ability to Barge [CS4]
-* - Ability to Rage
+* - Ability to Rage [CS2]
 
 Rakatan Fury:
 * - 2x Slower Melee
@@ -72,25 +70,24 @@ Rakatan Fury:
 
 Forcesaber:
 Saber Offense (3)
-Saber Defense (2)
+Saber Defense (3)
 Blaster Defense (3)
 Saber Deflect (2)
 Improved Saber Throw (3) [CS1]
 
 Force Powers:
-Force Block (1)
-Force Focus (3)
-Jump (2)
+Force Block (2)
+Force Focus (2)
+Jump (3)
 Push (3)
 Pull (2)
-Speed (1)
 
 Abilities:
 Flip Kick (2)
-Wookiee Fury (1) [CS2]
-Wookiee Strength (2)
+Wookiee Fury (1)
+Wookiee Strength (1)
 Shield Recharge (1)
 Rakatan Armor (Beskar) (3)
 Cortosis (1)
 
-The Ancient Rakatans, cannabilistic conquerers of all the known ancient galaxy, are diabolical users of the Dark Side of the force. Enslaving all of the galaxy under their supremacy with the use of the Star Forge."
+The Ancient Rakatans, builders and conquerers of all the known ancient galaxy, are diabolical users of the Dark Side of the force. Enslaving all of the galaxy under their supremacy with the use of the Star Forge."

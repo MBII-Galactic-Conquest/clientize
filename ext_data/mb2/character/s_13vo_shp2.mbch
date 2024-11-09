@@ -10,8 +10,8 @@ ClassInfo
 	APmultiplier    1.0
 	
 	damageGiven        1.10
-		
-	uishader		"models/players/TsavongLah/mb2_icon_default"
+
+	uishader		"models/players/yvpriest/icon_default"
 
 	rateoffire		1
 

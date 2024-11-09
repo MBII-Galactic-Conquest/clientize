@@ -9,6 +9,7 @@ ClassInfo
 	classflags		CFL_BPFREEJUMPS|CFL_HEAVYMELEE|CFL_SEEING_STEALTH|CFL_STRONGAGAINSTPHYSICAL
     speed			1.0
 	saber1			kotor_vibrosword_supremacy
+	saber1_1		kotor_vibrostaff_supremacy
 	uishader		"models/players/manda_et/mb2_icon_default"
 
 

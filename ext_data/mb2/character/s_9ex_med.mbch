@@ -4,6 +4,7 @@ ClassInfo
 	name			"s_9ex_med"
 	classflags		CFL_STATVIEWER
 	saber1			kotor_vibrosword_supremacy
+	saber1_1		kotor_vibrostaff_supremacy
 	forcepool		50
 	maxhealth		100
 	maxarmor		20

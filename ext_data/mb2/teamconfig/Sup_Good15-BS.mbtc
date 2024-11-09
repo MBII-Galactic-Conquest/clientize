@@ -10,9 +10,9 @@ EUAllowed 0
 Classes
 
 {
-class1	"s_5se_slbs"
-class2	"s_5se_med"
-class3  "s_5se_eng"
+class1	"s_15se_slbs"
+class2	"s_15se_med"
+class3  "s_15se_eng"
 }
 
 //1-6

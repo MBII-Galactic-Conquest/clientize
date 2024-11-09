@@ -3,6 +3,7 @@ ClassInfo
 {
 	name			"s_3or_solm"
 	saber1			kotor_vibrosword_supremacy
+	saber1_1		kotor_vibrostaff_supremacy
 	forcepool		25
 	maxhealth		80
 	maxarmor		30

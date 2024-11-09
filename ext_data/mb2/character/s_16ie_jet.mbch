@@ -1,0 +1,68 @@
+
+ClassInfo
+{
+	name			"s_16ie_jet"
+	saber1			kotor_vibrosword_supremacy
+	saber1_1		kotor_vibrostaff_supremacy
+	maxhealth		100
+	maxarmor		50
+	uishader		"models/players/weequay/mb2_icon_default"
+	speed			0.8
+
+	resource	RESOURCE_FUEL
+
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_SABER			
+	WeaponBasedOff		WP_SABER			
+	NewWorldModel		"models/weapons2/kotor_longsword/saber_w.glm"  
+	NewViewModel		"models/weapons2/dummy/dummy.md3" 	  
+	Icon			"gfx/hud/w_icon_vibrosword"
+	WeaponName		"Cortosis Vibrosword"    	 			
+}
+
+WeaponInfo1
+{
+	WeaponToReplace		WP_BRYAR_PISTOL
+	WeaponBasedOff		WP_BOWCASTER
+	NewWorldModel		"models/weapons2/kotor_bpistol2/kotor_bpistol2_w.glm"
+	NewViewModel		"models/weapons2/kotor_bpistol2/kotor_bpistol2.md3"
+	Icon				"gfx/hud/w_icon_kotor_bpistol2"
+	WeaponName			"BP-2 Hand Pistol"
+	FlashSound0			"sound/weapons/kotor/fire_light.wav"
+    AltFlashSound0		"sound/weapons/kotor/fire_hvy.wav"
+}
+
+WeaponInfo2
+{
+    WeaponToReplace        WP_BLASTER                           //Required: Weapon Slot of weapon you're replacing
+    WeaponBasedOff        WP_BLASTER                          //Required: For future use, should be the same as WeaponToReplace
+    NewWorldModel        "models/weapons2/e5/e5_w.glm"      //Required: New 3rd person/dropped weapon model
+    NewViewModel        "models/weapons2/e5/e5.md3"       //Required: New 1st person weapon model
+    Icon                "gfx/hud/w_icon_e5"                 //Required: Weapon change icon
+    WeaponName            "Rakatan Blaster Rifle"                        //Required: Weapon change display name
+	FlashSound0			"sound/weapons/kotor/fire_med.wav"
+    AltFlashSound0		"sound/weapons/kotor/fire_hvy.wav"
+    customAmmo      500
+    clipSize        100
+    FPMult          0.8
+}
+
+description	"Infinite Empire - Jet Trooper
+
+Weaponry:
+Pulse Grenade (2)
+Rakatan Blaster (3)
+Pistol (2)
+
+Attributes
+Reinforcements (1)
+Close Combat Training (2)
+Bounty Hunter Kick
+Quick Throw (1)
+Jet Pack (2)
+Assemble
+
+A jet trooper slave of the Infinite Empire, offering aerial support to the battlefield."

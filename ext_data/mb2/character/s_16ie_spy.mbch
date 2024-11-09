@@ -1,0 +1,87 @@
+
+ClassInfo
+{
+	name			"s_16ie_spy"
+	APmultiplier	0.8	
+    forcepool       65
+	maxhealth		60
+	maxarmor		35
+	classflags		CFL_BPFREEJUMPS|CFL_HEAVYMELEE|CFL_SEEING_STEALTH
+    speed			1.0
+	saber1			legends_Knife
+
+	uishader		"models/players/weequay/mb2_icon_default"
+
+	uishader_1		"models/players/weequay/mb2_icon_rgb_abyssin"
+
+	uishader_2		"models/players/gran/mb2_icon_default"
+
+    uishader_3      "models/players/rodian/mb2_icon_default"
+
+	uishader_4		"models/players/bossk/mb2_icon_default"
+
+
+}
+
+WeaponInfo0
+{
+		WeaponToReplace		WP_SABER
+		WeaponBasedOff		WP_SABER
+		NewWorldModel		"models/weapons2/ct_weapon/ct_knife_F.glm"
+		NewViewModel		"models/weapons2/dummy/dummy.md3"
+		Icon			"gfx/hud/w_icon_prisonknife"
+		WeaponName		"Vibro Knife"
+}
+
+WeaponInfo1
+{
+	WeaponToReplace		WP_BRYAR_PISTOL
+	WeaponBasedOff		WP_BOWCASTER
+	NewWorldModel		"models/weapons2/kotor_bpistol2/kotor_bpistol2_w.glm"
+	NewViewModel		"models/weapons2/kotor_bpistol2/kotor_bpistol2.md3"
+	Icon				"gfx/hud/w_icon_kotor_bpistol2"
+	WeaponName			"BP-2 Hand Pistol"
+	FlashSound0			"sound/weapons/kotor/fire_light.wav"
+    AltFlashSound0		"sound/weapons/kotor/fire_hvy.wav"
+}
+
+WeaponInfo2
+{           
+WeaponToReplace        	WP_TRIP_MINE
+WeaponBasedOff         	WP_TRIP_MINE
+NewWorldModel		"models/weapons2/laser_trap/laser_trap_w.glm"  	
+NewViewModel	  	"models/weapons2/laser_trap/laser_trap.md3"  	
+Icon             	"gfx/hud/w_icon_tripmine"
+WeaponName		"Trip Mine"
+customAmmo    		3
+}
+
+description	"Infinite Empire - Spy
+
+	[GC]
+Unlocked With:
+Sabotage Bonus
+
+Weaponry:
+Vibro Knife (Medium & Fast)
+Trip Mine (2)
+Pistol (3)
+
+Gadgets:
+Stealth field generator [Inventory Use]
+Disguise [press saber style/gun mode switch while in melee]
+
+Attributes
+Reinforcements (1)
+Grappling Hook (2)
+Dexterity (2)
+Stamina (2)
+Immune to Sense
+Flip Kick (1)
+Gun Bash
+
+Vibro Knife Attributes:
+Knife Offense (3)
+Knife Defense (1)
+
+An alien slave saboteur of the Infinite Empire, equipped with a stealth field generator and thermal plating."

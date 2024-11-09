@@ -11,7 +11,7 @@ kotor_vibrostaff_supremacy
 	saberColor	random
 	saberStyle	staff
 	throwable		0
-	singleBladeStyle	staff
+	//singleBladeStyle	staff
 	singleBladeThrowable	0
 	brokenSaber1		qstick
 	brokenSaber2		qstick
@@ -67,7 +67,7 @@ kotor_vibrostaff_supremacy
 
 rakatan_vibrostaff_supremacy
 {
-	name		"Vibrostaff"
+	name		"Rakatan Vibrostaff"
 	saberType	SABER_STAFF
 	saberModel	"models/weapons2/kotor_vibroswords/vibrostaff_w.glm"
 	soundOn	"sound/weapons/swordraiden/draw1.mp3"
@@ -113,9 +113,9 @@ rakatan_vibrostaff_supremacy
 	blockSound2	"sound/weapons/vibblade/hit2.mp3"
 	blockSound3	"sound/weapons/vibblade/hit3.mp3"
 
-	bounceSound1 "sound/weapons/tusken_staff/stickhit1.mp3"
-	bounceSound2 "sound/weapons/tusken_staff/stickhit2.mp3"
-	bounceSound3 "sound/weapons/tusken_staff/stickhit3.mp3"
+	bounceSound1       "sound/weapons/NDA_axe/block1.mp3"
+	bounceSound2       "sound/weapons/NDA_axe/block2.wav"
+	bounceSound3         "sound/weapons/ba_axe/block3.wav"
 	g2MarksShader "gfx/damage/bloodcutmark"
 	g2WeaponMarkShader "gfx/effects/bloodsplat"
 	blockEffect	"melee_weap/block.efx"
@@ -148,7 +148,7 @@ rakatan_forcesaber_supremacy
 	saberStyle	staff
 	throwable	1
 	NotInOpen	1
-	singleBladeStyle	desann
+	//singleBladeStyle	desann
 	singleBladeThrowable	1
 	twoHanded		1
 	soundLoop	"s/w/s/dm_hum.wav"
