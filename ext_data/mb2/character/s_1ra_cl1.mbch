@@ -4,10 +4,10 @@ ClassInfo
 	name			"s_ra_cl1"
 	maxhealth		75
 	maxarmor		50
-	uishader		"models/players/clonetrooper_p1/mb2_icon_default"
+	uishader		"gfx/sup_icons/clonetrooper_p1/mb2_icon_vang"
 	speed			0.8
 
-	uishader_1		"models/players/clonetrooper_p1/mb2_icon_poncho"
+	uishader_1		"gfx/sup_icons/clonetrooper_p1_p/mb2_icon_vang"
 }
 
 WeaponInfo0

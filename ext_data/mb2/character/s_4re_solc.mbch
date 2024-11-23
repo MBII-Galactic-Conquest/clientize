@@ -8,7 +8,7 @@ ClassInfo
 	maxhealth		75
 	maxarmor		35
 	forcepool       0
-	uishader		"models/players/sithtrooper/mb2_icon_default"
+	uishader		"gfx/sup_icons/sithtrooper/mb2_icon_solc"
 	speed			0.8
 
 	WP_BlasterPistolFlags	HELD_ALTRELOAD|HELD_AMMOREGEN

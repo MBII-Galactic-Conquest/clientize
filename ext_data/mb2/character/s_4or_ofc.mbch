@@ -7,10 +7,10 @@ ClassInfo
 	forcepool		25
 	maxhealth		100
 	maxarmor		100
-	uishader		"models/players/prisoner/mb2_icon_oldrepsold_helm"
+	uishader		"gfx/sup_icons/oldrepsold/mb2_icon_ofc"
 	speed			1.0
 
-	uishader_1		"models/players/sith_officer/mb2_icon_saul"
+	uishader_1		"gfx/sup_icons/sith_officer_s/mb2_icon_ofc"
 
 	resource		RESOURCE_RAGE
 }

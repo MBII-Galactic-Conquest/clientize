@@ -15,7 +15,7 @@ ClassInfo
 	
 	damageTaken 		0.95
 		
-	uishader			"models/players/bxdroid/mb2_icon_rifle"
+	uishader			"gfx/sup_icons/bxdroid/mb2_icon_jedi"
 	
 }
 

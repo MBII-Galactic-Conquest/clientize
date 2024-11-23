@@ -8,7 +8,7 @@ ClassInfo
 	forceregen		2
 	classflags		CFL_NOLOCATIONDAMAGE|CFL_DISMEMBERFRAGILE		
 	speed			0.6
-	uishader  		"models/players/wardroid/mb2_icon_default"
+	uishader  		"gfx/sup_icons/wardroid/mb2_icon_vang"
 
 	deathAnim		SBD_DEATH
 	WalkForward 	SBD_WALK_NOGUN

@@ -8,7 +8,7 @@ ClassInfo
 	maxhealth		75
 	maxarmor		25
 	forcepool       0
-	uishader		"models/players/manda_et/mb2_icon_default"
+	uishader		"gfx/sup_icons/manda_et/mb2_icon_solm"
 	speed			0.8
 	damageGiven		1.2
 

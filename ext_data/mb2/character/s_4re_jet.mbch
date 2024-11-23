@@ -8,7 +8,7 @@ ClassInfo
 	maxhealth		100
 	maxarmor		50
 	forceregen		0
-	uishader		"models/players/JPsithtrooper/mb2_icon_default"
+	uishader		"gfx/sup_icons/sithtrooper/mb2_icon_jet"
 	speed			1.0
 
 

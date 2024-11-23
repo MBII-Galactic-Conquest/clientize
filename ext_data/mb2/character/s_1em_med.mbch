@@ -6,7 +6,7 @@ ClassInfo
 	maxhealth		100
 	maxarmor		20
 	forcepool		50
-	uishader		"models/players/stormie/mb2_icon_vader"
+	uishader		"gfx/sup_icons/stormie_v/mb2_icon_med"
 	speed			0.7
 
 

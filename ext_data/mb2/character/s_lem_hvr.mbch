@@ -5,7 +5,7 @@ ClassInfo
 	maxhealth		100
 	maxarmor		75
 	speed			0.7
-	uishader		"models/players/legoguy/mb2_icon_sandtrooper"
+	uishader		"gfx/sup_icons/lego_sandtrooper/mb2_icon_hvr"
 
 	WP_PLX1Flags	HELD_SLOW
 }

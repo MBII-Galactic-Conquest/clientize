@@ -6,7 +6,7 @@ ClassInfo
 	maxhealth		100
 	maxarmor		20
 	forcepool		50
-	uishader		"models/players/legoguy/mb2_icon_clone_ep2"
+	uishader		"gfx/sup_icons/lego_clone/mb2_icon_med"
 	speed			0.7
 
 

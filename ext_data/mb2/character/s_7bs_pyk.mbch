@@ -7,7 +7,7 @@ ClassInfo
     forcepool       65
 	maxhealth		200
 	maxarmor		100
-	uishader		"models/players/pyke2/mb2_icon_default"
+	uishader		"gfx/sup_icons/pyke2/mb2_icon_sni"
 	rateoffire		0.675
 	speed			1.0
 	saber1			kotor_vibrosword_supremacy

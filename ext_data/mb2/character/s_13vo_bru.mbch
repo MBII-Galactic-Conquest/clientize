@@ -11,9 +11,9 @@ ClassInfo
 	
 	damageGiven        1.10
 		
-	uishader		"models/players/yuuzhanvongketo/icon_default"
+	uishader		"gfx/sup_icons/yuuzhanvongketo/mb2_icon_vang"
 
-	uishader_1		"models/players/nom_anor/mb2_icon_default"
+	uishader_1		"gfx/sup_icons/nom_anor/mb2_icon_vang"
 
 	rateoffire		2
 	rateoffire_melee	2

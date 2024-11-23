@@ -15,15 +15,15 @@ MBclass
 
 	
 
-	uishader		"models/players/weequay/mb2_icon_default"
+	uishader		"gfx/sup_icons/weequay/mb2_icon_flm"
 
-	uishader_1		"models/players/weequay/mb2_icon_rgb_abyssin"
+	uishader_1		"gfx/sup_icons/abyssin/mb2_icon_flm"
 
-	uishader_2		"models/players/gran/mb2_icon_default"
+	uishader_2		"gfx/sup_icons/gran/mb2_icon_flm"
 
-    uishader_3      "models/players/rodian/mb2_icon_default"
+    uishader_3      "gfx/sup_icons/rodian/mb2_icon_flm"
 
-	uishader_4		"models/players/bossk/mb2_icon_default"
+	uishader_4		"gfx/sup_icons/bossk/mb2_icon_flm"
 	
 }
 

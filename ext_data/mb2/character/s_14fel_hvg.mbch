@@ -12,23 +12,23 @@ ClassInfo
 
     WP_MinigunFlags	HELD_ALTRELOAD|HELD_SLOW
 
-	uishader_1		"models/players/stormie_alien/mb2_icon_rodian_rgb"
+	uishader_1		"gfx/sup_icons/stormie_alien_r_of/mb2_icon_hvg"
 
-	uishader_2		"models/players/stormie_alien/mb2_icon_duros_rgb"
+	uishader_2		"gfx/sup_icons/stormie_alien_d_of/mb2_icon_hvg"
 
-	uishader_3		"models/players/stormie_alien/mb2_icon_bith_rgb"
+	uishader_3		"gfx/sup_icons/stormie_alien_b_of/mb2_icon_hvg"
 
-	uishader_4		"models/players/stormie_alien/mb2_icon_weequay_rgb"
+	uishader_4		"gfx/sup_icons/stormie_alien_w_of/mb2_icon_hvg"
 
-	uishader_5		"models/players/stormie_alien/mb2_icon_aqualish_rgb"
+	uishader_5		"gfx/sup_icons/stormie_alien_aq_of/mb2_icon_hvg"
 
-	uishader_6		"models/players/stormie_alien/mb2_icon_nikto_rgb"
+	uishader_6		"gfx/sup_icons/stormie_alien_nik_of/mb2_icon_hvg"
 
-	uishader_7		"models/players/stormie_alien/mb2_icon_gotal_rgb"
+	uishader_7		"gfx/sup_icons/stormie_alien_g_of/mb2_icon_hvg"
 
-	uishader_8		"models/players/stormie_alien/mb2_icon_abyssin_rgb"
+	uishader_8		"gfx/sup_icons/stormie_alien_ab_of/mb2_icon_hvg"
 
-	uishader_9		"models/players/snowtrooper/mb2_icon_default"
+	uishader_9		"gfx/sup_icons/snowtrooper/mb2_icon_hvg"
 
 }
 

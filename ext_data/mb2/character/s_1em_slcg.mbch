@@ -4,14 +4,14 @@ ClassInfo
 	name			"s_1em_slcg"
 	maxhealth		75
 	maxarmor		35
-	uishader		"models/players/stormie/mb2_icon_default"
+	uishader		"gfx/sup_icons/stormie/mb2_icon_slcg"
 	speed			0.8
 
-	uishader_1		"models/players/stormie/mb2_icon_remnant"
+	uishader_1		"gfx/sup_icons/dirtystormie/mb2_icon_slcg"
 
-	uishader_2		"models/players/snowtrooper/mb2_icon_default"
+	uishader_2		"gfx/sup_icons/snowtrooper/mb2_icon_slcg"
 
-	uishader_3		"models/players/scouttrooper/mb2_icon_default"
+	uishader_3		"gfx/sup_icons/scouttrooper/mb2_icon_slcg"
 
 	WP_BlasterPistolFlags	HELD_ALTRELOAD|HELD_AMMOREGEN
 	WP_BlasterFlags		HELD_ALTRELOAD|HELD_AMMOREGEN

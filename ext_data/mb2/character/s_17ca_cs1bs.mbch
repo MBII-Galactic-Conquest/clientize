@@ -1,0 +1,126 @@
+
+ClassInfo
+{
+	name			"s_17ca_cs1bs"
+	maxhealth		95
+	maxarmor		50
+	uishader		"gfx/sup_icons/clonetrooper_p2_501/mb2_icon_slbs"
+	speed			0.8
+
+	uishader_1		"gfx/sup_icons/clonemarine/mb2_icon_slbs"
+
+	WP_ClonePistolFlags	HELD_ALTRELOAD|HELD_AMMOREGEN
+	WP_CloneRifleFlags	HELD_ALTRELOAD|HELD_AMMOREGEN
+
+	isCustomBuild        1
+	mbPoints	31
+
+    c_att_skill_0        MB_ATT_INVALID
+    c_att_names_0        "Bacta Tank & Supplies"
+    c_att_ranks_0        -1
+
+    c_att_skill_1        MB_ATT_INVALID
+    c_att_names_1        " "
+    c_att_ranks_1        -1
+
+    c_att_skill_2        MB_ATT_INVALID
+    c_att_names_2        "^5-Bonus Availability-"
+    c_att_ranks_2        -1
+    
+    c_att_skill_3        MB_ATT_HEALING
+    c_att_names_3        "Passive Healing:"
+    c_att_ranks_3        15
+
+	c_att_skill_4		 MB_ATT_PULSE_GRENADES
+	c_att_names_4		 "Pulse Grenades:"
+	c_att_ranks_4		 5,5,5
+
+	c_att_skill_5		MB_ATT_INVALID
+	c_att_names_5		" "
+	c_att_ranks_5		-1
+
+	c_att_skill_6		MB_ATT_INVALID
+	c_att_names_6		"^5-Impacted Stats-"
+	c_att_ranks_6		-1
+
+	c_att_skill_7		MB_ATT_INVALID
+	c_att_names_7		"^1+10 Health"
+	c_att_ranks_7		-1
+
+	c_att_skill_8		MB_ATT_INVALID
+	c_att_names_8		"^3+100 Ammo"
+	c_att_ranks_8		-1
+
+	c_att_skill_9		MB_ATT_INVALID
+	c_att_names_9		"^3+50 Magazine"
+	c_att_ranks_9		-1
+
+}
+
+WeaponInfo0
+{
+    WeaponToReplace        WP_CLONE_PISTOL                           //Required: Weapon Slot of weapon you're replacing
+    WeaponBasedOff        WP_BLASTER_PISTOL                          //Required: For future use, should be the same as WeaponToReplace
+    NewWorldModel        "models/weapons2/dc-17/dc-17_w.glm"      //Required: New 3rd person/dropped weapon model
+    NewViewModel        "models/weapons2/dc-17/dc-17.md3"       //Required: New 1st person weapon model
+    Icon                "gfx/hud/w_icon_dc-17"                 //Required: Weapon change icon
+    WeaponName            "DC-17 Clone Pistol"                        //Required: Weapon change display name
+    FlashSound0 "sound/weapsup/sup/wpn_rep_pistol_fire.wav"
+    AltFlashSound0  "sound/weapsup/sup/wpn_rep_pistol_fire.wav"
+	FlashSound4	"sound/weapsup/sup/wpn_rep_pistol_fire.wav"
+	AltFlashSound4	"sound/weapsup/sup/wpn_rep_pistol_fire.wav"
+	ChargeEffect	"gfx/effects/clonefrontflash"
+	MuzzleEffect		"Blaster/MuzzleFlash01B"
+	MissileEffect		"blaster/Shot01B"
+	AltMissileEffect 	"blaster/Shot01B"
+    customAmmo      200
+    clipSize        100
+}
+
+WeaponInfo1
+{
+    WeaponToReplace        WP_CLONE_RIFLE                           //Required: Weapon Slot of weapon you're replacing
+    WeaponBasedOff        WP_BLASTER                          //Required: For future use, should be the same as WeaponToReplace
+    NewWorldModel        "models/weapons2/dc-15s/dc-15s_w.glm"      //Required: New 3rd person/dropped weapon model
+    NewViewModel        "models/weapons2/dc-15s/dc-15s.md3"       //Required: New 1st person weapon model
+    Icon                "gfx/hud/w_icon_dc-15s"                 //Required: Weapon change icon
+    WeaponName            "DC-15s Clone Rifle"                        //Required: Weapon change display name
+    FlashSound0 "sound/weapsup/sup/wpn_rep_blaster_fire.wav"
+	MuzzleEffect		"Blaster/MuzzleFlash01B"
+	MissileEffect		"blaster/Shot01B"
+    customAmmo      600
+    clipSize        150
+}
+
+description	"Phase 2 - Clone Trooper - Bacta & Supplies
+
+	[GC]
+Unlocked With:
+Bacta Tank Bonus
+Supplies Bonus
+
+Weaponry:
+Pulse Grenade (3)
+Clone Pistol (2)
+DC-15s (CR1) *
+
+* Weapon Specifics:
+- Increased Ammo (+100)
+- Increased Clip Size (+50)
+- Ion Blob (2)
+
+Gadgets:
+Personal Small Bacta (1)
+
+Attributes
+Reinforcements (2)
+Close Combat Training (2)
+Passive Healing (1)
+Dexterity (1)
+Stamina (2)
+Gun Bash
+Assemble
+
+A shiny, ordinary phase two clone trooper, of the 501st Legion. With a bandolier of medical supplies.
+
+The upgraded genetic mastery of the kaminoans offer additional vigor, and military advances of the republic offer substantial combat upgrades."

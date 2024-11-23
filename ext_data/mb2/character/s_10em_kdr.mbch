@@ -4,7 +4,7 @@ ClassInfo
     maxhealth       200
     maxarmor            100
     speed             1
-    uishader          "models/players/k2so/mb2_icon_default"
+    uishader          "gfx/sup_icons/k2so/mb2_icon_vang"
     classflags              CFL_SEEING_STEALTH
     DamageGiven         1.15
     rateOfFire          1.15

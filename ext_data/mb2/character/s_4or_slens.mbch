@@ -7,10 +7,10 @@ ClassInfo
 	forcepool		25
 	maxhealth		75
 	maxarmor		25
-	uishader		"models/players/prisoner/mb2_icon_oldrepsold_helm_FA"
+	uishader		"gfx/sup_icons/oldrepsold_h/mb2_icon_slens"
 	speed			0.8
 
-	uishader_1		"models/players/prisoner/mb2_icon_oldrepsold_helm2_FA"
+	uishader_1		"gfx/sup_icons/oldrepsold_h2/mb2_icon_slens"
 
 	WP_BlasterPistolFlags	HELD_ALTRELOAD|HELD_AMMOREGEN
 	WP_BlasterFlags		HELD_ALTRELOAD|HELD_AMMOREGEN

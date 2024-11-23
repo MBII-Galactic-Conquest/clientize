@@ -9,7 +9,7 @@ ClassInfo
 	maxhealth		100
 	maxarmor		20
 	speed			0.7
-	uishader		"models/players/sithtrooper_tor/mb2_icon_hazmat"
+	uishader		"gfx/sup_icons/sithtrooper_tor_h/mb2_icon_eng"
 
 
 	WP_ShotgunFlags HELD_ALTRELOAD
@@ -19,6 +19,16 @@ ClassInfo
 }
 
 WeaponInfo0
+{
+	WeaponToReplace		WP_SABER			
+	WeaponBasedOff		WP_SABER			
+	NewWorldModel		"models/weapons2/kotor_longsword/saber_w.glm"  
+	NewViewModel		"models/weapons2/dummy/dummy.md3" 	  
+	Icon			"gfx/hud/w_icon_vibrosword"
+	WeaponName		"Cortosis Vibrosword"    	 			
+}
+
+WeaponInfo1
 {
 	WeaponToReplace		WP_BRYAR_PISTOL
 	WeaponBasedOff		WP_BOWCASTER
@@ -30,7 +40,7 @@ WeaponInfo0
     AltFlashSound0		"sound/weapons/kotor/fire_hvy.wav"
 }
 
-WeaponInfo1
+WeaponInfo2
 {
     WeaponToReplace        WP_SHOTGUN                           //Required: Weapon Slot of weapon you're replacing
     WeaponBasedOff        WP_BOWCASTER                          //Required: For future use, should be the same as WeaponToReplace

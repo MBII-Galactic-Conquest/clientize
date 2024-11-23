@@ -5,7 +5,7 @@ ClassInfo
 	maxhealth		100
 	maxarmor		75
 	speed			0.8
-	uishader		"models/players/clonetrooper_p1/mb2_icon_arc"
+	uishader		"gfx/sup_icons/clonetrooper_p1_arc/mb2_icon_hvr"
 
 	WP_PLX1Flags	HELD_SLOW
 }

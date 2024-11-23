@@ -1,0 +1,128 @@
+
+ClassInfo
+{
+	name			"s_17ca_cs1m"
+	maxhealth		90
+	maxarmor		55
+	uishader		"gfx/sup_icons/clonetrooper_p2_501/mb2_icon_solm"
+	speed			0.8
+
+	damageGiven		1.2
+
+	uishader_1		"gfx/sup_icons/clonemarine/mb2_icon_solm"
+
+	WP_ClonePistolFlags	HELD_ALTRELOAD|HELD_AMMOREGEN
+	WP_CloneRifleFlags	HELD_ALTRELOAD|HELD_AMMOREGEN
+
+	isCustomBuild        1
+	mbPoints	20
+
+    c_att_skill_0        MB_ATT_INVALID
+    c_att_names_0        "Most Valued Player (Campaign)"
+    c_att_ranks_0        -1
+
+    c_att_skill_1        MB_ATT_INVALID
+    c_att_names_1        " "
+    c_att_ranks_1        -1
+
+    c_att_skill_2        MB_ATT_INVALID
+    c_att_names_2        "^5-Bonus Availability-"
+    c_att_ranks_2        -1
+    
+    c_att_skill_3        MB_ATT_CLONERIFLE
+    c_att_names_3        "Faster Firing Rate:"
+    c_att_ranks_3        15,5
+
+	c_att_skill_4		MB_ATT_INVALID
+	c_att_names_4		" "
+	c_att_ranks_4		-1
+
+	c_att_skill_5		MB_ATT_INVALID
+	c_att_names_5		"^5-Impacted Stats-"
+	c_att_ranks_5		-1
+
+	c_att_skill_6		MB_ATT_INVALID
+	c_att_names_6		"^1+5 Health"
+	c_att_ranks_6		-1
+
+	c_att_skill_7		MB_ATT_INVALID
+	c_att_names_7		"^2+5 Armor"
+	c_att_ranks_7		-1
+
+	c_att_skill_8		MB_ATT_INVALID
+	c_att_names_8		"^3+50 Ammo"
+	c_att_ranks_8		-1
+
+	c_att_skill_9		MB_ATT_INVALID
+	c_att_names_9		"^3+25 Magazine"
+	c_att_ranks_9		-1
+
+	c_att_skill_10		MB_ATT_INVALID
+	c_att_names_10		"^1+2% Damage"
+	c_att_ranks_10		-1
+
+}
+
+WeaponInfo0
+{
+    WeaponToReplace        WP_CLONE_PISTOL                           //Required: Weapon Slot of weapon you're replacing
+    WeaponBasedOff        WP_BLASTER_PISTOL                          //Required: For future use, should be the same as WeaponToReplace
+    NewWorldModel        "models/weapons2/dc-17/dc-17_w.glm"      //Required: New 3rd person/dropped weapon model
+    NewViewModel        "models/weapons2/dc-17/dc-17.md3"       //Required: New 1st person weapon model
+    Icon                "gfx/hud/w_icon_dc-17"                 //Required: Weapon change icon
+    WeaponName            "DC-17 Clone Pistol"                        //Required: Weapon change display name
+    FlashSound0 "sound/weapsup/sup/wpn_rep_pistol_fire.wav"
+    AltFlashSound0  "sound/weapsup/sup/wpn_rep_pistol_fire.wav"
+	FlashSound4	"sound/weapsup/sup/wpn_rep_pistol_fire.wav"
+	AltFlashSound4	"sound/weapsup/sup/wpn_rep_pistol_fire.wav"
+	ChargeEffect	"gfx/effects/clonefrontflash"
+	MuzzleEffect		"Blaster/MuzzleFlash01B"
+	MissileEffect		"blaster/Shot01B"
+	AltMissileEffect 	"blaster/Shot01B"
+    customAmmo      200
+    clipSize        100
+}
+
+WeaponInfo1
+{
+    WeaponToReplace        WP_CLONE_RIFLE                           //Required: Weapon Slot of weapon you're replacing
+    WeaponBasedOff        WP_BLASTER                          //Required: For future use, should be the same as WeaponToReplace
+    NewWorldModel        "models/weapons2/dc-15s/dc-15s_w.glm"      //Required: New 3rd person/dropped weapon model
+    NewViewModel        "models/weapons2/dc-15s/dc-15s.md3"       //Required: New 1st person weapon model
+    Icon                "gfx/hud/w_icon_dc-15s"                 //Required: Weapon change icon
+    WeaponName            "DC-15s Clone Rifle"                        //Required: Weapon change display name
+    FlashSound0 "sound/weapsup/sup/wpn_rep_blaster_fire.wav"
+	MuzzleEffect		"Blaster/MuzzleFlash01B"
+	MissileEffect		"blaster/Shot01B"
+    customAmmo      550
+    clipSize        125
+}
+
+description	"Phase 2 - Clone Trooper - MVP
+
+	[GC]
+Unlocked With:
+Weekly MVP Status
+
+Weaponry:
+Pulse Grenade (2)
+Clone Pistol (2)
+DC-15s (CR1) *
+
+* Weapon Specifics:
+- Increased Ammo (+50)
+- Increased Clip Size (+25)
+- Ion Blob (2)
+- +0.5X Damage
+
+Attributes
+Reinforcements (2)
+Close Combat Training (2)
+Dexterity (1)
+Stamina (2)
+Gun Bash
+Assemble
+
+A shiny, ordinary phase two clone trooper, of the 501st Legion.
+
+The upgraded genetic mastery of the kaminoans offer additional vigor, and military advances of the republic offer substantial combat upgrades."

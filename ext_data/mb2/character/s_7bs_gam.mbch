@@ -5,7 +5,7 @@ ClassInfo
 
 	maxhealth		    300
 	maxarmor			25
-	uishader			"models/players/gamorrean/mb2_icon_default_jab"
+	uishader			"gfx/sup_icons/gamorrean/mb2_icon_vang"
 	speed				1.09
 	forcepool 			25
 	APmultiplier		1.4

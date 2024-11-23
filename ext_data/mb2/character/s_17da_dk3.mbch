@@ -1,0 +1,27 @@
+
+ClassInfo
+{
+	name			"s_17da_dk3"
+	uishader		"models/players/droideka/mb2_icon_default"
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_BRYAR_PISTOL
+	WeaponBasedOff		WP_BRYAR_PISTOL
+	NewWorldModel		"models/weapons2/blaster_pistol/blaster_pistol_w.glm"
+	NewViewModel		"models/weapons2/blaster_pistol/blaster_pistol.md3"
+	Icon				"gfx/hud/w_icon_dekaarm"
+	WeaponName			"Destroyer Droid Turrets"
+}
+
+description	"Phase 2 - Destroyer Droid MKIII
+
+Abilities:
+Shield Discharge
+Shield Projector (3)
+Shield Strength (3)
+Hull Strength (3)
+Firepower (3)
+
+A destroyer droid favored by the Trade Federation, for it's ability to lay immense suppressing fire, and being remarkably great at vanquishing foes."

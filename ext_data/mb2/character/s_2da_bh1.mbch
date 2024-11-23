@@ -7,16 +7,16 @@ ClassInfo
     forcepool       65
 	maxhealth		200
 	maxarmor		100
-	uishader		"models/players/human_merc/mb2_icon_default"
+	uishader		"gfx/sup_icons/human_merc/mb2_icon_sni"
 	rateoffire		0.675
-	speed			1.0
+	speed			0.8
 	saber1		legends_Knife
 
-	uishader_1	"models/players/human_merc/mb2_icon_arcona"
+	uishader_1	"gfx/sup_icons/human_merc_a/mb2_icon_sni"
 
-	uishader_2	"models/players/human_merc/mb2_icon_kaleesh"
+	uishader_2	"gfx/sup_icons/human_merc_k/mb2_icon_sni"
 
-	uishader_3	"models/players/human_merc/mb2_icon_devaronian"
+	uishader_3	"gfx/sup_icons/human_merc_d/mb2_icon_sni"
 
 }
 

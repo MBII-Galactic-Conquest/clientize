@@ -14,7 +14,7 @@ MBclass
 	Damagegiven 1.1
 
 	
-	uishader		"models/players/sithtrooper_tor/mb2_icon_default"
+	uishader		"gfx/sup_icons/sithtrooper_tor/mb2_icon_flm"
 	
 }
 

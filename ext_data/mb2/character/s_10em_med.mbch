@@ -6,7 +6,7 @@ ClassInfo
 	maxhealth		100
 	maxarmor		20
 	forcepool		50
-	uishader		"models/players/clonetrooper_p2/mb2_icon_shock"
+	uishader		"gfx/sup_icons/clonetrooper_p2_cg/mb2_icon_med"
 	speed			0.7
 
 

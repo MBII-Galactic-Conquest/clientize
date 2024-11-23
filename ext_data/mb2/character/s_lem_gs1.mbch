@@ -13,7 +13,7 @@ ClassInfo
 	
 	
 	
-	uishader		"models/players/legoguy/mb2_icon_sith"
+	uishader		"gfx/sup_icons/lego_sith/mb2_icon_jedi"
 		
 	saber1			lego_supremacy_single
 	saber2			none

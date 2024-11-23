@@ -9,7 +9,7 @@ ClassInfo
 	
 	damageGiven        1.10
 		
-	uishader		"models/players/vong_pilot/icon_default"
+	uishader		"gfx/sup_icons/vong_pilot/mb2_icon_slenb"
 
 	rateoffire		1.2
 	rateoffire_melee	2

@@ -9,7 +9,7 @@ ClassInfo
 	maxhealth		100
 	maxarmor		20
 	speed			0.7
-	uishader		"models/players/sithtrooper/mb2_icon_gold"
+	uishader		"gfx/sup_icons/sithtrooper_g/mb2_icon_eng"
 
 
 	WP_ShotgunFlags HELD_ALTRELOAD

@@ -11,7 +11,7 @@ ClassInfo
 
 	rateoffire_melee	2
 		
-	uishader		"models/players/vong_pilot/icon_default"
+	uishader		"gfx/sup_icons/vong_pilot/mb2_icon_hvg"
 
 	
 

@@ -5,17 +5,17 @@ ClassInfo
 	maxhealth		100
 	maxarmor		100
 	forcepool		25
-	uishader		"models/players/weequay/mb2_icon_default"
+	uishader		"gfx/sup_icons/weequay/mb2_icon_ofc"
 	rateoffire		0.675
 	speed			0.8
 
-	uishader_1		"models/players/weequay/mb2_icon_rgb_abyssin"
+	uishader_1		"gfx/sup_icons/abyssin/mb2_icon_ofc"
 
-	uishader_2		"models/players/gran/mb2_icon_default"
+	uishader_2		"gfx/sup_icons/gran/mb2_icon_ofc"
 
-    uishader_3      "models/players/rodian/mb2_icon_default"
+    uishader_3      "gfx/sup_icons/rodian/mb2_icon_ofc"
 
-	uishader_4		"models/players/bossk/mb2_icon_default"
+	uishader_4		"gfx/sup_icons/bossk/mb2_icon_ofc"
 
 	resource		RESOURCE_RAGE
 }

@@ -4,10 +4,10 @@ ClassInfo
 	name			"s_13ga_sols"
 	maxhealth		75
 	maxarmor		25
-	uishader		"models/players/rebel/mb2_icon_default"
+	uishader		"gfx/sup_icons/rebel/mb2_icon_sols"
 	speed			0.8
 
-	uishader_1		"models/players/stormie/mb2_icon_default"
+	uishader_1		"gfx/sup_icons/stormie/mb2_icon_sols"
 
 	WP_BlasterPistolFlags	HELD_ALTRELOAD|HELD_AMMOREGEN
 	WP_BlasterFlags		HELD_ALTRELOAD|HELD_AMMOREGEN

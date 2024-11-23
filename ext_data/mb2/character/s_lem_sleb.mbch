@@ -4,7 +4,7 @@ ClassInfo
 	name			"s_lem_sleb"
 	maxhealth		75
 	maxarmor		25
-	uishader		"models/players/legoguy/mb2_icon_stormtrooper"
+	uishader		"gfx/sup_icons/lego_stormie/mb2_icon_sleb"
 	speed			0.8
 	damageGiven		1.5
 

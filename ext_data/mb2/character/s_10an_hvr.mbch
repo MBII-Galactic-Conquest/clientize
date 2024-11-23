@@ -5,19 +5,19 @@ ClassInfo
 	maxhealth		100
 	maxarmor		75
 	speed			0.7
-	uishader		"models/players/rebel_gag/mb2_icon_grenadier"
+	uishader		"gfx/sup_icons/rebel_gag/mb2_icon_hvr"
 
-	uishader_1		"models/players/rebel_commando/mb2_icon_default"
+	uishader_1		"gfx/sup_icons/rebel_commando/mb2_icon_hvr"
 
-	uishader_2		"models/players/rebel_commando/mb2_icon_bith_forest"
+	uishader_2		"gfx/sup_icons/rebel_commando_btf/mb2_icon_hvr"
 
-	uishader_3		"models/players/rebel_commando/mb2_icon_sullustan"
+	uishader_3		"gfx/sup_icons/rebel_commando_sul/mb2_icon_hvr"
 
-	uishader_4		"models/players/rebel_commando/mb2_icon_bith_hoth"
+	uishader_4		"gfx/sup_icons/rebel_commando_bth/mb2_icon_hvr"
 
-	uishader_5		"models/players/rebel_commando/mb2_icon_sullustan_hoth"
+	uishader_5		"gfx/sup_icons/rebel_commando_sulh/mb2_icon_hvr"
 
-	uishader_6		"models/players/rebel_commando/mb2_icon_hoth"
+	uishader_6		"gfx/sup_icons/rebel_commando_h/mb2_icon_hvr"
 
 	WP_PLX1Flags	HELD_SLOW
 }

@@ -7,7 +7,7 @@ ClassInfo
 	forcepool		25
 	forcepool		25
 	speed			0.7
-	uishader		"models/players/sithtrooper_tor/mb2_icon_default"
+	uishader		"gfx/sup_icons/sithtrooper_tor/mb2_icon_vang"
 
 
 	isCustomBuild        1

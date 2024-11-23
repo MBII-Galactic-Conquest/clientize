@@ -5,11 +5,11 @@ ClassInfo
 	maxhealth		100
 	maxarmor		75
 	speed			0.7
-	uishader		"models/players/stormie/mb2_icon_officer"
+	uishader		"gfx/sup_icons/stormie_of/mb2_icon_hvr"
 
-	uishader_1		"models/players/stormie/mb2_icon_sandtrooper"
+	uishader_1		"gfx/sup_icons/sandtrooper/mb2_icon_hvr"
 
-	uishader_2		"models/players/snowtrooper/mb2_icon_default"
+	uishader_2		"gfx/sup_icons/snowtrooper/mb2_icon_hvr"
 
 	WP_PLX1Flags	HELD_SLOW
 }

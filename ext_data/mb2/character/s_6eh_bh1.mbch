@@ -7,7 +7,7 @@ ClassInfo
     forcepool       65
 	maxhealth		150
 	maxarmor		100
-	uishader		"models/players/IG88/mb2_icon_default"
+	uishader		"gfx/sup_icons/IG88/mb2_icon_sni"
 	speed 			1.16
 	saber1			droidmelee_legends
 	saber2			droidmelee_legends

@@ -12,7 +12,7 @@ ClassInfo
 	
 	damageGiven        1.10
 
-	uishader		"models/players/Rakata/icon_default"
+	uishader		"gfx/sup_icons/rakata/mb2_icon_vang"
 
 
 	saber1			rakatan_vibrostaff_supremacy

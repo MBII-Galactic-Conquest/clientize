@@ -8,9 +8,9 @@ ClassInfo
 	maxhealth		100
 	maxarmor		75
 	speed			1.0
-	uishader		"models/players/prisoner/mb2_icon_oldrepsold_helm_FA"
+	uishader		"gfx/sup_icons/oldrepsold_h/mb2_icon_hvg"
 
-	uishader_1		"models/players/prisoner/mb2_icon_oldrepsold_helm2_FA"
+	uishader_1		"gfx/sup_icons/oldrepsold_h2/mb2_icon_hvg"
 
 	rateoffire		1.4
 	damageGiven		1

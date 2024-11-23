@@ -15,7 +15,7 @@ ClassInfo
 	
 	saber1			JawaBaton_legends
 	
-	uishader  			"models/players/NRSD/mb2_icon_default"
+	uishader  			"gfx/sup_icons/NRSD/mb2_icon_vang"
 	
 	gloatAnim			TORSO_HANDSIGNAL1
 	flourishAnim		TORSO_HANDSIGNAL4

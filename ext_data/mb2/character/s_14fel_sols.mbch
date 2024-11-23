@@ -4,26 +4,26 @@ ClassInfo
 	name			"s_14fel_sols"
 	maxhealth		75
 	maxarmor		25
-	uishader		"models/players/stormie/mb2_icon_default"
+	uishader		"gfx/sup_icons/stormie/mb2_icon_sols"
 	speed			0.8
 
-	uishader_1		"models/players/stormie_alien/mb2_icon_duros"
+	uishader_1		"gfx/sup_icons/stormie_alien_d/mb2_icon_sols"
 
-	uishader_2		"models/players/stormie_alien/mb2_icon_rodian"
+	uishader_2		"gfx/sup_icons/stormie_alien_r/mb2_icon_sols"
 
-	uishader_3		"models/players/stormie_alien/mb2_icon_bith"
+	uishader_3		"gfx/sup_icons/stormie_alien_b/mb2_icon_sols"
 
-	uishader_4		"models/players/stormie_alien/mb2_icon_weequay"
+	uishader_4		"gfx/sup_icons/stormie_alien_w/mb2_icon_sols"
 
-	uishader_5		"models/players/stormie_alien/mb2_icon_aqualish"
+	uishader_5		"gfx/sup_icons/stormie_alien_aq/mb2_icon_sols"
 
-	uishader_6		"models/players/stormie_alien/mb2_icon_nikto"
+	uishader_6		"gfx/sup_icons/stormie_alien_nik/mb2_icon_sols"
 
-	uishader_7		"models/players/stormie_alien/mb2_icon_gotal"
+	uishader_7		"gfx/sup_icons/stormie_alien_g/mb2_icon_sols"
 
-	uishader_8		"models/players/stormie_alien/mb2_icon_abyssin"
+	uishader_8		"gfx/sup_icons/stormie_alien_ab/mb2_icon_sols"
 
-	uishader_9		"models/players/rebel/mb2_icon_default"
+	uishader_9		"gfx/sup_icons/rebel/mb2_icon_sols"
 
 	WP_BlasterPistolFlags	HELD_ALTRELOAD|HELD_AMMOREGEN
 	WP_BlasterFlags		HELD_ALTRELOAD|HELD_AMMOREGEN

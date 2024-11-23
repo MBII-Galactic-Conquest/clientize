@@ -14,7 +14,7 @@ MBclass
 	Damagegiven 1.1
 
 	
-	uishader		"models/players/legoguy/mb2_icon_sandtrooper"
+	uishader		"gfx/sup_icons/lego_sandtrooper/mb2_icon_flm"
 	
 }
 

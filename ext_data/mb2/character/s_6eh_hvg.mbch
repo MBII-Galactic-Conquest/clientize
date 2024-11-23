@@ -5,12 +5,12 @@ ClassInfo
 	maxhealth		100
 	maxarmor		75
 	speed			0.6
-	uishader		"models/players/stormie/mb2_icon_officer"
+	uishader		"gfx/sup_icons/stormie_of/mb2_icon_hvg"
 	
 
-	uishader_1		"models/players/stormie/mb2_icon_sandtrooper"
+	uishader_1		"gfx/sup_icons/sandtrooper/mb2_icon_hvg"
 
-	uishader_2		"models/players/snowtrooper/mb2_icon_default"
+	uishader_2		"gfx/sup_icons/snowtrooper/mb2_icon_hvg"
 
 	rateoffire		1.4
 	damageGiven		1

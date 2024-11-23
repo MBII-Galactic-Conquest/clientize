@@ -4,7 +4,7 @@ ClassInfo
 	name			"s_lem_jet"
 	maxhealth		100
 	maxarmor		50
-	uishader		"models/players/legoguy/mb2_icon_boba"
+	uishader		"gfx/sup_icons/lego_boba/mb2_icon_jet"
 	speed			0.7
 
 	resource	RESOURCE_FUEL

@@ -21,15 +21,7 @@ ClassInfo
 	meditateAnim 		both_knockdown4
 	bowAnim 			both_headshake
 	
-    uishader            "models/players/clonerc2/mb2_icon_default"
-
-	uishader_1			"models/players/clonerc2/mb2_icon_boss"
-	
-	uishader_2			"models/players/clonerc2/mb2_icon_fixer"
-	
-	uishader_3			"models/players/clonerc2/mb2_icon_sev"
-	
-	uishader_4			"models/players/clonerc2/mb2_icon_scorch"
+    uishader            "gfx/sup_icons/clonerc2/mb2_icon_sni"
 	
 	
 }

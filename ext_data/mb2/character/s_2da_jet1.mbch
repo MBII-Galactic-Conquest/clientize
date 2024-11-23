@@ -4,7 +4,7 @@ ClassInfo
 	name			"s_2da_jet1"
 	maxhealth		40
 	maxarmor		50
-	uishader		"models/players/battledroid/mb2_icon_tan_rocket"
+	uishader		"gfx/sup_icons/battledroid/mb2_icon_jet"
 	speed			0.8
 
 	resource	RESOURCE_FUEL

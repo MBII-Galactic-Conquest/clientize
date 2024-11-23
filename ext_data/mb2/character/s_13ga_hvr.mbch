@@ -5,9 +5,9 @@ ClassInfo
 	maxhealth		100
 	maxarmor		75
 	speed			0.7
-	uishader		"models/players/rebel/mb2_icon_default_tan"
+	uishader		"gfx/sup_icons/default_tan/mb2_icon_hvr"
 
-	uishader_1		"models/players/stormie/mb2_icon_officer"
+	uishader_1		"gfx/sup_icons/stormie_of/mb2_icon_hvr"
 
 	WP_PLX1Flags	HELD_SLOW
 }

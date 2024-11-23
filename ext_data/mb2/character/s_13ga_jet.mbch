@@ -4,12 +4,12 @@ ClassInfo
 	name			"s_13ga_jet"
 	maxhealth		100
 	maxarmor		50
-	uishader		"models/players/gwethenea/mb2_icon_jetpack"
+	uishader		"gfx/sup_icons/gwethenea/mb2_icon_jet"
 	speed			0.8
 
 	resource	RESOURCE_FUEL
 
-	uishader_1		"models/players/stormie_jet/mb2_icon_leg_priv"
+	uishader_1		"gfx/sup_icons/stormie_jet_lp/mb2_icon_jet"
 
 }
 

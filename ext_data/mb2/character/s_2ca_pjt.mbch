@@ -4,7 +4,7 @@ ClassInfo
 	name			"s_2ca_pjt"
 	maxhealth		100
 	maxarmor		50
-	uishader		"gfx/hud/FA_icons/mb2_icon_clonep1_legendsjet"
+    uishader        "gfx/sup_icons/clonep1_jet/mb2_icon_jet"
 	speed			0.8
 
 	resource	RESOURCE_FUEL

@@ -8,13 +8,11 @@ ClassInfo
 	maxhealth		100
 	maxarmor		100
 	forcepool		25
-	uishader		"models/players/sith_officer/mb2_icon_default"
+	uishader		"gfx/sup_icons/sith_officer/mb2_icon_ofc"
 	rateoffire		0.675
 	speed			1.0
 
-	uishader_1		"models/players/sithtrooper/mb2_icon_elite"
-
-	uishader_2		"models/players/sithtrooper/mb2_icon_captain"
+	uishader_1		"gfx/sup_icons/sithtrooper_el/mb2_icon_ofc"
 
 	resource		RESOURCE_RAGE
 

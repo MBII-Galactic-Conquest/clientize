@@ -5,27 +5,27 @@ ClassInfo
 	maxhealth		100
 	maxarmor		100
 	forcepool		25
-	uishader		"models/players/imperial/mb2_icon_lieutenant"
+	uishader		"gfx/sup_icons/imperial_l/mb2_icon_ofc"
 	rateoffire		0.675
 	speed			0.8
 
-	uishader_1		"models/players/imperial_fml/mb2_icon_daala"
+	uishader_1		"gfx/sup_icons/imperial_fd/mb2_icon_ofc"
 
-	uishader_2		"models/players/stormie_alien/mb2_icon_rodian_rgb"
+	uishader_2		"gfx/sup_icons/stormie_alien_r_of/mb2_icon_ofc"
 
-	uishader_3		"models/players/stormie_alien/mb2_icon_duros_rgb"
+	uishader_3		"gfx/sup_icons/stormie_alien_d_of/mb2_icon_ofc"
 
-	uishader_4		"models/players/stormie_alien/mb2_icon_bith_rgb"
+	uishader_4		"gfx/sup_icons/stormie_alien_b_of/mb2_icon_ofc"
 
-	uishader_5		"models/players/stormie_alien/mb2_icon_weequay_rgb"
+	uishader_5		"gfx/sup_icons/stormie_alien_w_of/mb2_icon_ofc"
 
-	uishader_6		"models/players/stormie_alien/mb2_icon_aqualish_rgb"
+	uishader_6		"gfx/sup_icons/stormie_alien_aq_of/mb2_icon_ofc"
 
-	uishader_7		"models/players/stormie_alien/mb2_icon_nikto_rgb"
+	uishader_7		"gfx/sup_icons/stormie_alien_nik_of/mb2_icon_ofc"
 
-	uishader_8		"models/players/stormie/mb2_icon_officer_rgb"
+	uishader_8		"gfx/sup_icons/stormie_of/mb2_icon_ofc"
 
-	uishader_9		"models/players/imperial_army/mb2_icon_atst"
+	uishader_9		"gfx/sup_icons/imp_army_atst/mb2_icon_ofc"
 
 	resource		RESOURCE_RAGE
 }

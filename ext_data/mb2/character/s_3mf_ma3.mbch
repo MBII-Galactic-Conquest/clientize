@@ -8,7 +8,7 @@ ClassInfo
 	forcepool		50
 	maxhealth		100
 	maxarmor		30
-	uishader		"models/players/mbmandy/mb2_icon_mbrgb2"
+	uishader		"gfx/sup_icons/mbmandy_mbrgb2/mb2_icon_sni"
 	speed			0.8
 
 	resource	RESOURCE_FUEL

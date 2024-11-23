@@ -5,7 +5,7 @@ ClassInfo
 	maxhealth		100
 	maxarmor		75
 	speed			0.9
-	uishader		"models/players/stormie/mb2_icon_sandtrooper"
+	uishader		"gfx/sup_icons/sandtrooper/mb2_icon_hvg"
 	
 	rateoffire		1.4
 	damageGiven		1

@@ -5,7 +5,7 @@ ClassInfo
 	maxhealth		40
 	maxarmor		50
 	speed			0.8
-	uishader		"models/players/battledroid/mb2_icon_scout_rgb"
+	uishader		"gfx/sup_icons/battledroid/mb2_icon_hvr"
 
 	WP_PLX1Flags	HELD_SLOW
 }

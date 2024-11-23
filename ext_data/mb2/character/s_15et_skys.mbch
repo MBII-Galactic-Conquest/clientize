@@ -4,7 +4,7 @@ ClassInfo
 	name			"s_15et_skys"
 	maxhealth		30
 	maxarmor		20
-	uishader		"models/players/skytrooper/mb2_icon_default"
+	uishader		"gfx/sup_icons/skytrooper/mb2_icon_sols"
 	speed			0.8
 
 

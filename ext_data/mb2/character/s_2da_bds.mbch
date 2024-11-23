@@ -4,7 +4,7 @@ ClassInfo
 	name			"s_2da_bds"
 	maxhealth		30
 	maxarmor		20
-	uishader		"models/players/battledroid/mb2_icon_default"
+	uishader		"gfx/sup_icons/battledroid/mb2_icon_sols"
 	speed			1.0
 
 
@@ -49,7 +49,7 @@ ClassInfo
 	c_att_skill_8		MB_ATT_INVALID
 	c_att_names_8		"^3+50 Magazine"
 	c_att_ranks_8		-1
-
+    
 }
 
 WeaponInfo0

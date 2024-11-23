@@ -4,7 +4,8 @@ ClassInfo
 	name			"s_2da_bd4"
 	maxhealth		50
 	maxarmor		50
-	uishader		"models/players/battledroid/mb2_icon_ep1_comm"
+	forcepool		25
+	uishader		"gfx/sup_icons/battledroid_of/mb2_icon_ofc"
 	rateoffire		0.675
 	speed			0.8
 	
@@ -62,7 +63,6 @@ Binoculars (1)
 Attributes
 Reinforcements (2)
 Close Combat Training (2)
-Bounty Hunter Kick
 Beskar (2)
 Gun Bash
 Rally

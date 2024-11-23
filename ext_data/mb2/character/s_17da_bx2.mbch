@@ -1,0 +1,94 @@
+
+ClassInfo
+{
+	name				"s_17da_bx2"
+	maxhealth			200
+	maxarmor			75
+	forceregen			1.5
+	forcepool			60
+	forceregen			2
+	saber1				"Vibro_bx_legends"
+	classflags			CFL_HEAVYMELEE
+	ASmultiplier        1.1
+	APmultiplier        1.1
+	CSmultiplier        1.1
+	Speed               1.1
+	
+	damageTaken 		0.95
+		
+	uishader			"gfx/sup_icons/bxdroid/mb2_icon_jedi"
+	
+
+	resource	RESOURCE_BATTERY
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_SABER			
+	WeaponBasedOff		WP_SABER			
+	NewWorldModel		"models/weapons2/vibblade/saber_w.glm"  
+	NewViewModel		"models/weapons2/dummy/dummy.md3" 	  
+	Icon				"gfx/hud/w_icon_vibroswordBX"
+	WeaponName			"Vibrosword"    			
+}
+
+WeaponInfo1
+{
+	WeaponToReplace		WP_EE4        					//Required: Weapon Slot of weapon you're replacing
+	WeaponBasedOff		WP_BLASTER    						//Required: For future use, should be the same as WeaponToReplace
+	NewWorldModel 		"models/weapons2/e5/e5_w.glm"
+	NewViewModel 		"models/weapons2/e5/e5.md3"
+	Icon				"gfx/hud/w_icon_e5"
+	FlashSound0			"sound/weapons/bx_e5/fire.mp3"  
+	altFlashSound0      "sound/weapons/ee3/sniperfire.mp3"
+	WeaponName			"E-5 Blaster BX Custom"
+	customAmmo			650
+}
+ForceInfo0
+{
+	ForceToReplace	FP_SEE
+	Icon		"gfx/forcepowers/radar"
+	ForcePowerName	"Radar Scanner"
+}
+
+description	"Generic Leader: BX Commando Droid
+
+	[GC]
+Unlocked With:
+Leader Bonus
+
+Class: Arc Trooper.
+Class Summary:
+An agile class with a balanced outfit of tools and abilities, deadliest to even the strongest of jedi. 
+
+Weaponry:
+E-5 Blaster BX Custom (Based on EE-4 level 3)
+Vibrosword *
+Incendiary Grenades (2)
+
+* Special Weapon Descriptions:
+--- Vibrosword
+Defense (3)
+Offense (3)
+Regenerates BP passively
+Melee weapon based on Lightsaber
+Deals reduced damage
+Cannot block blaster fire
+Can block lightsabers 
+Can use Yellow and Red styles
+Can prevent Force Push/Pull while blocking
+
+Attributes
+Beskar (3)
+Radar (Perma-sense 2)
+1.5x Faster Force Regen
+
+Abilities:
+Dash (2) [Alt Ability 1]
+Arc Roll
+Gun Bash
+
+Force Powers:
+Jump (3)
+
+A BX Commando droid, specialized in commanding lesser droid units, and known for their remarkable coordinated lethality. Experts at climbing ceilings, latching onto walls, and ambushing their enemy with programmed guerilla tactics."

@@ -4,7 +4,7 @@ ClassInfo
 	name			"s_14fel_shck"
 	maxhealth		100
 	maxarmor		75
-	uishader  		"models/players/darktrooper/mb2_icon_default"
+	uishader  		"gfx/sup_icons/darktrooper_p0/mb2_icon_vang"
 	speed			1.0
 
 	WP_BowcasterFlags HELD_SLOW|HELD_PULSE|HELD_ALTRELOAD

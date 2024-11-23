@@ -11,13 +11,13 @@ ClassInfo
 	
 	damageGiven        1.10
 		
-	uishader		"models/players/jeditrainer/mb2_icon_default"
+	uishader		"gfx/sup_icons/jeditrainer/mb2_icon_jedi"
 	
-	uishader_1		"models/players/jedi/mb2_icon_default"
+	uishader_1		"gfx/sup_icons/jedi/mb2_icon_jedi"
 	
-	uishader_2		"models/players/jedi/mb2_icon_master"
+	uishader_2		"gfx/sup_icons/jedi_m/mb2_icon_jedi"
 
-	uishader_3		"models/players/jedi_female/mb2_icon_rcnaat"
+	uishader_3		"gfx/sup_icons/jedi_f/mb2_icon_jedi"
 				
 	saber1			jediknight_supremacy1
 	saber2			none

@@ -11,9 +11,9 @@ ClassInfo
 	
 	damageGiven        1.10
 
-	uishader		"models/players/TsavongLah/mb2_icon_default"
+	uishader		"gfx/sup_icons/TsavongLah/mb2_icon_jedi"
 
-	uishader_1		"models/players/vong_shaper/icon_default"
+	uishader_1		"gfx/sup_icons/vong_shaper/mb2_icon_jedi"
 
 	rateoffire		1
 

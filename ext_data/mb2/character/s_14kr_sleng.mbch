@@ -4,18 +4,18 @@ ClassInfo
 	name			"s_14kr_sleng"
 	maxhealth		75
 	maxarmor		25
-	uishader		"models/players/stormie/mb2_icon_remnant"
+	uishader		"gfx/sup_icons/dirtystormie/mb2_icon_sleng"
 	speed			0.8
 
-	uishader_1		"models/players/weequay/mb2_icon_default"
+	uishader_1		"gfx/sup_icons/weequay/mb2_icon_sleng"
 
-	uishader_2		"models/players/weequay/mb2_icon_rgb_abyssin"
+	uishader_2		"gfx/sup_icons/abyssin/mb2_icon_sleng"
 
-	uishader_3		"models/players/gran/mb2_icon_default"
+	uishader_3		"gfx/sup_icons/gran/mb2_icon_sleng"
 
-    uishader_4      "models/players/rodian/mb2_icon_default"
+    uishader_4      "gfx/sup_icons/rodian/mb2_icon_sleng"
 
-	uishader_5		"models/players/bossk/mb2_icon_default"
+	uishader_5		"gfx/sup_icons/bossk/mb2_icon_sleng"
 
 	WP_BlasterPistolFlags	HELD_ALTRELOAD|HELD_AMMOREGEN
 	WP_BlasterFlags		HELD_ALTRELOAD|HELD_AMMOREGEN

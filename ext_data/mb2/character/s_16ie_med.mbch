@@ -7,7 +7,7 @@ ClassInfo
 	forcepool		50
 	maxhealth		200
 	maxarmor		10
-	uishader		"models/players/Rakata/icon_default_2"
+	uishader		"gfx/sup_icons/rakata_2/mb2_icon_med"
 	speed			0.7
 
 	saberStanceAnim     BOTH_TAVION_STANCE

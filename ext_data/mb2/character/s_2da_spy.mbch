@@ -7,7 +7,7 @@ ClassInfo
 	maxhealth			60
 	maxarmor			35
 	speed				1.18
-	uishader			"models/players/battledroid/mb2_icon_assassin"
+	uishader			"gfx/sup_icons/battledroid/mb2_icon_spy"
 	forcepool 			25
 	forceregen 			6
 	classflags			CFL_SEEING_STEALTH

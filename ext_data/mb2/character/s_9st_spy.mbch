@@ -10,7 +10,7 @@ ClassInfo
     speed			1.0
 	saber1			kotor_vibrosword_supremacy
 	saber1_1		kotor_vibrostaff_supremacy
-	uishader		"models/players/sithtrooper/mb2_icon_default"
+	uishader		"gfx/sup_icons/sithtrooper/mb2_icon_spy"
 
 
 }

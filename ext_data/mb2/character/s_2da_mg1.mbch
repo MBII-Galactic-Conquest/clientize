@@ -17,11 +17,11 @@ ClassInfo
 	
 	damageTaken 		0.9
 	
-	uishader			"models/players/magnaguard/mb2_icon_default_magutapau"
+	uishader			"gfx/sup_icons/magnaguard_m/mb2_icon_vang"
 	
-	uishader_1			"models/players/magnaguard/mb2_icon_default_cape"
+	uishader_1			"gfx/sup_icons/magnaguard_c/mb2_icon_vang"
 	
-	uishader_2			"models/players/magnaguard/mb2_icon_default"
+	uishader_2			"gfx/sup_icons/magnaguard/mb2_icon_vang"
 	
 	
 }

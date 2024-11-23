@@ -4,7 +4,7 @@ ClassInfo
   name  			"s_6eh_dtr"
   maxhealth 		100
   maxarmor      100
-	uishader  		"models/players/deathtrooper/mb2_icon_default"
+	uishader  		"gfx/sup_icons/deathtrooper/mb2_icon_vang"
   classflags		CFL_SEEING_STEALTH
 }
 

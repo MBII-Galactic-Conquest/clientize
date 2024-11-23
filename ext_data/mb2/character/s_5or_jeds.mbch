@@ -4,14 +4,14 @@ ClassInfo
 	name			"s_5or_jeds"
 	maxhealth		85
 	maxarmor		60
-	uishader		"models/players/rebel_gag/mb2_icon_default"
+	uishader		"gfx/sup_icons/rebel_gag/mb2_icon_vang"
 	speed			0.8
 
 	saber1			soldierbaton_legends
 	BPmultiplier 0.6
 	APmultiplier 0.8
 
-	uishader_1		"models/players/rebel_commando/mb2_icon_hoth"
+	uishader_1		"gfx/sup_icons/rebel_commando_h/mb2_icon_vang"
 
 }
 

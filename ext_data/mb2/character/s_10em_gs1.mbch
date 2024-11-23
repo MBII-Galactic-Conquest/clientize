@@ -13,7 +13,7 @@ ClassInfo
 	
 	
 	
-	uishader		"models/players/reborn/mb2_icon_darkjedi"
+	uishader		"gfx/sup_icons/reborn_dj/mb2_icon_jedi"
 		
 	saber1			sith_supremacy1
 	saber2			none

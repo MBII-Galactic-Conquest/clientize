@@ -1,0 +1,87 @@
+
+ClassInfo
+{
+	name			"s_17ca_ceng"
+	classflags		CFL_FASTHACKING
+	forcepool		50
+	maxhealth		120
+	maxarmor		40
+	speed			1.0
+	uishader		"gfx/sup_icons/clonetactician_b/mb2_icon_eng" // for phase2
+
+
+	WP_ShotgunFlags HELD_ALTRELOAD
+
+	resource	RESOURCE_RAGE
+
+}
+
+WeaponInfo0
+{
+    WeaponToReplace        WP_CLONE_PISTOL                           //Required: Weapon Slot of weapon you're replacing
+    WeaponBasedOff        WP_BLASTER_PISTOL                          //Required: For future use, should be the same as WeaponToReplace
+    NewWorldModel        "models/weapons2/dc-17/dc-17_w.glm"      //Required: New 3rd person/dropped weapon model
+    NewViewModel        "models/weapons2/dc-17/dc-17.md3"       //Required: New 1st person weapon model
+    Icon                "gfx/hud/w_icon_dc-17"                 //Required: Weapon change icon
+    WeaponName            "DC-17 Clone Pistol"                        //Required: Weapon change display name
+    FlashSound0 "sound/weapsup/sup/wpn_rep_pistol_fire.wav"
+    AltFlashSound0  "sound/weapsup/sup/wpn_rep_pistol_fire.wav"
+	FlashSound4	"sound/weapsup/sup/wpn_rep_pistol_fire.wav"
+	AltFlashSound4	"sound/weapsup/sup/wpn_rep_pistol_fire.wav"
+	MuzzleEffect		"Blaster/MuzzleFlash01B"
+	MissileEffect		"blaster/Shot01B"
+	AltMissileEffect 	"blaster/Shot01B"
+    customAmmo      200
+    clipSize        100
+}
+
+WeaponInfo1
+{
+    WeaponToReplace        WP_SHOTGUN                           //Required: Weapon Slot of weapon you're replacing
+    WeaponBasedOff        WP_BOWCASTER                          //Required: For future use, should be the same as WeaponToReplace
+    NewWorldModel        "models/weapons2/dc-15s/dc-15s_w.glm"      //Required: New 3rd person/dropped weapon model
+    NewViewModel        "models/weapons2/dc-15s/dc-15s.md3"       //Required: New 1st person weapon model
+    Icon                "gfx/hud/w_icon_dc-15s"                 //Required: Weapon change icon
+    WeaponName            "DC-15e Blast Cannon"                        //Required: Weapon change display name
+    FlashSound0 		"sound/weapsup/r/wpn_all_bowcaster_fire.wav"
+	MissileEffect		"blaster/Shot01B"
+	MuzzleEffect		"flechette/muzzle_flash"
+	AltMuzzleEffect		"Blaster/MuzzleFlash01B"
+    customAmmo           432
+    clipsize             36
+    AltFireEnabled       0
+}
+
+ForceInfo0
+{
+	ForceToReplace	FP_SEE
+	Icon		"gfx/forcepowers/radar"
+	ForcePowerName	"Radar Scanner"
+}
+
+description	"Phase 2 - Clone Engineer
+
+Weapons
+Pulse Grenade (1)
+Frag Grenades (1)
+Clone Pistol (2)
+DC-15e Blast Cannon *
+
+* Weapon Information:
+- Ion Blob (2)
+
+Gadgets:
+Deployable Floor Turret (1)
+Seeker Droid (1)
+Radar Scanner (sense 2)
+
+Abilities:
+Close Combat Training (2)
+Armor Repair Kit
+Ammo Bandolier
+Quick Throw (2)
+Fast Hack
+Gun Bash
+Assemble
+
+A phase two clone engineer of the 501st Legion, with an ammunition bandolier, and an armor repair kit."

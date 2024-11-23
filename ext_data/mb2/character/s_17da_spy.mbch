@@ -1,0 +1,50 @@
+
+ClassInfo
+{
+	name				"s_17da_spy"
+	saber1				droid_shiv
+	saber2				droid_shiv_dual
+	maxhealth			60
+	maxarmor			35
+	speed				1.18
+	uishader			"gfx/sup_icons/battledroid/mb2_icon_spy"
+	forcepool 			25
+	forceregen 			6
+	classflags			CFL_SEEING_STEALTH
+
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_SABER					//Required: Weapon Slot of weapon you're replacing
+	WeaponBasedOff		WP_SABER					//Required: For future use, should be the same as WeaponToReplace
+	NewWorldModel		"models/weapons2/droid_shiv/saber_w.glm"  	//Required: New 3rd person/dropped weapon model
+	NewViewModel		"models/weapons2/dummy/dummy.md3"   	//Required: New 1st person weapon model
+	Icon				"gfx/hud/w_icon_droid_shiv" 	//Required: Weapon change icon
+	WeaponName			"Assassin's Blades"    					//Required: Weapon change display name
+}
+
+description	"Droid Assassin
+
+	[GC]
+Unlocked With:
+Sabotage Bonus
+
+Weaponry:
+Dual Vibroblade Shivs
+
+Gadgets:
+Stealth Field Generator [Inventory Use]
+
+Attributes
+Reinforcements (1)
+Cortosis Plating
+Immune to Sense
+Beskar (1)
+Dodge (3)
+
+Dual Vibro Shiv Attributes:
+Blade Offense (3)
+Blade Defense (3)
+
+A battle droid assassin, equipped with a stealth field generator and thermal plating."

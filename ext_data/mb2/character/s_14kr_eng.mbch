@@ -7,7 +7,7 @@ ClassInfo
 	maxhealth		100
 	maxarmor		20
 	speed			0.7
-	uishader		"models/players/stormie/mb2_icon_sandtrooper_rgb"
+	uishader		"gfx/sup_icons/sandtrooper/mb2_icon_eng"
 
 
 	WP_ShotgunFlags HELD_ALTRELOAD

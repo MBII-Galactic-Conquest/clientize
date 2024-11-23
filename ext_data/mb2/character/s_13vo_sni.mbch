@@ -11,9 +11,9 @@ ClassInfo
 	damageGiven        1.10
 	rateoffire		2
 		
-	uishader		"models/players/yuuzhanvongketo/icon_default"
+	uishader		"gfx/sup_icons/yuuzhanvongketo/mb2_icon_sni"
 
-	uishader_1		"models/players/nom_anor/mb2_icon_default"
+	uishader_1		"gfx/sup_icons/nom_anor/mb2_icon_sni"
 
 
 	WP_StunBatonFlags 	HELD_POISON

@@ -5,20 +5,20 @@ ClassInfo
 	maxhealth		100
 	maxarmor		75
 	speed			0.6
-	uishader		"models/players/rebel_gag/mb2_icon_grenadier"
+	uishader		"gfx/sup_icons/rebel_gag/mb2_icon_hvg"
 	
 
-	uishader_1		"models/players/rebel_commando/mb2_icon_default"
+	uishader_1		"gfx/sup_icons/rebel_commando/mb2_icon_hvg"
 
-	uishader_2		"models/players/rebel_commando/mb2_icon_bith_forest"
+	uishader_2		"gfx/sup_icons/rebel_commando_quf/mb2_icon_hvg"
 
-	uishader_3		"models/players/rebel_commando/mb2_icon_duros"
+	uishader_3		"gfx/sup_icons/rebel_commando_dur/mb2_icon_hvg"
 
-	uishader_4		"models/players/rebel_commando/mb2_icon_quarren_hoth"
+	uishader_4		"gfx/sup_icons/rebel_commando_quh/mb2_icon_hvg"
 
-	uishader_5		"models/players/rebel_commando/mb2_icon_duros_hoth"
+	uishader_5		"gfx/sup_icons/rebel_commando_durh/mb2_icon_hvg"
 
-	uishader_6		"models/players/rebel_commando/mb2_icon_hoth"
+	uishader_6		"gfx/sup_icons/rebel_commando_h/mb2_icon_hvg"
 
 	rateoffire		1.4
 	damageGiven		1

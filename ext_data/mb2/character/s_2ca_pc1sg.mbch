@@ -4,10 +4,10 @@ ClassInfo
 	name			"s_2ca_pc1sg"
 	maxhealth		75
 	maxarmor		25
-	uishader		"models/players/clonetrooper_p1/mb2_icon_default"
+	uishader		"gfx/sup_icons/clonetrooper_p1/mb2_icon_slsg"
 	speed			0.8
 
-	uishader_1		"models/players/clonetrooper_p1/mb2_icon_poncho"
+	uishader_1		"gfx/sup_icons/clonetrooper_p1_p/mb2_icon_slsg"
 
 	WP_ClonePistolFlags	HELD_ALTRELOAD|HELD_AMMOREGEN
 	WP_BlasterFlags		HELD_ALTRELOAD|HELD_AMMOREGEN

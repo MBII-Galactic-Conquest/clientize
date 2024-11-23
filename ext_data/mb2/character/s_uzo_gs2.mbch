@@ -13,7 +13,7 @@ ClassInfo
 	
 	
 	
-	uishader		"models/players/nightsister/icon_default"
+	uishader		"gfx/sup_icons/nightsister/mb2_icon_jedi"
 		
 	saber1			sith_supremacy1
 	saber2			none
