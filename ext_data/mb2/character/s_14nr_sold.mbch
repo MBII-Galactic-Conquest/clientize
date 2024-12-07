@@ -36,12 +36,13 @@ WeaponInfo1
     WeaponName            "A280 Blaster Rifle"                        //Required: Weapon change display name
     FlashSound0 "sound/weapsup/r/wpn_rebel_blaster_fire.wav"
     AltFlashSound0  "sound/weapsup/r/wpn_rebel_blaster_fire.wav"
-	idleAnim		DC15_READY
-	firingAnim		DC15_FIRE
-	altFiringAnim	DC15_FIRE
     customAmmo      500
     clipSize        100
     FPMult          0.8
+
+	idleAnim		DC15_READY
+	firingAnim		DC15_FIRE
+	altFiringAnim	DC15_FIRE
 }
 
 description	"New Republic Soldier

@@ -7,6 +7,7 @@ ClassInfo
 	uishader		"gfx/sup_icons/lego_boba/mb2_icon_jet"
 	speed			0.7
 
+
 	resource	RESOURCE_FUEL
 
 }

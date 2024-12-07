@@ -88,3 +88,12 @@ Mako?Rehaps -
 
 DarthStiv -
 `Rakatan playermodels`
+
+Leonss-
+`supremacy auto updater`
+
+Xjiro-
+`custom galaxy map web API`
+
+TheEffacer-
+`imperial commando redled skin`

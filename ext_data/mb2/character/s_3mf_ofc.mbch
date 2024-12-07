@@ -12,6 +12,7 @@ ClassInfo
 	rateoffire		0.675
 	speed			1.0
 
+
 	resource		RESOURCE_RAGE
 }
 

@@ -7,7 +7,7 @@ ClassInfo
 	maxhealth		100
 	maxarmor		20
 	speed			0.7
-	uishader		"models/players/stormie_tfa/mb2_icon_pyre"
+	uishader		"gfx/sup_icons/stormie_tfa_py/mb2_icon_eng"
 
 
 	WP_ShotgunFlags HELD_ALTRELOAD

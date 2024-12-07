@@ -5,9 +5,10 @@ ClassInfo
 	maxhealth		100
 	maxarmor		75
 	speed			0.7
-	uishader		"gfx/sup_icon/rebel_tan/mb2_icon_hvr"
+	uishader		"gfx/sup_icons/rebel_tan/mb2_icon_hvr"
 
 	uishader_1		"gfx/sup_icons/stormie_of/mb2_icon_hvr"
+
 
 	WP_PLX1Flags	HELD_SLOW
 }

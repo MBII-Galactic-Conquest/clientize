@@ -7,6 +7,7 @@ ClassInfo
 	uishader		"gfx/sup_icons/clonetrooper_p2_501/mb2_icon"
 	speed			0.8
 
+
 	resource	RESOURCE_FUEL
 
 	WP_PLX1Flags HELD_ALTRELOAD|HELD_PULSE|HELD_LOWDAMAGE

@@ -7,8 +7,8 @@ ClassInfo
     uishader        "gfx/sup_icons/clonep1_jet/mb2_icon_jet"
 	speed			0.8
 
-	resource	RESOURCE_FUEL
 
+	resource	RESOURCE_FUEL
 	WP_PLX1Flags HELD_ALTRELOAD|HELD_PULSE|HELD_LOWDAMAGE
 
 }

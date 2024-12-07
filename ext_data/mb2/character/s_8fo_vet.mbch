@@ -6,7 +6,7 @@ ClassInfo
 	maxarmor		75
 	forcepool		25
 	speed			0.7
-	uishader		"models/players/stormie_tfa/mb2_icon_pauldron"
+	uishader		"gfx/sup_icons/stormie_of/mb2_icon_vang"
 
 
 	isCustomBuild        1
@@ -33,6 +33,7 @@ ClassInfo
     c_att_ranks_4        13,1,1
 
 	resource	RESOURCE_RAGE
+
 
 
 }

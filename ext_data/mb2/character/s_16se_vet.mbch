@@ -2,6 +2,8 @@
 ClassInfo
 {
 	name			"s_16se_vet"
+	saber1			kotor_vibrosword_supremacy
+	saber1_1		kotor_vibrostaff_supremacy
 	maxhealth		100
 	maxarmor		75
 	forcepool		25
@@ -36,9 +38,20 @@ ClassInfo
 	resource	RESOURCE_RAGE
 
 
+
 }
 
 WeaponInfo0
+{
+	WeaponToReplace		WP_SABER			
+	WeaponBasedOff		WP_SABER			
+	NewWorldModel		"models/weapons2/kotor_longsword/saber_w.glm"  
+	NewViewModel		"models/weapons2/dummy/dummy.md3" 	  
+	Icon			"gfx/hud/w_icon_vibrosword"
+	WeaponName		"Cortosis Vibrosword"    	 			
+}
+
+WeaponInfo1
 {
 	WeaponToReplace		WP_BRYAR_PISTOL
 	WeaponBasedOff		WP_BOWCASTER
@@ -50,7 +63,7 @@ WeaponInfo0
     AltFlashSound0		"sound/weapons/kotor/fire_hvy.wav"
 }
 
-WeaponInfo1
+WeaponInfo2
 {
 	WeaponToReplace		WP_A280
 	WeaponBasedOff		WP_A280
@@ -65,7 +78,7 @@ WeaponInfo1
     FPMult          0.8
 }
 
-WeaponInfo2
+WeaponInfo3
 {
 	WeaponToReplace		WP_T21
 	WeaponBasedOff		WP_T21

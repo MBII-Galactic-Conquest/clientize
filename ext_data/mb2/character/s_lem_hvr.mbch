@@ -7,6 +7,7 @@ ClassInfo
 	speed			0.7
 	uishader		"gfx/sup_icons/lego_sandtrooper/mb2_icon_hvr"
 
+
 	WP_PLX1Flags	HELD_SLOW
 }
 

@@ -21,7 +21,7 @@ ClassInfo
 	meditateAnim 		both_knockdown4
 	bowAnim 			both_headshake
 	
-	uishader			"gfx/sup_icons/clonerc2/mb2_icon_sni"
+	uishader			"gfx/sup_icons/clonerc2_redled/mb2_icon_sni"
 	
 
 	resource	RESOURCE_STAMINA

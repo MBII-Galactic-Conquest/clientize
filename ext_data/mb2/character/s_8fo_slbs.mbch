@@ -4,10 +4,10 @@ ClassInfo
 	name			"s_8fo_slbs"
 	maxhealth		85
 	maxarmor		25
-	uishader		"models/players/stormie_tfa/mb2_icon_default"
+	uishader		"gfx/sup_icons/stormie_tfa/mb2_icon_slbs"
 	speed			0.8
 
-	uishader_1		"models/players/shoretrooper/mb2_icon_default"
+	uishader_1		"gfx/sup_icons/shoretrooper/mb2_icon_slbs"
 
 	WP_BlasterPistolFlags	HELD_ALTRELOAD|HELD_AMMOREGEN
 	WP_BlasterFlags		HELD_ALTRELOAD|HELD_AMMOREGEN

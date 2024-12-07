@@ -11,6 +11,7 @@ ClassInfo
 	speed			1.0
 	uishader		"gfx/sup_icons/sithtrooper_r/mb2_icon_hvr"
 
+
 	WP_PLX1Flags	HELD_SLOW
 }
 

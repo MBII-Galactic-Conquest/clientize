@@ -9,7 +9,7 @@ ClassInfo
 	classflags		CFL_BPFREEJUMPS|CFL_HEAVYMELEE|CFL_SEEING_STEALTH
     speed			1.0
 	saber1			legends_Knife
-	uishader  		"models/players/sote_trooper/mb2_icon_black"
+	uishader  		"gfx/sup_icons/sote_trooper_bl/mb2_icon_spy"
 
 
 }

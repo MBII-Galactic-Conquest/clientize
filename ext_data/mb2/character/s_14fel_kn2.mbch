@@ -12,19 +12,19 @@ ClassInfo
 	
 	damageGiven        1.10
 		
-	uishader		"gfx/sup_icons/imperialknight_foxheart/mb2_icon_jedi"
+	uishader		"gfx/sup_icons/felknight_foxheart/mb2_icon_jedi"
 
-	uishader_1		"gfx/sup_icons/imperialknight_jiix/mb2_icon_jedi"
+	uishader_1		"gfx/sup_icons/felknight_jiix/mb2_icon_jedi"
 
-	uishader_2		"gfx/sup_icons/imperialknight_kaizen/mb2_icon_jedi"
+	uishader_2		"gfx/sup_icons/felknight_kaizen/mb2_icon_jedi"
 
-	uishader_3		"gfx/sup_icons/imperialknight_dain/mb2_icon_jedi"
+	uishader_3		"gfx/sup_icons/felknight_dain/mb2_icon_jedi"
 
-	uishader_4		"gfx/sup_icons/imperialknight_draconis/mb2_icon_jedi"
+	uishader_4		"gfx/sup_icons/felknight_draconis/mb2_icon_jedi"
 
-	uishader_5		"gfx/sup_icons/imperialknight_vuk/mb2_icon_jedi"
+	uishader_5		"gfx/sup_icons/felknight_vuk/mb2_icon_jedi"
 
-	uishader_6		"gfx/sup_icons/imperialknight_tyrus/mb2_icon_jedi"
+	uishader_6		"gfx/sup_icons/felknight_tyrus/mb2_icon_jedi"
 				
 	saber1			saber_imperial_supremacy
 	saber2			none

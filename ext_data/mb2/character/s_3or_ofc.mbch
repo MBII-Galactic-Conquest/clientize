@@ -10,6 +10,7 @@ ClassInfo
 	uishader		"gfx/sup_icons/sith_officer_s/mb2_icon_ofc"
 	speed			1.0
 
+
 	resource		RESOURCE_RAGE
 }
 

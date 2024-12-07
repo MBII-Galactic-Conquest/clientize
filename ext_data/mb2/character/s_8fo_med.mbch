@@ -6,7 +6,7 @@ ClassInfo
 	maxhealth		100
 	maxarmor		20
 	forcepool		50
-	uishader		"models/players/stormie_tfa/mb2_icon_cardinal"
+	uishader		"gfx/sup_icons/stormie_tfa_c/mb2_icon_med"
 	speed			0.7
 
 
