@@ -7,11 +7,12 @@ ClassInfo
 	maxhealth		60
 	maxarmor		35
 	classflags		CFL_BPFREEJUMPS|CFL_HEAVYMELEE|CFL_SEEING_STEALTH
-    speed			1.0
+    speed			1.1
 	saber1			legends_Knife
 	uishader		"gfx/sup_icons/bothan-spy/mb2_icon_spy"
 
 	uishader_1  	"gfx/sup_icons/stormie_shadow/mb2_icon_spy"
+
 
 
 }

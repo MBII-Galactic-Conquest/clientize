@@ -5,7 +5,10 @@ Classinfo
 	maxhealth		100
 	maxarmor		75
 	speed           0.9
-	
+
+	saber1			kotor_vibrosword_supremacy
+	saber1_1		kotor_vibrostaff_supremacy
+
 	rateOfFire      0.95
 	
 MBclass
@@ -19,6 +22,16 @@ MBclass
 }
 
 WeaponInfo0
+{
+	WeaponToReplace		WP_SABER			
+	WeaponBasedOff		WP_SABER			
+	NewWorldModel		"models/weapons2/kotor_longsword/saber_w.glm"  
+	NewViewModel		"models/weapons2/dummy/dummy.md3" 	  
+	Icon			"gfx/hud/w_icon_vibrosword"
+	WeaponName		"Cortosis Vibrosword"    	 			
+}
+
+WeaponInfo1
 {
     WeaponToReplace        WP_BLASTER                           //Required: Weapon Slot of weapon you're replacing
     WeaponBasedOff        WP_BLASTER                          //Required: For future use, should be the same as WeaponToReplace
@@ -34,7 +47,7 @@ WeaponInfo0
     FPMult          0.8
 }
 
-WeaponInfo1
+WeaponInfo2
 {
 	WeaponToReplace		WP_THROWER			//Required: Weapon Slot of weapon you're replacing
 	WeaponBasedOff		WP_THROWER					//Required: For future use, should be the same as WeaponToReplace

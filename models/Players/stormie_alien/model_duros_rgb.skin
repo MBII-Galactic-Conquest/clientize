@@ -66,7 +66,7 @@ belt,models/players/stormie/armor_clean.tga
 holster,models/players/stormie/bodysuit.tga
 bomb,models/players/stormie/bomb.tga
 
-pauldron,models/players/stormie/pauldron_orange.tga
+pauldron,models/players/stormie/pauldron_rgb.tga
 
 head_cap_torso_off,models/players/stormtrooper/caps.tga
 torso_cap_head_off,models/players/stormtrooper/caps.tga

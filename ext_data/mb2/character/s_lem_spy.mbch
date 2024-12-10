@@ -7,9 +7,10 @@ ClassInfo
 	maxhealth		60
 	maxarmor		35
 	classflags		CFL_BPFREEJUMPS|CFL_HEAVYMELEE|CFL_SEEING_STEALTH
-    speed			1.0
+    speed			1.1
 	saber1			legends_Knife
 	uishader		"gfx/sup_icons/lego_stormie/mb2_icon_spy"
+
 
 
 }

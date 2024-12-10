@@ -3,6 +3,7 @@ ClassInfo
 {
 	name			"s_4cz_ofc"
 	saber1			kotor_vibrosword_supremacy
+	saber1_1		kotor_vibrostaff_supremacy
 	maxhealth		100
 	maxarmor		100
 	forcepool		85
