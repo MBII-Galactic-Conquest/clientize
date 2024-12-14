@@ -7,6 +7,7 @@ ClassInfo
 	speed			1.0
 	uishader		"models/players/battledroid/mb2_icon_deathwatch"
 
+
 	WP_PLX1Flags	HELD_SLOW
 }
 

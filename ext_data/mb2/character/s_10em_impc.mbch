@@ -58,6 +58,7 @@ WeaponInfo1
 	Icon             	"gfx/hud/w_icon_arc_shiv"
 	WeaponName			"Wrist Shiv"
 }
+
 WeaponInfo2
 {
 	WeaponToReplace		WP_PROJ

@@ -10,7 +10,6 @@ Classinfo
 	
 	rateOfFire      0.95
 	
-MBclass
 	WP_ThrowerFlags HELD_ALTRELOAD
 	
 	Damagegiven 1.1

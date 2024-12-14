@@ -2,7 +2,7 @@
 ClassInfo
 {
 	name				"s_5me_md1"
-	uishader			"models/players/droideka/mb2_icon_elite"
+	uishader			"models/players/sith_droideka/mb2_icon_default"
 }
 
 WeaponInfo0

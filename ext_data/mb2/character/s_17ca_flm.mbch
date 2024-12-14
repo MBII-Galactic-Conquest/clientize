@@ -8,7 +8,6 @@ Classinfo
 	
 	rateOfFire      0.95
 	
-MBclass
 	classflags		CFL_WFLAMETHROWER
 	WP_CloneRifleFlags HELD_ALTRELOAD
 	

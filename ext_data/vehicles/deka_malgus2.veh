@@ -28,10 +28,10 @@ traction    100
 friction    100
 maxSlope    0.7
 mass      10
-armor       450
+armor       800
 toughness     10
-model      "droideka"
-skin      "elite"
+model      "sithdeka"
+skin      "default"
 radarIcon    "gfx/menus/radar/deka"
 explosionRadius 400
 explosionDamage 1000
@@ -78,8 +78,8 @@ MBFdisableshields  7
 AllWeaponsDoDamageToArmor  1
 AllWeaponsDoDamageToShields  1
 CantKnockoutShields    1
-shields        250
-shieldRechargeMS    30
+shields        0
+shieldRechargeMS    0
 
 ResistsMarking      1
 

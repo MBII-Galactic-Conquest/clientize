@@ -8,6 +8,7 @@ ClassInfo
 	uishader		"models/players/rebel_gag/mb2_icon_default"
 	speed			0.8
 
+
 	resource		RESOURCE_RAGE
 }
 

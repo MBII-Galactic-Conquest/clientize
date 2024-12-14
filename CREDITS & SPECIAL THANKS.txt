@@ -94,6 +94,7 @@ Leonss-
 
 Xjiro-
 `custom galaxy map web API`
+`github release tracker`
 
 TheEffacer-
 `imperial commando redled skin`

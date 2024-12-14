@@ -28,10 +28,10 @@ traction    100
 friction    100
 maxSlope    0.7
 mass      10
-armor       450
+armor       800
 toughness     10
-model      "droideka"
-skin      "elite"
+model      "sithdeka"
+skin      "default"
 radarIcon    "gfx/menus/radar/deka"
 explosionRadius 400
 explosionDamage 1000
@@ -49,7 +49,7 @@ GroundTrace 1 //set to 1 for droidekas
 weap1      droideka_laser
 weap1Delay    320
 weap1AmmoMax    30
-weap1AmmoRechargeMS  1000
+weap1AmmoRechargeMS  500
 
 //deka_laser
 weapMuzzle1    droideka_laser
@@ -80,8 +80,8 @@ MBFdisableshields  7
 AllWeaponsDoDamageToArmor  1
 AllWeaponsDoDamageToShields  1
 CantKnockoutShields    1
-shields        250
-shieldRechargeMS    30
+shields        0
+shieldRechargeMS    0
 
 ResistsMarking      1
 

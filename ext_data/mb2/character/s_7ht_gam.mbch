@@ -15,6 +15,9 @@ ClassInfo
 	damageTaken 0.85
 	
 	
+
+	resource	RESOURCE_RAGE
+	
 }
 
 WeaponInfo0
