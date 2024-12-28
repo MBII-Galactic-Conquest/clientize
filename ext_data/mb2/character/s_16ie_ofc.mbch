@@ -4,6 +4,7 @@ ClassInfo
 	name			"s_9st_ofc"
 	classflags		CFL_STRONGAGAINSTPHYSICAL
 	saber1			rakatan_vibrostaff_supremacy
+	attributes		MB_ATT_RALLY
 	maxhealth		400
 	maxarmor		50
 	forcepool		25
