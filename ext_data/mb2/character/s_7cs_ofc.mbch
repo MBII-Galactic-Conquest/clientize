@@ -2,6 +2,7 @@
 ClassInfo
 {
 	name			"s_7cs_ofc"
+	attributes		MB_ATT_RALLY
 	maxhealth		100
 	maxarmor		100
 	forcepool		25
