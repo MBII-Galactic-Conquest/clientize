@@ -3,6 +3,7 @@ ClassInfo
 {
 	name				"s_16ie_rdd"
 	uishader			"models/players/droideka/mb2_icon_white"
+	attributes			MB_ATT_DEKA_SHIELD,3|MB_ATT_DEKA_HULL,1|MB_ATT_FIREPOWER,3|MB_ATT_SHIELD_PROJ,2|MB_ATT_SHOCKWAVE
 }
 
 WeaponInfo0

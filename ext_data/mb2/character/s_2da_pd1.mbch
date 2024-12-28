@@ -3,6 +3,7 @@ ClassInfo
 {
 	name			"s_2da_pd1"
 	uishader		"models/players/droideka/mb2_icon_default"
+	attributes		MB_ATT_DEKA_SHIELD,2|MB_ATT_DEKA_HULL,2|MB_ATT_FIREPOWER,2|MB_ATT_SHIELD_PROJ,2|MB_ATT_DEKA_DEPLOY,1
 }
 
 WeaponInfo0

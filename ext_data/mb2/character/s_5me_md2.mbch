@@ -3,6 +3,7 @@ ClassInfo
 {
 	name				"s_5me_md2"
 	uishader			"models/players/sithdeka/mb2_icon_default"
+	attributes			MB_ATT_DEKA_SHIELD,1|MB_ATT_DEKA_HULL,1|MB_ATT_FIREPOWER,1|MB_ATT_SHIELD_PROJ,1|MB_ATT_DEKA_POWER,1|MB_ATT_BESKAR,3|MB_ATT_MAGNETIC_PLATING,1
 }
 
 WeaponInfo0
