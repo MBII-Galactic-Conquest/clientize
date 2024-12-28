@@ -3,6 +3,7 @@ ClassInfo
 {
 	name			"s_13vo_bru"
 	classflags		CFL_BPFREEJUMPS|CFL_ACIDBLOOD|CFL_BLOODYMELEE|CFL_HEAVYMELEE|CFL_SEEING_STEALTH
+	attributes		MB_ATT_FP_SABER_DEFENSE,0|MB_ATT_GUN_DEFENSE,0
 	maxhealth       300
 	forcepool		100
 	speed			1.06
