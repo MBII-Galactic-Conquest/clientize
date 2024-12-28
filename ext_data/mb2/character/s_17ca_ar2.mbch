@@ -5,6 +5,7 @@ ClassInfo
 	saber1			assassin_shiv_legends
 	forcepool       35
 	APmultiplier	1.1
+	attributes		MB_ATT_RALLY
 	maxhealth		100
 	maxarmor		100
 	uishader		"gfx/sup_icons/clonetrooper_p2_rex/mb2_icon_ofc"
