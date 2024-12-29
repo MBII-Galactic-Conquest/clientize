@@ -21,7 +21,8 @@ ClassInfo
 	uishader_6		"gfx/sup_icons/rebel_commando_h/mb2_icon_hvg"
 
 	rateoffire		1.4
-	damageGiven		1
+	damageGiven		1.05
+	knockbackGiven	1.2
 
 
     WP_MinigunFlags	HELD_ALTRELOAD|HELD_SLOW

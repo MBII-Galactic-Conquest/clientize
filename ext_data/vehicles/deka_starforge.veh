@@ -48,7 +48,7 @@ GroundTrace 1 //set to 1 for droidekas
 weap1      deka_laser
 weap1Delay    320
 weap1AmmoMax    30
-weap1AmmoRechargeMS  500
+weap1AmmoRechargeMS  300
 
 weapMuzzle1    deka_laser
 weapMuzzle2    deka_laser

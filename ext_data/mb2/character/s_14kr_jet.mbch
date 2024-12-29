@@ -5,7 +5,7 @@ ClassInfo
 	maxhealth		100
 	maxarmor		50
 	uishader		"gfx/sup_icons/stormie_jet_lc/mb2_icon_jet"
-	speed			0.8
+	speed			0.7
 
 
 	resource	RESOURCE_FUEL
