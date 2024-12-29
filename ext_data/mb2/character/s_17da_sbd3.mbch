@@ -7,17 +7,67 @@ ClassInfo
 
 	maxhealth			200
 	maxarmor			10
+	forceregen			6
+
+    saber1              droidmelee_supremacy
+    saber2              droidmelee_supremacy
 	
-	speed				0.7
+	speed				0.6
 	rateOfFire			1.15
 
+	WP_PLX1Flags  HELD_KNOCKDOWN|HELD_LOWDAMAGE|HELD_KNOCKBACK|HELD_IGNOREBLOCK|HELD_ALTRELOAD
+	WP_SaberFlags		HELD_LOWDAMAGE|HELD_SLOW
 
 	uishader		    "models/players/sbd/mb2_icon_jet"
-		
+
+	WalkBackward	SBD_WALK_NOGUN
+	WalkForward 	SBD_WALK_NOGUN
+	RunForward		SBD_RUN_NOGUN
+
 	meleeMoves			M_PUNCH|M_KICK
 
 	resource	RESOURCE_BATTERY
 	
+}
+
+WeaponInfo0
+{
+	WeaponToReplace WP_SABER
+	WeaponBasedOff  WP_SABER
+	NewWorldModel		"models/weapons2/dummy/dummy.glm"
+	NewViewModel		"models/weapons2/dummy/dummy.md3"
+	Icon			"models/weapons2/halo_melee/icon.png"
+	WeaponName		"Droid Melee"
+	primGore		1
+	altGore			1
+}
+
+WeaponInfo1
+{
+	WeaponToReplace		WP_PLX1
+	WeaponBasedOff		WP_PLX1
+	NewWorldModel		"models/weapons2/dummy/dummy.glm"
+	NewViewModel		"models/weapons2/dummy/dummy.md3"
+	Icon				"gfx/hud/w_icon_sbdarm"
+	WeaponName			"Wrist Rocket"
+	MissileEffect			"upl/shot"
+	MissileSound                "sound/weapons/upl/missleloop.wav"
+    MissileModel                 "models/weapons2/upl/projectile_a.md3"
+	AltMissileMissEffect	"effects/Grenades/EXP_Explosion"
+	AltMissileHitHumanEffect	"effects/Grenades/EXP_Explosion"
+	AltMissileHitDroidEffect	"effects/Grenades/EXP_Explosion"
+    MissileMissEffect        "effects/Grenades/EXP_Explosion"
+    MissileHitHumanEffect    "effects/Grenades/EXP_Explosion"
+    MissileHitDroidEffect    "effects/Grenades/EXP_Explosion"
+    FlashSound0            "sound/weapons/WhistlingBird/Fire3.mp3"
+	customAmmo           1
+    clipSize             1
+	ReloadTimeModifier 	2
+	AltFireEnabled		0
+
+	idleAnim		SBD_GUN_OUT_STAND
+	firingAnim	    SBD_FIRE
+	altFiringAnim	SBD_FIRE
 }
 
 description	"Phase 2 - Jetpack B2 Super Battle Droid
