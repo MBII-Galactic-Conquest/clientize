@@ -122,6 +122,14 @@ ForceInfo0
 	ForcePowerName	"Null Ability Slot"
 }
 
+ForceInfo1
+{
+	ForceToReplace        FP_ABSORB
+	Icon                 "gfx/mp/sup_vet_nullify"
+	ForcePowerName		 "Nullify Force"
+	StartSound           "sound/forcesup/protect.mp3"
+	LoopSound            "sound/forcesup/protectloop.wav"
+}
 
 description	"Infinite Empire - Rakatan Elite Soldier
 

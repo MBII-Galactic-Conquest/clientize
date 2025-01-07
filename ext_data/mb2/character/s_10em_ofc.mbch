@@ -49,6 +49,15 @@ WeaponInfo1
 	altFiringAnim	DC15_FIRE
 }
 
+ForceInfo0
+{
+	ForceToReplace        FP_PROTECT
+	Icon                 "gfx/mp/sup_ofc_shroud"
+	ForcePowerName		 "Officer Shroud"
+	StartSound           "sound/forcesup/protect.mp3"
+	LoopSound            "sound/forcesup/protectloop.wav"
+}
+
 description	"Early Empire - Officer
 
 Weaponry:
