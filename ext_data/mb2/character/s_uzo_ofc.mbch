@@ -7,10 +7,11 @@ ClassInfo
 	maxhealth 100
 	uishader  "models/players/imperial/mb2_icon_zombie"
 	speed 1.15
-	forcepool 20
+	forcepool 25
 	classflags  CFL_NOPICKUPS|CFL_BLOODYMELEE|CFL_HEAVYMELEE
 classnumberlimit
 
+	resource	RESOURCE_RAGE
 }
 
 WeaponInfo0
@@ -52,6 +53,15 @@ WeaponInfo2
 	altGore			1
 	idleAnim  BOTH_INAIRBACK1
 	firingAnim  BOTH_BURSTMISS
+}
+
+ForceInfo0
+{
+	ForceToReplace        FP_PROTECT
+	Icon                 "gfx/mp/sup_ofc_shroud"
+	ForcePowerName		 "Officer Shroud"
+	StartSound           "sound/forcesup/protect.mp3"
+	LoopSound            "sound/forcesup/protectloop.wav"
 }
 
 description "Zombie Imperial Officer

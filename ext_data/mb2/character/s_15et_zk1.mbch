@@ -24,6 +24,15 @@ ClassInfo
 
 }
 
+ForceInfo0
+{
+	ForceToReplace        FP_PROTECT
+	Icon                 "gfx/mp/sup_ofc_shroud"
+	ForcePowerName		 "Officer Shroud"
+	StartSound           "sound/forcesup/protect.mp3"
+	LoopSound            "sound/forcesup/protectloop.wav"
+}
+
 description	"Eternal Empire: Zakuul Knight
 
 	[GC]

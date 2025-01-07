@@ -32,6 +32,15 @@ WeaponInfo0
 	idleAnim		DC15_READY
 }
 
+ForceInfo0
+{
+	ForceToReplace        FP_ABSORB
+	Icon                 "gfx/mp/sup_vet_nullify"
+	ForcePowerName		 "Nullify Force"
+	StartSound           "sound/forcesup/protect.mp3"
+	LoopSound            "sound/forcesup/protectloop.wav"
+}
+
 description	"Eternal Empire - Veteran Skytrooper
 
 Weapons

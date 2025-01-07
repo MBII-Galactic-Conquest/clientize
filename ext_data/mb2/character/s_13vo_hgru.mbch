@@ -4,7 +4,7 @@ ClassInfo
 	name			"s_13vo_hgru"
 	classflags		CFL_BPFREEJUMPS|CFL_ACIDBLOOD|CFL_BLOODYMELEE|CFL_HEAVYMELEE|CFL_SEEING_STEALTH
 	maxhealth       125
-	forcepool		100
+	forcepool		25
 	speed			0.7
 	
 	damageGiven        1.10
@@ -21,7 +21,7 @@ ClassInfo
 	flourishAnim	BOTH_TUSKENTAUNT1
 	gloatAnim     BOTH_TUSKENTAUNT1
 
-	resource	RESOURCE_FORCE
+	resource	RESOURCE_RAGE
 
 classnumberlimit
 }
@@ -71,6 +71,15 @@ ForceInfo0
 	ForceToReplace	FP_ABSORB
 	Icon		"gfx/mplevels/dc_universe/fp_sinestro"
 	ForcePowerName	"Natural Force Resist"
+}
+
+ForceInfo1
+{
+	ForceToReplace        FP_PROTECT
+	Icon                 "gfx/mp/sup_ofc_shroud"
+	ForcePowerName		 "Officer Shroud"
+	StartSound           "sound/forcesup/protect.mp3"
+	LoopSound            "sound/forcesup/protectloop.wav"
 }
 
 

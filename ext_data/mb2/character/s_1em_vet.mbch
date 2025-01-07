@@ -85,6 +85,14 @@ WeaponInfo2
     FPMult          0.8
 }
 
+ForceInfo0
+{
+	ForceToReplace        FP_ABSORB
+	Icon                 "gfx/mp/sup_vet_nullify"
+	ForcePowerName		 "Nullify Force"
+	StartSound           "sound/forcesup/protect.mp3"
+	LoopSound            "sound/forcesup/protectloop.wav"
+}
 
 description	"Imperial Veteran
 
