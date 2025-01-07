@@ -10,11 +10,11 @@ EUAllowed 0
 Classes
 
 {
-class1	"s_lem_slcg"
-class2	"s_lem_ofc"
+class1  "s_lem_slcg"
+class2  "s_lem_ofc"
 class3  "s_lem_vet"
-class4	"s_lem_hvg"
-class5	"s_lem_hvr"
+class4  "s_lem_hvg"
+class5  "s_lem_hvr"
 class6  "s_lem_jet"
 }
 

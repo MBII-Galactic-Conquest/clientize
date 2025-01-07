@@ -5,7 +5,7 @@ ClassInfo
 	maxhealth		100
 	maxarmor		75
 	uishader  		"gfx/sup_icons/darktrooper_p0/mb2_icon_vang"
-	speed			1.0
+	speed			0.7
 
 	WP_BowcasterFlags HELD_SLOW|HELD_PULSE|HELD_ALTRELOAD
 }

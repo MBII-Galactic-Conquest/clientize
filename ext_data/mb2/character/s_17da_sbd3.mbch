@@ -19,10 +19,6 @@ ClassInfo
 
 	uishader		    "models/players/sbd/mb2_icon_jet"
 
-	WalkBackward	SBD_WALK_NOGUN
-	WalkForward 	SBD_WALK_NOGUN
-	RunForward		SBD_RUN_NOGUN
-
 	meleeMoves			M_PUNCH|M_KICK
 
 	resource	RESOURCE_BATTERY
