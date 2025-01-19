@@ -4,10 +4,11 @@ ClassInfo
 	name			"s_13vo_hgru"
 	classflags		CFL_BPFREEJUMPS|CFL_ACIDBLOOD|CFL_BLOODYMELEE|CFL_HEAVYMELEE|CFL_SEEING_STEALTH
 	maxhealth       125
-	forcepool		25
+	forcepool		50
 	speed			0.7
 	
 	damageGiven        1.10
+	forceregen	1
 		
 	uishader		"gfx/sup_icons/vong_pilot/mb2_icon_ofc"
 
@@ -21,7 +22,7 @@ ClassInfo
 	flourishAnim	BOTH_TUSKENTAUNT1
 	gloatAnim     BOTH_TUSKENTAUNT1
 
-	resource	RESOURCE_RAGE
+	resource		RESOURCE_RAGE
 
 classnumberlimit
 }

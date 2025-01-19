@@ -22,6 +22,8 @@ ClassInfo
 
 	uishader_6		"models/players/czerka/mb2_icon_twilek"
 
+
+	resource		RESOURCE_RAGE
 }
 
 WeaponInfo0
@@ -74,6 +76,22 @@ WeaponInfo2
     customAmmo      500
     clipSize        100
     FPMult          0.8
+}
+
+ForceInfo0
+{
+	ForceToReplace        FP_PUSH
+	Icon                 "gfx/mp/sup_repulsor_glove"
+	ForcePowerName		 "Repulsor Glove"
+}
+
+ForceInfo1
+{
+	ForceToReplace        FP_PROTECT
+	Icon                 "gfx/mp/sup_ofc_shroud"
+	ForcePowerName		 "Officer Shroud"
+	StartSound           "sound/forcesup/protect.mp3"
+	LoopSound            "sound/forcesup/protectloop.wav"
 }
 
 description	"Czerka Corporation - Commanding Officer

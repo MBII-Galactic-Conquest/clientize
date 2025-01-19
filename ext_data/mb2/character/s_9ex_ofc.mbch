@@ -8,10 +8,12 @@ ClassInfo
 	maxhealth		100
 	maxarmor		100
 	uishader		"gfx/sup_icons/oldrepsold/mb2_icon_ofc"
+	rateoffire		0.675
 	speed			1.0
 
 	uishader_1		"gfx/sup_icons/sith_officer_s/mb2_icon_ofc"
 
+	forceregen	1
 
 	resource		RESOURCE_RAGE
 }
@@ -48,14 +50,14 @@ WeaponInfo1
 
 WeaponInfo2
 {
-    WeaponToReplace        WP_BLASTER                           //Required: Weapon Slot of weapon you're replacing
-    WeaponBasedOff        WP_BLASTER                          //Required: For future use, should be the same as WeaponToReplace
-    NewWorldModel        "models/weapons2/kotor_brifle2/kotor_brifle2_w.glm"      //Required: New 3rd person/dropped weapon model
-    NewViewModel        "models/weapons2/kotor_brifle2/kotor_brifle2.md3"       //Required: New 1st person weapon model
-    Icon                "gfx/hud/w_icon_kotor_brifle2"                 //Required: Weapon change icon
-    WeaponName            "Republic Assault Rifle"                        //Required: Weapon change display name
-	FlashSound0			"sound/weapons/kotor/fire_med.wav"
-    AltFlashSound0		"sound/weapons/kotor/fire_hvy.wav"
+    WeaponToReplace        WP_A280                           //Required: Weapon Slot of weapon you're replacing
+    WeaponBasedOff        WP_A280                          //Required: For future use, should be the same as WeaponToReplace
+    NewWorldModel        "models/weapons2/kotor_reprifle/kotor_reprifle_w.glm"      //Required: New 3rd person/dropped weapon model
+    NewViewModel        "models/weapons2/kotor_reprifle/kotor_reprifle.md3"       //Required: New 1st person weapon model
+    Icon                "gfx/hud/w_icon_kotor_reprifle"                 //Required: Weapon change icon
+    WeaponName            "Elite Republic Burst Rifle"                        //Required: Weapon change display name
+    FlashSound0 "sound/weapons/kotor/fire_med.wav"
+	AltFlashSound0 "sound/weapons/kotor/fire_hvy.wav"
 	MuzzleEffect		"Blaster/MuzzleFlash01B"
 	AltMuzzleEffect		"Blaster/MuzzleFlash01B"
 	MissileEffect		"blaster/Shot01B"
@@ -66,6 +68,13 @@ WeaponInfo2
 }
 
 ForceInfo0
+{
+	ForceToReplace        FP_PUSH
+	Icon                 "gfx/mp/sup_repulsor_glove"
+	ForcePowerName		 "Repulsor Glove"
+}
+
+ForceInfo1
 {
 	ForceToReplace        FP_PROTECT
 	Icon                 "gfx/mp/sup_ofc_shroud"

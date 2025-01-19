@@ -4,6 +4,7 @@ ClassInfo
 	name			"s_7bs_hvg"
 	maxhealth		100
 	maxarmor		75
+	forcepool		50
 	speed			0.6
 	uishader		"gfx/sup_icons/weequay/mb2_icon_hvg"
 	
@@ -16,10 +17,13 @@ ClassInfo
 
 	uishader_4		"gfx/sup_icons/bossk/mb2_icon_hvg"
 
+	forceregen		1
 	rateoffire		1.4
 	damageGiven		1.05
 	knockbackGiven	1.2
 
+
+	resource	RESOURCE_RAGE
 
     WP_MinigunFlags	HELD_ALTRELOAD|HELD_SLOW
 
@@ -49,6 +53,14 @@ WeaponInfo0
 	isMinigun			1
 	ReloadTimeModifier	2
 	FPMult     			0.9
+}
+
+ForceInfo0
+{
+	ForceToReplace        FP_RAGE
+	Icon                 "gfx/mp/sup_laser_barrage"
+	ForcePowerName		 "Laser Barrage"
+	StartSound			 "sound/forcesup/barrage.mp3"
 }
 
 description	"Black Sun - Heavy MG Trooper

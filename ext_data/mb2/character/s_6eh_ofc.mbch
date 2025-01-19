@@ -15,6 +15,7 @@ ClassInfo
 
 	uishader_3		"gfx/sup_icons/imp_army_atst/mb2_icon_ofc"
 
+	forceregen	1
 
 	resource		RESOURCE_RAGE
 }
@@ -47,6 +48,13 @@ WeaponInfo1
 }
 
 ForceInfo0
+{
+	ForceToReplace        FP_PUSH
+	Icon                 "gfx/mp/sup_repulsor_glove"
+	ForcePowerName		 "Repulsor Glove"
+}
+
+ForceInfo1
 {
 	ForceToReplace        FP_PROTECT
 	Icon                 "gfx/mp/sup_ofc_shroud"

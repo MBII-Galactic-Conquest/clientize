@@ -4,18 +4,21 @@ ClassInfo
 	name			"s_9ex_hvg"
 	saber1			kotor_vibrosword_supremacy
 	saber1_1		kotor_vibrostaff_supremacy
-	forcepool		50
 	maxhealth		100
 	maxarmor		75
+	forcepool		50
 	speed			0.7
 	uishader		"gfx/sup_icons/oldrepsold_h/mb2_icon_hvg"
 
 	uishader_1		"gfx/sup_icons/oldrepsold_h2/mb2_icon_hvg"
 
+	forceregen		1
 	rateoffire		1.4
 	damageGiven		1.05
 	knockbackGiven	1.2
 
+
+	resource	RESOURCE_RAGE
 
     WP_MinigunFlags	HELD_ALTRELOAD|HELD_SLOW
 
@@ -75,6 +78,14 @@ WeaponInfo2
 	isMinigun			1
 	ReloadTimeModifier	2
 	FPMult     			0.9
+}
+
+ForceInfo0
+{
+	ForceToReplace        FP_RAGE
+	Icon                 "gfx/mp/sup_laser_barrage_b"
+	ForcePowerName		 "Laser Barrage"
+	StartSound			 "sound/forcesup/barrage.mp3"
 }
 
 description	"Old Republic - Heavy Gunner

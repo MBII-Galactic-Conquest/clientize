@@ -16,6 +16,7 @@ ClassInfo
 	uishader_3		"models/players/imperial_army/mb2_icon_atst"
 
 
+	forceregen	1
 
 	resource		RESOURCE_RAGE
 }
@@ -45,6 +46,22 @@ WeaponInfo1
 	customAmmo      500
 	clipSize        100
 	FPMult          0.8
+}
+
+ForceInfo0
+{
+	ForceToReplace        FP_PUSH
+	Icon                 "gfx/mp/sup_repulsor_glove"
+	ForcePowerName		 "Repulsor Glove"
+}
+
+ForceInfo1
+{
+	ForceToReplace        FP_PROTECT
+	Icon                 "gfx/mp/sup_ofc_shroud"
+	ForcePowerName		 "Officer Shroud"
+	StartSound           "sound/forcesup/protect.mp3"
+	LoopSound            "sound/forcesup/protectloop.wav"
 }
 
 description	"Veer's Remnant - Imperial Officer

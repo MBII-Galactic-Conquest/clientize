@@ -4,7 +4,7 @@ ClassInfo
 	name			"s_13vo_egru"
 	classflags		CFL_BPFREEJUMPS|CFL_ACIDBLOOD|CFL_BLOODYMELEE|CFL_HEAVYMELEE|CFL_SEEING_STEALTH|CFL_FASTHACKING
 	maxhealth       100
-	forcepool		100
+	forcepool		50
 	speed			0.8
 	
 	damageGiven        1.10
@@ -70,6 +70,15 @@ ForceInfo0
 	ForceToReplace	FP_ABSORB
 	Icon		"gfx/mplevels/dc_universe/fp_sinestro"
 	ForcePowerName	"Natural Force Resist"
+}
+
+ForceInfo1
+{
+	ForceToReplace        FP_TEAM_FORCE
+	Icon                 "gfx/mp/sup_eng_synergize"
+	ForcePowerName		 "Team Synergize"
+	StartSound           "sound/forcesup/synergize.mp3"
+	LoopSound            "sound/forcesup/protectloop.wav"
 }
 
 description	"Yuuzhan Vong - Warrior Caste - Engineer Grunt

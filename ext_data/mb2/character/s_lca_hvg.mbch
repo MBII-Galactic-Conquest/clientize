@@ -4,13 +4,17 @@ ClassInfo
 	name			"s_lca_hvg"
 	maxhealth		100
 	maxarmor		75
+	forcepool		50
 	speed			0.6
 	uishader		"gfx/sup_icons/lego_arc/mb2_icon_hvg"
 	
+	forceregen		1
 	rateoffire		1.4
 	damageGiven		1.05
 	knockbackGiven	1.2
 
+
+	resource	RESOURCE_RAGE
 
     WP_MinigunFlags	HELD_ALTRELOAD|HELD_SLOW
 
@@ -67,6 +71,14 @@ WeaponInfo2
   NewViewModel		"models/weapons2/dummy/dummy.md3"
   Icon			"gfx/mplevels/legosw/icon_melee"
 	WeaponName		"Melee"
+}
+
+ForceInfo0
+{
+	ForceToReplace        FP_RAGE
+	Icon                 "gfx/mp/sup_laser_barrage"
+	ForcePowerName		 "Laser Barrage"
+	StartSound			 "sound/forcesup/barrage.mp3"
 }
 
 description	"Clone Heavy MG Trooper
