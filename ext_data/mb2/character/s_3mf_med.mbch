@@ -11,6 +11,7 @@ ClassInfo
 	uishader		"gfx/sup_icons/manda_et/mb2_icon_med"
 	speed			0.7
 
+	forceregen	2
 
 	resource	RESOURCE_RAGE
 }
@@ -51,6 +52,22 @@ WeaponInfo2
     clipSize        100
     FPMult          0.8
 }
+
+ForceInfo0
+{
+	ForceToReplace        FP_DRAIN
+	Icon                 "gfx/mp/sup_repulsor_glove"
+	ForcePowerName		 "Draining Glove"
+}
+
+ForceInfo1
+{
+	ForceToReplace        FP_TEAM_HEAL
+	Icon                 "gfx/mp/sup_med_heal"
+	ForcePowerName		 "Team Kolto Mist"
+	StartSound	"sound/player/pickuphealth.mp3"
+}
+
 description	"Mandalorian Neo Crusader - Medic Lieutenant
 
 	[GC]

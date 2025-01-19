@@ -9,6 +9,7 @@ ClassInfo
 	uishader		"gfx/sup_icons/lego_clone/mb2_icon_med"
 	speed			0.7
 
+	forceregen	1
 
 	resource	RESOURCE_RAGE
 }
@@ -59,6 +60,13 @@ WeaponInfo2
 	WeaponName		"Melee"
 }
 
+ForceInfo0
+{
+	ForceToReplace        FP_TEAM_HEAL
+	Icon                 "gfx/mp/sup_med_heal"
+	ForcePowerName		 "Team Bacta Mist"
+	StartSound	"sound/player/pickuphealth.mp3"
+}
 
 description	"Clone Medic
 

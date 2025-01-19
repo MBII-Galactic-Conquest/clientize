@@ -7,7 +7,7 @@ ClassInfo
 	attributes		MB_ATT_RALLY
 	maxhealth		100
 	maxarmor		100
-	forcepool		85
+	forcepool		25
 	uishader		"models/players/rebel_gag/mb2_icon_default"
 	speed			1.0
 
@@ -22,6 +22,9 @@ ClassInfo
 	uishader_5		"models/players/czerka/mb2_icon_nikto"
 
 	uishader_6		"models/players/czerka/mb2_icon_twilek"
+
+
+	resource	RESOURCE_RAGE
 
 }
 

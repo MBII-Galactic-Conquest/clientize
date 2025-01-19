@@ -15,6 +15,7 @@ ClassInfo
 	saberStanceAnim     BOTH_TAVION_STANCE
 
 	damageGiven		1.10
+	forceregen	1
 
 
 
@@ -60,6 +61,13 @@ WeaponInfo2
 }
 
 ForceInfo0
+{
+	ForceToReplace        FP_PUSH
+	Icon                 "gfx/mp/sup_repulsor_glove"
+	ForcePowerName		 "Repulsor Glove"
+}
+
+ForceInfo1
 {
 	ForceToReplace        FP_PROTECT
 	Icon                 "gfx/mp/sup_ofc_shroud"

@@ -42,6 +42,7 @@ ClassInfo
 
 	resource	RESOURCE_RAGE
 
+	forceregen	1
 
 
 }
@@ -60,6 +61,13 @@ WeaponInfo0
 }
 
 ForceInfo0
+{
+	ForceToReplace        FP_PUSH
+	Icon                 "gfx/mp/sup_repulsor_glove"
+	ForcePowerName		 "Repulsor Glove"
+}
+
+ForceInfo1
 {
 	ForceToReplace        FP_ABSORB
 	Icon                 "gfx/mp/sup_vet_nullify"

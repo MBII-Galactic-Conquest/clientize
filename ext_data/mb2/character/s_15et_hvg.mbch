@@ -4,9 +4,12 @@ ClassInfo
 	name			"s_15et_hvg"
 	maxhealth		40
 	maxarmor		50
+	forcepool		100
 	uishader		"gfx/sup_icons/skytrooper/mb2_icon_hvg"
 	speed			0.8
-	
+
+
+	forceregen		1
 	rateoffire		1.4
 	damageGiven		1.05
 	knockbackGiven	1.2
@@ -45,6 +48,14 @@ WeaponInfo0
     clipSize        100
 	ReloadTimeModifier	2
     FPMult          0.8
+}
+
+ForceInfo0
+{
+	ForceToReplace        FP_RAGE
+	Icon                 "gfx/mp/sup_laser_barrage"
+	ForcePowerName		 "Laser Barrage"
+	StartSound			 "sound/forcesup/barrage.mp3"
 }
 
 description	"Eternal Empire - Sky Trooper (MG)

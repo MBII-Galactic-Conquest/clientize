@@ -2,7 +2,7 @@
 ClassInfo
 {
 	name			"s_6nr_eng"
-	classflags		CFL_FASTHACKING
+	classflags		CFL_STATVIEWER|CFL_FASTHACKING
 	forcepool		50
 	maxhealth		100
 	maxarmor		20
@@ -13,6 +13,8 @@ ClassInfo
 
 
 	WP_ShotgunFlags HELD_ALTRELOAD
+
+	forceregen	0.5
 
 	resource	RESOURCE_RAGE
 
@@ -50,6 +52,15 @@ ForceInfo0
 	ForceToReplace	FP_SEE
 	Icon		"gfx/forcepowers/radar"
 	ForcePowerName	"Radar Scanner"
+}
+
+ForceInfo1
+{
+	ForceToReplace        FP_TEAM_FORCE
+	Icon                 "gfx/mp/sup_eng_synergize"
+	ForcePowerName		 "Team Synergize"
+	StartSound           "sound/forcesup/synergize.mp3"
+	LoopSound            "sound/forcesup/protectloop.wav"
 }
 
 description	"New Republic Engineer

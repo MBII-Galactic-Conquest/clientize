@@ -9,6 +9,7 @@ ClassInfo
 	uishader		"gfx/sup_icons/sithtrooper_tor_m/mb2_icon_med"
 	speed			0.7
 
+	forceregen	1
 
 	resource	RESOURCE_RAGE
 }
@@ -39,6 +40,14 @@ WeaponInfo1
     customAmmo      500
     clipSize        100
     FPMult          0.8
+}
+
+ForceInfo0
+{
+	ForceToReplace        FP_TEAM_HEAL
+	Icon                 "gfx/mp/sup_med_heal"
+	ForcePowerName		 "Team Kolto Mist"
+	StartSound	"sound/player/pickuphealth.mp3"
 }
 
 description	"Malgus Empire - Medic

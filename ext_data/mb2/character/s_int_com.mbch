@@ -8,6 +8,10 @@ ClassInfo
 	speed			0.8
 
 	uishader_1		"models/players/imperial_fml/mb2_icon_default"
+
+	damageTaken		0
+	damageGiven		0
+	knockbackTaken	0
 }
 
 WeaponInfo0

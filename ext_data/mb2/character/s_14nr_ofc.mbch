@@ -10,6 +10,11 @@ ClassInfo
 	rateoffire		0.675
 	speed			0.8
 
+	uishader_1		"models/players/jedi_hm/mb2_icon_hothelite2"
+
+	forceregen	1
+
+	resource		RESOURCE_RAGE
 }
 
 WeaponInfo0
@@ -40,6 +45,13 @@ WeaponInfo1
 }
 
 ForceInfo0
+{
+	ForceToReplace        FP_PUSH
+	Icon                 "gfx/mp/sup_repulsor_glove"
+	ForcePowerName		 "Repulsor Glove"
+}
+
+ForceInfo1
 {
 	ForceToReplace        FP_PROTECT
 	Icon                 "gfx/mp/sup_ofc_shroud"
