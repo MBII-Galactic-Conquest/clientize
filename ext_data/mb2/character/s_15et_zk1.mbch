@@ -11,7 +11,9 @@ ClassInfo
 	maxhealth       200
 	maxarmor		10
 	forcepool		100
-	forceregen		1
+	resourceRegenRate		1000
+	resourceRegenAmount		1
+	forceregen		0.1
 	speed           0.8
 	BPmultiplier    1.0
 	APmultiplier    1.0

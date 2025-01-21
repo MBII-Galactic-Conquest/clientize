@@ -14,7 +14,9 @@ ClassInfo
 	uishader		"gfx/sup_icons/tiepilot_f/mb2_icon_med"
 	speed			0.7
 
-	forceregen	1
+	resourceRegenRate		1000
+	resourceRegenAmount		1
+	forceregen		0.1
 
 	resource	RESOURCE_RAGE
 }

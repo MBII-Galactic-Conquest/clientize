@@ -19,7 +19,9 @@ ClassInfo
 
 	uishader_1		"gfx/sup_icons/sith_officer_s/mb2_icon_ofc"
 
-	forceregen	1
+	resourceRegenRate		1000
+	resourceRegenAmount		1
+	forceregen		0.1
 
 	resource		RESOURCE_RAGE
 }

@@ -18,7 +18,9 @@ ClassInfo
 	rateoffire		0.675
 	speed			1.0
 
-	forceregen	2
+	resourceRegenRate		1000
+	resourceRegenAmount		2
+	forceregen		0.1
 
 	resource		RESOURCE_RAGE
 }

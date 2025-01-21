@@ -13,7 +13,9 @@ ClassInfo
 	speed			0.6
 	uishader		"gfx/sup_icons/battledroid/mb2_icon_hvg"
 	
-	forceregen		1
+	resourceRegenRate		1000
+	resourceRegenAmount		1
+	forceregen		0.1
 	rateoffire		1.4
 	damageGiven		1.05
 	knockbackGiven	1.2

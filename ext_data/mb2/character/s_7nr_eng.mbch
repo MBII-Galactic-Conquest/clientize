@@ -19,7 +19,9 @@ ClassInfo
 
 	WP_ShotgunFlags HELD_ALTRELOAD
 
-	forceregen	0.5
+	resourceRegenRate		1000
+	resourceRegenAmount		0.5
+	forceregen		0.1
 
 	resource	RESOURCE_RAGE
 

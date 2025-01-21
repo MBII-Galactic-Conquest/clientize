@@ -41,7 +41,9 @@ ClassInfo
 
 	resource	RESOURCE_RAGE
 
-	forceregen	2
+	resourceRegenRate		1000
+	resourceRegenAmount		2
+	forceregen		0.1
 
 
 }

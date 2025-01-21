@@ -22,7 +22,9 @@ ClassInfo
 	uishader_3		"models/players/imperial_army/mb2_icon_atst"
 
 
-	forceregen	1
+	resourceRegenRate		1000
+	resourceRegenAmount		1
+	forceregen		0.1
 
 	resource		RESOURCE_RAGE
 }

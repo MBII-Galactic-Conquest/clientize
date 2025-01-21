@@ -16,7 +16,9 @@ ClassInfo
 
 	uishader		"gfx/sup_icons/vong_pilot/mb2_icon_med"
 
-	forceregen	1
+	resourceRegenRate		1000
+	resourceRegenAmount		1
+	forceregen		0.1
 	rateoffire		1.2
 	rateoffire_melee	2
 
