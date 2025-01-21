@@ -14,7 +14,7 @@ ClassInfo
 	speed 1.15
 	forcepool 100
 	classflags  CFL_NOPICKUPS|CFL_BLOODYMELEE|CFL_HEAVYMELEE
-classnumberlimit
+	classnumberlimit 2
 }
 
 WeaponInfo0

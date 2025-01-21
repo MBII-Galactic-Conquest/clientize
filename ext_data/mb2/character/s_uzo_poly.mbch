@@ -15,7 +15,7 @@ ClassInfo
 	forceregen  2
 	forcepool 80
 	classflags  CFL_NOPICKUPS|CFL_BLOODYMELEE|CFL_HEAVYMELEE|CFL_SEEING_STEALTH
-classnumberlimit
+	classnumberlimit 2
 }
 
 WeaponInfo0

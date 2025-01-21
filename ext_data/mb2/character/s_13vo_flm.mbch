@@ -19,7 +19,7 @@ ClassInfo
 	rateoffire		1.2
 	rateoffire_melee	2
 
-classnumberlimit
+	classnumberlimit 2
 
 	WP_CloneRifleFlags 	HELD_POISON|HELD_ALTRELOAD
 

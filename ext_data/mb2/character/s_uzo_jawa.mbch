@@ -13,7 +13,7 @@ ClassInfo
 	uishader  "models/players/jawa/mb2_icon_zombie"
 	speed 1.05
 	classflags  CFL_NOPICKUPS|CFL_HEAVYMELEE|CFL_BLOODYMELEE|CFL_STATVIEWER
-classnumberlimit
+	classnumberlimit 2
 
 }
 
