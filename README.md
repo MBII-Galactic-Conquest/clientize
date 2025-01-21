@@ -23,4 +23,4 @@
 ㅤㅤㅤㅤTHESE CLIENT .PK3 ASSETS ARE FOR OFFICIAL MBII SUPREMACY & GALACTIC CONQUEST PROJECT USE ONLY.
 ```
 
-ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤREFERENCE [RELEASES](https://github.com/MBII-Galactic-Conquest/clientize/releases) OR CONTENT LAUNCHER FOR CLIENT PACKAGING ACCESS.
+ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤREFERENCE [RELEASES](https://github.com/MBII-Galactic-Conquest/clientize/releases) OR [CONTENT LAUNCHER](https://github.com/MBII-Galactic-Conquest/clientize/releases/tag/LAUNCHER) FOR CLIENT PACKAGING ACCESS.
