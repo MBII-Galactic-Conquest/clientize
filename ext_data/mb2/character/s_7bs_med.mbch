@@ -17,7 +17,9 @@ ClassInfo
 
 	uishader_4		"gfx/sup_icons/bossk/mb2_icon_med"
 
-	forceregen	1
+	resourceRegenRate		1000
+	resourceRegenAmount		1
+	forceregen		0.1
 
 	resource	RESOURCE_RAGE
 }
