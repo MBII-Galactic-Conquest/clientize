@@ -10,7 +10,7 @@ ClassInfo
 	attributes		MB_ATT_RALLY
 	maxhealth		100
 	maxarmor		100
-	forcepool		25
+	forcepool		50
 	uishader		"models/players/bespin_cop/mb2_icon_default"
 	rateoffire		0.675
 	speed			0.8

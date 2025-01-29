@@ -13,11 +13,13 @@ ClassInfo
 	attributes		MB_ATT_RALLY
 	maxhealth		100
 	maxarmor		100
-	uishader		"gfx/sup_icons/oldrepsold/mb2_icon_ofc"
+	uishader		"gfx/sup_icons/sith_officer_r/mb2_icon_ofc"
 	rateoffire		0.675
 	speed			1.0
 
-	uishader_1		"gfx/sup_icons/sith_officer_s/mb2_icon_ofc"
+	uishader_1		"gfx/sup_icons/sith_officer_r2/mb2_icon_ofc"
+
+	uishader_2		"gfx/sup_icons/sith_officer_rf/mb2_icon_ofc"
 
 	resourceRegenRate		1000
 	resourceRegenAmount		1
