@@ -1,7 +1,7 @@
 
 ClassInfo
 {
-	name			"s_9st_ofc"
+	name			"s_16ie_ofc"
 	classflags		CFL_STRONGAGAINSTPHYSICAL
 	saber1			rakatan_vibrostaff_supremacy
 	maxhealth		400
@@ -14,9 +14,6 @@ ClassInfo
 	saberStanceAnim     BOTH_TAVION_STANCE
 
 	damageGiven		1.10
-	resourceRegenRate		1000
-	resourceRegenAmount		1
-	forceregen		0.1
 
 
 

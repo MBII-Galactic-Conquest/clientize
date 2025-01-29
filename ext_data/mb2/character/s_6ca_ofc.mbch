@@ -4,7 +4,7 @@ ClassInfo
 	name			"s_6ca_ofc"
 	maxhealth		100
 	maxarmor		100
-	forcepool		25
+	forcepool		50
 	uishader		"models/players/rebel_gag/mb2_icon_default"
 	speed			0.8
 

@@ -4,7 +4,7 @@ ClassInfo
 	name			"s_6hc_ofc"
 	maxhealth		100
 	maxarmor		100
-	forcepool		25
+	forcepool		50
 	uishader		"models/players/imperial/mb2_icon_lieutenant"
 	rateoffire		0.675
 	speed			0.8

@@ -6,7 +6,7 @@ ClassInfo
 	saber1_1		kotor_vibrostaff_supremacy
 	maxhealth		100
 	maxarmor		100
-	forcepool		25
+	forcepool		50
 	uishader		"models/players/rebel_gag/mb2_icon_default"
 	speed			1.0
 
