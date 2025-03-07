@@ -6,12 +6,16 @@ ClassInfo
     forcepool       65
 	maxhealth		60
 	maxarmor		35
-	classflags		CFL_BPFREEJUMPS|CFL_HEAVYMELEE|CFL_SEEING_STEALTH
+	classflags		CFL_BPFREEJUMPS|CFL_HEAVYMELEE|CFL_SEEING_STEALTH|CFL_EXTRAFLAMEDAMAGE
     speed			1.1
-	saber1			legends_Knife
+	saber1			supremacy_Knife
 	uishader		"gfx/sup_icons/sithtrooper_tor/mb2_icon_spy"
 
 
+
+	damageGiven		1.2
+
+	WP_ThrowerFlags		HELD_DISRUPTIFY|HELD_ALTRELOAD|HELD_FLAME
 
 }
 
@@ -39,13 +43,28 @@ WeaponInfo1
 
 WeaponInfo2
 {           
-WeaponToReplace        	WP_TRIP_MINE
-WeaponBasedOff         	WP_TRIP_MINE
-NewWorldModel		"models/weapons2/laser_trap/laser_trap_w.glm"  	
-NewViewModel	  	"models/weapons2/laser_trap/laser_trap.md3"  	
-Icon             	"gfx/hud/w_icon_tripmine"
-WeaponName		"Trip Mine"
-customAmmo    		3
+	WeaponToReplace        	WP_TRIP_MINE
+	WeaponBasedOff         	WP_TRIP_MINE
+	NewWorldModel		"models/weapons2/laser_trap/laser_trap_w.glm"  	
+	NewViewModel	  	"models/weapons2/laser_trap/laser_trap.md3"  	
+	Icon             	"gfx/hud/w_icon_tripmine"
+	WeaponName		"Trip Mine"
+	customAmmo    		3
+}
+
+WeaponInfo3
+{
+    WeaponToReplace			WP_THROWER
+    WeaponBasedOff			WP_THROWER
+   	NewWorldModel        "models/weapons2/CR-1_cannon/rifle_w.glm"      //Required: New 3rd person/dropped weapon model
+    NewViewModel        "models/weapons2/CR-1_cannon/rifle.md3"       //Required: New 1st person weapon model
+    Icon                "gfx/hud/w_icon_cr1_blastcannon"
+    FlashSound0 		"sound/weapsup/sup/incinerator.wav"              
+    WeaponName             "Incinerator"
+	MuzzleEffect		"arc_caster/ArcCasterMuzzle"
+	ReloadTimeModifier	 2
+    customAmmo           500
+    clipsize             100
 }
 
 description	"Malgus Empire - Spy

@@ -9,6 +9,8 @@ ClassInfo
 
 	uishader_1		"gfx/sup_icons/stormie_of/mb2_icon_hvr"
 
+	uishader_2		"gfx/hud/FA_icons/mb2_icon_snowtrooper2_red"
+
 
 	WP_PLX1Flags	HELD_SLOW
 }

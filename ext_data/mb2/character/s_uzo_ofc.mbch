@@ -12,7 +12,7 @@ ClassInfo
 	resourceRegenAmount		1
 	forceregen		0.1
 	classflags  CFL_NOPICKUPS|CFL_BLOODYMELEE|CFL_HEAVYMELEE
-	classnumberlimit 2
+classnumberlimit
 
 	resource	RESOURCE_RAGE
 }

@@ -4,7 +4,7 @@ ClassInfo
 	name			"s_5or_solm"
 	maxhealth		80
 	maxarmor		30
-	uishader		"gfx/sup_icons/republictrooper/mb2_icon_solm"
+	uishader		"gfx/sup_icons/swtor_republictrooper/mb2_icon_solm"
 	speed			0.8
 	damageGiven		1.2
 

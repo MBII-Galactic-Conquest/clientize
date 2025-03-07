@@ -9,7 +9,7 @@ ClassInfo
 
 	uishader_1		"gfx/sup_icons/sandtrooper/mb2_icon_hvr"
 
-	uishader_2		"gfx/sup_icons/snowtrooper/mb2_icon_hvr"
+	uishader_2		"gfx/sup_icons/snowtrooper2_or/mb2_icon_hvr"
 
 
 	WP_PLX1Flags	HELD_SLOW

@@ -1,18 +1,29 @@
+//Galactic Conquest/Supremacy character file - Created by 2cwldys & John & FrenZy
+//Siege class def file.
 
 ClassInfo
 {
 	name			"s_13vo_agr"
+	weapons			WP_MELEE|WP_REPEATER
+	forcepowers		FP_LEVITATION,1|FP_ABSORB,2
+	attributes		MB_ATT_CLONERIFLE,1|MB_ATT_FORCEBLOCK,4|MB_ATT_FORCEFOCUS,4|MB_ATT_WOOKIE_STRENGTH,3|MB_ATT_ASSEMBLE,1|MB_ATT_CCTRAINING,2|MB_ATT_CORTOSIS,1|MB_ATT_ANTI_MT,2|MB_ATT_GUNBASH
 	classflags		CFL_BPFREEJUMPS|CFL_ACIDBLOOD|CFL_BLOODYMELEE|CFL_HEAVYMELEE|CFL_SEEING_STEALTH
+	holdables		HI_AMMODISP
 	maxhealth       85
 	forcepool		100
 	speed			0.8
+	modelscale		1.1
+	MBClass			MB_CLASS_SOLDIER
 	
 	damageGiven        1.10
 		
+	model			"vong_pilot" 					
+	skin			"default"		
 	uishader		"models/players/vong_pilot/icon_default"
 
 	rateoffire		1.5
 
+	extralives	1
 
 	WP_RepeaterFlags 	HELD_POISON|HELD_ALTRELOAD
 
@@ -59,7 +70,7 @@ WeaponInfo1
 description	"Yuuzhan Vong - Warrior Caste - Ammo Grunt
 
 
-Attributes
+Attributes:
 Reinforcements (1)
 Weighted Resilience (Wookiee Strength 3)
 Yuuzhan Vong Bio-Armor (Cortosis)
@@ -80,7 +91,7 @@ Weakness:
 * - Yuuzhan Vong villify technology, and thus do not use blaster resistant armor.
 All units rely upon their health.
 
-Weapons
+Weapons:
 Heavy Melee (Claws)
 Yuuzhan Vong Acid Thrower (CR1) *
 Vong Bio-Grenade (Frag)

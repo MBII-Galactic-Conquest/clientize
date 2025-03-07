@@ -2,7 +2,7 @@
 ClassInfo
 {
 	name			"s_13vo_flm"
-	classflags		CFL_BPFREEJUMPS|CFL_ACIDBLOOD|CFL_BLOODYMELEE|CFL_HEAVYMELEE|CFL_SEEING_STEALTH
+	classflags		CFL_BPFREEJUMPS|CFL_ACIDBLOOD|CFL_BLOODYMELEE|CFL_HEAVYMELEE|CFL_SEEING_STEALTH|CFL_EXTRAFLAMEDAMAGE
 	maxhealth       100
 	forcepool		100
 	speed			0.8
@@ -14,7 +14,7 @@ ClassInfo
 	rateoffire		1.2
 	rateoffire_melee	2
 
-	classnumberlimit 2
+classnumberlimit
 
 	WP_CloneRifleFlags 	HELD_POISON|HELD_ALTRELOAD
 

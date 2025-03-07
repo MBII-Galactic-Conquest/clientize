@@ -5,7 +5,7 @@ ClassInfo
 	maxhealth		100
 	maxarmor		75
 	forcepool		25
-	uishader		"gfx/sup_icons/republictrooper/mb2_icon_vang"
+	uishader		"gfx/sup_icons/swtor_republictrooper/mb2_icon_vang"
 	speed			0.7
 
 	isCustomBuild        1

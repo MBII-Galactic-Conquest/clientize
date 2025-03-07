@@ -24,7 +24,7 @@ ClassInfo
 
 	uishader_8		"gfx/sup_icons/stormie_alien_ab_of/mb2_icon_hvg"
 
-	uishader_9		"gfx/sup_icons/snowtrooper/mb2_icon_hvg"
+	uishader_9		"gfx/sup_icons/snowtrooper2_bl/mb2_icon_hvg"
 
 	resourceRegenRate		1000
 	resourceRegenAmount		1

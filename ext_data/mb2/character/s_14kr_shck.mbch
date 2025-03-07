@@ -4,10 +4,18 @@ ClassInfo
 	name			"s_14kr_shck"
 	maxhealth		100
 	maxarmor		75
+	forcepool		50
 	uishader  		"gfx/sup_icons/darktrooper_p0/mb2_icon_vang"
 	speed			0.7
 
-	WP_BowcasterFlags HELD_SLOW|HELD_PULSE|HELD_ALTRELOAD
+
+	resourceRegenRate		1000
+	resourceRegenAmount		2
+	forceregen		0.1
+
+	resource	RESOURCE_RAGE
+
+	WP_EE3Flags HELD_PULSE|HELD_SLOW|HELD_ALTRELOAD
 }
 
 WeaponInfo0
@@ -24,42 +32,37 @@ WeaponInfo0
 
 WeaponInfo1
 {
-    WeaponToReplace        WP_BLASTER                           //Required: Weapon Slot of weapon you're replacing
-    WeaponBasedOff        WP_BLASTER                          //Required: For future use, should be the same as WeaponToReplace
+    WeaponToReplace        WP_EE3                           //Required: Weapon Slot of weapon you're replacing
+    WeaponBasedOff        WP_EE3                          //Required: For future use, should be the same as WeaponToReplace
     NewWorldModel        "models/weapons2/blaster_r/blaster_w.glm"      //Required: New 3rd person/dropped weapon model
     NewViewModel        "models/weapons2/blaster_r/blaster.md3"       //Required: New 1st person weapon model
     Icon                "gfx/hud/w_icon_e11"                 //Required: Weapon change icon
-    WeaponName            "E-11 Imperial Carbine"                        //Required: Weapon change display name
-    FlashSound0 "sound/weapsup/r/wpn_imp_blaster_fire.wav"
-    AltFlashSound0  "sound/weapsup/r/wpn_imp_blaster_fire.wav"
+    WeaponName            "E-11 Shock Carbine"                        //Required: Weapon change display name
+	MissileEffect		"blaster/Shot03B"
+	AltMissileEffect	"blaster/Shot03B"
+	MissileMissEffect	"effects/impacts/impactsmallblue1"
+	AltMissileMissEffect	"effects/impacts/impactsmallblue1"
+	MissileHitHumanEffect "effects/impacts/impactsmallblue1"
+	MissileHitDroidEffect "effects/impacts/impactsmallblue1"
+	FlashSound0		"sound/weapsup/r/wpn_imp_blaster_fire.wav"
+	FlashSound1		"sound/weapsup/r/wpn_imp_blaster_fire.wav"
+	FlashSound2		"sound/weapsup/r/wpn_imp_blaster_fire.wav"
+	FlashSound3		"sound/weapsup/r/wpn_imp_blaster_fire.wav"
+	FlashSound4		"sound/weapsup/r/wpn_imp_blaster_fire.wav"
+	AltFlashSound0		"sound/weapsup/r/wpn_imp_blaster_fire.wav"
+	AltFlashSound1		"sound/weapsup/r/wpn_imp_blaster_fire.wav"
+	AltFlashSound2		"sound/weapsup/r/wpn_imp_blaster_fire.wav"
+	AltFlashSound3		"sound/weapsup/r/wpn_imp_blaster_fire.wav"
+	AltFlashSound4		"sound/weapsup/r/wpn_imp_blaster_fire.wav"
     customAmmo      500
     clipSize        100
     FPMult          0.8
 
+	ReloadTimeModifier	2
+
 	idleAnim		DC15_READY
 	firingAnim		DC15_FIRE
 	altFiringAnim	DC15_FIRE
-}
-
-WeaponInfo2
-{
-	WeaponToReplace		WP_BOWCASTER				//Required: Weapon Slot of weapon you're replacing
-	WeaponBasedOff		WP_SBD					//Required: For future use, should be the same as WeaponToReplace
-	NewWorldModel		"models/weapons2/arc_caster/arc_caster_w.glm"  	
-	NewViewModel		"models/weapons2/arc_caster/model.md3"    	//Required: New 1st person weapon model
-	Icon				"gfx/hud/w_icon_arc_caster" 					//Required: Weapon change icon
-	WeaponName			"Arc Caster"    				//Required: Weapon change display name
-	firingAnim	        BOTH_ATTACK4
-	MuzzleEffect		"arc_caster/ArcCasterMuzzle"
-	MissileEffect		"arc_caster/ArcCasterShock"
- 	MissileHitHumanEffect	"SBD/Cortosis_blue"
-	MissileHitDroidEffect	"SBD/Cortosis_blue"
-	MissileMissEffect	"SBD/Cortosis_blue"
-	FlashSound0		"sound/ambience/thunder1.mp3"
-	altFlashSound0 "sound/ambience/thunder1.mp3"
-	altfireenabled		0
-	clipsize   2
-	customammo 300
 }
 
 description	"Krayt Empire - Imperial Shock Trooper
@@ -67,7 +70,6 @@ description	"Krayt Empire - Imperial Shock Trooper
 Weaponry:
 Pulse Grenade (2)
 Pistol (2)
-Arc Caster (2)
 E-11 (2)
 
 Attributes

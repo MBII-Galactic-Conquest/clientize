@@ -26,7 +26,7 @@ ClassInfo
 
 	resource		RESOURCE_RAGE
 
-	classnumberlimit 2
+classnumberlimit
 }
 
 WeaponInfo0

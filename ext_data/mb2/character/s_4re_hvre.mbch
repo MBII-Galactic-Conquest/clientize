@@ -1,0 +1,92 @@
+
+ClassInfo
+{
+	name			"s_4re_hvre"
+	classflags		CFL_STRONGAGAINSTPHYSICAL
+	saber1			kotor_vibrosword_supremacy
+	saber1_1		kotor_vibrostaff_supremacy
+	forcepool		50
+	maxhealth		100
+	maxarmor		50
+	speed			1.0
+	uishader		"gfx/sup_icons/sithtrooper_r/mb2_icon_hvr"
+
+
+	WP_PLX1Flags	HELD_SLOW
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_SABER			
+	WeaponBasedOff		WP_SABER			
+	NewWorldModel		"models/weapons2/kotor_longsword/saber_w.glm"  
+	NewViewModel		"models/weapons2/dummy/dummy.md3" 	  
+	Icon			"gfx/hud/w_icon_vibrosword"
+	WeaponName		"Cortosis Vibrosword"    	 			
+}
+
+
+WeaponInfo1
+{
+	WeaponToReplace		WP_BRYAR_PISTOL
+	WeaponBasedOff		WP_BOWCASTER
+	NewWorldModel		"models/weapons2/kotor_bpistol2/kotor_bpistol2_w.glm"
+	NewViewModel		"models/weapons2/kotor_bpistol2/kotor_bpistol2.md3"
+	Icon				"gfx/hud/w_icon_kotor_bpistol2"
+	WeaponName			"BP-2 Hand Pistol"
+	FlashSound0			"sound/weapons/kotor/fire_light.wav"
+    AltFlashSound0		"sound/weapons/kotor/fire_hvy.wav"
+}
+
+WeaponInfo2
+{
+    WeaponToReplace        WP_BLASTER                           //Required: Weapon Slot of weapon you're replacing
+    WeaponBasedOff        WP_BLASTER                          //Required: For future use, should be the same as WeaponToReplace
+    NewWorldModel        "models/weapons2/kotor_brifle2/kotor_brifle2_w.glm"      //Required: New 3rd person/dropped weapon model
+    NewViewModel        "models/weapons2/kotor_brifle2/kotor_brifle2.md3"       //Required: New 1st person weapon model
+    Icon                "gfx/hud/w_icon_kotor_brifle2"                 //Required: Weapon change icon
+    WeaponName            "Sith Assault Rifle"                        //Required: Weapon change display name
+	FlashSound0			"sound/weapons/kotor/fire_med.wav"
+    AltFlashSound0		"sound/weapons/kotor/fire_hvy.wav"
+	idleAnim  			TORSO_WEAPONREADY3
+    customAmmo      500
+    clipSize        100
+    FPMult          0.8
+}
+
+WeaponInfo3
+{
+	WeaponToReplace		WP_PLX1
+	WeaponBasedOff		WP_PLX1
+	NewWorldModel		"models/weapons2/MiniMag_launcher/launcher_w.glm"
+	NewViewModel		"models/weapons2/MiniMag_launcher/launcher.md3"
+	Icon				"gfx/hud/w_icon_MiniMag"
+	WeaponName			"MiniMag PTL Launcher"
+	customAmmo           1
+}
+
+description	"Revanite Sith - Heavy Rocket Trooper
+
+Weapons
+Frag Grenades (2)
+BP-2 Hand Pistol (2)
+Sith Rocket Launcher (1)
+Sith Assault Rifle (3)
+Cortosis Vibrosword *
+
+Vibrosword Info:
+Medium Style
+Offense (3)
+Defense (2)
+
+Abilities:
+Reinforcements (1)
+Close Combat Training (2)
+Melee Resistant Plating
+Force Block (2)
+Dexterity (1)
+Stamina (2)
+Gun Bash
+
+
+An elite heavy rocket trooper of the Sith, outlined in red armor to showcase their rank and importance."

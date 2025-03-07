@@ -8,8 +8,8 @@ ClassInfo
 	maxarmor		35
 	classflags		CFL_BPFREEJUMPS|CFL_HEAVYMELEE|CFL_SEEING_STEALTH
     speed			1.1
-	saber1			legends_Knife
-	uishader		"gfx/sup_icons/republictrooper/mb2_icon_spy"
+	saber1			supremacy_Knife
+	uishader		"gfx/sup_icons/swtor_republictrooper/mb2_icon_spy"
 
 
 

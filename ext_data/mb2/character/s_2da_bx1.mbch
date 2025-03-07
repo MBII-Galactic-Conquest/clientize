@@ -17,6 +17,9 @@ ClassInfo
 		
 	uishader			"gfx/sup_icons/bxdroid/mb2_icon_jedi"
 	
+
+	resource	RESOURCE_BATTERY
+
 }
 
 WeaponInfo0
