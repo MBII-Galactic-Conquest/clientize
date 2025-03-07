@@ -7,6 +7,7 @@
 ClassInfo
 {
 	name			"s_5or_flm"
+	classflags		CFL_EXTRAFLAMEDAMAGE
 	maxhealth		100
 	maxarmor		75
 	speed           0.7
@@ -18,7 +19,7 @@ ClassInfo
 	Damagegiven 1.1
 
 	
-	uishader		"gfx/sup_icons/republictrooper/mb2_icon_flm"
+	uishader		"gfx/sup_icons/swtor_republictrooper/mb2_icon_flm"
 
 	
 }

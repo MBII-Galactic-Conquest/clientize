@@ -7,8 +7,8 @@
 ClassInfo
 {
 	name				"s_2ca_spy"
-	saber1				assassin_shiv_legends
-	saber2				assassin_shiv_dual_legends
+	saber1				assassin_shiv_supremacy
+	saber2				assassin_shiv_dual_supremacy
 	maxhealth			100
 	maxarmor			50
 	speed				1.10
@@ -18,10 +18,14 @@ ClassInfo
 	BPmultiplier        1.15
 	rateOfFire			0.95
 	forcepool       	35
-	classflags         CFL_BPFREEJUMPS|CFL_HEAVYMELEE|CFL_SEEING_STEALTH
+	classflags         CFL_BPFREEJUMPS|CFL_HEAVYMELEE|CFL_SEEING_STEALTH|CFL_EXTRAFLAMEDAMAGE
 	uishader			"gfx/sup_icons/clonetrooper_p1_echo/mb2_icon_spy"
 	forceBlocking		1
 
+
+	damageGiven		1.2
+
+	WP_ThrowerFlags		HELD_DISRUPTIFY|HELD_ALTRELOAD|HELD_FLAME
 
 
 }
@@ -36,15 +40,29 @@ WeaponInfo0
 	WeaponName			"Assassin's Blades"    					
 }
 
-WeaponInfo2
+WeaponInfo1
 {           
-WeaponToReplace        	WP_TRIP_MINE
-WeaponBasedOff         	WP_TRIP_MINE
-NewWorldModel		"models/weapons2/laser_trap/laser_trap_w.glm"  	
-NewViewModel	  	"models/weapons2/laser_trap/laser_trap.md3"  	
-Icon             	"gfx/hud/w_icon_tripmine"
-WeaponName		"Trip Mine"
-customAmmo    		3
+	WeaponToReplace        	WP_TRIP_MINE
+	WeaponBasedOff         	WP_TRIP_MINE
+	NewWorldModel		"models/weapons2/laser_trap/laser_trap_w.glm"  	
+	NewViewModel	  	"models/weapons2/laser_trap/laser_trap.md3"  	
+	Icon             	"gfx/hud/w_icon_tripmine"
+	WeaponName		"Trip Mine"
+	customAmmo    		3
+}
+
+WeaponInfo2
+{
+    WeaponToReplace			WP_THROWER
+    WeaponBasedOff			WP_THROWER
+   	NewWorldModel        "models/weapons2/CR-1_cannon/rifle_w.glm"      //Required: New 3rd person/dropped weapon model
+    NewViewModel        "models/weapons2/CR-1_cannon/rifle.md3"       //Required: New 1st person weapon model
+    Icon                "gfx/hud/w_icon_cr1_blastcannon"
+    FlashSound0 		"sound/weapsup/sup/incinerator.wav"              
+    WeaponName             "Incinerator"
+	MuzzleEffect		"arc_caster/ArcCasterMuzzle"
+    customAmmo           500
+    clipsize             100
 }
 
 

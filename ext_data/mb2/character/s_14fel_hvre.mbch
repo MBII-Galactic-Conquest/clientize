@@ -1,0 +1,91 @@
+
+ClassInfo
+{
+	name			"s_14fel_hvre"
+	maxhealth		100
+	maxarmor		75
+	speed			0.7
+	uishader		"gfx/sup_icons/stormie_of/mb2_icon_hvr"
+
+	uishader_1		"gfx/sup_icons/stormie_alien_r_of/mb2_icon_hvr"
+
+	uishader_2		"gfx/sup_icons/stormie_alien_d_of/mb2_icon_hvr"
+
+	uishader_3		"gfx/sup_icons/stormie_alien_b_of/mb2_icon_hvr"
+
+	uishader_4		"gfx/sup_icons/stormie_alien_w_of/mb2_icon_hvr"
+
+	uishader_5		"gfx/sup_icons/stormie_alien_aq_of/mb2_icon_hvr"
+
+	uishader_6		"gfx/sup_icons/stormie_alien_nik_of/mb2_icon_hvr"
+
+	uishader_7		"gfx/sup_icons/stormie_alien_g_of/mb2_icon_hvr"
+
+	uishader_8		"gfx/sup_icons/stormie_alien_ab_of/mb2_icon_hvr"
+
+	uishader_9		"gfx/sup_icons/snowtrooper2_or/mb2_icon_hvr"
+
+
+	WP_PLX1Flags	HELD_SLOW
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_BRYAR_PISTOL
+	WeaponBasedOff		WP_BOWCASTER
+	NewWorldModel		"models/weapons2/imp_pistol/pistol_w.glm"
+	NewViewModel		"models/weapons2/imp_pistol/pistol_fpv.md3"
+	Icon				"gfx/hud/w_icon_imp_pistol"
+	WeaponName			"Pistol"
+	FlashSound0 "sound/weapsup/r/wpn_imp_pistol_fire.wav"
+    AltFlashSound0  "sound/weapsup/r/wpn_imp_pistol_fire.wav"
+}
+
+WeaponInfo1
+{
+    WeaponToReplace        WP_BLASTER                           //Required: Weapon Slot of weapon you're replacing
+    WeaponBasedOff        WP_BLASTER                          //Required: For future use, should be the same as WeaponToReplace
+    NewWorldModel        "models/weapons2/blaster_r/blaster_w.glm"      //Required: New 3rd person/dropped weapon model
+    NewViewModel        "models/weapons2/blaster_r/blaster.md3"       //Required: New 1st person weapon model
+    Icon                "gfx/hud/w_icon_e11"                 //Required: Weapon change icon
+    WeaponName            "E-11 Imperial Carbine"                        //Required: Weapon change display name
+    FlashSound0 "sound/weapsup/r/wpn_imp_blaster_fire.wav"
+    AltFlashSound0  "sound/weapsup/r/wpn_imp_blaster_fire.wav"
+    customAmmo      500
+    clipSize        100
+    FPMult          0.8
+
+	idleAnim		DC15_READY
+	firingAnim		DC15_FIRE
+	altFiringAnim	DC15_FIRE
+}
+
+WeaponInfo2
+{
+	WeaponToReplace		WP_PLX1
+	WeaponBasedOff		WP_PLX1
+	NewWorldModel		"models/weapons2/MiniMag_launcher/launcher_w.glm"
+	NewViewModel		"models/weapons2/MiniMag_launcher/launcher.md3"
+	Icon				"gfx/hud/w_icon_MiniMag"
+	WeaponName			"MiniMag PTL Launcher"
+	customAmmo           1
+}
+
+description	"Fel-Empire - Imperial Heavy Rocket Trooper
+
+Weapons
+Frag Grenades (2)
+Rocket Launcher (1)
+Pistol (2)
+E-11 (3)
+
+Abilities:
+Reinforcements (1)
+Close Combat Training (2)
+Dexterity (1)
+Stamina (2)
+Gun Bash
+
+An Imperial Heavy Rocket Trooper.
+
+The Fel-Empire is known for it's conquering of large parts of the galaxy from their capital of Bastion, with their victory through peace edicts; vowing to repair the galaxy through good-gestured aid, peace and stability after the Yuuzhan Vong war."

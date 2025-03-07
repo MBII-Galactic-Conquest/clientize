@@ -7,6 +7,7 @@
 ClassInfo
 {
 	name			"s_17ca_flm"
+	classflags		CFL_EXTRAFLAMEDAMAGE
 	maxhealth		120
 	maxarmor		75
 	speed           0.7

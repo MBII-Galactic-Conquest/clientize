@@ -23,6 +23,8 @@ ClassInfo
 	uishader_2		"gfx/sup_icons/jedi_m/mb2_icon_jedi"
 
 	uishader_3		"gfx/sup_icons/jedi_f/mb2_icon_jedi"
+
+	uishader_4		"gfx/sup_icons/jaden/mb2_icon_jedi"
 				
 	saber1			jediknight_supremacy1
 	saber2			none

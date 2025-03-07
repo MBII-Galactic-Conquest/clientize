@@ -50,7 +50,7 @@ Noodle -
 `zombies and witches of dathomir models`
 
 Kitsu-Nesh'Kaa -
-`modeler team, kitbashing custom model content, darktroopers, jetpack troopers`
+`modeler team, kitbashing custom model content, jetpack troopers`
 
 LwKill -
 `acclamator bridge for gc_intermission, permission to modify`
@@ -70,9 +70,6 @@ Nodlewaffle -
 
 Jaktan -
 `assistance with lair of the ancients ctf maps`
-
-MarsMarshall -
-`swtor republic soldier model`
 
 Psyk0Sith -
 `eg-5 jedi hunter droid`

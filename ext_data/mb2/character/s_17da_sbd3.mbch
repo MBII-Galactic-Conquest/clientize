@@ -12,7 +12,7 @@ ClassInfo
 
 	maxhealth			200
 	maxarmor			10
-	forceregen			6
+	forceregen			12
 
     saber1              droidmelee_supremacy
     saber2              droidmelee_supremacy

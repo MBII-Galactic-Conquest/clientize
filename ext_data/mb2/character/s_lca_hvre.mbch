@@ -1,0 +1,86 @@
+
+ClassInfo
+{
+	name			"s_lca_hvre"
+	maxhealth		100
+	maxarmor		75
+	speed			0.7
+	uishader		"gfx/sup_icons/lego_arc/mb2_icon_hvr"
+
+
+	WP_PLX1Flags	HELD_SLOW
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_CLONE_PISTOL
+	WeaponBasedOff		WP_CLONE_PISTOL
+	NewWorldModel		"models/weapons2/lego_repeater/heavy_repeater_w.glm"
+	NewViewModel		"models/weapons2/lego_repeater/demp2.md3"
+	Icon			"gfx/mplevels/legosw/icon_repeater"
+	WeaponName		"Clone Pistol"
+    FlashSound0 "sound/weapsup/sup/wpn_rep_pistol_fire.wav"
+    AltFlashSound0  "sound/weapsup/sup/wpn_rep_pistol_fire.wav"
+	FlashSound4	"sound/weapsup/sup/wpn_rep_pistol_fire.wav"
+	AltFlashSound4	"sound/weapsup/sup/wpn_rep_pistol_fire.wav"
+	MuzzleEffect		"Blaster/MuzzleFlash01B"
+	MissileEffect		"blaster/Shot01B"
+	AltMissileEffect 	"blaster/Shot01B"
+}
+
+WeaponInfo1
+{
+	WeaponToReplace		WP_CLONE_RIFLE
+	WeaponBasedOff		WP_CLONE_RIFLE
+	NewWorldModel		"models/weapons2/lego_repeater/heavy_repeater_w.glm"
+	NewViewModel		"models/weapons2/lego_repeater/heavy_repeater.md3"
+	Icon			"gfx/mplevels/legosw/icon_repeater"
+	WeaponName		"Clone Rifle"
+    FlashSound0 "sound/weapsup/sup/wpn_rep_blaster_fire.wav"
+    AltFlashSound0  "sound/weapsup/sup/wpn_rep_blaster_fire.wav"
+	MuzzleEffect		"Blaster/MuzzleFlash01B"
+	AltMuzzleEffect		"Blaster/MuzzleFlash01B"
+	MissileEffect		"blaster/Shot01B"
+	AltMissileEffect 	"blaster/Shot01B"
+    customAmmo      500
+    clipSize        100
+    FPMult          0.8
+}
+
+WeaponInfo2
+{
+	WeaponToReplace		WP_PLX1
+	WeaponBasedOff		WP_PLX1
+	NewWorldModel		"models/weapons2/MiniMag_launcher/launcher_w.glm"
+	NewViewModel		"models/weapons2/MiniMag_launcher/launcher.md3"
+	Icon				"gfx/hud/w_icon_MiniMag"
+	WeaponName			"MiniMag PTL Launcher"
+	customAmmo           1
+}
+
+WeaponInfo3
+{
+	WeaponToReplace		WP_MELEE
+	WeaponBasedOff		WP_MELEE  
+  NewWorldModel		"models/weapons2/dummy/dummy.glm"
+  NewViewModel		"models/weapons2/dummy/dummy.md3"
+  Icon			"gfx/mplevels/legosw/icon_melee"
+	WeaponName		"Melee"
+}
+
+description	"Clone Heavy Rocket Trooper
+
+Weapons
+Frag Grenades (2)
+Rocket Launcher (1)
+Lego Pistol (2)
+Lego Blaster (3)
+
+Abilities:
+Reinforcements (1)
+Close Combat Training (2)
+Dexterity (1)
+Stamina (2)
+Gun Bash
+
+A Clone Heavy Rocket Trooper."

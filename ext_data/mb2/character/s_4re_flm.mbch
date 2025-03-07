@@ -7,6 +7,7 @@
 ClassInfo
 {
 	name			"s_4re_flm"
+	classflags		CFL_EXTRAFLAMEDAMAGE
 
 	saber1			kotor_vibrosword_supremacy
 	saber1_1		kotor_vibrostaff_supremacy

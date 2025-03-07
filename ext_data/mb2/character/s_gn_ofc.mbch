@@ -1,3 +1,7 @@
+//Galactic Conquest/Supremacy character file - Created by 2cwldys & John
+//These are clientized .mbch files, they may be intentionally void of information.
+//YOU DO NOT HAVE PERMISSION TO MODIFY! See CC-BY-NC-ND 4.0 LICENSING for INFO. These assets are privately maintained!
+//Siege class def file.
 
 //Galactic Conquest/Supremacy character file - Created by 2cwldys & John
 //These are clientized .mbch files, they may be intentionally void of information.
@@ -7,14 +11,38 @@
 ClassInfo
 {
 	name			"s_gn_ofc"
-	maxhealth		125
-	maxarmor		125
+	weapons			WP_MELEE|WP_BLASTER_PISTOL|WP_A280|WP_CRYO_NADE|WP_SONIC_NADE
+	attributes		MB_ATT_LIGHTS_BEACON|MB_ATT_WOOKIEE_FURY,2|MB_ATT_BLAST_ARMOUR,1|MB_ATT_PISTOL,2|MB_ATT_ARMOUR,3|MB_ATT_A280,3|MB_ATT_AMMO,3|MB_ATT_CRYOBAN_GRENADES,1|MB_ATT_SONIC_DETONATOR,1|MB_ATT_CCTRAINING,2|MB_ATT_DASH,2|MB_ATT_GUNBASH|MB_ATT_RALLY
+	holdables		HI_EWEB|HI_SHIELD|HI_BINOCULARS
+	forcepowers		FP_PROTECT,2|FP_PUSH,1
+	maxhealth		100
+	maxarmor		100
+	forcepool		50
+	customred		0.1
+	customgreen		0.1
+	customblue		0.1
+	model			"bespin_cop"
+	skin			"default"
 	uishader		"models/players/bespin_cop/mb2_icon_default"
+	MBClass			"MB_CLASS_ELITETROOPER"
 	rateoffire		0.675
 	speed			0.8
 
+	model_1			"weequay"
+	skin_1			"rgb"
 	uishader_1		"models/players/weequay/mb2_icon_default"
 	
+	extralives	1
+
+	resourceRegenRate		1000
+	resourceRegenAmount		1
+	forceregen		0.1
+	classNumberLimit	2
+
+	resource		RESOURCE_RAGE
+	special1		EAS_HI_DASH
+	special2		EAS_HI_DODGE
+	special3		EAS_HI_KICK
 }
 
 WeaponInfo0
@@ -31,7 +59,7 @@ WeaponInfo0
 
 WeaponInfo1
 {
-	WeaponToReplace		WP_FLECHETTE       					//Required: Weapon Slot of weapon you're replacing
+	WeaponToReplace		WP_A280       					//Required: Weapon Slot of weapon you're replacing
 	WeaponBasedOff		WP_BLASTER      					//Required: For future use, should be the same as WeaponToReplace
 	NewWorldModel		"models/weapons2/EE4_carbine/model_w.glm"  	//Required: New 3rd person/dropped weapon model
 	NewViewModel		"models/weapons2/EE4_carbine/blaster.md3"   	//Required: New 1st person weapon model
@@ -42,6 +70,22 @@ WeaponInfo1
 	customAmmo      500
 	clipSize        100
 	FPMult          0.8
+}
+
+ForceInfo0
+{
+	ForceToReplace        FP_PUSH
+	Icon                 "gfx/mp/sup_repulsor_glove"
+	ForcePowerName		 "Repulsor Glove"
+}
+
+ForceInfo1
+{
+	ForceToReplace        FP_PROTECT
+	Icon                 "gfx/mp/sup_ofc_shroud"
+	ForcePowerName		 "Officer Shroud"
+	StartSound           "sound/forcesup/protect.mp3"
+	LoopSound            "sound/forcesup/protectloop.wav"
 }
 
 description	"Militia Officer
@@ -57,7 +101,7 @@ Shield Generator (1)
 Web Turret (1)
 Binoculars (1)
 
-Attributes
+Attributes:
 Reinforcements (1)
 Close Combat Training (2)
 Gun Bash

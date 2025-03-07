@@ -1,0 +1,75 @@
+
+ClassInfo
+{
+	name			"s_2ca_prce"
+	maxhealth		100
+	maxarmor		75
+	speed			0.8
+	uishader		"gfx/sup_icons/clonetrooper_p1_arc/mb2_icon_hvr"
+
+
+	WP_PLX1Flags	HELD_SLOW
+}
+
+WeaponInfo0
+{
+    WeaponToReplace        WP_CLONE_PISTOL                           //Required: Weapon Slot of weapon you're replacing
+    WeaponBasedOff        WP_BLASTER_PISTOL                          //Required: For future use, should be the same as WeaponToReplace
+    NewWorldModel        "models/weapons2/dc-17/dc-17_w.glm"      //Required: New 3rd person/dropped weapon model
+    NewViewModel        "models/weapons2/dc-17/dc-17.md3"       //Required: New 1st person weapon model
+    Icon                "gfx/hud/w_icon_dc-17"                 //Required: Weapon change icon
+    WeaponName            "DC-17 Clone Pistol"                        //Required: Weapon change display name
+    FlashSound0 "sound/weapsup/sup/wpn_rep_pistol_fire.wav"
+    AltFlashSound0  "sound/weapsup/sup/wpn_rep_pistol_fire.wav"
+	FlashSound4	"sound/weapsup/sup/wpn_rep_pistol_fire.wav"
+	MuzzleEffect		"Blaster/MuzzleFlash01B"
+	MissileEffect		"blaster/Shot01B"
+	AltMissileEffect 	"blaster/Shot01B"
+    customAmmo      200
+    clipSize        100
+}
+
+WeaponInfo1
+{
+    WeaponToReplace        WP_CLONE_RIFLE                           //Required: Weapon Slot of weapon you're replacing
+    WeaponBasedOff        WP_BLASTER                          //Required: For future use, should be the same as WeaponToReplace
+    NewWorldModel        "models/weapons2/dc-15s/dc-15s_w.glm"      //Required: New 3rd person/dropped weapon model
+    NewViewModel        "models/weapons2/dc-15s/dc-15s.md3"       //Required: New 1st person weapon model
+    Icon                "gfx/hud/w_icon_dc-15s"                 //Required: Weapon change icon
+    WeaponName            "DC-15s Clone Rifle"                        //Required: Weapon change display name
+    FlashSound0 "sound/weapsup/sup/wpn_rep_blaster_fire.wav"
+	MuzzleEffect		"Blaster/MuzzleFlash01B"
+	MissileEffect		"blaster/Shot01B"
+	AltMissileEffect 	"blaster/Shot01B"
+    customAmmo      500
+    clipSize        100
+}
+
+WeaponInfo2
+{
+	WeaponToReplace		WP_PLX1
+	WeaponBasedOff		WP_PLX1
+	NewWorldModel		"models/weapons2/MiniMag_launcher/launcher_w.glm"
+	NewViewModel		"models/weapons2/MiniMag_launcher/launcher.md3"
+	Icon				"gfx/hud/w_icon_MiniMag"
+	WeaponName			"MiniMag PTL Launcher"
+	customAmmo           1
+}
+
+description	"Phase 1 - Heavy Rocket Clone Trooper
+
+Weapons
+Pulse Grenade (1)
+Frag Grenades (1)
+Rocket Launcher (1)
+Clone Pistol (1)
+DC-15s (1)
+
+Abilities:
+Reinforcements (1)
+Close Combat Training (2)
+Dexterity (1)
+Stamina (1)
+Gun Bash
+
+A phase one heavy rocket clone trooper."

@@ -11,9 +11,8 @@ ClassInfo
 	saber2				single_1
 	maxhealth			75
 	maxarmor            80
- 	speed 		        1.05
 	forcepool			80
-	forceregen			4
+ 	speed 		        1.05
 	BPmultiplier		1
 	ASmultiplier		1.25
 	CSmultiplier		1.25
@@ -26,10 +25,20 @@ ClassInfo
 
 	WP_PLX1Flags  HELD_LOWDAMAGE|HELD_KNOCKDOWN|HELD_KNOCKBACK|HELD_IGNOREBLOCK|HELD_EXPLOSIVE|HELD_ALTRELOAD
 
-	resource	RESOURCE_BATTERY
+	resourceRegenRate		1000
+	resourceRegenAmount		1
+	forceregen		0.1
 
+	resource	RESOURCE_RAGE
 	
 	
+}
+
+ForceInfo0
+{
+	ForceToReplace        FP_PUSH
+	Icon                 "gfx/mp/sup_repulsor_glove"
+	ForcePowerName		 "Repulsor Glove"
 }
 
 WeaponInfo0

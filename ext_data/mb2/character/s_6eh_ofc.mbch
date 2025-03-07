@@ -19,7 +19,9 @@ ClassInfo
 
 	uishader_2		"gfx/sup_icons/stormie_of/mb2_icon_ofc"
 
-	uishader_3		"gfx/sup_icons/imp_army_atst/mb2_icon_ofc"
+	uishader_3		"gfx/sup_icons/snowtrooper2_red/mb2_icon_ofc"
+
+	uishader_4		"gfx/sup_icons/imp_army_atst/mb2_icon_ofc"
 
 	resourceRegenRate		1000
 	resourceRegenAmount		1

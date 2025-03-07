@@ -7,6 +7,7 @@
 ClassInfo
 {
 	name			"s_3mf_flm"
+	classflags		CFL_STRONGAGAINSTPHYSICAL|CFL_EXTRAFLAMEDAMAGE
 
 	saber1			kotor_vibrosword_supremacy
 	saber1_1		kotor_vibrostaff_supremacy
@@ -18,7 +19,6 @@ ClassInfo
 	
 	rateOfFire      0.95
 	
-	classflags		CFL_STRONGAGAINSTPHYSICAL
 	WP_ThrowerFlags HELD_ALTRELOAD
 	
 	Damagegiven 1.1

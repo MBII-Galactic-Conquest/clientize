@@ -7,7 +7,7 @@
 ClassInfo
 {
 	name			"s_17da_bdeb"
-	maxhealth		25
+	maxhealth		30
 	maxarmor		20
 	uishader		"gfx/sup_icons/battledroid/mb2_icon_sleb"
 	speed			1.0
