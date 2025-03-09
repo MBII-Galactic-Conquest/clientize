@@ -40,6 +40,8 @@ WeaponInfo1
     WeaponName            "E-11 Shock Carbine"                        //Required: Weapon change display name
 	MissileEffect		"blaster/Shot03B"
 	AltMissileEffect	"blaster/Shot03B"
+	MuzzleEffect		"Blaster/MuzzleFlash01B"
+	AltMuzzleEffect		"Blaster/MuzzleFlash01B"
 	MissileMissEffect	"effects/impacts/impactsmallblue1"
 	AltMissileMissEffect	"effects/impacts/impactsmallblue1"
 	MissileHitHumanEffect "effects/impacts/impactsmallblue1"
