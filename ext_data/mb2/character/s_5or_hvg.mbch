@@ -46,7 +46,7 @@ WeaponInfo1
 {
 	WeaponToReplace WP_MINIGUN
 	WeaponBasedOff  WP_MINIGUN
-	NewWorldModel "models/weapons2/z6_rotary/rotary_cannon_w.glm"
+	NewWorldModel "models/weapons2/z6_rotary/model.glm"
 	NewViewModel  "models/weapons2/z6_rotary/rotary_cannon.md3"
 	Icon  "gfx/hud/w_icon_rotary_cannon"
 	WeaponName  "Republic Rotary Cannon"

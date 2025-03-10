@@ -13,6 +13,12 @@ ClassInfo
 
 	uishader_3		"gfx/sup_icons/rebel_commando_h/mb2_icon_slens"
 
+	uishader_4		"gfx/sup_icons/nrguard/mb2_icon_slens"
+
+	uishader_5		"gfx/sup_icons/nrguard_cha/mb2_icon_slens"
+
+	uishader_6		"gfx/sup_icons/nrguard_abe/mb2_icon_slens"
+
 	WP_BlasterPistolFlags	HELD_ALTRELOAD|HELD_AMMOREGEN
 	WP_BlasterFlags		HELD_ALTRELOAD|HELD_AMMOREGEN
 
