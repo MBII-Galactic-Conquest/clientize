@@ -22,6 +22,12 @@ ClassInfo
 
 	uishader_5		"gfx/sup_icons/rebel_commando_nikh/mb2_icon_slen"
 
+	uishader_6		"gfx/sup_icons/rebel_partisan/mb2_icon_slen"
+
+	uishader_7		"gfx/sup_icons/rebel_partisan_el/mb2_icon_slen"
+
+	uishader_8		"gfx/sup_icons/rebel_partisan_cyb/mb2_icon_slen"
+
 	WP_BlasterPistolFlags	HELD_ALTRELOAD|HELD_AMMOREGEN
 	WP_BlasterFlags		HELD_ALTRELOAD|HELD_AMMOREGEN
 

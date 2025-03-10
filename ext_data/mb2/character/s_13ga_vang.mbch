@@ -15,7 +15,9 @@ ClassInfo
 
 	uishader_1		"gfx/sup_icons/stormie_of/mb2_icon_vang"
 
-	uishader_2		"gfx/hud/FA_icons/mb2_icon_snowtrooper2_black"
+	uishader_2		"gfx/sup_icons/snowtrooper2_bl/mb2_icon_vang"
+
+	uishader_3		"gfx/sup_icons/nrmarine/mb2_icon_vang"
 
 	isCustomBuild        1
 	mbPoints	15

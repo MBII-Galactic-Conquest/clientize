@@ -14,6 +14,18 @@ ClassInfo
 
 	uishader_1		"gfx/sup_icons/stormie/mb2_icon_sold"
 
+	uishader_2		"gfx/sup_icons/rebel_guerilla/mb2_icon_sold"
+
+	uishader_3		"gfx/sup_icons/rebel_commando/mb2_icon_sold"
+
+	uishader_4		"gfx/sup_icons/rebel_commando_h/mb2_icon_sold"
+
+	uishader_5		"gfx/sup_icons/nrguard/mb2_icon_sold"
+
+	uishader_6		"gfx/sup_icons/nrguard_cha/mb2_icon_sold"
+
+	uishader_7		"gfx/sup_icons/nrguard_abe/mb2_icon_sold"
+
 	WP_BlasterPistolFlags	HELD_ALTRELOAD|HELD_AMMOREGEN
 	WP_BlasterFlags		HELD_ALTRELOAD|HELD_AMMOREGEN
 

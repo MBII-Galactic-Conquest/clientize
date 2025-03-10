@@ -15,7 +15,11 @@ ClassInfo
 	rateoffire		0.675
 	speed			0.8
   
-	uishader_1		"models/players/jedi_hm/mb2_icon_hothelite2"
+	uishader_1		"gfx/sup_icons/jedi_hm_he2/mb2_icon_ofc"
+
+	uishader_2		"gfx/sup_icons/rebel_honor/mb2_icon_ofc"
+
+	uishader_3		"gfx/sup_icons/rebel_honor_bl/mb2_icon_ofc"
 
 	resourceRegenRate		1000
 	resourceRegenAmount		1
