@@ -44,6 +44,36 @@ WeaponInfo1
 	altFiringAnim	DC15_FIRE
 }
 
+WeaponInfo2
+{
+    WeaponToReplace        WP_EE4                           //Required: Weapon Slot of weapon you're replacing
+    WeaponBasedOff        WP_EE4                          //Required: For future use, should be the same as WeaponToReplace
+    NewWorldModel        "models/weapons2/blaster_r/blaster_w.glm"      //Required: New 3rd person/dropped weapon model
+    NewViewModel        "models/weapons2/blaster_r/blaster.md3"       //Required: New 1st person weapon model
+    Icon                "gfx/hud/w_icon_e11"                 //Required: Weapon change icon
+    WeaponName            "Heavy E-11 Blaster"                        //Required: Weapon change display name
+	MissileEffect		"blaster/Shot03R"
+	AltMissileEffect	"blaster/Shot03R"
+	FlashSound0		"sound/weapsup/r/wpn_imp_blaster_fire.wav"
+	FlashSound1		"sound/weapsup/r/wpn_imp_blaster_fire.wav"
+	FlashSound2		"sound/weapsup/r/wpn_imp_blaster_fire.wav"
+	FlashSound3		"sound/weapsup/r/wpn_imp_blaster_fire.wav"
+	FlashSound4		"sound/weapsup/r/wpn_imp_blaster_fire.wav"
+	AltFlashSound0		"sound/weapsup/r/wpn_imp_blaster_fire.wav"
+	AltFlashSound1		"sound/weapsup/r/wpn_imp_blaster_fire.wav"
+	AltFlashSound2		"sound/weapsup/r/wpn_imp_blaster_fire.wav"
+	AltFlashSound3		"sound/weapsup/r/wpn_imp_blaster_fire.wav"
+	AltFlashSound4		"sound/weapsup/r/wpn_imp_blaster_fire.wav"
+	AltFireEnabled	0
+    customAmmo      500
+    clipSize        100
+    FPMult          1.2
+
+	idleAnim		DC15_READY
+	firingAnim		DC15_FIRE
+	altFiringAnim	DC15_FIRE
+}
+
 description	"Warlord Zsinj - Storm Trooper
 
 Weaponry:

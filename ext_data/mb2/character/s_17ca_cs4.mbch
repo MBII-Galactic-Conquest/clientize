@@ -12,6 +12,7 @@ ClassInfo
 	uishader		"gfx/sup_icons/clonetrooper_p2_501/mb2_icon_vang"
 	speed			0.8
 
+
 	uishader_1		"gfx/sup_icons/clonemarine/mb2_icon_vang"
 }
 

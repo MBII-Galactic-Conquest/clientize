@@ -12,6 +12,7 @@ ClassInfo
 	uishader		"gfx/sup_icons/clonetrooper_p2_501/mb2_icon_sni"
 	speed			0.8
 
+
 	uishader_1		"gfx/sup_icons/clonemarine/mb2_icon_sni"
 }
 
@@ -37,7 +38,7 @@ WeaponInfo0
 
 WeaponInfo1
 {
-    WeaponToReplace        WP_CLONE_RIFLE                           //Required: Weapon Slot of weapon you're replacing
+    WeaponToReplace        WP_BLASTER                           //Required: Weapon Slot of weapon you're replacing
     WeaponBasedOff        WP_BLASTER                          //Required: For future use, should be the same as WeaponToReplace
     NewWorldModel        "models/weapons2/dc-15s/dc-15s_w.glm"      //Required: New 3rd person/dropped weapon model
     NewViewModel        "models/weapons2/dc-15s/dc-15s.md3"       //Required: New 1st person weapon model
@@ -48,6 +49,7 @@ WeaponInfo1
 	MissileEffect		"blaster/Shot01B"
     customAmmo      500
     clipSize        100
+	FPMult			0.8
 }
 
 WeaponInfo2
