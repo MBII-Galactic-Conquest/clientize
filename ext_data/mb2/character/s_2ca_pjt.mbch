@@ -75,7 +75,7 @@ WeaponInfo2
     WeaponName                  "Electromagnetic Pulse Launcher"
     Icon                        "gfx/hud/w_icon_upl"
     clipSize                     1
-    CustomAmmo                     6
+    CustomAmmo                     3
     ReloadTimeModifier             1.4    
     altfireenabled                0
     idleAnim                      DC15_READY
