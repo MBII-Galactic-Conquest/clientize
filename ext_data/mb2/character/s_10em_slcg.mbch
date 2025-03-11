@@ -11,9 +11,10 @@ ClassInfo
 
 	WP_BlasterPistolFlags	HELD_ALTRELOAD|HELD_AMMOREGEN
 	WP_BlasterFlags		HELD_ALTRELOAD|HELD_AMMOREGEN
+	WP_EE4Flags			HELD_ALTRELOAD|HELD_AMMOREGEN|HELD_SLOW
 
 	isCustomBuild        1
-	mbPoints	31
+	mbPoints	36
 
     c_att_skill_0        MB_ATT_INVALID
     c_att_names_0        "Combat Shielding & Garrison"
@@ -23,33 +24,49 @@ ClassInfo
     c_att_names_1        " "
     c_att_ranks_1        -1
 
-    c_att_skill_2        MB_ATT_INVALID
-    c_att_names_2        "^5-Bonus Availability-"
-    c_att_ranks_2        -1
+    c_att_skill_2        MB_ATT_BLASTER
+    c_att_names_2        "Blaster Carbine"
+    c_att_ranks_2        4,1
+
+    c_att_skill_3        MB_ATT_EE4
+    c_att_names_3        "Blaster Rifle"
+    c_att_ranks_3        4,1
+
+    c_att_skill_4        MB_ATT_INVALID
+    c_att_names_4        " "
+    c_att_ranks_4        -1
+
+    c_att_skill_5        MB_ATT_INVALID
+    c_att_names_5        "^5-Bonus Availability-"
+    c_att_ranks_5        -1
     
-    c_att_skill_3        MB_ATT_SHIELD_RECHARGE
-    c_att_names_3        "Combat Shielding:"
-    c_att_ranks_3        15
+    c_att_skill_6        MB_ATT_SHIELD_RECHARGE
+    c_att_names_6        "Combat Shielding:"
+    c_att_ranks_6        15
 
-	c_att_skill_4		 MB_ATT_RESPAWNS
-	c_att_names_4		 "Extra Lives:"
-	c_att_ranks_4		 5,5,5
+	c_att_skill_7		 MB_ATT_RESPAWNS
+	c_att_names_7		 "Extra Lives:"
+	c_att_ranks_7		 5,5,5
 
-	c_att_skill_5		MB_ATT_INVALID
-	c_att_names_5		" "
-	c_att_ranks_5		-1
+	c_att_skill_8		MB_ATT_ASSEMBLE
+	c_att_names_8		"Assemble"
+	c_att_ranks_8		1
 
-	c_att_skill_6		MB_ATT_INVALID
-	c_att_names_6		"^5-Impacted Stats-"
-	c_att_ranks_6		-1
+	c_att_skill_9		MB_ATT_INVALID
+	c_att_names_9		" "
+	c_att_ranks_9		-1
 
-	c_att_skill_7		MB_ATT_INVALID
-	c_att_names_7		"^3Special Unit Support"
-	c_att_ranks_7		-1
+	c_att_skill_10		MB_ATT_INVALID
+	c_att_names_10		"^5-Impacted Stats-"
+	c_att_ranks_10		-1
 
-	c_att_skill_8		MB_ATT_INVALID
-	c_att_names_8		"^2+10 Armor"
-	c_att_ranks_8		-1
+	c_att_skill_11		MB_ATT_INVALID
+	c_att_names_11		"^3Special Unit Support"
+	c_att_ranks_11		-1
+
+	c_att_skill_12		MB_ATT_INVALID
+	c_att_names_12		"^2+10 Armor"
+	c_att_ranks_12		-1
 
 }
 
@@ -78,6 +95,36 @@ WeaponInfo1
     customAmmo      500
     clipSize        100
     FPMult          0.8
+
+	idleAnim		DC15_READY
+	firingAnim		DC15_FIRE
+	altFiringAnim	DC15_FIRE
+}
+
+WeaponInfo2
+{
+    WeaponToReplace        WP_EE4                           //Required: Weapon Slot of weapon you're replacing
+    WeaponBasedOff        WP_EE4                          //Required: For future use, should be the same as WeaponToReplace
+    NewWorldModel        "models/weapons2/dc-15s/dc-15s_w.glm"      //Required: New 3rd person/dropped weapon model
+    NewViewModel        "models/weapons2/dc-15s/dc-15s.md3"       //Required: New 1st person weapon model
+    Icon                "gfx/hud/w_icon_dc-15s"                 //Required: Weapon change icon
+    WeaponName            "Heavy Imperial DC-15s"                        //Required: Weapon change display name
+	MissileEffect		"blaster/Shot03R"
+	AltMissileEffect	"blaster/Shot03R"
+	FlashSound0		"sound/weapsup/sup/f11_alt_fire.mp3"
+	FlashSound1		"sound/weapsup/sup/f11_alt_fire.mp3"
+	FlashSound2		"sound/weapsup/sup/f11_alt_fire.mp3"
+	FlashSound3		"sound/weapsup/sup/f11_alt_fire.mp3"
+	FlashSound4		"sound/weapsup/sup/f11_alt_fire.mp3"
+	AltFlashSound0		"sound/weapsup/sup/f11_fire.mp3"
+	AltFlashSound1		"sound/weapsup/sup/f11_fire.mp3"
+	AltFlashSound2		"sound/weapsup/sup/f11_fire.mp3"
+	AltFlashSound3		"sound/weapsup/sup/f11_fire.mp3"
+	AltFlashSound4		"sound/weapsup/sup/f11_fire.mp3"
+	AltFireEnabled	0
+    customAmmo      500
+    clipSize        100
+    FPMult          1.2
 
 	idleAnim		DC15_READY
 	firingAnim		DC15_FIRE

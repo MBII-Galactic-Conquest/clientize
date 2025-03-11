@@ -46,7 +46,7 @@ WeaponInfo1
     NewWorldModel        "models/weapons2/e5/e5_w.glm"      //Required: New 3rd person/dropped weapon model
     NewViewModel        "models/weapons2/e5/e5.md3"       //Required: New 1st person weapon model
     Icon                "gfx/hud/w_icon_e5"                 //Required: Weapon change icon
-    WeaponName            "Rakatan Blaster Rifle"                        //Required: Weapon change display name
+    WeaponName            "Rakatan Blaster Carbine"                        //Required: Weapon change display name
 	FlashSound0			"sound/weapons/kotor/fire_med.wav"
     AltFlashSound0		"sound/weapons/kotor/fire_hvy.wav"
     customAmmo      500
