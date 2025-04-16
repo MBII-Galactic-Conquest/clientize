@@ -10,9 +10,7 @@ ClassInfo
 	uishader		"gfx/sup_icons/oldrepsold_h/mb2_icon_solm"
 	speed			0.8
 
-	damageGiven		1.2
-
-	uishader_1		"gfx/sup_icons/oldrepsold_h2/mb2_icon_solm"
+	damageGiven		1.02
 
 	WP_BlasterPistolFlags	HELD_ALTRELOAD|HELD_AMMOREGEN
 	WP_BlasterFlags		HELD_ALTRELOAD|HELD_AMMOREGEN
@@ -132,7 +130,7 @@ WeaponInfo3
     Icon                "gfx/hud/w_icon_kotor_brifle2"                 //Required: Weapon change icon
     WeaponName            "Heavy Republic Assault Rifle"                        //Required: Weapon change display name
 	MissileEffect		"blaster/Shot03B"
-	AltMissileEffect	"blaster/Shot03B"
+	AltMissileEffect	"blaster/Shot04B"
 	MuzzleEffect		"Blaster/MuzzleFlash01B"
 	AltMuzzleEffect		"Blaster/MuzzleFlash01B"
 	FlashSound0		"sound/weapons/kotor/fire_hvy.wav"
@@ -150,38 +148,7 @@ WeaponInfo3
     clipSize        125
     FPMult          1.2
 
-	idleAnim		DC15_READY
-	firingAnim		DC15_FIRE
-	altFiringAnim	DC15_FIRE
-}
-
-WeaponInfo3
-{
-    WeaponToReplace        WP_EE4                           //Required: Weapon Slot of weapon you're replacing
-    WeaponBasedOff        WP_EE4                          //Required: For future use, should be the same as WeaponToReplace
-    NewWorldModel        "models/weapons2/kotor_brifle2/kotor_brifle2_w.glm"      //Required: New 3rd person/dropped weapon model
-    NewViewModel        "models/weapons2/kotor_brifle2/kotor_brifle2.md3"       //Required: New 1st person weapon model
-    Icon                "gfx/hud/w_icon_kotor_brifle2"                 //Required: Weapon change icon
-    WeaponName            "Heavy Republic Assault Rifle"                        //Required: Weapon change display name
-	MissileEffect		"blaster/Shot03B"
-	AltMissileEffect	"blaster/Shot03B"
-	MuzzleEffect		"Blaster/MuzzleFlash01B"
-	AltMuzzleEffect		"Blaster/MuzzleFlash01B"
-	FlashSound0		"sound/weapons/kotor/fire_hvy.wav"
-	FlashSound1		"sound/weapons/kotor/fire_hvy.wav"
-	FlashSound2		"sound/weapons/kotor/fire_hvy.wav"
-	FlashSound3		"sound/weapons/kotor/fire_hvy.wav"
-	FlashSound4		"sound/weapons/kotor/fire_hvy.wav"
-	AltFlashSound0		"sound/weapons/kotor/fire_med.wav"
-	AltFlashSound1		"sound/weapons/kotor/fire_med.wav"
-	AltFlashSound2		"sound/weapons/kotor/fire_med.wav"
-	AltFlashSound3		"sound/weapons/kotor/fire_med.wav"
-	AltFlashSound4		"sound/weapons/kotor/fire_med.wav"
-	AltFireEnabled	0
-    customAmmo      550
-    clipSize        125
-    FPMult          1.2
-
+	hasAnimOverrides 1
 	idleAnim		DC15_READY
 	firingAnim		DC15_FIRE
 	altFiringAnim	DC15_FIRE

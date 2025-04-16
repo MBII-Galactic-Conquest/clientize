@@ -2,8 +2,8 @@
 ClassInfo
 {
 	name			"s_15et_hvg"
-	maxhealth		40
-	maxarmor		50
+	maxhealth		50
+	maxarmor		55
 	forcepool		100
 	uishader		"gfx/sup_icons/skytrooper/mb2_icon_hvg"
 	speed			0.8
@@ -12,12 +12,13 @@ ClassInfo
 	resourceRegenRate		1000
 	resourceRegenAmount		1
 	forceregen		0.1
-	rateoffire		1.4
-	damageGiven		1.05
+	rateoffire		1.5
+	damageGiven		1.1
+	damageTaken		0.95
 	knockbackGiven	1.2
 
 
-    WP_MinigunFlags	HELD_ALTRELOAD|HELD_SLOW
+    WP_MinigunFlags	HELD_ALTRELOAD|HELD_SLOW|HELD_STUN
 
 
 	resource	RESOURCE_FUEL

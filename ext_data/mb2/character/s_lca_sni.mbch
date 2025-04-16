@@ -1,0 +1,97 @@
+
+ClassInfo
+{
+	name			"s_lca_sni"
+	maxhealth		100
+	maxarmor		75
+	forcepool		20
+	uishader		"gfx/sup_icons/lego_clone/mb2_icon_sni"
+	rateoffire		0.675
+	speed			0.75
+
+	resourceRegenRate		1000
+	resourceRegenAmount		1
+	forceregen		0.1
+
+	damageGiven	0.5
+
+	WP_BlasterPistolFlags	HELD_HIGHDAMAGE
+
+	resource		RESOURCE_RAGE
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_CLONE_PISTOL
+	WeaponBasedOff		WP_CLONE_PISTOL
+	NewWorldModel		"models/weapons2/lego_repeater/heavy_repeater_w.glm"
+	NewViewModel		"models/weapons2/lego_repeater/demp2.md3"
+	Icon			"gfx/mplevels/legosw/icon_repeater"
+	WeaponName		"Clone Pistol"
+    FlashSound0 "sound/weapsup/sup/wpn_rep_pistol_fire.wav"
+    AltFlashSound0  "sound/weapsup/sup/wpn_rep_pistol_fire.wav"
+	FlashSound4	"sound/weapsup/sup/wpn_rep_pistol_fire.wav"
+	AltFlashSound4	"sound/weapsup/sup/wpn_rep_pistol_fire.wav"
+	MuzzleEffect		"Blaster/MuzzleFlash01B"
+	AltMuzzleEffect		"Blaster/MuzzleFlash01B"
+	MissileEffect		"blaster/Shot01B"
+	Missile3Effect		"Blaster/Shot10B"
+	AltMissileEffect	"blaster/Shot01B"
+	PowerupShotEffect	"Blaster/Shot04B"
+	ChargeEffect		"gfx/effects/clonefrontflash"
+	OverchargeEffect	"Blaster/MuzzleFlash04B"
+}
+
+WeaponInfo1
+{
+	WeaponToReplace		WP_PROJ
+	WeaponBasedOff		WP_PROJ
+	NewWorldModel		"models/weapons2/lego_repeater/heavy_repeater_w.glm"
+	NewViewModel		"models/weapons2/lego_repeater/heavy_repeater.md3"
+	Icon			"gfx/mplevels/legosw/icon_repeater"
+	WeaponName			"Sniper Rifle"
+	MuzzleEffect		"Blaster/MuzzleFlash01B"
+	AltMuzzleEffect		"Blaster/MuzzleFlash01B"
+	FlashSound0			"sound/weapsup/sup/wpn_rep_sniperrifle_fire.wav"
+	AltFlashSound0		"sound/weapsup/sup/wpn_rep_sniperrifle_fire.wav"
+	MissileEffect		"blaster/Shot03B"
+	MissileMissEffect	"effects/impacts/impactsmallblue2"
+	AltMissileMissEffect	"effects/impacts/impactsmallblue2"
+	MissileHitHumanEffect	"effects/impacts/impactsmallblue2"
+	MissileHitDroidEffect	"effects/impacts/impactsmallblue2"
+	primGore		1
+	altGore			1
+	customAmmo		8
+	clipSize        2
+	ReloadTimeModifier 	.50
+	FPMult	2
+
+	hasAnimOverrides 1
+	idleAnim		DC15_READY
+}
+
+ForceInfo0
+{
+	ForceToReplace        FP_SPEED
+	Icon                 "gfx/mp/sup_sni_deftness"
+	ForcePowerName		 "Deftness"
+	StartSound			 "sound/forcesup/sni_deftness/sprint.wav"
+	LoopSound			 "sound/forcesup/sni_deftness/heartbeat.mp3"
+}
+
+description	"Clone Army - Sniper
+
+Weaponry:
+Frag Grenade (1)
+Pistol (3)
+Sniper Rifle
+
+Gadgets:
+Binoculars (1)
+
+Attributes
+Close Combat Training (2)
+Deftness (Speed 3)
+Gun Bash
+
+A Clone sniper, he looks deathly accurate."

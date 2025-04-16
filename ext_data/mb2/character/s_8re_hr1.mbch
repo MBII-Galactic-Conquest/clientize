@@ -13,7 +13,8 @@ ClassInfo
 	saber1_1		kotor_vibrostaff_supremacy
 
 
-	resource	RESOURCE_STAMINA
+	resource	RESOURCE_FORCE
+
 }
 
 WeaponInfo0

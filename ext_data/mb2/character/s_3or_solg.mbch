@@ -10,8 +10,6 @@ ClassInfo
 	uishader		"gfx/sup_icons/oldrepsold_h/mb2_icon_solg"
 	speed			0.8
 
-	uishader_1		"gfx/sup_icons/oldrepsold_h2/mb2_icon_solg"
-
 	WP_BlasterPistolFlags	HELD_ALTRELOAD|HELD_AMMOREGEN
 	WP_BlasterFlags		HELD_ALTRELOAD|HELD_AMMOREGEN
 	WP_EE4Flags			HELD_ALTRELOAD|HELD_AMMOREGEN|HELD_SLOW
@@ -122,7 +120,7 @@ WeaponInfo3
     Icon                "gfx/hud/w_icon_kotor_brifle2"                 //Required: Weapon change icon
     WeaponName            "Heavy Republic Assault Rifle"                        //Required: Weapon change display name
 	MissileEffect		"blaster/Shot03B"
-	AltMissileEffect	"blaster/Shot03B"
+	AltMissileEffect	"blaster/Shot04B"
 	MuzzleEffect		"Blaster/MuzzleFlash01B"
 	AltMuzzleEffect		"Blaster/MuzzleFlash01B"
 	FlashSound0		"sound/weapons/kotor/fire_hvy.wav"
@@ -140,6 +138,7 @@ WeaponInfo3
     clipSize        100
     FPMult          1.2
 
+	hasAnimOverrides 1
 	idleAnim		DC15_READY
 	firingAnim		DC15_FIRE
 	altFiringAnim	DC15_FIRE

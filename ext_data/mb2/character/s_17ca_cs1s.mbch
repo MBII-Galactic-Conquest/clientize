@@ -95,8 +95,10 @@ WeaponInfo1
     Icon                "gfx/hud/w_icon_dc-15s"                 //Required: Weapon change icon
     WeaponName            "DC-15s Clone Rifle"                        //Required: Weapon change display name
     FlashSound0 "sound/weapsup/sup/wpn_rep_blaster_fire.wav"
+	AltFlashSound0 "sound/weapsup/sup/wpn_rep_blaster_fire.wav"
 	MuzzleEffect		"Blaster/MuzzleFlash01B"
 	MissileEffect		"blaster/Shot01B"
+	AltMissileEffect 	"blaster/Shot01B"
     customAmmo      600
     clipSize        150
 	FPMult			0.8
@@ -111,7 +113,7 @@ WeaponInfo2
     Icon                "gfx/hud/w_icon_dc-15s"                 //Required: Weapon change icon
     WeaponName            "Heavy DC-15s Clone Rifle"                        //Required: Weapon change display name
 	MissileEffect		"blaster/Shot03B"
-	AltMissileEffect	"blaster/Shot03B"
+	AltMissileEffect	"blaster/Shot04B"
 	MuzzleEffect		"Blaster/MuzzleFlash01B"
 	AltMuzzleEffect		"Blaster/MuzzleFlash01B"
 	FlashSound0		"sound/weapsup/sup/wpn_rep_blaster_fire.wav"
@@ -129,6 +131,7 @@ WeaponInfo2
     clipSize        150
     FPMult          1.2
 
+	hasAnimOverrides 1
 	idleAnim		DC15_READY
 	firingAnim		DC15_FIRE
 	altFiringAnim	DC15_FIRE

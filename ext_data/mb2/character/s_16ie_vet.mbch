@@ -6,11 +6,11 @@ ClassInfo
 	maxhealth       200
 	maxarmor		20
 	forcepool		50
-	speed			0.9
+	speed			0.65
 	BPmultiplier    1.0
 	APmultiplier    1.0
 	
-	damageGiven        1.10
+	damageGiven        1.05
 
 	uishader		"gfx/sup_icons/rakata/mb2_icon_vang"
 

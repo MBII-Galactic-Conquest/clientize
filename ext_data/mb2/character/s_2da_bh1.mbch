@@ -9,7 +9,7 @@ ClassInfo
 	maxarmor		100
 	uishader		"gfx/sup_icons/human_merc/mb2_icon_sni"
 	rateoffire		0.675
-	speed			0.8
+	speed			0.75
 	saber1		legends_Knife
 
 	uishader_1	"gfx/sup_icons/human_merc_a/mb2_icon_sni"
@@ -17,6 +17,9 @@ ClassInfo
 	uishader_2	"gfx/sup_icons/human_merc_k/mb2_icon_sni"
 
 	uishader_3	"gfx/sup_icons/human_merc_d/mb2_icon_sni"
+
+
+	resource	RESOURCE_FORCE
 
 }
 

@@ -130,7 +130,7 @@ WeaponInfo3
     Icon                "gfx/hud/w_icon_e5"                 //Required: Weapon change icon
     WeaponName            "Heavy Rakatan Blaster Rifle"                        //Required: Weapon change display name
 	MissileEffect		"blaster/Shot03R"
-	AltMissileEffect	"blaster/Shot03R"
+	AltMissileEffect	"blaster/Shot04R"
 	FlashSound0		"sound/weapons/kotor/fire_hvy.wav"
 	FlashSound1		"sound/weapons/kotor/fire_hvy.wav"
 	FlashSound2		"sound/weapons/kotor/fire_hvy.wav"
@@ -146,6 +146,7 @@ WeaponInfo3
     clipSize        100
     FPMult          1.2
 
+	hasAnimOverrides 1
 	idleAnim		DC15_READY
 	firingAnim		DC15_FIRE
 	altFiringAnim	DC15_FIRE

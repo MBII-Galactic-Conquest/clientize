@@ -7,7 +7,7 @@ ClassInfo
 	forcepool		50
 	uishader		"gfx/sup_icons/imperial_l/mb2_icon_ofc"
 	rateoffire		0.675
-	speed			0.8
+	speed			0.75
 
 	uishader_1		"gfx/sup_icons/imperial_fd/mb2_icon_ofc"
 
@@ -48,6 +48,7 @@ WeaponInfo1
 	clipSize        100
 	FPMult          0.8
 
+	hasAnimOverrides 1
 	idleAnim		DC15_READY
 	firingAnim		DC15_FIRE
 	altFiringAnim	DC15_FIRE

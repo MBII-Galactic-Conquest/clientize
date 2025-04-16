@@ -7,7 +7,7 @@ ClassInfo
 	uishader		"gfx/sup_icons/battledroid/mb2_icon_sleb"
 	speed			1.0
 
-    damageGiven     1.5
+    damageGiven     1.05
 
 
 	WP_BlasterPistolFlags   HELD_ALTRELOAD|HELD_AMMOREGEN
@@ -113,7 +113,7 @@ WeaponInfo2
     Icon                "gfx/hud/w_icon_e5"                 //Required: Weapon change icon
     WeaponName            "Heavy E-5 TF Blaster Rifle"                        //Required: Weapon change display name
 	MissileEffect		"blaster/Shot03R"
-	AltMissileEffect	"blaster/Shot03R"
+	AltMissileEffect	"blaster/Shot04R"
 	FlashSound0		"sound/weapsup/sup/wpn_cis_blaster_fire.wav"
 	FlashSound1		"sound/weapsup/sup/wpn_cis_blaster_fire.wav"
 	FlashSound2		"sound/weapsup/sup/wpn_cis_blaster_fire.wav"
@@ -124,11 +124,12 @@ WeaponInfo2
 	AltFlashSound2		"sound/weapsup/sup/wpn_cis_blaster_fire.wav"
 	AltFlashSound3		"sound/weapsup/sup/wpn_cis_blaster_fire.wav"
 	AltFlashSound4		"sound/weapsup/sup/wpn_cis_blaster_fire.wav"
-	AltFireEnabled	0
+	AltFireEnabled	1
     customAmmo      700
     clipSize        150
     FPMult          1.2
 
+	hasAnimOverrides 1
 	idleAnim		DC15_READY
 	firingAnim		DC15_FIRE
 	altFiringAnim	DC15_FIRE

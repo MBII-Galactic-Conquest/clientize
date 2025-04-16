@@ -4,22 +4,22 @@ ClassInfo
 	name			"s_13ga_slenb"
 	maxhealth		85
 	maxarmor		25
-	uishader		"gfx/sup_icons/rebel/mb2_icon_slenb"
+	uishader		"gfx/sup_icons/rebel/mb2_icon_sold"
 	speed			0.8
 
-	uishader_1		"gfx/sup_icons/stormie/mb2_icon_slenb"
+	uishader_1		"gfx/sup_icons/stormie/mb2_icon_sold"
 
-	uishader_2		"gfx/sup_icons/rebel_guerilla/mb2_icon_slenb"
+	uishader_2		"gfx/sup_icons/rebel_guerilla/mb2_icon_sold"
 
-	uishader_3		"gfx/sup_icons/rebel_commando/mb2_icon_slenb"
+	uishader_3		"gfx/sup_icons/rebel_commando/mb2_icon_sold"
 
-	uishader_4		"gfx/sup_icons/rebel_commando_h/mb2_icon_slenb"
+	uishader_4		"gfx/sup_icons/rebel_commando_h/mb2_icon_sold"
 
-	uishader_5		"gfx/sup_icons/nrguard/mb2_icon_slenb"
+	uishader_5		"gfx/sup_icons/nrguard/mb2_icon_sold"
 
-	uishader_6		"gfx/sup_icons/nrguard_cha/mb2_icon_slenb"
+	uishader_6		"gfx/sup_icons/nrguard_cha/mb2_icon_sold"
 
-	uishader_7		"gfx/sup_icons/nrguard_abe/mb2_icon_slenb"
+	uishader_7		"gfx/sup_icons/nrguard_abe/mb2_icon_sold"
 
 	WP_BlasterPistolFlags	HELD_ALTRELOAD|HELD_AMMOREGEN
 	WP_BlasterFlags		HELD_ALTRELOAD|HELD_AMMOREGEN
@@ -110,6 +110,7 @@ WeaponInfo1
     clipSize        100
     FPMult          0.8
 
+	hasAnimOverrides 1
 	idleAnim		DC15_READY
 	firingAnim		DC15_FIRE
 	altFiringAnim	DC15_FIRE
@@ -124,7 +125,7 @@ WeaponInfo2
     Icon                "gfx/hud/w_icon_e11"                 //Required: Weapon change icon
     WeaponName            "Heavy E-11 Blaster"                        //Required: Weapon change display name
 	MissileEffect		"blaster/Shot03R"
-	AltMissileEffect	"blaster/Shot03R"
+	AltMissileEffect	"blaster/Shot04R"
 	FlashSound0		"sound/weapsup/r/wpn_imp_blaster_fire.wav"
 	FlashSound1		"sound/weapsup/r/wpn_imp_blaster_fire.wav"
 	FlashSound2		"sound/weapsup/r/wpn_imp_blaster_fire.wav"
@@ -140,6 +141,7 @@ WeaponInfo2
     clipSize        100
     FPMult          1.2
 
+	hasAnimOverrides 1
 	idleAnim		DC15_READY
 	firingAnim		DC15_FIRE
 	altFiringAnim	DC15_FIRE

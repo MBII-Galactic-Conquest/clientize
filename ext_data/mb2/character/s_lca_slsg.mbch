@@ -107,6 +107,7 @@ WeaponInfo1
     clipSize        150
     FPMult          0.8
 
+	hasAnimOverrides 1
 	idleAnim		DC15_READY
 	firingAnim		DC15_FIRE
 	altFiringAnim	DC15_FIRE
@@ -131,7 +132,7 @@ WeaponInfo3
 	Icon			"gfx/mplevels/legosw/icon_repeater"
     WeaponName            "Heavy Clone Rifle"                        //Required: Weapon change display name
 	MissileEffect		"blaster/Shot03B"
-	AltMissileEffect	"blaster/Shot03B"
+	AltMissileEffect	"blaster/Shot04B"
 	MuzzleEffect		"Blaster/MuzzleFlash01B"
 	AltMuzzleEffect		"Blaster/MuzzleFlash01B"
 	FlashSound0		"sound/weapsup/sup/wpn_rep_blaster_fire.wav"
@@ -149,6 +150,7 @@ WeaponInfo3
     clipSize        150
     FPMult          1.2
 
+	hasAnimOverrides 1
 	idleAnim		DC15_READY
 	firingAnim		DC15_FIRE
 	altFiringAnim	DC15_FIRE

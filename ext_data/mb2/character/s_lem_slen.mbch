@@ -100,7 +100,7 @@ WeaponInfo3
 	Icon			"gfx/mplevels/legosw/icon_blaster"
     WeaponName            "Heavy Blaster Rifle"                        //Required: Weapon change display name
 	MissileEffect		"blaster/Shot03R"
-	AltMissileEffect	"blaster/Shot03R"
+	AltMissileEffect	"blaster/Shot04R"
 	FlashSound0		"sound/weapsup/r/wpn_imp_blaster_fire.wav"
 	FlashSound1		"sound/weapsup/r/wpn_imp_blaster_fire.wav"
 	FlashSound2		"sound/weapsup/r/wpn_imp_blaster_fire.wav"
@@ -116,6 +116,7 @@ WeaponInfo3
     clipSize        100
     FPMult          1.2
 
+	hasAnimOverrides 1
 	idleAnim		DC15_READY
 	firingAnim		DC15_FIRE
 	altFiringAnim	DC15_FIRE

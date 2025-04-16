@@ -26,6 +26,8 @@ SubclassesForClass1
 Subclass1  "s_10em_kdr"
 Subclass2  "s_10em_spy"
 Subclass3  "s_10em_flm"
+Subclass4  "s_10em_gs3"
+Subclass5  "s_10em_sni"
 }
 
 //1-11

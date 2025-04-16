@@ -7,15 +7,16 @@ ClassInfo
     forcepool       65
 	maxhealth		60
 	maxarmor		35
-	classflags		CFL_BPFREEJUMPS|CFL_HEAVYMELEE|CFL_SEEING_STEALTH|CFL_STRONGAGAINSTPHYSICAL|CFL_EXTRAFLAMEDAMAGE
+	classflags		CFL_BPFREEJUMPS|CFL_HEAVYMELEE|CFL_SEEING_STEALTH|CFL_STRONGAGAINSTPHYSICAL
     speed			1.1
 	uishader		"gfx/sup_icons/sithtrooper/mb2_icon_spy"
 
 
 
 	damageGiven		1.2
+	rateoffire		0.675
 
-	WP_ThrowerFlags		HELD_DISRUPTIFY|HELD_ALTRELOAD|HELD_FLAME
+	WP_A280Flags	HELD_DISRUPTIFY|HELD_ALTRELOAD|HELD_FLAME|HELD_SLOWPROJ|HELD_LOWDAMAGE|HELD_IGNOREBLOCK
 
 }
 
@@ -56,17 +57,25 @@ WeaponInfo2
 
 WeaponInfo3
 {
-    WeaponToReplace			WP_THROWER
-    WeaponBasedOff			WP_THROWER
+    WeaponToReplace			WP_A280
+    WeaponBasedOff			WP_A280
    	NewWorldModel        "models/weapons2/CR-1_cannon/rifle_w.glm"      //Required: New 3rd person/dropped weapon model
     NewViewModel        "models/weapons2/CR-1_cannon/rifle.md3"       //Required: New 1st person weapon model
     Icon                "gfx/hud/w_icon_cr1_blastcannon"
-    FlashSound0 		"sound/weapsup/sup/incinerator.wav"              
-    WeaponName             "Incinerator"
-	MuzzleEffect		"arc_caster/ArcCasterMuzzle"
+    FlashSound0 		"sound/weapsup/sup/incinerator.wav"
+    WeaponName             "Bothan Incinerator"
+	MuzzleEffect  		"Blaster/MuzzleFlash01B"
+	AltMuzzleEffect		"Blaster/MuzzleFlash01B"
+	MissileEffect		"effects/INVIS_Missile/null"
+	AltMissileEffect	"effects/INVIS_Missile/null"
+	MissileMissEffect	"effects/bothan_incinerator/incinerator_miss"
+	AltMissileMissEffect	"effects/bothan_incinerator/incinerator_miss"
+	MissileHitHumanEffect "Impacts/impactflame"
+	MissileHitDroidEffect "Impacts/impactflame"
+	AltFireEnabled		 0
 	ReloadTimeModifier	 2
     customAmmo           500
-    clipsize             100
+    clipsize             25
 }
 
 description	"Revanite Sith - Spy

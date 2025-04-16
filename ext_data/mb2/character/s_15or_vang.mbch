@@ -6,7 +6,7 @@ ClassInfo
 	maxarmor		75
 	forcepool		25
 	uishader		"gfx/sup_icons/swtor_republictrooper/mb2_icon_vang"
-	speed			0.7
+	speed			0.65
 
 	isCustomBuild        1
 	mbPoints	15

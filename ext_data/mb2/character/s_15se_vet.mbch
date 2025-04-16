@@ -5,10 +5,11 @@ ClassInfo
 	maxhealth		100
 	maxarmor		75
 	forcepool		25
-	forcepool		25
-	speed			0.7
+	speed			0.65
 	uishader		"gfx/sup_icons/sithtrooper_tor/mb2_icon_vang"
 
+
+	damageGiven		1.05
 
 	isCustomBuild        1
 	mbPoints	15

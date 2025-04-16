@@ -10,7 +10,8 @@ ClassInfo
 	uishader		"gfx/sup_icons/sandtrooper/mb2_icon_eng"
 
 
-	WP_ShotgunFlags HELD_ALTRELOAD
+	WP_ShotgunFlags HELD_ALTRELOAD|HELD_STUN
+	WP_StunBatonFlags HELD_FLAME|HELD_STUN|HELD_LOWDAMAGE
 
 	resourceRegenRate		1000
 	resourceRegenAmount		0.5

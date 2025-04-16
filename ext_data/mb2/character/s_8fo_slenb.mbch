@@ -4,10 +4,10 @@ ClassInfo
 	name			"s_8fo_slenb"
 	maxhealth		85
 	maxarmor		25
-	uishader		"gfx/sup_icons/stormie_tfa/mb2_icon_slenb"
+	uishader		"gfx/sup_icons/stormie_tfa/mb2_icon_sold"
 	speed			0.8
 
-	uishader_1		"gfx/sup_icons/shoretrooper/mb2_icon_slenb"
+	uishader_1		"gfx/sup_icons/shoretrooper/mb2_icon_sold"
 
 	WP_BlasterPistolFlags	HELD_ALTRELOAD|HELD_AMMOREGEN
 	WP_BlasterFlags		HELD_ALTRELOAD|HELD_AMMOREGEN
@@ -108,7 +108,7 @@ WeaponInfo2
     Icon                "gfx/hud/w_icon_f11"                 //Required: Weapon change icon
     WeaponName            "Heavy F-11d Rifle"                        //Required: Weapon change display name
 	MissileEffect		"blaster/Shot03R"
-	AltMissileEffect	"blaster/Shot03R"
+	AltMissileEffect	"blaster/Shot04R"
 	FlashSound0		"sound/weapsup/sup/f11_alt_fire.mp3"
 	FlashSound1		"sound/weapsup/sup/f11_alt_fire.mp3"
 	FlashSound2		"sound/weapsup/sup/f11_alt_fire.mp3"
@@ -124,6 +124,7 @@ WeaponInfo2
     clipSize        100
     FPMult          1.2
 
+	hasAnimOverrides 1
 	idleAnim		DC15_READY
 	firingAnim		DC15_FIRE
 	altFiringAnim	DC15_FIRE

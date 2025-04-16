@@ -4,10 +4,20 @@ ClassInfo
 	name			"s_17da_bd5"
 	maxhealth		40
 	maxarmor		50
-	speed			1.0
+	forcepool		20
 	uishader		"gfx/sup_icons/battledroid/mb2_icon_sni"
-	
+	rateoffire		0.675
+	speed			0.75
 
+	resourceRegenRate		1000
+	resourceRegenAmount		1
+	forceregen		0.1
+
+	damageGiven	0.5
+
+	WP_BlasterPistolFlags	HELD_HIGHDAMAGE
+
+	resource		RESOURCE_RAGE
 }
 
 WeaponInfo0
@@ -23,7 +33,8 @@ WeaponInfo0
 	FlashSound4	"sound/weapsup/sup/wpn_cis_pistol_fire.wav"
 	AltFlashSound4 "sound/weapsup/sup/wpn_cis_pistol_fire.wav"
 	MuzzleEffect		"Blaster/MuzzleFlash01R"
-	MissileEffect		"blaster/Shot01R"
+	MissileEffect		"blaster/Shot03R"
+	Missile3Effect		"blaster/Shot03R"
 	AltMissileEffect 	"blaster/Shot01R"
     customAmmo      200
     clipSize        100
@@ -31,40 +42,54 @@ WeaponInfo0
 
 WeaponInfo1
 {
-	WeaponToReplace		WP_EE4
-	WeaponBasedOff		WP_EE4
-	NewWorldModel		"models/weapons2/som3_rifle/som3_rifle_w.glm"
-	NewViewModel		"models/weapons2/som3_rifle/som3_rifle.md3"
-	Icon				"gfx/hud/w_icon_som3_rifle"
-	WeaponName			"E-5s Marksman Rifle"
-	FlashSound0 		"sound/weapons/E-5s/fire.mp3"
-	AltFlashSound0	    "sound/weapons/E-5s/alt_fire.mp3"
-	customAmmo			600
-	clipSize            60
-	firingAnim	        BOTH_ATTACK4
-	ReloadTimeModifier 	2
-	FPMult     			0.9
+	WeaponToReplace		WP_PROJ
+	WeaponBasedOff		WP_PROJ
+	NewWorldModel 	"models/weapons2/dlt-18_repeater/dlt-18_repeater_w.glm"
+	NewViewModel  	"models/weapons2/dlt-18_repeater/dlt-18_repeater.md3"
+	Icon  			"gfx/hud/w_icon_dlt-18"
+	WeaponName			"Sniper Rifle"
+	MuzzleEffect		"Blaster/MuzzleFlash01R"
+	AltMuzzleEffect		"Blaster/MuzzleFlash01R"
+	FlashSound0			"sound/weapsup/sup/wpn_imp_sniperrifle_fire.wav"
+	AltFlashSound0		"sound/weapsup/sup/wpn_imp_sniperrifle_fire.wav"
+	MissileEffect		"blaster/Shot03R"
+	MissileMissEffect	"effects/impacts/impactsmallred2"
+	AltMissileMissEffect	"effects/impacts/impactsmallred2"
+	MissileHitHumanEffect	"effects/impacts/impactsmallred2"
+	MissileHitDroidEffect	"effects/impacts/impactsmallred2"
+	primGore		1
+	altGore			1
+	customAmmo		8
+	clipSize        2
+	ReloadTimeModifier 	.50
+	FPMult	2
+
+	hasAnimOverrides 1
+	idleAnim		DC15_READY
 }
 
-description	"Battle Droid Sniper
+ForceInfo0
+{
+	ForceToReplace        FP_SPEED
+	Icon                 "gfx/mp/sup_sni_deftness"
+	ForcePowerName		 "Deftness"
+	StartSound			 "sound/forcesup/sni_deftness/sprint.wav"
+	LoopSound			 "sound/forcesup/sni_deftness/heartbeat.mp3"
+}
 
-Weapons
-Fire Grenades (1)
-Droid Frag Grenade (1)
-SE-14c Blaster Pistol (1)
-E-5s Marksman Rifle *
+description	"Droid Sniper
 
-* Special Weapon Descriptions:
---- E-5s Marksman Rifle
-- Based on EE4, mechanics of old EE3
-- Optional sniper mode, but offers suppressing fire
+Weaponry:
+Frag Grenade (1)
+Pistol (3)
+Sniper Rifle
 
-Abilities:
-Reinforcements (2)
+Gadgets:
+Binoculars (1)
+
+Attributes
 Close Combat Training (2)
-Beskar (1)
+Deftness (Speed 3)
 Gun Bash
 
-A sniping battle droid of the Trade Federation, equipped with marksmanship weaponry.
-
-Numerous, and plentiful, they are expendable. Resistant to blaster fire, and weak to EMP devices."
+A Droid Sniper, he looks deathly accurate."

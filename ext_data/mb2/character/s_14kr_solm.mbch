@@ -17,7 +17,7 @@ ClassInfo
 
 	uishader_5		"gfx/sup_icons/bossk/mb2_icon_solm"
 
-	damageGiven		1.2
+	damageGiven		1.02
 
 	WP_BlasterPistolFlags	HELD_ALTRELOAD|HELD_AMMOREGEN
 	WP_BlasterFlags		HELD_ALTRELOAD|HELD_AMMOREGEN
@@ -106,6 +106,7 @@ WeaponInfo1
     clipSize        125
     FPMult          0.8
 
+	hasAnimOverrides 1
 	idleAnim		DC15_READY
 	firingAnim		DC15_FIRE
 	altFiringAnim	DC15_FIRE
@@ -120,7 +121,7 @@ WeaponInfo2
     Icon                "gfx/hud/w_icon_e11"                 //Required: Weapon change icon
     WeaponName            "Heavy E-11 Blaster"                        //Required: Weapon change display name
 	MissileEffect		"blaster/Shot03R"
-	AltMissileEffect	"blaster/Shot03R"
+	AltMissileEffect	"blaster/Shot04R"
 	FlashSound0		"sound/weapsup/r/wpn_imp_blaster_fire.wav"
 	FlashSound1		"sound/weapsup/r/wpn_imp_blaster_fire.wav"
 	FlashSound2		"sound/weapsup/r/wpn_imp_blaster_fire.wav"
@@ -136,6 +137,7 @@ WeaponInfo2
     clipSize        125
     FPMult          1.2
 
+	hasAnimOverrides 1
 	idleAnim		DC15_READY
 	firingAnim		DC15_FIRE
 	altFiringAnim	DC15_FIRE

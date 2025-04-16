@@ -8,8 +8,10 @@ ClassInfo
 	uishader			"gfx/sup_icons/wookiee/mb2_icon_wook_r"
 
 	resource		RESOURCE_RAGE
-	
-	speed               1.06
+
+	WP_BowcasterFlags	HELD_SLOW
+
+	speed               0.9
 }
 
 WeaponInfo0
