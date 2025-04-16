@@ -11,7 +11,7 @@ ClassInfo
     forcepool       65
 	maxhealth		60
 	maxarmor		35
-	classflags		CFL_BPFREEJUMPS|CFL_HEAVYMELEE|CFL_SEEING_STEALTH|CFL_EXTRAFLAMEDAMAGE
+	classflags		CFL_BPFREEJUMPS|CFL_HEAVYMELEE|CFL_SEEING_STEALTH
     speed			1.1
 	saber1			supremacy_Knife
 	uishader		"gfx/sup_icons/lego_stormie/mb2_icon_spy"
@@ -19,8 +19,9 @@ ClassInfo
 
 
 	damageGiven		1.2
+	rateoffire		0.675
 
-	WP_ThrowerFlags		HELD_DISRUPTIFY|HELD_ALTRELOAD|HELD_FLAME
+	WP_A280Flags	HELD_DISRUPTIFY|HELD_ALTRELOAD|HELD_FLAME|HELD_SLOWPROJ|HELD_LOWDAMAGE|HELD_IGNOREBLOCK
 
 }
 
@@ -69,17 +70,25 @@ WeaponInfo3
 
 WeaponInfo4
 {
-    WeaponToReplace			WP_THROWER
-    WeaponBasedOff			WP_THROWER
+    WeaponToReplace			WP_A280
+    WeaponBasedOff			WP_A280
 	NewWorldModel		"models/weapons2/lego_blaster/blaster_w.glm"
 	NewViewModel		"models/weapons2/lego_blaster/blaster.md3"
 	Icon			"gfx/mplevels/legosw/icon_blaster"
-    FlashSound0 		"sound/weapsup/sup/incinerator.wav"              
+    FlashSound0 		"sound/weapsup/sup/incinerator.wav"
     WeaponName             "Bothan Incinerator"
-	MuzzleEffect		"arc_caster/ArcCasterMuzzle"
+	MuzzleEffect  		"Blaster/MuzzleFlash01R"
+	AltMuzzleEffect		"Blaster/MuzzleFlash01R"
+	MissileEffect		"Mace/RC_Placeholder"
+	AltMissileEffect	"Mace/RC_Placeholder"
+	MissileMissEffect	"Mace/RC_Placeholder"
+	AltMissileMissEffect	"Mace/RC_Placeholder"
+	MissileHitHumanEffect "Impacts/impactflame"
+	MissileHitDroidEffect "Impacts/impactflame"
+	AltFireEnabled		 0
 	ReloadTimeModifier	 2
     customAmmo           500
-    clipsize             100
+    clipsize             25
 }
 
 description	"Imperial Spy

@@ -12,7 +12,7 @@ ClassInfo
 	uishader		"gfx/sup_icons/stormie/mb2_icon_sleb"
 	speed			0.8
 
-	damageGiven        1.5
+	damageGiven        1.05
 
 	uishader_1		"gfx/sup_icons/dirtystormie/mb2_icon_sleb"
 
@@ -103,6 +103,7 @@ WeaponInfo1
     clipSize        150
     FPMult          0.8
 
+	hasAnimOverrides 1
 	idleAnim		DC15_READY
 	firingAnim		DC15_FIRE
 	altFiringAnim	DC15_FIRE
@@ -117,7 +118,7 @@ WeaponInfo2
     Icon                "gfx/hud/w_icon_e11"                 //Required: Weapon change icon
     WeaponName            "Heavy E-11 Blaster"                        //Required: Weapon change display name
 	MissileEffect		"blaster/Shot03R"
-	AltMissileEffect	"blaster/Shot03R"
+	AltMissileEffect	"blaster/Shot04R"
 	FlashSound0		"sound/weapsup/r/wpn_imp_blaster_fire.wav"
 	FlashSound1		"sound/weapsup/r/wpn_imp_blaster_fire.wav"
 	FlashSound2		"sound/weapsup/r/wpn_imp_blaster_fire.wav"
@@ -128,11 +129,12 @@ WeaponInfo2
 	AltFlashSound2		"sound/weapsup/r/wpn_imp_blaster_fire.wav"
 	AltFlashSound3		"sound/weapsup/r/wpn_imp_blaster_fire.wav"
 	AltFlashSound4		"sound/weapsup/r/wpn_imp_blaster_fire.wav"
-	AltFireEnabled	0
+	AltFireEnabled	1
     customAmmo      700
     clipSize        150
     FPMult          1.2
 
+	hasAnimOverrides 1
 	idleAnim		DC15_READY
 	firingAnim		DC15_FIRE
 	altFiringAnim	DC15_FIRE

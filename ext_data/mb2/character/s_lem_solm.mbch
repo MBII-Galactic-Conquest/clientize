@@ -11,7 +11,7 @@ ClassInfo
 	maxarmor		30
 	uishader		"gfx/sup_icons/lego_stormie/mb2_icon_solm"
 	speed			0.8
-	damageGiven		1.2
+	damageGiven		1.02
 
 	WP_BlasterPistolFlags	HELD_ALTRELOAD|HELD_AMMOREGEN
 	WP_BlasterFlags		HELD_ALTRELOAD|HELD_AMMOREGEN
@@ -120,7 +120,7 @@ WeaponInfo3
 	Icon			"gfx/mplevels/legosw/icon_blaster"
     WeaponName            "Heavy Blaster Rifle"                        //Required: Weapon change display name
 	MissileEffect		"blaster/Shot03R"
-	AltMissileEffect	"blaster/Shot03R"
+	AltMissileEffect	"blaster/Shot04R"
 	FlashSound0		"sound/weapsup/r/wpn_imp_blaster_fire.wav"
 	FlashSound1		"sound/weapsup/r/wpn_imp_blaster_fire.wav"
 	FlashSound2		"sound/weapsup/r/wpn_imp_blaster_fire.wav"
@@ -136,6 +136,7 @@ WeaponInfo3
     clipSize        125
     FPMult          1.2
 
+	hasAnimOverrides 1
 	idleAnim		DC15_READY
 	firingAnim		DC15_FIRE
 	altFiringAnim	DC15_FIRE

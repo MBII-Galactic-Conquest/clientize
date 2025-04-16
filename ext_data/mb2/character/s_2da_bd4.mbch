@@ -12,7 +12,7 @@ ClassInfo
 	forcepool		25
 	uishader		"gfx/sup_icons/battledroid_of/mb2_icon_ofc"
 	rateoffire		0.675
-	speed			0.8
+	speed			0.75
 	
 
 	resourceRegenRate		1000

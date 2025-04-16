@@ -23,6 +23,9 @@ ClassInfo
 
 	uishader_3	"gfx/sup_icons/human_merc_d/mb2_icon_sni"
 
+
+	resource	RESOURCE_FORCE
+
 }
 
 WeaponInfo0

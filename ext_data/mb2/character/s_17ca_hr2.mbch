@@ -17,6 +17,9 @@ ClassInfo
 	speed			0.7
 	saber1		legends_Knife
 
+
+	resource	RESOURCE_FORCE
+
 }
 
 WeaponInfo0

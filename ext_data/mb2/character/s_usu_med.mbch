@@ -11,7 +11,7 @@ ClassInfo
 	maxhealth		100
 	maxarmor		20
 	forcepool		50
-	uishader		"gfx/sup_icons/rebel_gag/mb2_icon_med"
+	uishader		"gfx/sup_icons/rebel_pilot/mb2_icon_med"
 	speed			0.7
 
 	uishader_1		"gfx/sup_icons/stormie_v/mb2_icon_med"
@@ -49,6 +49,7 @@ WeaponInfo1
     clipSize        100
     FPMult          0.8
 
+	hasAnimOverrides 1
 	idleAnim		DC15_READY
 	firingAnim		DC15_FIRE
 	altFiringAnim	DC15_FIRE

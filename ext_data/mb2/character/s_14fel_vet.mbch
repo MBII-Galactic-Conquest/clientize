@@ -10,7 +10,7 @@ ClassInfo
 	maxhealth		100
 	maxarmor		75
 	forcepool		25
-	speed			0.7
+	speed			0.65
 	uishader		"gfx/sup_icons/stormie_of/mb2_icon_vang"
 
 	uishader_1		"gfx/sup_icons/stormie_alien_r_of/mb2_icon_vang"
@@ -31,6 +31,8 @@ ClassInfo
 
 	uishader_9		"gfx/sup_icons/snowtrooper2_bl/mb2_icon_vang"
 
+
+	damageGiven		1.05
 
 	isCustomBuild        1
 	mbPoints	15

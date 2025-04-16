@@ -46,6 +46,7 @@ WeaponInfo1
     Icon                "gfx/hud/w_icon_dc-15s"                 //Required: Weapon change icon
     WeaponName            "DC-15s Clone Rifle"                        //Required: Weapon change display name
     FlashSound0 "sound/weapsup/sup/wpn_rep_blaster_fire.wav"
+	AltFlashSound0 "sound/weapsup/sup/wpn_rep_blaster_fire.wav"
 	MuzzleEffect		"Blaster/MuzzleFlash01B"
 	MissileEffect		"blaster/Shot01B"
 	AltMissileEffect 	"blaster/Shot01B"

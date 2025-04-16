@@ -11,7 +11,7 @@ ClassInfo
 	maxarmor		25
 	uishader		"gfx/sup_icons/lego_clone/mb2_icon_sleb"
 	speed			0.8
-	damageGiven		1.5
+	damageGiven		1.05
 
 	WP_ClonePistolFlags	HELD_ALTRELOAD|HELD_AMMOREGEN
 	WP_BlasterFlags		HELD_ALTRELOAD|HELD_AMMOREGEN
@@ -110,6 +110,7 @@ WeaponInfo1
     clipSize        150
     FPMult          0.8
 
+	hasAnimOverrides 1
 	idleAnim		DC15_READY
 	firingAnim		DC15_FIRE
 	altFiringAnim	DC15_FIRE
@@ -134,7 +135,7 @@ WeaponInfo3
 	Icon			"gfx/mplevels/legosw/icon_repeater"
     WeaponName            "Heavy Clone Rifle"                        //Required: Weapon change display name
 	MissileEffect		"blaster/Shot03B"
-	AltMissileEffect	"blaster/Shot03B"
+	AltMissileEffect	"blaster/Shot04B"
 	MuzzleEffect		"Blaster/MuzzleFlash01B"
 	AltMuzzleEffect		"Blaster/MuzzleFlash01B"
 	FlashSound0		"sound/weapsup/sup/wpn_rep_blaster_fire.wav"
@@ -147,11 +148,12 @@ WeaponInfo3
 	AltFlashSound2		"sound/weapsup/sup/wpn_rep_blaster_fire.wav"
 	AltFlashSound3		"sound/weapsup/sup/wpn_rep_blaster_fire.wav"
 	AltFlashSound4		"sound/weapsup/sup/wpn_rep_blaster_fire.wav"
-	AltFireEnabled	0
+	AltFireEnabled	1
     customAmmo      700
     clipSize        150
     FPMult          1.2
 
+	hasAnimOverrides 1
 	idleAnim		DC15_READY
 	firingAnim		DC15_FIRE
 	altFiringAnim	DC15_FIRE

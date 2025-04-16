@@ -7,47 +7,53 @@
 ClassInfo
 {
 	name			"s_17ca_cs3"
-	maxhealth		120
-	maxarmor		75
+	maxhealth		110
+	maxarmor		80
 	forcepool		50
 	speed			0.8
 	uishader		"gfx/sup_icons/clonetrooper_p2_501/mb2_icon_hvg"
-	
 
 	uishader_1		"gfx/sup_icons/clonemarine/mb2_icon_hvg"
 
 	resourceRegenRate		1000
 	resourceRegenAmount		1
 	forceregen		0.1
-	rateoffire		1.4
-	damageGiven		1.05
+	rateoffire		1.5
+	damageGiven		1.1
+	damageTaken		0.95
 	knockbackGiven	1.2
 
 
 	resource	RESOURCE_RAGE
 
-    WP_MinigunFlags	HELD_ALTRELOAD|HELD_SLOW
+    WP_MinigunFlags	HELD_ALTRELOAD|HELD_SLOW|HELD_STUN
+    WP_BlasterPistolFlags	HELD_LOWDAMAGE|HELD_KNOCKDOWN|HELD_ALTRELOAD|HELD_IGNOREBLOCK
 
 }
 
 WeaponInfo0
 {
-    WeaponToReplace        WP_CLONE_PISTOL                           //Required: Weapon Slot of weapon you're replacing
+    WeaponToReplace        WP_BLASTER_PISTOL                           //Required: Weapon Slot of weapon you're replacing
     WeaponBasedOff        WP_BLASTER_PISTOL                          //Required: For future use, should be the same as WeaponToReplace
     NewWorldModel        "models/weapons2/dc-17/dc-17_w.glm"      //Required: New 3rd person/dropped weapon model
     NewViewModel        "models/weapons2/dc-17/dc-17.md3"       //Required: New 1st person weapon model
     Icon                "gfx/hud/w_icon_dc-17"                 //Required: Weapon change icon
-    WeaponName            "DC-17 Clone Pistol"                        //Required: Weapon change display name
+    WeaponName            "Heavy DC-17 Clone Pistol"                        //Required: Weapon change display name
     FlashSound0 "sound/weapsup/sup/wpn_rep_pistol_fire.wav"
-    AltFlashSound0  "sound/weapsup/sup/wpn_rep_pistol_fire.wav"
-	FlashSound4	"sound/weapsup/sup/wpn_rep_pistol_fire.wav"
-	AltFlashSound4	"sound/weapsup/sup/wpn_rep_pistol_fire.wav"
-	ChargeEffect	"gfx/effects/clonefrontflash"
 	MuzzleEffect		"Blaster/MuzzleFlash01B"
-	MissileEffect		"blaster/Shot01B"
-	AltMissileEffect 	"blaster/Shot01B"
-    customAmmo      200
-    clipSize        100
+	MissileEffect		"blaster/Shot04B"
+	Missile3Effect		"blaster/Shot04B"
+	MissileMissEffect	"effects/explosions/explosion1"
+	MissileHitHumanEffect "effects/explosions/explosion1"
+	MissileHitDroidEffect "effects/explosions/droidexplosion1"
+	ReloadTimeModifier	2
+	AltFireEnabled 0
+	customAmmo		250
+	clipSize		20
+
+	hasAnimOverrides	1
+	idleAnim		BOTH_MAND_PISTOL_IDLE
+	firingAnim		MAND_SPISTOL_FIRE
 }
 
 WeaponInfo1

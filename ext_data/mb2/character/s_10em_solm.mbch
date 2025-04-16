@@ -11,7 +11,7 @@ ClassInfo
 	maxarmor		30
 	uishader		"gfx/sup_icons/clonetrooper_p2/mb2_icon_solm"
 	speed			0.8
-	damageGiven		1.2
+	damageGiven		1.02
 
 	uishader_1		"gfx/sup_icons/preoxmo/mb2_icon_solm"
 
@@ -102,6 +102,7 @@ WeaponInfo1
     clipSize        125
     FPMult          0.8
 
+	hasAnimOverrides 1
 	idleAnim		DC15_READY
 	firingAnim		DC15_FIRE
 	altFiringAnim	DC15_FIRE
@@ -116,7 +117,7 @@ WeaponInfo2
     Icon                "gfx/hud/w_icon_dc-15s"                 //Required: Weapon change icon
     WeaponName            "Heavy Imperial DC-15s"                        //Required: Weapon change display name
 	MissileEffect		"blaster/Shot03R"
-	AltMissileEffect	"blaster/Shot03R"
+	AltMissileEffect	"blaster/Shot04R"
 	FlashSound0		"sound/weapsup/sup/f11_alt_fire.mp3"
 	FlashSound1		"sound/weapsup/sup/f11_alt_fire.mp3"
 	FlashSound2		"sound/weapsup/sup/f11_alt_fire.mp3"
@@ -132,6 +133,7 @@ WeaponInfo2
     clipSize        125
     FPMult          1.2
 
+	hasAnimOverrides 1
 	idleAnim		DC15_READY
 	firingAnim		DC15_FIRE
 	altFiringAnim	DC15_FIRE

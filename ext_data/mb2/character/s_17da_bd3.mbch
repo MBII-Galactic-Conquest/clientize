@@ -7,23 +7,25 @@
 ClassInfo
 {
 	name			"s_17da_bd3"
-	maxhealth		40
-	maxarmor		50
+	maxhealth		50
+	maxarmor		55
 	forcepool		50
 	speed			0.6
 	uishader		"gfx/sup_icons/battledroid/mb2_icon_hvg"
-	
+
 	resourceRegenRate		1000
 	resourceRegenAmount		1
 	forceregen		0.1
-	rateoffire		1.4
-	damageGiven		1.05
+	rateoffire		1.5
+	damageGiven		1.1
+	damageTaken		0.95
 	knockbackGiven	1.2
 
 
 	resource	RESOURCE_RAGE
 
-    WP_MinigunFlags	HELD_ALTRELOAD|HELD_SLOW
+    WP_MinigunFlags	HELD_ALTRELOAD|HELD_SLOW|HELD_STUN
+    WP_BlasterPistolFlags	HELD_LOWDAMAGE|HELD_KNOCKDOWN|HELD_ALTRELOAD|HELD_IGNOREBLOCK
 
 }
 
@@ -34,16 +36,22 @@ WeaponInfo0
     NewWorldModel        "models/weapons2/se-14c_pistol/blaster_pistol_w.glm"      //Required: New 3rd person/dropped weapon model
     NewViewModel        "models/weapons2/se-14c_pistol/blaster_pistol.md3"       //Required: New 1st person weapon model
     Icon                "gfx/hud/w_icon_se-14c"                 //Required: Weapon change icon
-    WeaponName            "SE-14c BlasTech Pistol"                        //Required: Weapon change display name
+    WeaponName            "Heavy SE-14c BlasTech Pistol"                        //Required: Weapon change display name
     FlashSound0 "sound/weapsup/sup/wpn_cis_pistol_fire.wav"
-    AltFlashSound0  "sound/weapsup/sup/wpn_cis_pistol_fire.wav"
-	FlashSound4	"sound/weapsup/sup/wpn_cis_pistol_fire.wav"
-	AltFlashSound4 "sound/weapsup/sup/wpn_cis_pistol_fire.wav"
 	MuzzleEffect		"Blaster/MuzzleFlash01R"
-	MissileEffect		"blaster/Shot01R"
-	AltMissileEffect 	"blaster/Shot01R"
-    customAmmo      200
-    clipSize        100
+	MissileEffect		"blaster/Shot04R"
+	Missile3Effect		"Blaster/Shot04R"
+	MissileMissEffect	"effects/explosions/explosion1"
+	MissileHitHumanEffect "effects/explosions/explosion1"
+	MissileHitDroidEffect "effects/explosions/droidexplosion1"
+	ReloadTimeModifier	2
+	AltFireEnabled 0
+	customAmmo		250
+	clipSize		20
+
+	hasAnimOverrides	1
+	idleAnim		BOTH_MAND_PISTOL_IDLE
+	firingAnim		MAND_SPISTOL_FIRE
 }
 
 WeaponInfo1

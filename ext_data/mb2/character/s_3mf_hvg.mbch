@@ -10,8 +10,8 @@ ClassInfo
 	classflags		CFL_STRONGAGAINSTPHYSICAL
 	saber1			kotor_vibrosword_supremacy
 	saber1_1		kotor_vibrostaff_supremacy
-	maxhealth		100
-	maxarmor		50
+	maxhealth		110
+	maxarmor		80
 	forcepool       50
 	speed			0.8
 	uishader		"gfx/sup_icons/manda_et/mb2_icon_hvg"
@@ -26,7 +26,8 @@ ClassInfo
 
 	resource	RESOURCE_RAGE
 
-    WP_MinigunFlags	HELD_ALTRELOAD|HELD_SLOW
+    WP_MinigunFlags	HELD_ALTRELOAD|HELD_SLOW|HELD_STUN
+    WP_BlasterPistolFlags	HELD_LOWDAMAGE|HELD_KNOCKDOWN|HELD_ALTRELOAD|HELD_IGNOREBLOCK
 
 }
 
@@ -47,9 +48,21 @@ WeaponInfo1
 	NewWorldModel		"models/weapons2/kotor_bpistol2/kotor_bpistol2_w.glm"
 	NewViewModel		"models/weapons2/kotor_bpistol2/kotor_bpistol2.md3"
 	Icon				"gfx/hud/w_icon_kotor_bpistol2"
-	WeaponName			"BP-2 Hand Pistol"
+	WeaponName			"Heavy BP-2 Hand Pistol"
 	FlashSound0			"sound/weapons/kotor/fire_light.wav"
-    AltFlashSound0		"sound/weapons/kotor/fire_hvy.wav"
+	MissileEffect		"blaster/Shot04R"
+	Missile3Effect		"Blaster/Shot04R"
+	MissileMissEffect	"effects/explosions/explosion1"
+	MissileHitHumanEffect "effects/explosions/explosion1"
+	MissileHitDroidEffect "effects/explosions/droidexplosion1"
+	ReloadTimeModifier	2
+	AltFireEnabled 0
+	customAmmo		250
+	clipSize		20
+
+	hasAnimOverrides	1
+	idleAnim		BOTH_MAND_PISTOL_IDLE
+	firingAnim		MAND_SPISTOL_FIRE
 }
 
 WeaponInfo2
@@ -71,7 +84,7 @@ WeaponInfo2
 	MuzzleEffect		"Blaster/MuzzleFlash01R"
 	AltMuzzleEffect		"Blaster/MuzzleFlash01R"
 	MissileEffect		"blaster/Shot03R"
-	AltMissileEffect	"blaster/Shot03R"
+	AltMissileEffect	"blaster/Shot04R"
 	customAmmo         500
 	clipSize		   100
 	isMinigun			1

@@ -28,6 +28,7 @@ Subclass2  "s_16ie_wdr"
 Subclass3  "s_16ie_spy"
 Subclass4  "s_16ie_flm"
 Subclass5  "s_16ie_gs3"
+Subclass6  "s_16ie_sni"
 }
 
 //1-11

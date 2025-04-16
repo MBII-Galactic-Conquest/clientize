@@ -10,15 +10,16 @@ ClassInfo
 	maxhealth		100
 	maxarmor		75
 	forcepool		25
-	forcepool		25
 	uishader		"gfx/sup_icons/rebel/mb2_icon_vang"
-	speed			0.7
+	speed			0.65
 
 	uishader_1		"gfx/sup_icons/rebel_guerilla/mb2_icon_vang"
 
 	uishader_2		"gfx/sup_icons/rebel_commando/mb2_icon_vang"
 
 	uishader_3		"gfx/sup_icons/rebel_commando_h/mb2_icon_vang"
+
+	damageGiven		1.05
 
 	isCustomBuild        1
 	mbPoints	15

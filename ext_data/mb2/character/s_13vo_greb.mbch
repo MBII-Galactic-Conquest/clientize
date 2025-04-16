@@ -28,7 +28,7 @@ ClassInfo
 
 	resource	RESOURCE_FORCE
 
-	damageGiven		1.5
+	damageGiven		1.05
 
 	isCustomBuild        1
 	mbPoints	51
@@ -110,6 +110,7 @@ WeaponInfo1
 	ClipSize 	150
 	FPmult  1.25
 
+	hasAnimOverrides 1
 	idleAnim		DC15_READY
 	firingAnim		DC15_FIRE
 	altFiringAnim	DC15_FIRE

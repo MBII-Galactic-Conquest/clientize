@@ -9,7 +9,7 @@ ClassInfo
 	name			"s_15or_slenb"
 	maxhealth		85
 	maxarmor		25
-	uishader		"gfx/sup_icons/swtor_republictrooper/mb2_icon_slenb"
+	uishader		"gfx/sup_icons/swtor_republictrooper/mb2_icon_sold"
 	speed			0.8
 
 	WP_BlasterPistolFlags	HELD_ALTRELOAD|HELD_AMMOREGEN
@@ -122,7 +122,7 @@ WeaponInfo2
     Icon                "gfx/hud/w_icon_kotor_brifle2"                 //Required: Weapon change icon
     WeaponName            "Heavy Republic Assault Rifle"                        //Required: Weapon change display name
 	MissileEffect		"blaster/Shot03B"
-	AltMissileEffect	"blaster/Shot03B"
+	AltMissileEffect	"blaster/Shot04B"
 	MuzzleEffect		"Blaster/MuzzleFlash01B"
 	AltMuzzleEffect		"Blaster/MuzzleFlash01B"
 	FlashSound0		"sound/weapons/kotor/fire_hvy.wav"
@@ -140,6 +140,7 @@ WeaponInfo2
     clipSize        100
     FPMult          1.2
 
+	hasAnimOverrides 1
 	idleAnim		DC15_READY
 	firingAnim		DC15_FIRE
 	altFiringAnim	DC15_FIRE

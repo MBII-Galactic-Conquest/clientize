@@ -7,86 +7,95 @@
 ClassInfo
 {
 	name			"s_17ca_cs5"
-	maxhealth		120
-	maxarmor		50
+	maxhealth		100
+	maxarmor		75
+	forcepool		20
 	uishader		"gfx/sup_icons/clonetrooper_p2_501/mb2_icon_sni"
-	speed			0.8
+	rateoffire		0.675
+	speed			0.75
 
+	resourceRegenRate		1000
+	resourceRegenAmount		1
+	forceregen		0.1
 
-	uishader_1		"gfx/sup_icons/clonemarine/mb2_icon_sni"
+	damageGiven	0.5
+
+	WP_BlasterPistolFlags	HELD_HIGHDAMAGE
+
+	resource		RESOURCE_RAGE
 }
 
 WeaponInfo0
 {
-    WeaponToReplace        WP_CLONE_PISTOL                           //Required: Weapon Slot of weapon you're replacing
+    WeaponToReplace        WP_BLASTER_PISTOL                           //Required: Weapon Slot of weapon you're replacing
     WeaponBasedOff        WP_BLASTER_PISTOL                          //Required: For future use, should be the same as WeaponToReplace
     NewWorldModel        "models/weapons2/dc-17/dc-17_w.glm"      //Required: New 3rd person/dropped weapon model
     NewViewModel        "models/weapons2/dc-17/dc-17.md3"       //Required: New 1st person weapon model
     Icon                "gfx/hud/w_icon_dc-17"                 //Required: Weapon change icon
     WeaponName            "DC-17 Clone Pistol"                        //Required: Weapon change display name
     FlashSound0 "sound/weapsup/sup/wpn_rep_pistol_fire.wav"
-    AltFlashSound0  "sound/weapsup/sup/wpn_rep_pistol_fire.wav"
-	FlashSound4	"sound/weapsup/sup/wpn_rep_pistol_fire.wav"
-	AltFlashSound4	"sound/weapsup/sup/wpn_rep_pistol_fire.wav"
-	ChargeEffect	"gfx/effects/clonefrontflash"
 	MuzzleEffect		"Blaster/MuzzleFlash01B"
-	MissileEffect		"blaster/Shot01B"
-	AltMissileEffect 	"blaster/Shot01B"
+	ChargeEffect		"gfx/effects/clonefrontflash"
+	MissileEffect		"blaster/Shot03B"
+	Missile3Effect		"blaster/Shot03B"
+	AltMissileEffect	"blaster/Shot01B"
+	OverchargeEffect	"Blaster/MuzzleFlash04B"
+	PowerupShotEffect	"Blaster/Shot04B"
+	AltFireEnabled	0
     customAmmo      200
     clipSize        100
 }
 
 WeaponInfo1
 {
-    WeaponToReplace        WP_BLASTER                           //Required: Weapon Slot of weapon you're replacing
-    WeaponBasedOff        WP_BLASTER                          //Required: For future use, should be the same as WeaponToReplace
-    NewWorldModel        "models/weapons2/dc-15s/dc-15s_w.glm"      //Required: New 3rd person/dropped weapon model
-    NewViewModel        "models/weapons2/dc-15s/dc-15s.md3"       //Required: New 1st person weapon model
-    Icon                "gfx/hud/w_icon_dc-15s"                 //Required: Weapon change icon
-    WeaponName            "DC-15s Clone Rifle"                        //Required: Weapon change display name
-    FlashSound0 "sound/weapsup/sup/wpn_rep_blaster_fire.wav"
+	WeaponToReplace		WP_PROJ
+	WeaponBasedOff		WP_PROJ
+	NewWorldModel 	"models/weapons2/dlt-18_repeater/dlt-18_repeater_w.glm"
+	NewViewModel  	"models/weapons2/dlt-18_repeater/dlt-18_repeater.md3"
+	Icon  			"gfx/hud/w_icon_dlt-18"
+	WeaponName			"Sniper Rifle"
 	MuzzleEffect		"Blaster/MuzzleFlash01B"
-	MissileEffect		"blaster/Shot01B"
-    customAmmo      500
-    clipSize        100
-	FPMult			0.8
+	AltMuzzleEffect		"Blaster/MuzzleFlash01B"
+	FlashSound0			"sound/weapsup/sup/wpn_rep_sniperrifle_fire.wav"
+	AltFlashSound0		"sound/weapsup/sup/wpn_rep_sniperrifle_fire.wav"
+	MissileEffect		"blaster/Shot03B"
+	MissileMissEffect	"effects/impacts/impactsmallblue2"
+	AltMissileMissEffect	"effects/impacts/impactsmallblue2"
+	MissileHitHumanEffect	"effects/impacts/impactsmallblue2"
+	MissileHitDroidEffect	"effects/impacts/impactsmallblue2"
+	primGore		1
+	altGore			1
+	customAmmo		8
+	clipSize        2
+	ReloadTimeModifier 	.50
+	FPMult	2
+
+	hasAnimOverrides 1
+	idleAnim		DC15_READY
 }
 
-WeaponInfo2
+ForceInfo0
 {
-	WeaponToReplace		WP_PROJ				 
-	WeaponBasedOff      WP_SBD
-	NewWorldModel "models/weapons2/dlt-18_repeater/dlt-18_repeater_w.glm"
-	NewViewModel  "models/weapons2/dlt-18_repeater/dlt-18_repeater.md3"
-	Icon  "gfx/hud/w_icon_dlt-18"
-	FlashSound0  "sound/weapsup/sup/wpn_rep_sniperrifle_fire.wav"		
-	WeaponName			"DC-15x Sniper Rifle"    				 
-	CustomAmmo 	6
-	MuzzleEffect		"Blaster/MuzzleFlash01B"
-	MissileEffect		"Blaster/Shot10B"
-	fpmult 1.1
+	ForceToReplace        FP_SPEED
+	Icon                 "gfx/mp/sup_sni_deftness"
+	ForcePowerName		 "Deftness"
+	StartSound			 "sound/forcesup/sni_deftness/sprint.wav"
+	LoopSound			 "sound/forcesup/sni_deftness/heartbeat.mp3"
 }
 
-description	"Phase 2 - Clone Veteran - Sharpshooter
+description	"Clone Sniper
 
 Weaponry:
 Frag Grenade (1)
-Pulse Grenade (2)
-Clone Pistol (2)
-DC-15s (2) *
-DC-15x Sniper Rifle (1)
+Pistol (3)
+Sniper Rifle
 
-Weapon Information:
-- Ion Blobs (2)
+Gadgets:
+Binoculars (1)
 
 Attributes
-Reinforcements (1)
 Close Combat Training (2)
-Dexterity (2)
-Stamina (3)
+Deftness (Speed 3)
 Gun Bash
-Assemble
 
-A veteran phase two clone sharpshooter of the 501st Legion, who has seen some action and has been given better arsenal.
-
-The upgraded genetic mastery of the kaminoans offer additional vigor, and military advances of the republic offer substantial combat upgrades."
+A Clone Sniper, he looks deathly accurate."

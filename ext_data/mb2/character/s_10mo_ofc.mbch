@@ -13,7 +13,7 @@ ClassInfo
 	forcepool		50
 	uishader		"models/players/bespin_cop/mb2_icon_default"
 	rateoffire		0.675
-	speed			0.8
+	speed			0.75
 
 }
 

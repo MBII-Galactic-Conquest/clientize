@@ -13,7 +13,7 @@ ClassInfo
 	forcepool		50
 	uishader		"models/players/imperial/mb2_icon_lieutenant"
 	rateoffire		0.675
-	speed			0.8
+	speed			0.75
 
 	uishader_1		"models/players/imperial_fml/mb2_icon_daala"
 

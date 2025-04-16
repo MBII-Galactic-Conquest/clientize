@@ -15,7 +15,7 @@ ClassInfo
 	forcepool		25
 	uishader		"gfx/sup_icons/rakata_r/mb2_icon_ofc"
 	rateoffire		0.675
-	speed			0.9
+	speed			0.8
 
 	saberStanceAnim     BOTH_TAVION_STANCE
 

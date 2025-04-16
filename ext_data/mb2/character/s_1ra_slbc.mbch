@@ -95,16 +95,17 @@ WeaponInfo1
 {
     WeaponToReplace        WP_BLASTER                           //Required: Weapon Slot of weapon you're replacing
     WeaponBasedOff        WP_BLASTER                          //Required: For future use, should be the same as WeaponToReplace
-    NewWorldModel        "models/weapons2/A280/A280_w.glm"      //Required: New 3rd person/dropped weapon model
-    NewViewModel        "models/weapons2/A280/A280.md3"       //Required: New 1st person weapon model
-    Icon                "gfx/hud/w_icon_A280"                 //Required: Weapon change icon
-    WeaponName            "A280 Blaster Rifle"                        //Required: Weapon change display name
+    NewWorldModel        "models/weapons2/dh-17/dh-17_w.glm"      //Required: New 3rd person/dropped weapon model
+    NewViewModel        "models/weapons2/dh-17/dh-17.md3"       //Required: New 1st person weapon model
+    Icon                "gfx/hud/w_icon_dh-17"                 //Required: Weapon change icon
+    WeaponName            "DH-17 Rebel Carbine"                        //Required: Weapon change display name
     FlashSound0 "sound/weapsup/r/wpn_rebel_blaster_fire.wav"
     AltFlashSound0  "sound/weapsup/r/wpn_rebel_blaster_fire.wav"
     customAmmo      500
     clipSize        100
     FPMult          0.8
 
+	hasAnimOverrides 1
 	idleAnim		DC15_READY
 	firingAnim		DC15_FIRE
 	altFiringAnim	DC15_FIRE
@@ -119,7 +120,7 @@ WeaponInfo2
     Icon                "gfx/hud/w_icon_A280"                 //Required: Weapon change icon
     WeaponName            "Heavy A280 Blaster Rifle"                        //Required: Weapon change display name
 	MissileEffect		"blaster/Shot03R"
-	AltMissileEffect	"blaster/Shot03R"
+	AltMissileEffect	"blaster/Shot04R"
 	FlashSound0		"sound/weapsup/r/wpn_rebel_blaster_fire.wav"
 	FlashSound1		"sound/weapsup/r/wpn_rebel_blaster_fire.wav"
 	FlashSound2		"sound/weapsup/r/wpn_rebel_blaster_fire.wav"
@@ -135,6 +136,7 @@ WeaponInfo2
     clipSize        100
     FPMult          1.2
 
+	hasAnimOverrides 1
 	idleAnim		DC15_READY
 	firingAnim		DC15_FIRE
 	altFiringAnim	DC15_FIRE

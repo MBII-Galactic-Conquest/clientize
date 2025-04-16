@@ -10,7 +10,6 @@ ClassInfo
 	speed			0.7
 	uishader		"gfx/sup_icons/oldrepsold_h/mb2_icon_hvr"
 
-	uishader_1		"gfx/sup_icons/oldrepsold_h2/mb2_icon_hvr"
 
 
 	WP_PLX1Flags	HELD_SLOW

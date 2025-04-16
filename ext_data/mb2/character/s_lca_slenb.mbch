@@ -9,7 +9,7 @@ ClassInfo
 	name			"s_lca_slenb"
 	maxhealth		85
 	maxarmor		25
-	uishader		"gfx/sup_icons/lego_clone/mb2_icon_slenb"
+	uishader		"gfx/sup_icons/lego_clone/mb2_icon_sold"
 	speed			0.8
 
 	WP_ClonePistolFlags	HELD_ALTRELOAD|HELD_AMMOREGEN
@@ -110,6 +110,7 @@ WeaponInfo1
     clipSize        100
     FPMult          0.8
 
+	hasAnimOverrides 1
 	idleAnim		DC15_READY
 	firingAnim		DC15_FIRE
 	altFiringAnim	DC15_FIRE
@@ -134,7 +135,7 @@ WeaponInfo3
 	Icon			"gfx/mplevels/legosw/icon_repeater"
     WeaponName            "Heavy Clone Rifle"                        //Required: Weapon change display name
 	MissileEffect		"blaster/Shot03B"
-	AltMissileEffect	"blaster/Shot03B"
+	AltMissileEffect	"blaster/Shot04B"
 	MuzzleEffect		"Blaster/MuzzleFlash01B"
 	AltMuzzleEffect		"Blaster/MuzzleFlash01B"
 	FlashSound0		"sound/weapsup/sup/wpn_rep_blaster_fire.wav"
@@ -152,6 +153,7 @@ WeaponInfo3
     clipSize        100
     FPMult          1.2
 
+	hasAnimOverrides 1
 	idleAnim		DC15_READY
 	firingAnim		DC15_FIRE
 	altFiringAnim	DC15_FIRE

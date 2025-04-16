@@ -11,7 +11,9 @@ ClassInfo
 	maxarmor		75
 	forcepool		25
 	uishader		"gfx/sup_icons/lego_arc/mb2_icon_vang"
-	speed			1.0
+	speed			0.65
+
+	damageGiven		1.05
 
 	resource	RESOURCE_RAGE
 

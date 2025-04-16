@@ -26,6 +26,9 @@ ClassInfo
 
 	uishader_4	"gfx/sup_icons/calonord/mb2_icon_sni"
 
+
+	resource	RESOURCE_FORCE
+
 }
 
 WeaponInfo0

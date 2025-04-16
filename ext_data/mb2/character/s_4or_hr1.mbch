@@ -17,6 +17,9 @@ ClassInfo
 	saber1			kotor_vibrosword_supremacy
 	saber1_1		kotor_vibrostaff_supremacy
 
+
+	resource	RESOURCE_FORCE
+
 }
 
 WeaponInfo0

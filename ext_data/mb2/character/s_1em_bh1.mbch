@@ -21,6 +21,7 @@ ClassInfo
 	WalkForward 		SBD_WALK_NOGUN
 	WalkBackward		SBD_WALKBACK_NOGUN
 
+
 	resource	RESOURCE_FORCE
 
 }

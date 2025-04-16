@@ -15,7 +15,7 @@ ClassInfo
 
 
 	resourceRegenRate		1000
-	resourceRegenAmount		2
+	resourceRegenAmount		1
 	forceregen		0.1
 
 	resource		RESOURCE_RAGE
@@ -62,11 +62,12 @@ WeaponInfo1
 	AltFlashSound3		"sound/weapsup/r/wpn_imp_blaster_fire.wav"
 	AltFlashSound4		"sound/weapsup/r/wpn_imp_blaster_fire.wav"
     customAmmo      500
-    clipSize        100
+    clipSize        50
     FPMult          0.8
 
 	ReloadTimeModifier	2
 
+	hasAnimOverrides 1
 	idleAnim		DC15_READY
 	firingAnim		DC15_FIRE
 	altFiringAnim	DC15_FIRE

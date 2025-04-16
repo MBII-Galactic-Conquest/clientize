@@ -11,7 +11,7 @@ ClassInfo
 	maxarmor		30
 	uishader		"gfx/sup_icons/sithtrooper_tor/mb2_icon_solm"
 	speed			0.8
-	damageGiven		1.2
+	damageGiven		1.02
 
 	WP_BlasterPistolFlags	HELD_ALTRELOAD|HELD_AMMOREGEN
 	WP_BlasterFlags		HELD_ALTRELOAD|HELD_AMMOREGEN
@@ -111,7 +111,7 @@ WeaponInfo2
     Icon                "gfx/hud/w_icon_kotor_brifle1"                 //Required: Weapon change icon
     WeaponName            "Heavy Sith Assault Rifle"                        //Required: Weapon change display name
 	MissileEffect		"blaster/Shot03R"
-	AltMissileEffect	"blaster/Shot03R"
+	AltMissileEffect	"blaster/Shot04R"
 	FlashSound0		"sound/weapons/kotor/fire_hvy.wav"
 	FlashSound1		"sound/weapons/kotor/fire_hvy.wav"
 	FlashSound2		"sound/weapons/kotor/fire_hvy.wav"
@@ -127,6 +127,7 @@ WeaponInfo2
     clipSize        125
     FPMult          1.2
 
+	hasAnimOverrides 1
 	idleAnim		DC15_READY
 	firingAnim		DC15_FIRE
 	altFiringAnim	DC15_FIRE

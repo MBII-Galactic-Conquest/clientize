@@ -33,6 +33,7 @@ WeaponInfo0
 	FlashSound0			"sound/weapons/kotor/fire_med.wav"
     AltFlashSound0		"sound/weapons/kotor/fire_hvy.wav"
     idleAnim  			TORSO_WEAPONREADY3
+	hasAnimOverrides 1
 	idleAnim		DC15_READY
 	firingAnim		DC15_FIRE
 	altFiringAnim	DC15_FIRE

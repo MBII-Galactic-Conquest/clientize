@@ -12,7 +12,7 @@ ClassInfo
 	uishader		"gfx/sup_icons/clonetrooper_p1/mb2_icon_solm"
 	speed			0.8
 
-	damageGiven		1.2
+	damageGiven		1.02
 
 	uishader_1		"gfx/sup_icons/clonetrooper_p1_p/mb2_icon_solm"
 
@@ -114,6 +114,7 @@ WeaponInfo1
     clipSize        125
     FPMult          0.8
 
+	hasAnimOverrides 1
 	idleAnim		DC15_READY
 	firingAnim		DC15_FIRE
 	altFiringAnim	DC15_FIRE
@@ -128,7 +129,7 @@ WeaponInfo2
     Icon                "gfx/hud/w_icon_dc-15s"                 //Required: Weapon change icon
     WeaponName            "Heavy DC-15s Clone Rifle"                        //Required: Weapon change display name
 	MissileEffect		"blaster/Shot03B"
-	AltMissileEffect	"blaster/Shot03B"
+	AltMissileEffect	"blaster/Shot04B"
 	MuzzleEffect		"Blaster/MuzzleFlash01B"
 	AltMuzzleEffect		"Blaster/MuzzleFlash01B"
 	FlashSound0		"sound/weapsup/sup/wpn_rep_blaster_fire.wav"
@@ -146,6 +147,7 @@ WeaponInfo2
     clipSize        125
     FPMult          1.2
 
+	hasAnimOverrides 1
 	idleAnim		DC15_READY
 	firingAnim		DC15_FIRE
 	altFiringAnim	DC15_FIRE

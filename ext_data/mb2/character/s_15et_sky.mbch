@@ -78,6 +78,7 @@ WeaponInfo0
     clipSize        100
     FPMult          0.8
 
+	hasAnimOverrides 1
 	idleAnim		DC15_READY
 	firingAnim		DC15_FIRE
 	altFiringAnim	DC15_FIRE
@@ -92,7 +93,7 @@ WeaponInfo1
     Icon                "gfx/hud/w_icon_droidassassin"                 //Required: Weapon change icon
     WeaponName            "Heavy Skytrooper Rifle"                        //Required: Weapon change display name
 	MissileEffect		"blaster/Shot03B"
-	AltMissileEffect	"blaster/Shot03B"
+	AltMissileEffect	"blaster/Shot04B"
 	MuzzleEffect		"Blaster/MuzzleFlash01B"
 	AltMuzzleEffect		"Blaster/MuzzleFlash01B"
 	FlashSound0		"sound/weapons/kotor/fire_hvy.wav"
@@ -110,6 +111,7 @@ WeaponInfo1
     clipSize        100
     FPMult          1.2
 
+	hasAnimOverrides 1
 	idleAnim		DC15_READY
 	firingAnim		DC15_FIRE
 	altFiringAnim	DC15_FIRE

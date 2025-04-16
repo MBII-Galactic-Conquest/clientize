@@ -103,7 +103,7 @@ WeaponInfo2
     Icon                "gfx/hud/w_icon_f11"                 //Required: Weapon change icon
     WeaponName            "Heavy F-11d Rifle"                        //Required: Weapon change display name
 	MissileEffect		"blaster/Shot03R"
-	AltMissileEffect	"blaster/Shot03R"
+	AltMissileEffect	"blaster/Shot04R"
 	FlashSound0		"sound/weapsup/sup/f11_alt_fire.mp3"
 	FlashSound1		"sound/weapsup/sup/f11_alt_fire.mp3"
 	FlashSound2		"sound/weapsup/sup/f11_alt_fire.mp3"
@@ -119,6 +119,7 @@ WeaponInfo2
     clipSize        100
     FPMult          1.2
 
+	hasAnimOverrides 1
 	idleAnim		DC15_READY
 	firingAnim		DC15_FIRE
 	altFiringAnim	DC15_FIRE
