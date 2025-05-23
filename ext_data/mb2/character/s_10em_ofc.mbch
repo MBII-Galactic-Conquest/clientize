@@ -48,10 +48,15 @@ WeaponInfo1
 	clipSize        100
 	FPMult          0.8
 
-	hasAnimOverrides 1
 	idleAnim		DC15_READY
 	firingAnim		DC15_FIRE
 	altFiringAnim	DC15_FIRE
+
+	hasAnimOverrides 1
+	animReady		DC15_READY
+	animReadyWalk	DC15_READY
+	animAttack		DC15_FIRE
+	animAttackWalk	DC15_FIRE
 }
 
 ForceInfo0
@@ -59,6 +64,10 @@ ForceInfo0
 	ForceToReplace        FP_PUSH
 	Icon                 "gfx/mp/sup_repulsor_glove"
 	ForcePowerName		 "Repulsor Glove"
+	HandShader	"gfx/effects/forcePush"
+	HandShaderRed	0
+	HandShaderBlue	0
+	HandShaderGreen	200
 }
 
 ForceInfo1

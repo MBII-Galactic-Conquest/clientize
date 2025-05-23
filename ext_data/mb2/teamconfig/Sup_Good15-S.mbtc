@@ -3,7 +3,7 @@
 
 name "Sup_Good15-S"
 
-ClassesAllowed 2
+ClassesAllowed 3
 TimePeriod 5
 EUAllowed 0
 
@@ -11,7 +11,8 @@ Classes
 
 {
 class1	"s_15se_sols"
-class2	"s_15se_eng"
+class2	"s_15se_vet"
+class3	"s_15se_eng"
 }
 
 //1-6

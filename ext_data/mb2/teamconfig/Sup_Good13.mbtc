@@ -3,7 +3,7 @@
 
 name "Sup_Good13"
 
-ClassesAllowed 1
+ClassesAllowed 2
 TimePeriod 5
 EUAllowed 0
 
@@ -12,6 +12,7 @@ Classes
 
 {
 class1	"s_13ga_sold"
+class2	"s_13ga_vang"
 }
 
 //1-6

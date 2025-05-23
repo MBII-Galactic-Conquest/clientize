@@ -3,7 +3,7 @@
 
 name "Sup_Good6-ENC"
 
-ClassesAllowed 1
+ClassesAllowed 2
 TimePeriod 5
 EUAllowed 0
 
@@ -11,6 +11,7 @@ Classes
 
 {
 class1	"s_6nr_slenc"
+class2	"s_6nr_vang"
 }
 
 //1-6

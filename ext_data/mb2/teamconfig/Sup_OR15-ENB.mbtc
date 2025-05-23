@@ -3,7 +3,7 @@
 
 name "Sup_OR15-ENB"
 
-ClassesAllowed 2
+ClassesAllowed 3
 TimePeriod 5
 EUAllowed 0
 
@@ -11,7 +11,8 @@ Classes
 
 {
 class1	"s_15or_slenb"
-class2  "s_15or_med"
+class2	"s_15or_vang"
+class3	"s_15or_med"
 }
 
 //1-6

@@ -69,6 +69,10 @@ ForceInfo0
 	ForceToReplace        FP_PUSH
 	Icon                 "gfx/mp/sup_repulsor_glove"
 	ForcePowerName		 "Repulsor Glove"
+	HandShader	"gfx/effects/forcePush"
+	HandShaderRed	0
+	HandShaderBlue	0
+	HandShaderGreen	200
 }
 
 ForceInfo1

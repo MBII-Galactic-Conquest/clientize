@@ -11,10 +11,10 @@ Classes
 
 {
 class1	"s_14fel_sold"
-class2  "s_14fel_bh1"
-class3  "s_14fel_kn1"
-class4  "s_14fel_kn2"
-class5  "s_14fel_gj3"
+class2	"s_14fel_vet"
+class3	"s_14fel_bh1"
+class4	"s_14fel_kn1"
+class5	"s_14fel_kn2"
 }
 
 //1-6

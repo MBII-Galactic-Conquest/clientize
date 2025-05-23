@@ -3,7 +3,7 @@
 
 name "Sup_Good8-M"
 
-ClassesAllowed 2
+ClassesAllowed 3
 TimePeriod 5
 EUAllowed 0
 
@@ -11,7 +11,8 @@ Classes
 
 {
 class1	"s_8re_sold"
-class2  "s_8re_solm"
+class2	"s_8re_solm"
+class3	"s_8re_vang"
 }
 
 //1-6

@@ -107,10 +107,15 @@ WeaponInfo1
 	ClipSize 	150
 	FPmult  1.25
 
-	hasAnimOverrides 1
 	idleAnim		DC15_READY
 	firingAnim		DC15_FIRE
 	altFiringAnim	DC15_FIRE
+
+	hasAnimOverrides 1
+	animReady		DC15_READY
+	animReadyWalk	DC15_READY
+	animAttack		DC15_FIRE
+	animAttackWalk	DC15_FIRE
 }
 
 ForceInfo0

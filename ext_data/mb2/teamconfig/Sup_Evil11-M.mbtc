@@ -3,7 +3,7 @@
 
 name "Sup_Evil11-M"
 
-ClassesAllowed 2
+ClassesAllowed 3
 TimePeriod 5
 EUAllowed 0
 
@@ -11,7 +11,8 @@ Classes
 
 {
 class1	"s_lem_sold"
-class2  "s_lem_solm"
+class2	"s_lem_solm"
+class2	"s_lem_vet"
 }
 
 //1-6
