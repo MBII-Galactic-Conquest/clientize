@@ -10,9 +10,10 @@ EUAllowed 0
 Classes
 
 {
-class1  "s_lca_sold"
-class2  "s_lca_gj1"
-class3  "s_lca_gj2"
+class1	"s_lca_sold"
+class2	"s_lca_vang"
+class3	"s_lca_gj1"
+class4	"s_lca_gj2"
 }
 
 //1-6

@@ -100,10 +100,15 @@ WeaponInfo0
     clipSize        125
     FPMult          0.8
 
-	hasAnimOverrides 1
 	idleAnim		DC15_READY
 	firingAnim		DC15_FIRE
 	altFiringAnim	DC15_FIRE
+
+	hasAnimOverrides 1
+	animReady		DC15_READY
+	animReadyWalk	DC15_READY
+	animAttack		DC15_FIRE
+	animAttackWalk	DC15_FIRE
 }
 
 WeaponInfo1
@@ -133,10 +138,15 @@ WeaponInfo1
     clipSize        125
     FPMult          1.2
 
-	hasAnimOverrides 1
 	idleAnim		DC15_READY
 	firingAnim		DC15_FIRE
 	altFiringAnim	DC15_FIRE
+
+	hasAnimOverrides 1
+	animReady		DC15_READY
+	animReadyWalk	DC15_READY
+	animAttack		DC15_FIRE
+	animAttackWalk	DC15_FIRE
 }
 
 description	"Eternal Empire - Sky Trooper - MVP

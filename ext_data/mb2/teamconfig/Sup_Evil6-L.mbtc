@@ -3,7 +3,7 @@
 
 name "Sup_Evil6-L"
 
-ClassesAllowed 5
+ClassesAllowed 6
 TimePeriod 5
 EUAllowed 0
 
@@ -11,10 +11,11 @@ Classes
 
 {
 class1	"s_6eh_sold"
-class2  "s_6eh_bh1"
-class3  "s_6eh_dkt"
-class4  "s_6eh_gs1"
-class5  "s_6eh_gs2"
+class2	"s_6eh_vet"
+class3  "s_6eh_bh1"
+class4  "s_6eh_dkt"
+class5  "s_6eh_gs1"
+class6  "s_6eh_gs2"
 }
 
 //1-6

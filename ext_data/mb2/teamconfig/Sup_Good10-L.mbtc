@@ -11,10 +11,10 @@ Classes
 
 {
 class1	"s_10an_sold"
-class2  "s_10an_hr1"
-class3  "s_10an_gj1"
-class4  "s_10an_gj2"
-class5  "s_10an_gj3"
+class2	"s_10an_vang"
+class3	"s_10an_hr1"
+class4	"s_10an_gj1"
+class5	"s_10an_gj2"
 }
 
 //1-6

@@ -16,7 +16,7 @@ ClassInfo
 	APmultiplier    1.0
 	
 	damageGiven        1.10
-		
+
 	uishader		"gfx/sup_icons/rakata_3/mb2_icon_jedi"
 
 	rateoffire		2

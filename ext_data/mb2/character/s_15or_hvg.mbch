@@ -44,17 +44,26 @@ WeaponInfo0
 	MuzzleEffect		"Blaster/MuzzleFlash01B"
 	MissileEffect		"blaster/Shot04B"
 	Missile3Effect		"blaster/Shot04B"
-	MissileMissEffect	"effects/explosions/explosion1"
-	MissileHitHumanEffect "effects/explosions/explosion1"
-	MissileHitDroidEffect "effects/explosions/droidexplosion1"
+	MissileMissEffect	"effects/Grenades/EXP_Alt"
+	MissileHitHumanEffect "effects/Grenades/EXP_Alt"
+	MissileHitDroidEffect "effects/Grenades/EXP_Alt"
 	ReloadTimeModifier	2
 	AltFireEnabled 0
 	customAmmo		250
 	clipSize		20
 
-	hasAnimOverrides	1
 	idleAnim		BOTH_MAND_PISTOL_IDLE
 	firingAnim		MAND_SPISTOL_FIRE
+
+	hasAnimOverrides	1
+	animReady		BOTH_MAND_PISTOL_IDLE
+	animReadyWalk	BOTH_MAND_PISTOL_IDLE
+	animAttack		MAND_SPISTOL_FIRE
+	animAttackWalk	MAND_SPISTOL_FIRE
+
+	damageMod 0.9
+	velocityMod 0.9
+	rateMod 1.2
 }
 
 WeaponInfo1

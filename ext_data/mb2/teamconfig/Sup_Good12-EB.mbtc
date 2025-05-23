@@ -3,7 +3,7 @@
 
 name "Sup_Good12-EB"
 
-ClassesAllowed 1
+ClassesAllowed 2
 TimePeriod 5
 EUAllowed 0
 
@@ -11,6 +11,7 @@ Classes
 
 {
 class1	"s_usu_sleb"
+class2	"s_usu_vang"
 }
 
 //1-6

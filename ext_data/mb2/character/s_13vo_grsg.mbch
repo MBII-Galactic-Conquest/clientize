@@ -13,7 +13,7 @@ ClassInfo
 	speed			0.8
 	
 	damageGiven        1.10
-		
+
 	uishader		"gfx/sup_icons/vong_pilot/mb2_icon_slsg"
 
 	rateoffire		1.2
@@ -111,10 +111,15 @@ WeaponInfo1
 	ClipSize 	150
 	FPmult  1.25
 
-	hasAnimOverrides 1
 	idleAnim		DC15_READY
 	firingAnim		DC15_FIRE
 	altFiringAnim	DC15_FIRE
+
+	hasAnimOverrides 1
+	animReady		DC15_READY
+	animReadyWalk	DC15_READY
+	animAttack		DC15_FIRE
+	animAttackWalk	DC15_FIRE
 }
 
 ForceInfo0
