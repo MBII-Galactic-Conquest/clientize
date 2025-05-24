@@ -66,6 +66,13 @@ WeaponInfo2
     customAmmo      500
     clipSize        100
     FPMult          0.8
+
+	hasAnimOverrides 1
+	animReady BOTH_DC15_READY
+	animReadyWalk BOTH_DC15_READY
+	animReadyNoAmmo BOTH_DC15_READY
+	animAttack BOTH_DC15_ATTACK
+	animAttackWalk BOTH_DC15_ATTACK
 }
 
 ForceInfo0

@@ -99,15 +99,12 @@ WeaponInfo1
     clipSize        100
     FPMult          0.8
 
-	idleAnim		DC15_READY
-	firingAnim		DC15_FIRE
-	altFiringAnim	DC15_FIRE
-
 	hasAnimOverrides 1
-	animReady		DC15_READY
-	animReadyWalk	DC15_READY
-	animAttack		DC15_FIRE
-	animAttackWalk	DC15_FIRE
+	animReady BOTH_DC15_READY
+	animReadyWalk BOTH_DC15_READY
+	animReadyNoAmmo BOTH_DC15_READY
+	animAttack BOTH_DC15_ATTACK
+	animAttackWalk BOTH_DC15_ATTACK
 }
 
 WeaponInfo2
@@ -137,15 +134,10 @@ WeaponInfo2
     clipSize        100
     FPMult          1.2
 
-	idleAnim		DC15_READY
-	firingAnim		DC15_FIRE
-	altFiringAnim	DC15_FIRE
-
 	hasAnimOverrides 1
-	animReady		DC15_READY
-	animReadyWalk	DC15_READY
-	animAttack		DC15_FIRE
-	animAttackWalk	DC15_FIRE
+	animReady BOTH_DC15_READY
+	animReadyWalk BOTH_DC15_READY
+	animReadyNoAmmo BOTH_DC15_READY
 }
 
 description	"Phase 1 - Clone Trooper - Bacta
