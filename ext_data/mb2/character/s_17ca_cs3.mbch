@@ -51,14 +51,13 @@ WeaponInfo0
 	customAmmo		250
 	clipSize		20
 
-	idleAnim		BOTH_MAND_PISTOL_IDLE
-	firingAnim		MAND_SPISTOL_FIRE
-
 	hasAnimOverrides	1
-	animReady		BOTH_MAND_PISTOL_IDLE
-	animReadyWalk	BOTH_MAND_PISTOL_IDLE
-	animAttack		MAND_SPISTOL_FIRE
-	animAttackWalk	MAND_SPISTOL_FIRE
+	animReady BOTH_STAND4TOATTACK2
+	animReadyWalk BOTH_STAND4TOATTACK2
+	animReadyNoAmmo BOTH_PISTOL_ATTACK 
+	animAttack BOTH_PISTOL_ATTACK 
+	animAttackWalk BOTH_PISTOL_ATTACK 
+	animStand BOTH_STAND9
 
 	damageMod 0.9
 	velocityMod 0.9
