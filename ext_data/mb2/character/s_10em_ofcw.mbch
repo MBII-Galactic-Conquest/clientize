@@ -5,15 +5,15 @@ ClassInfo
 	maxhealth		85
 	maxarmor		75
 	forcepool		50
-	uishader		"models/players/imperial/mb2_icon_lieutenant"
+	uishader		"gfx/sup_icons/imperial_l/mb2_icon_ofc"
 	rateoffire		0.675
 	speed			0.75
 
-	uishader_1		"models/players/imperial_fml/mb2_icon_daala"
+	uishader_1		"gfx/sup_icons/imperial_fd/mb2_icon_ofc"
 
-	uishader_2		"models/players/mudtrooper/mb2_icon_andor"
+	uishader_2		"gfx/sup_icons/and_mudtrooper/mb2_icon_ofc"
 
-	uishader_3		"models/players/clonetrooper_p2/mb2_icon_arc"
+	uishader_3		"gfx/sup_icons/clonetrooper_p2_arc/mb2_icon_ofc"
 
 	resourceRegenRate		1000
 	resourceRegenAmount		1
