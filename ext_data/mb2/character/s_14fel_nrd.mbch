@@ -40,11 +40,17 @@ WeaponInfo0
 {
 	WeaponToReplace 	WP_A280
 	WeaponBasedOff  	WP_BLASTER
-	NewWorldModel		"models/weapons2/dh-17/dh-17_w.glm"  	//Required: New 3rd person/dropped weapon model
-	NewViewModel		"models/weapons2/dh-17/dh-17_FA.md3"   	//Required: New 1st person weapon model
-	Icon				"gfx/hud/w_icon_dh-17" 				//Required: Weapon change icon
-	WeaponName			"Modified DH-17"    					//Required: Weapon change display name
-	IdleAnim	        TORSO_WEAPONIDLE3
+    NewWorldModel        "models/weapons2/blaster_r/blaster_w.glm"      //Required: New 3rd person/dropped weapon model
+    NewViewModel        "models/weapons2/blaster_r/blaster.md3"       //Required: New 1st person weapon model
+    Icon                "gfx/hud/w_icon_e11"                 //Required: Weapon change icon
+	WeaponName			"Modified E-11"    					//Required: Weapon change display name
+
+	hasAnimOverrides 1
+	animReady BOTH_DC15_READY
+	animReadyWalk BOTH_DC15_READY
+	animReadyNoAmmo BOTH_DC15_READY
+	animAttack BOTH_DC15_ATTACK
+	animAttackWalk BOTH_DC15_ATTACK
 }
 
 WeaponInfo1

@@ -3,7 +3,7 @@
 
 name "Sup_Good6-B"
 
-ClassesAllowed 3
+ClassesAllowed 4
 TimePeriod 5
 EUAllowed 0
 
@@ -12,7 +12,8 @@ Classes
 {
 class1	"s_6nr_solb"
 class2	"s_6nr_vang"
-class3	"s_6nr_med"
+class3	"s_6nr_ofcw"
+class4	"s_6nr_med"
 }
 
 //1-6

@@ -32,7 +32,7 @@ ClassInfo
 	uishader_9		"gfx/sup_icons/snowtrooper2_bl/mb2_icon_vang"
 
 
-	damageGiven		1.05
+	damageGiven		1.025
 
 	isCustomBuild        1
 	mbPoints	15

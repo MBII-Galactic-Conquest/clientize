@@ -3,7 +3,7 @@
 
 name "Sup_Good7-BS"
 
-ClassesAllowed 4
+ClassesAllowed 5
 TimePeriod 5
 EUAllowed 0
 
@@ -12,8 +12,9 @@ Classes
 {
 class1	"s_7nr_slbs"
 class2	"s_7nr_vang"
-class3	"s_7nr_med"
-class4	"s_7nr_eng"
+class3	"s_7nr_ofcw"
+class4	"s_7nr_med"
+class5	"s_7nr_eng"
 }
 
 //1-6

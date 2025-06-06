@@ -15,9 +15,11 @@ ClassInfo
 	resourceRegenAmount		1
 	forceregen		0.1
 
+
 	damageGiven	0.5
 
 	WP_BlasterPistolFlags	HELD_HIGHDAMAGE
+	WP_ProjFlags	HELD_LOWDAMAGE|HELD_ALTRELOAD
 
 	resource		RESOURCE_RAGE
 }
@@ -50,6 +52,7 @@ WeaponInfo1
 	ChargeEffect		"gfx/effects/clonefrontflash"
 	OverchargeEffect	"Blaster/MuzzleFlash04B"
 	PowerupShotEffect	"Blaster/Shot04B"
+	damageMod	0.6
 }
 
 
@@ -72,13 +75,19 @@ WeaponInfo2
 	MissileHitDroidEffect	"effects/impacts/impactsmallblue2"
 	primGore		1
 	altGore			1
-	customAmmo		8
-	clipSize        2
-	ReloadTimeModifier 	.50
+	customAmmo		15
+	clipSize        4
+	ReloadTimeModifier 	.75
+	damageMod	0.5
+	rateMod		1.6
 	FPMult	2
 
 	hasAnimOverrides 1
-	idleAnim		DC15_READY
+	animReady BOTH_DC15_READY
+	animReadyWalk BOTH_DC15_READY
+	animReadyNoAmmo BOTH_DC15_READY
+	animAttack BOTH_DC15_ATTACK
+	animAttackWalk BOTH_DC15_ATTACK
 }
 
 ForceInfo0

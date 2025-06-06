@@ -10,7 +10,7 @@ ClassInfo
 	saber1  re_crimsonR
 	saber2  re_crimsonL
 	maxhealth 100
-	uishader  "models/players/imperial/mb2_icon_zombie"
+	uishader  "models/players/hs_imperial/mb2_icon_zombie"
 	speed 1.15
 	forcepool 50
 	resourceRegenRate		1000

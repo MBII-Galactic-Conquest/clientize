@@ -72,8 +72,16 @@ WeaponInfo2
 	WeaponName			"SF-22 Flamethrower"    					//Required: Weapon change display name
 	customAmmo		600
 	clipsize		120
-	idleAnim  DC15_READY
-	firingAnim  DC15_FIRE
+
+	hasAnimOverrides 1
+	animReady BOTH_DC15_READY
+	animReadyWalk BOTH_DC15_READY
+	animReadyNoAmmo BOTH_DC15_READY
+	animAttack BOTH_DC15_ATTACK
+	animAttackWalk BOTH_DC15_ATTACK
+
+	damageMod	1.4
+
 	ReloadTimeModifier 	1.4
 }
 

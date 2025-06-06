@@ -3,7 +3,7 @@
 
 name "Sup_Good9-M"
 
-ClassesAllowed 3
+ClassesAllowed 4
 TimePeriod 5
 EUAllowed 0
 
@@ -13,6 +13,7 @@ Classes
 class1	"s_9ex_sold"
 class2	"s_9ex_solm"
 class3	"s_9ex_vang"
+class4	"s_9ex_ofcw"
 }
 
 //1-6

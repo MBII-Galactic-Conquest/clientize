@@ -3,13 +3,14 @@
 
 name "Sup_Evil2"
 
-ClassesAllowed 1
+ClassesAllowed 2
 TimePeriod 5
 EUAllowed 0
 
 Classes
 {
 class1	"s_2da_bd1"
+class2	"s_2da_bd4w"
 }
 
 //1-6

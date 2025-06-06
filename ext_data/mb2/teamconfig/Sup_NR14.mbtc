@@ -1,19 +1,20 @@
+//Supremacy Class Prefix: s_14nr_
 //Galactic Conquest/Supremacy siegeteam file - Created by 2cwldys & John
 //Sith-Imperial War
 
 name "Sup_NR14"
 
-ClassesAllowed 4
+ClassesAllowed 5
 TimePeriod 5
 EUAllowed 0
 
 Classes
 
 {
-class1	"s_14nr_sold"
+class1  "s_14nr_sold"
 class2  "s_14nr_ofc"
-class3	"s_14nr_nrd"
-class4	"s_14nr_gj1"
+class4  "s_14nr_nrd"
+class5  "s_14nr_gj1"
 }
 
 //1-6

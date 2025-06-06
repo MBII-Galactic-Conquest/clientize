@@ -3,7 +3,7 @@
 
 name "Sup_Good2-BS"
 
-ClassesAllowed 3
+ClassesAllowed 4
 TimePeriod 5
 EUAllowed 0
 
@@ -11,8 +11,9 @@ Classes
 
 {
 class1	"s_2ca_pc1bs"
-class2	"s_2ca_pmed"
-class3  "s_2ca_pen"
+class2	"s_2ca_parw"
+class3	"s_2ca_pmed"
+class4  "s_2ca_pen"
 }
 
 //1-6

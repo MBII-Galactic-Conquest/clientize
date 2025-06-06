@@ -3,7 +3,7 @@
 
 name "Sup_Evil6-ENS"
 
-ClassesAllowed 3
+ClassesAllowed 4
 TimePeriod 5
 EUAllowed 0
 
@@ -12,7 +12,8 @@ Classes
 {
 class1	"s_6eh_slens"
 class2	"s_6eh_vet"
-class3	"s_6eh_eng"
+class3	"s_6eh_ofcw"
+class4	"s_6eh_eng"
 }
 
 //1-6

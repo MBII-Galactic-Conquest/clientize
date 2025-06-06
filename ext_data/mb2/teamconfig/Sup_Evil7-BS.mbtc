@@ -3,7 +3,7 @@
 
 name "Sup_Evil7-BS"
 
-ClassesAllowed 4
+ClassesAllowed 5
 TimePeriod 5
 EUAllowed 0
 
@@ -12,8 +12,9 @@ Classes
 {
 class1	"s_7bs_slbs"
 class2	"s_7bs_elt"
-class3	"s_7bs_med"
-class4	"s_7bs_eng"
+class3	"s_7bs_ofcw"
+class4	"s_7bs_med"
+class5	"s_7bs_eng"
 }
 
 //1-6

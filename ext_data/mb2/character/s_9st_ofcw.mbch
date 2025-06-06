@@ -1,0 +1,120 @@
+
+ClassInfo
+{
+	name			"s_9st_ofcw"
+	classflags		CFL_STRONGAGAINSTPHYSICAL
+	saber1			kotor_vibrosword_supremacy
+	saber1_1		kotor_vibrostaff_supremacy
+	maxhealth		85
+	maxarmor		75
+	forcepool		50
+	uishader		"models/players/sith_officer/mb2_icon_default"
+	rateoffire		0.675
+	speed			1.0
+
+	uishader_1		"models/players/sith_officer/mb2_icon_saul"
+
+	uishader_2		"models/players/sithtrooper/mb2_icon_captain"
+
+	resourceRegenRate		1000
+	resourceRegenAmount		1
+	forceregen		0.1
+
+	resource		RESOURCE_RAGE
+
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_SABER			
+	WeaponBasedOff		WP_SABER			
+	NewWorldModel		"models/weapons2/kotor_longsword/saber_w.glm"  
+	NewViewModel		"models/weapons2/dummy/dummy.md3" 	  
+	Icon			"gfx/hud/w_icon_vibrosword"
+	WeaponName		"Cortosis Vibrosword"    	 			
+}
+
+WeaponInfo1
+{
+	WeaponToReplace		WP_BRYAR_PISTOL
+	WeaponBasedOff		WP_BOWCASTER
+	NewWorldModel		"models/weapons2/kotor_bpistol2/kotor_bpistol2_w.glm"
+	NewViewModel		"models/weapons2/kotor_bpistol2/kotor_bpistol2.md3"
+	Icon				"gfx/hud/w_icon_kotor_bpistol2"
+	WeaponName			"BP-2 Hand Pistol"
+	FlashSound0 "sound/weapons/kotor/fire_light.wav"
+    AltFlashSound0  "sound/weapons/kotor/fire_hvy.wav"
+}
+
+WeaponInfo2
+{
+	WeaponToReplace		WP_A280       					//Required: Weapon Slot of weapon you're replacing
+	WeaponBasedOff		WP_BLASTER      					//Required: For future use, should be the same as WeaponToReplace
+	NewWorldModel		"models/weapons2/kotor_carbine/model.glm"
+	NewViewModel		"models/weapons2/kotor_carbine/model.MD3"
+	Icon				"gfx/hud/w_icon_kotorcarbine"
+	WeaponName			"Sith Elite Carbine"    					//Required: Weapon change display name
+	FlashSound0			"sound/weapons/kotor_carbine/fire.wav"
+    AltFlashSound0  	"sound/weapons/kotor_carbine/fire.wav"
+	customAmmo      500
+	clipSize        100
+	FPMult          0.8
+
+	hasAnimOverrides 1
+	animReady BOTH_DC15_READY
+	animReadyWalk BOTH_DC15_READY
+	animReadyNoAmmo BOTH_DC15_READY
+	animAttack BOTH_DC15_ATTACK
+	animAttackWalk BOTH_DC15_ATTACK
+}
+
+ForceInfo0
+{
+	ForceToReplace        FP_PUSH
+	Icon                 "gfx/mp/sup_repulsor_glove"
+	ForcePowerName		 "Repulsor Glove"
+	HandShader	"gfx/effects/forcePush"
+	HandShaderRed	0
+	HandShaderBlue	0
+	HandShaderGreen	200
+}
+
+ForceInfo1
+{
+	ForceToReplace        FP_PROTECT
+	Icon                 "gfx/mp/sup_ofc_shroud"
+	ForcePowerName		 "Officer Shroud"
+	StartSound           "sound/forcesup/protect.mp3"
+	LoopSound            "sound/forcesup/protectloop.wav"
+}
+
+description	"Sith Triumvirate - Commissioned Officer
+
+Weaponry:
+Cryogenic Grenade (1)
+Sonic Screamer (1)
+BP-2 Hand Pistol (3)
+Sith Elite Carbine (3)
+Cortosis Vibrosword *
+
+Vibrosword Info:
+Medium & Strong Style
+Offense (2)
+Defense (3)
+
+Gadgets:
+Shield Generator (1)
+Web Turret (1)
+Binoculars (1)
+
+Attributes
+Close Combat Training (2)
+Force Block (3)
+Dexterity (2)
+Stamina (2)
+Blast Armor
+Gun Bash
+Rally
+
+
+An elite Sith battle commander, he looks inspiring."

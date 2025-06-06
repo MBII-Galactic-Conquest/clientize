@@ -84,6 +84,7 @@ WeaponInfo3
 	Icon				"gfx/hud/w_icon_MiniMag"
 	WeaponName			"MiniMag PTL Launcher"
 	customAmmo           1
+	damageMod	1.5
 }
 
 description	"Old Republic - Heavy Rocketeer

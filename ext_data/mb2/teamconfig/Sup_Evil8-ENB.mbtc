@@ -3,7 +3,7 @@
 
 name "Sup_Evil8-ENB"
 
-ClassesAllowed 3
+ClassesAllowed 4
 TimePeriod 5
 EUAllowed 0
 
@@ -12,7 +12,8 @@ Classes
 {
 class1	"s_8fo_slenb"
 class2	"s_8fo_vet"
-class3	"s_8fo_med"
+class3	"s_8fo_ofcw"
+class4	"s_8fo_med"
 }
 
 //1-6

@@ -3,7 +3,7 @@
 
 name "Sup_Good10-ENB"
 
-ClassesAllowed 3
+ClassesAllowed 4
 TimePeriod 5
 EUAllowed 0
 
@@ -12,7 +12,8 @@ Classes
 {
 class1	"s_10an_slenb"
 class2	"s_10an_vang"
-class3	"s_10an_med"
+class3	"s_10an_ofcw"
+class4	"s_10an_med"
 }
 
 //1-6

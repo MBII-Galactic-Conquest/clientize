@@ -46,15 +46,22 @@ WeaponInfo1
 {
 	WeaponToReplace		WP_A280       					//Required: Weapon Slot of weapon you're replacing
 	WeaponBasedOff		WP_BLASTER      					//Required: For future use, should be the same as WeaponToReplace
-	NewWorldModel		"models/weapons2/EE4_carbine/model_w.glm"  	//Required: New 3rd person/dropped weapon model
-	NewViewModel		"models/weapons2/EE4_carbine/blaster.md3"   	//Required: New 1st person weapon model
-	Icon				"gfx/hud/w_icon_ee-4" 				//Required: Weapon change icon
-	WeaponName			"EE-4 Carbine Rifle"    					//Required: Weapon change display name
+    NewWorldModel        "models/weapons2/blaster_r/blaster_w.glm"      //Required: New 3rd person/dropped weapon model
+    NewViewModel        "models/weapons2/blaster_r/blaster.md3"       //Required: New 1st person weapon model
+    Icon                "gfx/hud/w_icon_e11"                 //Required: Weapon change icon
+	WeaponName			"E-11 Burst Rifle"    					//Required: Weapon change display name
     FlashSound0 "sound/weapsup/r/wpn_imp_blaster_fire.wav"
     AltFlashSound0  "sound/weapsup/r/wpn_imp_blaster_fire.wav"
 	customAmmo      500
 	clipSize        100
 	FPMult          0.8
+
+	hasAnimOverrides 1
+	animReady BOTH_DC15_READY
+	animReadyWalk BOTH_DC15_READY
+	animReadyNoAmmo BOTH_DC15_READY
+	animAttack BOTH_DC15_ATTACK
+	animAttackWalk BOTH_DC15_ATTACK
 }
 
 ForceInfo0

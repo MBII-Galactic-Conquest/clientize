@@ -78,7 +78,9 @@ WeaponInfo3
 	AltFireEnabled		 0
 	ReloadTimeModifier	 2
     customAmmo           500
-    clipsize             25
+    clipsize             50
+	rateMod		1.5
+	damageMod	1.25
 }
 
 description	"Empire of the Hand - Spy

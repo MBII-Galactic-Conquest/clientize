@@ -1,0 +1,88 @@
+
+ClassInfo
+{
+	name			"s_7bs_ofcw"
+	maxhealth		85
+	maxarmor		75
+	forcepool		50
+	uishader		"models/players/weequay/mb2_icon_default"
+	rateoffire		0.675
+	speed			0.75
+
+	uishader_1		"models/players/weequay/mb2_icon_rgb_abyssin"
+
+	uishader_2		"models/players/gran/mb2_icon_default"
+
+    uishader_3      "models/players/rodian/mb2_icon_default"
+
+	uishader_4		"models/players/bossk/mb2_icon_default"
+
+	resourceRegenRate		1000
+	resourceRegenAmount		1
+	forceregen		0.1
+
+	resource		RESOURCE_RAGE
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_A280       					//Required: Weapon Slot of weapon you're replacing
+	WeaponBasedOff		WP_BLASTER      					//Required: For future use, should be the same as WeaponToReplace
+    NewWorldModel        "models/weapons2/blaster_r/blaster_w.glm"      //Required: New 3rd person/dropped weapon model
+    NewViewModel        "models/weapons2/blaster_r/blaster.md3"       //Required: New 1st person weapon model
+    Icon                "gfx/hud/w_icon_e11"                 //Required: Weapon change icon
+	WeaponName			"E-11 Burst Rifle"    					//Required: Weapon change display name
+    FlashSound0 "sound/weapsup/r/wpn_imp_blaster_fire.wav"
+    AltFlashSound0  "sound/weapsup/r/wpn_imp_blaster_fire.wav"
+	customAmmo      500
+	clipSize        100
+	FPMult          0.8
+
+	hasAnimOverrides 1
+	animReady BOTH_DC15_READY
+	animReadyWalk BOTH_DC15_READY
+	animReadyNoAmmo BOTH_DC15_READY
+	animAttack BOTH_DC15_ATTACK
+	animAttackWalk BOTH_DC15_ATTACK
+}
+
+ForceInfo0
+{
+	ForceToReplace        FP_PUSH
+	Icon                 "gfx/mp/sup_repulsor_glove"
+	ForcePowerName		 "Repulsor Glove"
+	HandShader	"gfx/effects/forcePush"
+	HandShaderRed	0
+	HandShaderBlue	0
+	HandShaderGreen	200
+}
+
+ForceInfo1
+{
+	ForceToReplace        FP_PROTECT
+	Icon                 "gfx/mp/sup_ofc_shroud"
+	ForcePowerName		 "Officer Shroud"
+	StartSound           "sound/forcesup/protect.mp3"
+	LoopSound            "sound/forcesup/protectloop.wav"
+}
+
+description	"Black Sun - Low Boss
+
+Weaponry:
+Cryogenic Grenade (1)
+Sonic Screamer (1)
+Pistol (3)
+EE-4 (3)
+
+Gadgets:
+Shield Generator (1)
+Web Turret (1)
+Binoculars (1)
+
+Attributes
+Close Combat Training (2)
+Blast Armor
+Gun Bash
+Rally
+
+A criminal ringleader of the Black Sun Criminal Syndicate, he looks inspiring."

@@ -1,0 +1,113 @@
+//Siege class def file.
+
+ClassInfo
+{
+	name			"s_d_mohrgan"
+	weapons			WP_MELEE|WP_SABER|WP_BLASTER_PISTOL
+	saberstyle  	SS_MEDIUM|SS_FAST|SS_STRONG
+	forcepowers		FP_LEVITATION,3|FP_PUSH,2|FP_PULL,3|FP_SEE,3|FP_SABER_OFFENSE,3|FP_SABER_DEFENSE,3|FP_SPEED,2|FP_TELEPATHY,2|FP_TEAM_HEAL,3|FP_ABSORB,1
+	attributes		MB_ATT_LIGHTS_BEACON,1|MB_ATT_GUN_DEFENSE,3|MB_ATT_PISTOL,3|MB_ATT_FORCEBLOCK,3|MB_ATT_FORCEFOCUS,2|MB_ATT_DEFLECT,1|MB_ATT_CORTOSIS,2
+	classflags		CFL_BPFREEJUMPS
+	maxhealth       125
+	maxarmor		75
+	forcepool		100
+	speed			1.0
+	modelscale		1.0
+
+	BPmultiplier	1.1
+	APmultiplier	1.025
+	ASmultiplier	1.18
+	CSmultiplier	1.00
+
+	MBClass			MB_CLASS_JEDI
+	
+	damageGiven        1.25
+
+	model			"Draconis"		
+	skin			"default"
+	uishader		"gfx/sup_icons/krayt_fa/mohrgan_fel"
+
+	saber1			saber_imperial_supremacy
+	saber2			none
+	sabercolor		6
+	saber2color		6
+	
+	saber1_1		lightsaber_pike_supremacy
+	saber2_1		none
+	sabercolor_1	6
+	saber2color_1	6
+
+	classNumberLimit	1
+
+	WP_MeleeFlags	HELD_STUN
+
+	special1	EAS_FP_SABERTHROW
+	special2	EAS_FP_SPEED
+	special3	EAS_FP_TEAM_HEAL
+	special4	EAS_FP_ABSORB
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_MELEE
+	WeaponBasedOff		WP_MELEE  
+	NewWorldModel		"models/weapons2/dummy/dummy.glm"
+	NewViewModel		"models/weapons2/dummy/dummy.md3"
+	Icon				"gfx/mp/duel/sup_fel_gauntlets"
+	WeaponName			"Cortosis Gauntlets"
+	rateMod				1.25
+}
+
+WeaponInfo1
+{
+	WeaponToReplace		WP_BRYAR_PISTOL
+	WeaponBasedOff		WP_BOWCASTER
+	NewWorldModel		"models/weapons2/blaster_pistol/blaster_pistol_w.glm"
+	NewViewModel		"models/weapons2/blaster_pistol/blaster_pistol.md3"
+	Icon				"gfx/hud/w_icon_blaster_pistol"
+	WeaponName			"Pistol"
+	FlashSound0 "sound/weapsup/r/wpn_imp_pistol_fire.wav"
+    AltFlashSound0  "sound/weapsup/r/wpn_imp_pistol_fire.wav"
+
+	rateMod	0.675
+}
+
+description	"Mohrgan Fel
+
+< Attempt to remain alive, you are key to stopping Darth Krayt >
+< Use your team abilities to assist your teammates >
+
+Weapons:
+Pistol (3)
+
+Lightsaber:
+- Defense (3)
+- Deflect (1)
+- Can use Blue, Red, and Yellow styles
+
+Armor:
+Reinforced Fel Armor:
+- Cortosis (2)
+
+Cortosis Gauntlets:
+- Able to stagger lightsaber users by punching them.
+- Substantially reduced rate of melee.
+
+Force Powers:
+- Jump (3)
+- Push (3)
+- Pull (3)
+- Speed (2)
+- Sense (3)
+- Force Block (3)
+- Force Focus (2)
+- Team Absorb (1)
+- Team Mind-Trick (2)
+- Team Heal (3)
+
+special1 saber throw
+special2 force speed
+special3 team heal
+special4 team absorb
+
+Cousin of Roan Fel, Mohrgan has served honorably and loyally as a bodyguard, knight of the Imperial Fel Knights."
