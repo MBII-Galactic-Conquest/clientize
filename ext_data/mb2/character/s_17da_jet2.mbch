@@ -5,7 +5,7 @@ ClassInfo
 	maxhealth		40
 	maxarmor		50
 	uishader		"gfx/sup_icons/battledroid/mb2_icon_jet"
-	speed			0.8
+	speed			0.7
 
 
 	resource	RESOURCE_FUEL
@@ -47,6 +47,13 @@ WeaponInfo1
     customAmmo      500
     clipSize        100
 	FPMult			0.8
+
+	hasAnimOverrides 1
+	animReady BOTH_DC15_READY
+	animReadyWalk BOTH_DC15_READY
+	animReadyNoAmmo BOTH_DC15_READY
+	animAttack BOTH_DC15_ATTACK
+	animAttackWalk BOTH_DC15_ATTACK
 }
 
 

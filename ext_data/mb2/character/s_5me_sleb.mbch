@@ -6,7 +6,7 @@ ClassInfo
 	maxarmor		25
 	uishader		"gfx/sup_icons/sithtrooper_tor/mb2_icon_sleb"
 	speed			0.8
-	damageGiven		1.05
+	damageGiven		1.025
 
 	WP_BlasterPistolFlags	HELD_ALTRELOAD|HELD_AMMOREGEN
 	WP_BlasterFlags		HELD_ALTRELOAD|HELD_AMMOREGEN

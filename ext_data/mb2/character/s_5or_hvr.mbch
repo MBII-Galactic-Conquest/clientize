@@ -59,6 +59,7 @@ WeaponInfo1
 	animAttackWalk BOTH_DC15_ATTACK
 }
 
+	damageMod	1.5
 
 description	"Old Republic - Heavy Rocket Trooper
 

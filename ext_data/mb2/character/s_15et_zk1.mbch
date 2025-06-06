@@ -5,7 +5,7 @@ ClassInfo
 	classflags		CFL_BPFREEJUMPS|CFL_HASQ3
 	maxhealth       200
 	maxarmor		10
-	forcepool		100
+	forcepool		125
 	resourceRegenRate		1000
 	resourceRegenAmount		1
 	forceregen		0.1

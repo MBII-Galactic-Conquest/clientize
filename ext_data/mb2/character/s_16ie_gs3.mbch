@@ -25,7 +25,7 @@ ClassInfo
 	gloatAnim       BOTH_VICTORY_FAST
 
 	resource		RESOURCE_FORCE
-	
+
 }
 
 WeaponInfo0

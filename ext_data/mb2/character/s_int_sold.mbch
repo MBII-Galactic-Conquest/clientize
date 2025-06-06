@@ -43,6 +43,7 @@ WeaponInfo1
     FlashSound0 "sound/weapsup/sup/wpn_rep_blaster_fire.wav"
 	AltFlashSound0 "sound/weapsup/sup/wpn_rep_blaster_fire.wav"
 	MuzzleEffect		"Blaster/MuzzleFlash01B"
+	AltMuzzleEffect		"Blaster/MuzzleFlash01B"
 	MissileEffect		"blaster/Shot01B"
 	AltMissileEffect 	"blaster/Shot01B"
     customAmmo      500

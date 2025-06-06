@@ -6,7 +6,7 @@ ClassInfo
 	forcepool		50
 	maxhealth		120
 	maxarmor		40
-	speed			1.0
+	speed			0.7
 	uishader		"gfx/sup_icons/clonetactician_b/mb2_icon_eng" // for phase2
 
 

@@ -3,7 +3,7 @@
 
 name "Sup_Good1-EN"
 
-ClassesAllowed 2
+ClassesAllowed 3
 TimePeriod 5
 EUAllowed 0
 
@@ -12,6 +12,7 @@ Classes
 {
 class1	"s_1ra_slen"
 class2	"s_1ra_vang"
+class3	"s_1ra_ofcw"
 }
 
 //1-6

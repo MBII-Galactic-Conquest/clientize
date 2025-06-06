@@ -33,6 +33,16 @@ ClassInfo
 
 }
 
+WeaponInfo0
+{
+	WeaponToReplace		WP_MELEE
+	WeaponBasedOff		WP_MELEE  
+	NewWorldModel		"models/weapons2/dummy/dummy.glm"
+	NewViewModel		"models/weapons2/dummy/dummy.md3"
+	Icon				"gfx/mp/duel/sup_fel_gauntlets"
+	WeaponName			"Cortosis Gauntlets"
+}
+
 description	"Fel-Empire - Imperial Knight - Guardian
 
 	[GC]

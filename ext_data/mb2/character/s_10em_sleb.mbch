@@ -6,7 +6,7 @@ ClassInfo
 	maxarmor		25
 	uishader		"gfx/sup_icons/clonetrooper_p2/mb2_icon_sleb"
 	speed			0.8
-	damageGiven		1.05
+	damageGiven		1.025
 
 	uishader_1		"gfx/sup_icons/preoxmo/mb2_icon_sleb"
 

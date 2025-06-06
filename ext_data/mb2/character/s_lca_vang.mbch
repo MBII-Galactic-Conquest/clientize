@@ -8,7 +8,7 @@ ClassInfo
 	uishader		"gfx/sup_icons/lego_arc/mb2_icon_vang"
 	speed			0.65
 
-	damageGiven		1.05
+	damageGiven		1.025
 
 	resource	RESOURCE_RAGE
 

@@ -3,7 +3,7 @@
 
 name "Sup_Good8-BS"
 
-ClassesAllowed 4
+ClassesAllowed 5
 TimePeriod 5
 EUAllowed 0
 
@@ -12,8 +12,9 @@ Classes
 {
 class1	"s_8re_slbs"
 class2	"s_8re_vang"
-class2	"s_8re_med"
-class3	"s_8re_eng"
+class3	"s_8re_ofcw"
+class4	"s_8re_med"
+class5	"s_8re_eng"
 }
 
 //1-6

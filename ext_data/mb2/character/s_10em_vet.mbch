@@ -9,7 +9,7 @@ ClassInfo
 	uishader		"gfx/sup_icons/stormie_shock/mb2_icon_vang"
 
 
-	damageGiven		1.05
+	damageGiven		1.025
 
 	isCustomBuild        1
 	mbPoints	15

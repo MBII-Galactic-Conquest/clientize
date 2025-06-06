@@ -8,7 +8,7 @@ ClassInfo
 	speed			0.65
 	uishader		"gfx/sup_icons/lego_sandtrooper/mb2_icon_vang"
 
-	damageGiven		1.05
+	damageGiven		1.025
 
 
 	resource	RESOURCE_RAGE

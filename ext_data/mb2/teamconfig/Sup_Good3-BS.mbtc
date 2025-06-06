@@ -3,7 +3,7 @@
 
 name "Sup_Good3-BS"
 
-ClassesAllowed 4
+ClassesAllowed 5
 TimePeriod 5
 EUAllowed 0
 
@@ -12,8 +12,9 @@ Classes
 {
 class1	"s_3or_slbs"
 class2	"s_3or_vang"
-class3	"s_3or_med"
-class4	"s_3or_eng"
+class3	"s_3or_ofcw"
+class4	"s_3or_med"
+class5	"s_3or_eng"
 }
 
 //1-6

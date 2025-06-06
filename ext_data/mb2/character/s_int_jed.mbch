@@ -22,6 +22,7 @@ ClassInfo
 	damageTaken		0
 	damageGiven		0
 	knockbackTaken	0
+	saberDamage -1
 }
 
 description	"Campaign Coordinator"

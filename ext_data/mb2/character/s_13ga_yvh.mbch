@@ -79,6 +79,7 @@ WeaponInfo2
     MissileHitDroidEffect    "effects/Grenades/EXP_Explosion"
     FlashSound0            "sound/weapons/WhistlingBird/Fire3.mp3"
 	customAmmo           1
+	damageMod	1.5
     clipSize             1
 	ReloadTimeModifier 	2
 	AltFireEnabled		0

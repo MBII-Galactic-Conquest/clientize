@@ -3,7 +3,7 @@
 
 name "Sup_Good7-L"
 
-ClassesAllowed 5
+ClassesAllowed 6
 TimePeriod 5
 EUAllowed 0
 
@@ -12,9 +12,10 @@ Classes
 {
 class1	"s_7nr_sold"
 class2	"s_7nr_vang"
-class3	"s_7nr_hr1"
-class4	"s_7nr_gj1"
-class5	"s_7nr_gj2"
+class3	"s_7nr_ofcw"
+class4	"s_7nr_hr1"
+class5	"s_7nr_gj1"
+class6	"s_7nr_gj2"
 }
 
 //1-6

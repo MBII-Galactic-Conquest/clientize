@@ -59,6 +59,7 @@ WeaponInfo0
     MissileHitDroidEffect    "effects/Grenades/EXP_Explosion"
     FlashSound0            "sound/weapons/E-5s/alt_fire.mp3"
 	customAmmo           1
+	damageMod	1.5
     clipSize             1
 	ReloadTimeModifier 	2
 	AltFireEnabled		0

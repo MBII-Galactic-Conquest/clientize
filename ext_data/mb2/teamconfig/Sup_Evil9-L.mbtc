@@ -3,7 +3,7 @@
 
 name "Sup_Evil9-L"
 
-ClassesAllowed 5
+ClassesAllowed 6
 TimePeriod 5
 EUAllowed 0
 
@@ -12,9 +12,10 @@ Classes
 {
 class1	"s_9st_sold"
 class2	"s_9st_vet"
-class3	"s_9st_bh1"
-class4	"s_9st_gs1"
-class5	"s_9st_gs2"
+class3	"s_9st_ofcw"
+class4	"s_9st_bh1"
+class5	"s_9st_gs1"
+class6	"s_9st_gs2"
 }
 
 //1-6

@@ -15,7 +15,7 @@ ClassInfo
 	resourceRegenAmount		2
 	forceregen		0.1
 	rateoffire		1.4
-	damageGiven		1.05
+	damageGiven		1.025
 	knockbackGiven	1.2
 
 

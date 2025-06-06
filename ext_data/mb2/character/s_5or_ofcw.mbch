@@ -1,0 +1,108 @@
+
+ClassInfo
+{
+	name			"s_5or_ofcw"
+	maxhealth		85
+	maxarmor		75
+	forcepool		50
+	uishader		"models/players/republictrooper/mb2_icon_default"
+	rateoffire		0.675
+	speed			1.0
+
+
+	resourceRegenRate		1000
+	resourceRegenAmount		1
+	forceregen		0.1
+
+	resource	RESOURCE_RAGE
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_BRYAR_PISTOL
+	WeaponBasedOff		WP_BOWCASTER
+	NewWorldModel		"models/weapons2/kotor_bpistol2/kotor_bpistol2_w.glm"
+	NewViewModel		"models/weapons2/kotor_bpistol2/kotor_bpistol2.md3"
+	Icon				"gfx/hud/w_icon_kotor_bpistol2"
+	WeaponName			"Republic Hand Pistol"
+	FlashSound0			"sound/weapons/kotor/fire_light.wav"
+    AltFlashSound0		"sound/weapons/kotor/fire_hvy.wav"
+	MuzzleEffect		"Blaster/MuzzleFlash01B"
+	AltMuzzleEffect		"Blaster/MuzzleFlash01B"
+	MissileEffect		"blaster/Shot01B"
+	Missile3Effect		"Blaster/Shot03B"
+	AltMissileEffect	"blaster/Shot01B"
+	ChargeEffect		"gfx/effects/clonefrontflash"
+	OverchargeEffect	"Blaster/MuzzleFlash04B"
+	PowerupShotEffect	"Blaster/Shot04B"
+}
+
+WeaponInfo1
+{
+    WeaponToReplace        WP_A280                           //Required: Weapon Slot of weapon you're replacing
+    WeaponBasedOff        WP_A280                          //Required: For future use, should be the same as WeaponToReplace
+    NewWorldModel        "models/weapons2/kotor_reprifle/kotor_reprifle_w.glm"      //Required: New 3rd person/dropped weapon model
+    NewViewModel        "models/weapons2/kotor_reprifle/kotor_reprifle.md3"       //Required: New 1st person weapon model
+    Icon                "gfx/hud/w_icon_kotor_reprifle"                 //Required: Weapon change icon
+    WeaponName            "Elite Republic Burst Rifle"                        //Required: Weapon change display name
+    FlashSound0 "sound/weapons/kotor/fire_med.wav"
+	AltFlashSound0 "sound/weapons/kotor/fire_hvy.wav"
+	MuzzleEffect		"Blaster/MuzzleFlash01B"
+	AltMuzzleEffect		"Blaster/MuzzleFlash01B"
+	MissileEffect		"blaster/Shot01B"
+	AltMissileEffect 	"blaster/Shot01B"
+    customAmmo      500
+    clipSize        100
+    FPMult          0.8
+
+	hasAnimOverrides 1
+	animReady BOTH_DC15_READY
+	animReadyWalk BOTH_DC15_READY
+	animReadyNoAmmo BOTH_DC15_READY
+	animAttack BOTH_DC15_ATTACK
+	animAttackWalk BOTH_DC15_ATTACK
+}
+
+ForceInfo0
+{
+	ForceToReplace        FP_PUSH
+	Icon                 "gfx/mp/sup_repulsor_glove"
+	ForcePowerName		 "Repulsor Glove"
+	HandShader	"gfx/effects/forcePush"
+	HandShaderRed	0
+	HandShaderBlue	0
+	HandShaderGreen	200
+}
+
+ForceInfo1
+{
+	ForceToReplace        FP_PROTECT
+	Icon                 "gfx/mp/sup_ofc_shroud"
+	ForcePowerName		 "Officer Shroud"
+	StartSound           "sound/forcesup/protect.mp3"
+	LoopSound            "sound/forcesup/protectloop.wav"
+}
+
+description	"Old Republic - Officer
+
+Weaponry:
+Cryogenic Grenade (1)
+Sonic Screamer (1)
+Republic Hand Pistol (3)
+Republic Assault Rifle (3)
+
+Gadgets:
+Shield Generator (1)
+Web Turret (1)
+Binoculars (1)
+
+Attributes
+Close Combat Training (2)
+Republic Soldier Strength (Wookiee Melee 2)
+Knockdown (Wookiee Slap)
+Soldier Fury 1 (Wookiee Shoulder Charge)
+Blast Armor
+Gun Bash
+Rally
+
+An old republic officer, he looks inspiring."

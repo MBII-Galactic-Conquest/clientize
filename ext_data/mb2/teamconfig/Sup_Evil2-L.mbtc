@@ -3,7 +3,7 @@
 
 name "Sup_Evil2-L"
 
-ClassesAllowed 3
+ClassesAllowed 4
 TimePeriod 5
 EUAllowed 0
 
@@ -11,8 +11,9 @@ Classes
 
 {
 class1	"s_2da_bd1"
-class2  "s_2da_bx1"
-class3  "s_2da_bh1"
+class2  "s_2da_bd4w"
+class3  "s_2da_bx1"
+class4  "s_2da_bh1"
 }
 
 //1-6

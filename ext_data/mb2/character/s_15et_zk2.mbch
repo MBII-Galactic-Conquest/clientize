@@ -1,0 +1,79 @@
+
+ClassInfo
+{
+	name			"s_15et_zk2"
+	classflags		CFL_BPFREEJUMPS|CFL_HASQ3
+	maxhealth       125
+	maxarmor		10
+	forcepool		100
+	resourceRegenRate		1000
+	resourceRegenAmount		1
+	forceregen		0.1
+	speed           0.8
+	BPmultiplier    1.0
+	APmultiplier    1.0
+	
+	damageGiven        1.10
+	
+	
+	
+	uishader		"models/players/zakuul_knight/mb2_icon_default"
+
+		
+	saber1			lightsaber_pike_supremacy
+	saber2			none
+
+	resource		RESOURCE_FORCE
+
+}
+
+ForceInfo0
+{
+	ForceToReplace        FP_PROTECT
+	Icon                 "gfx/mp/sup_ofc_shroud"
+	ForcePowerName		 "Officer Shroud"
+	StartSound           "sound/forcesup/protect.mp3"
+	LoopSound            "sound/forcesup/protectloop.wav"
+}
+
+description	"Eternal Empire: Zakuul Knight
+
+	[GC]
+Special Unit
+
+Class: Wookiee.
+Class Summary: 
+A single-life heavy saberist.
+
+Lightsaber:
+- Offense (3)
+- Defense (1)
+- Deflect (2)
+- Can use Red, Purple, and Yellow styles
+- Can deflect while swinging
+
+Force Powers:
+- Push (3)
+- Pull (3)
+- Sense (2)
+- Grip (3)
+- Lightning (3)
+- Force Block (3)
+- Force Focus (1)
+
+Gadgets:
+Stealth Field Generator
+
+Abilities:
+Reinforcements (1)
+Magnetic Plating (1)
+Shield Recharge (Low AR) (1)
+Cybernetic Fury (*)
+ L Wookiee Strength (3)
+ L Wookiee Fury (1)
+Cortosis (1)
+Beskar (2)
+Rally
+
+
+Armored and terrifying, these Knights of Zakuul wage conquest on behest of their Emperor, Valkorion."

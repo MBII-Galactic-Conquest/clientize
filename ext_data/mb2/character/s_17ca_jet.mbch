@@ -10,7 +10,7 @@ ClassInfo
 
 	resource	RESOURCE_FUEL
 
-	WP_PLX1Flags HELD_ALTRELOAD|HELD_PULSE|HELD_LOWDAMAGE
+	WP_RocketLauncherFlags HELD_ALTRELOAD|HELD_PULSE|HELD_LOWDAMAGE|HELD_KNOCKDOWN|HELD_EXPLOSIVE
 
 }
 
@@ -45,17 +45,25 @@ WeaponInfo1
     FlashSound0 "sound/weapsup/sup/wpn_rep_blaster_fire.wav"
 	AltFlashSound0 "sound/weapsup/sup/wpn_rep_blaster_fire.wav"
 	MuzzleEffect		"Blaster/MuzzleFlash01B"
+	AltMuzzleEffect		"Blaster/MuzzleFlash01B"
 	MissileEffect		"blaster/Shot01B"
 	AltMissileEffect 	"blaster/Shot01B"
     customAmmo      500
     clipSize        100
 	FPMult			0.8
+
+	hasAnimOverrides 1
+	animReady BOTH_DC15_READY
+	animReadyWalk BOTH_DC15_READY
+	animReadyNoAmmo BOTH_DC15_READY
+	animAttack BOTH_DC15_ATTACK
+	animAttackWalk BOTH_DC15_ATTACK
 }
 
 WeaponInfo2
 {
-    WeaponToReplace                WP_PLX1
-    WeaponBasedOff                WP_PLX1
+    WeaponToReplace                WP_ROCKET_LAUNCHER
+    WeaponBasedOff                WP_ROCKET_LAUNCHER
     MuzzleEffect                  "upl/muzzle_flash"
     AltMuzzleEffect              "upl/altmuzzle_flash"
     MissileEffect                 "upl/shot" 
@@ -71,11 +79,18 @@ WeaponInfo2
     WeaponName                  "Electromagnetic Pulse Launcher"
     Icon                        "gfx/hud/w_icon_upl"
     clipSize                     1
-    CustomAmmo                     3
+    CustomAmmo                     2
     ReloadTimeModifier             1.4    
     altfireenabled                0
-    idleAnim                      DC15_READY
-    firingAnim                    DC15_FIRE
+
+	hasAnimOverrides 1
+	animReady BOTH_DC15_READY
+	animReadyWalk BOTH_DC15_READY
+	animReadyNoAmmo BOTH_DC15_READY
+	animAttack BOTH_DC15_ATTACK
+	animAttackWalk BOTH_DC15_ATTACK
+
+    damageMod   0.4
 
     NewBarrelModel                "models/weapons2/upl/upl_barrel.md3"
 }

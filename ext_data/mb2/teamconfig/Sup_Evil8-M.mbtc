@@ -3,7 +3,7 @@
 
 name "Sup_Evil8-M"
 
-ClassesAllowed 3
+ClassesAllowed 4
 TimePeriod 5
 EUAllowed 0
 
@@ -13,6 +13,7 @@ Classes
 class1	"s_8fo_sold"
 class2	"s_8fo_solm"
 class3	"s_8fo_vet"
+class4	"s_8fo_ofcw"
 }
 
 //1-6

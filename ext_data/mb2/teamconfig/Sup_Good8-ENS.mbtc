@@ -3,7 +3,7 @@
 
 name "Sup_Good8-ENS"
 
-ClassesAllowed 3
+ClassesAllowed 4
 TimePeriod 5
 EUAllowed 0
 
@@ -12,7 +12,8 @@ Classes
 {
 class1	"s_8re_slens"
 class2	"s_8re_vang"
-class3	"s_8re_eng"
+class3	"s_8re_ofcw"
+class4	"s_8re_eng"
 }
 
 //1-6

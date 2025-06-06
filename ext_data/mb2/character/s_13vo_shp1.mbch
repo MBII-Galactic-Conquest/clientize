@@ -68,8 +68,13 @@ WeaponInfo2
 	AltMissileEffect	"effects/sonic_pistol/projectile" 	
 	FlashSound0		"sound/weapsup/vong/acidthrower2.mp3"
 
-	idleAnim		MAND_PISTOLS_READY
-	firingAnim	TRIPLE3_STAFFSTANCE
+	hasAnimOverrides 1
+	animReady BOTH_MAND_DUAL_PISTOLS_READY
+	animReadyWalk BOTH_MAND_DUAL_PISTOLS_READY
+	animReadyNoAmmo BOTH_DC15_READY
+	animAttack BOTH_TRIPLE3_REDSTANCE
+	animAttackWalk BOTH_TRIPLE3_REDSTANCE
+	animStand BOTH_STAND6
 
 	CustomAmmo 	500
 	ClipSize 	100

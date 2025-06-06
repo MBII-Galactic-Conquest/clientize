@@ -21,7 +21,7 @@ ClassInfo
 	WP_BlasterFlags		HELD_ALTRELOAD|HELD_AMMOREGEN
 	WP_EE4Flags			HELD_ALTRELOAD|HELD_AMMOREGEN|HELD_SLOW
 
-	damageGiven		1.05
+	damageGiven		1.025
 
 	isCustomBuild        1
 	mbPoints	51

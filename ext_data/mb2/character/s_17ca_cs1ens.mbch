@@ -107,11 +107,19 @@ WeaponInfo1
     FlashSound0 "sound/weapsup/sup/wpn_rep_blaster_fire.wav"
 	AltFlashSound0 "sound/weapsup/sup/wpn_rep_blaster_fire.wav"
 	MuzzleEffect		"Blaster/MuzzleFlash01B"
+	AltMuzzleEffect		"Blaster/MuzzleFlash01B"
 	MissileEffect		"blaster/Shot01B"
 	AltMissileEffect 	"blaster/Shot01B"
     customAmmo      600
     clipSize        150
 	FPMult			0.8
+
+	hasAnimOverrides 1
+	animReady BOTH_DC15_READY
+	animReadyWalk BOTH_DC15_READY
+	animReadyNoAmmo BOTH_DC15_READY
+	animAttack BOTH_DC15_ATTACK
+	animAttackWalk BOTH_DC15_ATTACK
 }
 
 WeaponInfo2

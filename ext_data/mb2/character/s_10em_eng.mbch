@@ -47,15 +47,12 @@ WeaponInfo1
     clipsize             36
     AltFireEnabled         0
 
-	idleAnim		DC15_READY
-	firingAnim		DC15_FIRE
-	altFiringAnim	DC15_FIRE
-
 	hasAnimOverrides 1
-	animReady		DC15_READY
-	animReadyWalk	DC15_READY
-	animAttack		DC15_FIRE
-	animAttackWalk	DC15_FIRE
+	animReady BOTH_DC15_READY
+	animReadyWalk BOTH_DC15_READY
+	animReadyNoAmmo BOTH_DC15_READY
+	animAttack BOTH_DC15_ATTACK
+	animAttackWalk BOTH_DC15_ATTACK
 }
 
 ForceInfo0

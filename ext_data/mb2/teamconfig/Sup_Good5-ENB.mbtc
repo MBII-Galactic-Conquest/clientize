@@ -3,7 +3,7 @@
 
 name "Sup_Good5-ENB"
 
-ClassesAllowed 3
+ClassesAllowed 4
 TimePeriod 5
 EUAllowed 0
 
@@ -12,7 +12,8 @@ Classes
 {
 class1	"s_5or_slenb"
 class2	"s_5or_vang"
-class3	"s_5or_med"
+class3	"s_5or_ofcw"
+class4	"s_5or_med"
 }
 
 //1-6
