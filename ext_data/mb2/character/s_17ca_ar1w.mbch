@@ -7,7 +7,7 @@ ClassInfo
 	APmultiplier	1.1
 	maxhealth		85
 	maxarmor		75
-	uishader		"models/players/clonetrooper_p2/mb2_icon_501_rex"
+	uishader		"gfx/sup_icons/clonetrooper_p2_rex/mb2_icon_ofc"
 	speed			0.8
 
 
