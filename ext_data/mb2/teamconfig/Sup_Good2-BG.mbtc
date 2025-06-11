@@ -1,3 +1,4 @@
+//Supremacy Class Prefix: s_2ca_
 //Galactic Conquest/Supremacy siegeteam file - Created by 2cwldys & John
 //Clone Wars
 
@@ -10,12 +11,12 @@ EUAllowed 0
 Classes
 
 {
-class1	"s_2ca_pc1bg"
-class2	"s_2ca_par"
-class3	"s_2ca_pgc"
-class4	"s_2ca_prc"
-class5  "s_2ca_pjt"
-class6  "s_2ca_spy"
+class1  "s_2ca_pc1bg"
+class2  "s_2ca_longr"
+class3  "s_2ca_par"
+class4  "s_2ca_pgc"
+class5  "s_2ca_prc"
+class6  "s_2ca_pjt"
 }
 
 //1-6
@@ -23,10 +24,11 @@ class6  "s_2ca_spy"
 SubclassesForClass1
 
 {
-Subclass1  "s_2ca_pft"
-Subclass2  "s_2ca_pmed"
-Subclass3  "s_2ca_gj3"
-Subclass4  "s_2ca_sni"
+Subclass1  "s_2ca_spy"
+Subclass2  "s_2ca_pft"
+Subclass3  "s_2ca_pmed"
+Subclass4  "s_2ca_gj3"
+Subclass5  "s_2ca_sni"
 }
 
 //1-11

@@ -1,39 +1,18 @@
-//Galactic Conquest/Supremacy character file - Created by 2cwldys & John
-//These are clientized .mbch files, they may be intentionally void of information.
-//YOU DO NOT HAVE PERMISSION TO MODIFY! See CC-BY-NC-ND 4.0 LICENSING for INFO. These assets are privately maintained!
-//Siege class def file.
 
 ClassInfo
 {
 	name			"s_gn_sold"
-	weapons			WP_MELEE|WP_BLASTER_PISTOL|WP_BLASTER|WP_FRAG_NADE
-	attributes		MB_ATT_PISTOL,1|MB_ATT_BLASTER,1|MB_ATT_ARMOUR,3|MB_ATT_AMMO,2|MB_ATT_FRAGS,1|MB_ATT_CCTRAINING,2|MB_ATT_GUNBASH
 	maxhealth		75
 	maxarmor		50
-	customred		0.463
-	customgreen		0.502
-	customblue		0.427
-	model			"prisoner"
-	skin			"merchant"
 	uishader		"models/players/prisoner/mb2_icon_merchant"
-	MBClass			"MB_CLASS_SOLDIER"
-	extralives		4
 	speed			0.8
 
-	model_1			"prisoner"
-	skin_1			"elder"
 	uishader_1		"models/players/prisoner/mb2_icon_elder"
 
-	model_2			"prisoner"
-	skin_2			"elder2"
 	uishader_2		"models/players/prisoner/mb2_icon_elder2"
 
-	model_3			"gran"
-	skin_3			"jk"
 	uishader_3		"models/players/gran/mb2_icon_jk"
 
-	model_4			"gran"
-	skin_4			"default"
 	uishader_4		"models/players/gran/mb2_icon_default"
 }
 
@@ -62,6 +41,13 @@ WeaponInfo1
     customAmmo      500
     clipSize        100
     FPMult          0.8
+
+	hasAnimOverrides 1
+	animReady BOTH_DC15_READY
+	animReadyWalk BOTH_DC15_READY
+	animReadyNoAmmo BOTH_DC15_READY
+	animAttack BOTH_DC15_ATTACK
+	animAttackWalk BOTH_DC15_ATTACK
 }
 
 description	"Militia Soldier
@@ -71,7 +57,7 @@ Frag Grenade (1)
 Pistol (1)
 Junk Rifle (1)
 
-Attributes:
+Attributes
 Reinforcements (5)
 Close Combat Training (2)
 Gun Bash

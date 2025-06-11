@@ -12,11 +12,11 @@ Classes
 
 {
 class1  "s_17ca_cs1"
-class2  "s_17ca_ccm2"
-class3  "s_17ca_ar1w"
-class4  "s_17ca_ar2w"
-class5  "s_17ca_hr2"
-class6  "s_17ca_gj1"
+class2  "s_17ca_cs4"
+class3  "s_17ca_ccm2"
+class4  "s_17ca_ar1w"
+class5  "s_17ca_ar2w"
+class6  "s_17ca_hr2"
 }
 
 //1-6
@@ -24,7 +24,8 @@ class6  "s_17ca_gj1"
 SubclassesForClass1
 
 {
-Subclass1  "s_17ca_gj2"
+Subclass1  "s_17ca_gj1"
+Subclass2  "s_17ca_gj2"
 }
 
 //1-11
