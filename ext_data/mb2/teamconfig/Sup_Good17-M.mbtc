@@ -4,7 +4,7 @@
 
 name "Sup_Good17-M"
 
-ClassesAllowed 4
+ClassesAllowed 5
 TimePeriod 5
 EUAllowed 0
 
@@ -13,8 +13,9 @@ Classes
 {
 class1  "s_17ca_cs1"
 class2  "s_17ca_cs1m"
-class3  "s_17ca_ar1w"
-class4  "s_17ca_ar2w"
+class3  "s_17ca_cs4"
+class4  "s_17ca_ar1w"
+class5  "s_17ca_ar2w"
 }
 
 //1-6

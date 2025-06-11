@@ -1,3 +1,4 @@
+//Supremacy Class Prefix: s_2da_
 //Galactic Conquest/Supremacy siegeteam file - Created by 2cwldys & John
 //Clone Wars
 
@@ -10,11 +11,11 @@ EUAllowed 0
 Classes
 
 {
-class1	"s_2da_bdg"
-class2	"s_2da_bd4"
+class1  "s_2da_bdg"
+class2  "s_2da_bd4"
 class3  "s_2da_bd5"
-class4	"s_2da_bd2"
-class5	"s_2da_bd3"
+class4  "s_2da_bd2"
+class5  "s_2da_bd3"
 class6  "s_2da_jet1"
 }
 
