@@ -8,6 +8,7 @@ ClassInfo
 	speed			1.0
 	BPmultiplier    1.0
 	APmultiplier    1.0
+
 	
 	damageGiven        1.10
 

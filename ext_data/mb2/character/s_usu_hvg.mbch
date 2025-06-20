@@ -24,7 +24,6 @@ ClassInfo
     WP_MinigunFlags	HELD_ALTRELOAD|HELD_SLOW|HELD_STUN
     WP_BlasterPistolFlags	HELD_LOWDAMAGE|HELD_KNOCKDOWN|HELD_ALTRELOAD|HELD_IGNOREBLOCK
 
-
 }
 
 WeaponInfo0
@@ -38,9 +37,9 @@ WeaponInfo0
 	FlashSound0 "sound/weapsup/r/wpn_rebel_pistol_fire.wav"
 	MissileEffect		"blaster/Shot04R"
 	Missile3Effect		"Blaster/Shot04R"
-	MissileMissEffect	"effects/Grenades/EXP_Alt"
-	MissileHitHumanEffect "effects/Grenades/EXP_Alt"
-	MissileHitDroidEffect "effects/Grenades/EXP_Alt"
+	MissileMissEffect	"effects/Grenades/EXP_Alt_E"
+	MissileHitHumanEffect "effects/Grenades/EXP_Alt_E"
+	MissileHitDroidEffect "effects/Grenades/EXP_Alt_E"
 	ReloadTimeModifier	2
 	AltFireEnabled 0
 	customAmmo		250

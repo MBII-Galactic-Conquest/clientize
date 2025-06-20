@@ -1,6 +1,0 @@
-{
-map				"fel_praxeum"
-longname		"Sith Duel Chamber"
-fraglimit		10
-type			"duel powerduel tffa"
-}

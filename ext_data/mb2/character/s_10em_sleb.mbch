@@ -8,7 +8,13 @@ ClassInfo
 	speed			0.8
 	damageGiven		1.025
 
-	uishader_1		"gfx/sup_icons/preoxmo/mb2_icon_sleb"
+	uishader_1		"gfx/sup_icons/imperial_cap/mb2_icon_sleb"
+
+	uishader_2		"gfx/sup_icons/and_mudtrooper2/mb2_icon_sleb"
+
+	uishader_3		"gfx/sup_icons/and_mudtrooper/mb2_icon_sleb"
+
+	uishader_4		"gfx/sup_icons/preoxmo/mb2_icon_sleb"
 
 	WP_BlasterPistolFlags	HELD_ALTRELOAD|HELD_AMMOREGEN
 	WP_BlasterFlags		HELD_ALTRELOAD|HELD_AMMOREGEN
@@ -83,10 +89,10 @@ WeaponInfo1
 {
     WeaponToReplace        WP_BLASTER                           //Required: Weapon Slot of weapon you're replacing
     WeaponBasedOff        WP_BLASTER                          //Required: For future use, should be the same as WeaponToReplace
-    NewWorldModel        "models/weapons2/dc-15s/dc-15s_w.glm"      //Required: New 3rd person/dropped weapon model
-    NewViewModel        "models/weapons2/dc-15s/dc-15s.md3"       //Required: New 1st person weapon model
-    Icon                "gfx/hud/w_icon_dc-15s"                 //Required: Weapon change icon
-    WeaponName            "DC-15s Imperial Carbine"                        //Required: Weapon change display name
+    NewWorldModel        "models/weapons2/blaster_r/blaster_w.glm"      //Required: New 3rd person/dropped weapon model
+    NewViewModel        "models/weapons2/blaster_r/blaster.md3"       //Required: New 1st person weapon model
+    Icon                "gfx/hud/w_icon_e11"                 //Required: Weapon change icon
+    WeaponName            "Imperial E-11 Carbine"                        //Required: Weapon change display name
     FlashSound0 "sound/weapsup/sup/f11_fire.mp3"
     AltFlashSound0  "sound/weapsup/sup/f11_alt_fire.mp3"
     customAmmo      700
@@ -105,10 +111,10 @@ WeaponInfo2
 {
     WeaponToReplace        WP_EE4                           //Required: Weapon Slot of weapon you're replacing
     WeaponBasedOff        WP_EE4                          //Required: For future use, should be the same as WeaponToReplace
-    NewWorldModel        "models/weapons2/dc-15s/dc-15s_w.glm"      //Required: New 3rd person/dropped weapon model
-    NewViewModel        "models/weapons2/dc-15s/dc-15s.md3"       //Required: New 1st person weapon model
-    Icon                "gfx/hud/w_icon_dc-15s"                 //Required: Weapon change icon
-    WeaponName            "Heavy Imperial DC-15s"                        //Required: Weapon change display name
+    NewWorldModel        "models/weapons2/blaster_r/blaster_w.glm"      //Required: New 3rd person/dropped weapon model
+    NewViewModel        "models/weapons2/blaster_r/blaster.md3"       //Required: New 1st person weapon model
+    Icon                "gfx/hud/w_icon_e11"                 //Required: Weapon change icon
+    WeaponName            "Heavy Imperial E-11"                        //Required: Weapon change display name
 	MissileEffect		"blaster/Shot03R"
 	AltMissileEffect	"blaster/Shot04R"
 	FlashSound0		"sound/weapsup/sup/f11_alt_fire.mp3"
@@ -132,7 +138,7 @@ WeaponInfo2
 	animReadyNoAmmo BOTH_DC15_READY
 }
 
-description	"Early Empire - Clone Trooper - Enhanced Blasters
+description	"Early Empire - Imperial Soldier - Enhanced Blasters
 
 	[GC]
 Unlocked With:

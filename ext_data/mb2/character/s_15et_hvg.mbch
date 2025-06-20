@@ -20,7 +20,6 @@ ClassInfo
 
     WP_MinigunFlags	HELD_ALTRELOAD|HELD_SLOW|HELD_STUN
 
-
 	resource	RESOURCE_FUEL
 }
 

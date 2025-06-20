@@ -10,7 +10,6 @@ ClassInfo
 	uishader		"gfx/sup_icons/oldrepsold_h/mb2_icon_vang"
 	speed			0.65
 
-	damageGiven		1.025
 
 	isCustomBuild        1
 	mbPoints	15
@@ -69,7 +68,7 @@ WeaponInfo1
 	PowerupShotEffect	"Blaster/Shot04B"
 	MuzzleEffect		"Blaster/MuzzleFlash01B"
 	AltMuzzleEffect		"Blaster/MuzzleFlash01B"
-	MissileEffect		"blaster/Shot01B"
+	MissileEffect		"blaster/Shot03B"
 	AltMissileEffect 	"blaster/Shot01B"
 }
 
@@ -97,6 +96,8 @@ WeaponInfo2
 	animReadyNoAmmo BOTH_DC15_READY
 	animAttack BOTH_DC15_ATTACK
 	animAttackWalk BOTH_DC15_ATTACK
+
+	damageMod	1.05
 }
 
 WeaponInfo3
@@ -123,6 +124,8 @@ WeaponInfo3
 	animReadyNoAmmo BOTH_DC15_READY
 	animAttack BOTH_DC15_ATTACK
 	animAttackWalk BOTH_DC15_ATTACK
+
+	damageMod	1.025
 }
 
 ForceInfo0

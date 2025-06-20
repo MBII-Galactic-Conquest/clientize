@@ -1,7 +1,7 @@
 
 ClassInfo
 {
-	name			"s_2ca_pc1b"
+	name			"s_2ca_pc1bs"
 	maxhealth		85
 	maxarmor		25
 	uishader		"gfx/sup_icons/clonetrooper_p1/mb2_icon_solb"

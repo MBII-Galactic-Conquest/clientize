@@ -28,7 +28,6 @@ noDismemberment 1
 noDismemberment2 1
 noBladeEffects	1
 noBladeEffects2 1
-	NotInOpen      1
 
 g2MarksShader "gfx/damage/bloodcutmark"
 g2WeaponMarkShader "gfx/effects/bloodsplat"
@@ -85,7 +84,6 @@ electro-chain_whip_supremacy
 	blasterblocking		1
 	saberRadius         5
 	disarmable 0
-	NotInOpen      1
 	soundOn "sound/weapons/sword/draw1.wav"
 	soundLoop "sound/weapons/baton/idle.wav"
 	soundOff "sound/weapons/sword/draw1.wav"
@@ -172,7 +170,6 @@ electro-bisento_supremacy
 	hitOtherEffect2	"melee_weap/other.efx"
 	g2MarksShader		"gfx/damage/bloodcutmark"
 	g2WeaponMarkShader	"gfx/effects/bloodsplat"
-	NotInOpen  1
 	useGoreConfig 1
 	useGoreConfig2 1
 	disarmable 0
@@ -201,7 +198,6 @@ vibro-voulge_supremacy
 	animSpeedScale      0.97
 	blasterblocking		1
 	disarmable 0
-	NotInOpen      1
 	soundOn		"sound/weapons/sword/draw1.mp3"
 	soundLoop	"sound/effects/null.wav"
 	soundOff	"sound/weapons/tai_weap/saberoff.wav"
@@ -259,7 +255,6 @@ Guard_pike_supremacy
 	noBlade			1
 	noClashFlare		1
 	trailStyle		1
-	NotInOpen      1
 	
 	noIdleEffect		1
 	onInWater		1
@@ -313,7 +308,6 @@ lightsaber_pike_supremacy
 	animSpeedScale      0.97
 	damageScale     1
 	disarmable 0
-	NotInOpen      1
 
 	
 	readyAnim     TRIPLE3_REDSTANCE
@@ -342,7 +336,6 @@ bardiche_supremacy
 	noManualDeactivate	1
 	bounceOnWalls	1
 	idleInBack	1
-	NotInOpen      1
 	
 	damageScale		0.8
 	
@@ -400,7 +393,6 @@ gamo_axe_supremacy
 	idleInBack	1
 	twohanded	1
 	noCartwheels 1
-	NotInOpen      1
 	
 	damageScale		0.8
 	animSpeedScale  1.15
@@ -471,7 +463,6 @@ bardiche_jabba_supremacy
 	noManualDeactivate	1
 	bounceOnWalls	1
 	idleInBack	1
-	NotInOpen      1
 	
 	damageScale		0.8
 
@@ -527,7 +518,6 @@ JawaBaton_supremacy
 	noClashFlare	1
 	trailStyle	2
 	noManualDeactivate	1
-	NotInOpen 	1
 	damageScale 	0.6
 	noIdleEffect		1
 	onInWater		1
@@ -578,7 +568,6 @@ lego_supremacy_single
 	saberLength	40
 	saberRadius	6
 	saberColor	random
-	NotInOpen      1
 }
 
 mando_pike_supremacy
@@ -703,7 +692,6 @@ vong_amphistaff_supremacy
 	splashRadius        130
     splashDamage        25
     splashKnockback     100
-	NotInOpen      1
 
 	//blockEffect				none - if set, plays this effect when the saber/sword hits another saber/sword (instead of "saber/saber_block.efx")
 	//hitPersonEffect				none - if set, plays this effect when the saber/sword hits a person (instead of "saber/blood_sparks_mp.efx" in MP and "sparks/blood_sparks2" in SP)
@@ -717,7 +705,6 @@ saber_imperial_supremacy
 	saberModel  "models/weapons2/saber_plasma/saber_imperial.glm"
 	saberLength 40
 	saberColor  silver
-	NotInOpen      1
 }
 
 qstaff_supremacy

@@ -2,8 +2,8 @@
 ClassInfo
 {
 	name				"s_9ex_wook"
-	maxhealth			400
-	maxarmor			40
+	maxhealth			250
+	maxarmor			75
 	forcepool			80
 	saber1				kotor_longsword
 		
@@ -11,7 +11,7 @@ ClassInfo
 
 	resource		RESOURCE_RAGE
 	
-	WP_BowcasterFlags	HELD_SLOW
+	WP_E22Flags		HELD_SLOW
 
 	speed               0.9
 }
@@ -47,16 +47,25 @@ WeaponInfo1
 
 WeaponInfo2
 {
-    WeaponToReplace        WP_BOWCASTER                           //Required: Weapon Slot of weapon you're replacing
-    WeaponBasedOff        WP_BOWCASTER                          //Required: For future use, should be the same as WeaponToReplace
+    WeaponToReplace        WP_E_22                           //Required: Weapon Slot of weapon you're replacing
+    WeaponBasedOff        WP_E_22                          //Required: For future use, should be the same as WeaponToReplace
     NewWorldModel        "models/weapons2/bowcaster/bowcaster_w.glm"      //Required: New 3rd person/dropped weapon model
     NewViewModel        "models/weapons2/bowcaster/bowcaster.md3"       //Required: New 1st person weapon model
     Icon                "gfx/hud/w_icon_bowcaster"                 //Required: Weapon change icon
     WeaponName            "Wookiee Bowcaster"                        //Required: Weapon change display name
 	ChargeEffect		"gfx/effects/greenfrontflash"
 	MuzzleEffect		"Bowcaster/muzzle_flash"
+	AltMuzzleEffect		"Bowcaster/muzzle_flash"
 	MissileEffect		"Bowcaster/shot"
-	AltMissileEffect	"Bowcaster/shot"
+	AltMissileEffect	"blaster/Shot04G"
+	MissileMissEffect	"effects/impacts/impactmediumgreen1"
+	MissileHitHumanEffect	"effects/impacts/impactmediumgreen1"
+	MissileHitDroidEffect	"effects/impacts/impactmediumgreen1"
+	AltMissileMissEffect	"effects/Grenades/EXP_Alt_E"
+	AltMissileHitHumanEffect	"effects/Grenades/EXP_Alt_E"
+	AltMissileHitDroidEffect	"effects/Grenades/EXP_Alt_E"
+	FlashSound0			"sound/weapsup/r/wpn_all_bowcaster_fire.wav"
+	AltFlashSound0		"sound/weapsup/r/wpn_all_bowcaster_fire_2.wav"
     customAmmo      500
     clipSize        100
     FPMult          0.8
@@ -67,6 +76,10 @@ WeaponInfo2
 	animReadyNoAmmo BOTH_DC15_READY
 	animAttack BOTH_DC15_ATTACK
 	animAttackWalk BOTH_DC15_ATTACK
+
+	rateMod		1.6
+	velocityMod	0.8
+	damageMod	1.025
 }
 
 description	"Old Republic - Wookiee Soldier

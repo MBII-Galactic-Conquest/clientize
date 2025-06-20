@@ -7,7 +7,7 @@ ClassInfo
 	forcepool		20
 	uishader		"gfx/sup_icons/sandtrooper/mb2_icon_sni"
 	rateoffire		0.675
-	speed			0.75
+	speed			0.65
 
 	resourceRegenRate		1000
 	resourceRegenAmount		1

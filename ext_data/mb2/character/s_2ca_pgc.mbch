@@ -35,9 +35,9 @@ WeaponInfo0
     FlashSound0 "sound/weapsup/sup/wpn_rep_pistol_fire.wav"
 	MuzzleEffect		"Blaster/MuzzleFlash01B"
 	MissileEffect		"blaster/Shot04B"
-	MissileMissEffect	"effects/Grenades/EXP_Alt"
-	MissileHitHumanEffect "effects/Grenades/EXP_Alt"
-	MissileHitDroidEffect "effects/Grenades/EXP_Alt"
+	MissileMissEffect	"effects/Grenades/EXP_Alt_E"
+	MissileHitHumanEffect "effects/Grenades/EXP_Alt_E"
+	MissileHitDroidEffect "effects/Grenades/EXP_Alt_E"
 	AltFireEnabled	0
     customAmmo      500
     clipSize        40

@@ -1,13 +1,13 @@
 
 ClassInfo
 {
-	name			"s_2da_sni"
+	name			"s_2da_bd5"
 	maxhealth		40
 	maxarmor		50
 	forcepool		20
 	uishader		"gfx/sup_icons/battledroid/mb2_icon_sni"
 	rateoffire		0.675
-	speed			0.75
+	speed			0.65
 
 	resourceRegenRate		1000
 	resourceRegenAmount		1

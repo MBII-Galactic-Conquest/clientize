@@ -8,9 +8,6 @@ ClassInfo
 	speed			0.65
 	uishader		"gfx/sup_icons/lego_sandtrooper/mb2_icon_vang"
 
-	damageGiven		1.025
-
-
 	resource	RESOURCE_RAGE
 
 	resourceRegenRate		1000
@@ -49,6 +46,8 @@ WeaponInfo1
 	animReadyNoAmmo BOTH_DC15_READY
 	animAttack BOTH_DC15_ATTACK
 	animAttackWalk BOTH_DC15_ATTACK
+
+	damageMod	1.025
 }
 
 WeaponInfo2

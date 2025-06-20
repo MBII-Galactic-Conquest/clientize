@@ -7,6 +7,10 @@ ClassInfo
 	speed			0.7
 	uishader		"gfx/sup_icons/clonetrooper_p2/mb2_icon_hvr"
 
+	uishader_1		"gfx/sup_icons/and_mudtrooper2/mb2_icon_hvr"
+
+	uishader_2		"gfx/sup_icons/and_mudtrooper/mb2_icon_hvr"
+
 
 	WP_PLX1Flags	HELD_SLOW
 }
@@ -28,10 +32,10 @@ WeaponInfo1
 {
     WeaponToReplace        WP_BLASTER                           //Required: Weapon Slot of weapon you're replacing
     WeaponBasedOff        WP_BLASTER                          //Required: For future use, should be the same as WeaponToReplace
-    NewWorldModel        "models/weapons2/dc-15s/dc-15s_w.glm"      //Required: New 3rd person/dropped weapon model
-    NewViewModel        "models/weapons2/dc-15s/dc-15s.md3"       //Required: New 1st person weapon model
-    Icon                "gfx/hud/w_icon_dc-15s"                 //Required: Weapon change icon
-    WeaponName            "DC-15s Imperial Carbine"                        //Required: Weapon change display name
+    NewWorldModel        "models/weapons2/blaster_r/blaster_w.glm"      //Required: New 3rd person/dropped weapon model
+    NewViewModel        "models/weapons2/blaster_r/blaster.md3"       //Required: New 1st person weapon model
+    Icon                "gfx/hud/w_icon_e11"                 //Required: Weapon change icon
+    WeaponName            "Imperial E-11 Carbine"                        //Required: Weapon change display name
     FlashSound0 "sound/weapsup/sup/f11_fire.mp3"
     AltFlashSound0  "sound/weapsup/sup/f11_alt_fire.mp3"
     customAmmo      500
