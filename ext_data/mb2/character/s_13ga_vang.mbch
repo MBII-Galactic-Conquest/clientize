@@ -19,8 +19,6 @@ ClassInfo
 
 	uishader_3		"gfx/sup_icons/nrmarine/mb2_icon_vang"
 
-	damageGiven		1.025
-
 	isCustomBuild        1
 	mbPoints	15
 
@@ -83,6 +81,8 @@ WeaponInfo1
 	animReadyNoAmmo BOTH_DC15_READY
 	animAttack BOTH_DC15_ATTACK
 	animAttackWalk BOTH_DC15_ATTACK
+
+	damageMod	1.05
 }
 
 WeaponInfo2
@@ -103,6 +103,8 @@ WeaponInfo2
 	animReadyNoAmmo BOTH_DC15_READY
 	animAttack BOTH_DC15_ATTACK
 	animAttackWalk BOTH_DC15_ATTACK
+
+	damageMod	1.025
 }
 
 ForceInfo0

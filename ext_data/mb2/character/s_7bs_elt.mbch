@@ -22,8 +22,6 @@ ClassInfo
 	uishader_4		"gfx/sup_icons/bossk/mb2_icon_vang"
 
 
-	damageGiven		1.025
-
 	isCustomBuild        1
 	mbPoints	15
 
@@ -44,7 +42,7 @@ ClassInfo
     c_att_ranks_3        13,1,1
 
     c_att_skill_4        MB_ATT_A280
-    c_att_names_4        "Burst T-21:"
+    c_att_names_4        "Burst DLT20A:"
     c_att_ranks_4        13,1,1
 
 	resource	RESOURCE_RAGE
@@ -59,11 +57,11 @@ ClassInfo
 WeaponInfo0
 {
     WeaponToReplace        WP_A280                           //Required: Weapon Slot of weapon you're replacing
-    WeaponBasedOff        WP_BLASTER                          //Required: For future use, should be the same as WeaponToReplace
+    WeaponBasedOff        WP_A280                          //Required: For future use, should be the same as WeaponToReplace
     NewWorldModel        "models/weapons2/DLT20a/dlt20a_w.glm"      //Required: New 3rd person/dropped weapon model
     NewViewModel        "models/weapons2/DLT20a/dlt20a.md3"       //Required: New 1st person weapon model
     Icon                "gfx/hud/w_icon_DLT20a"                 //Required: Weapon change icon
-    WeaponName            "DLT20A Rifle"                        //Required: Weapon change display name
+    WeaponName            "Burst DLT20A Rifle"                        //Required: Weapon change display name
     customAmmo      500
     clipSize        100
     FPMult          0.8
@@ -74,6 +72,32 @@ WeaponInfo0
 	animReadyNoAmmo BOTH_DC15_READY
 	animAttack BOTH_DC15_ATTACK
 	animAttackWalk BOTH_DC15_ATTACK
+
+	damageMod	1.05
+}
+
+WeaponInfo1
+{
+    WeaponToReplace        WP_T21                           //Required: Weapon Slot of weapon you're replacing
+    WeaponBasedOff        WP_T21                          //Required: For future use, should be the same as WeaponToReplace
+	NewWorldModel		"models/weapons2/t-21/t-21_w.glm"
+	NewViewModel		"models/weapons2/t-21/t-21.md3"
+	Icon				"gfx/hud/w_icon_t-21_na"
+	WeaponName			"T-21 Heavy Blaster"
+	FlashSound0 "sound/weapons/T-21/fire.mp3"
+    AltFlashSound0  "sound/weapons/T-21/alt_fire.mp3"
+    customAmmo      500
+    clipSize        100
+    FPMult          0.8
+
+	hasAnimOverrides 1
+	animReady BOTH_DC15_READY
+	animReadyWalk BOTH_DC15_READY
+	animReadyNoAmmo BOTH_DC15_READY
+	animAttack BOTH_DC15_ATTACK
+	animAttackWalk BOTH_DC15_ATTACK
+
+	damageMod	1.025
 }
 
 ForceInfo0

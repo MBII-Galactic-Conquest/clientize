@@ -20,7 +20,6 @@ kotor_vibrostaff_supremacy
 	noBlade			1
 	noIdleEffect		1
 	noWallMarks		1
-	NotInOpen	1
 	trailStyle		1
 	bounceOnWalls		0
 	onInWater		1
@@ -125,7 +124,6 @@ rakatan_vibrostaff_supremacy
 	splashRadius        130
     splashDamage        25
     splashKnockback     100
-	NotInOpen      1
 
 	useGoreConfig	1
 	BlasterBlocking 0
@@ -147,7 +145,6 @@ rakatan_forcesaber_supremacy
     saberLength	40
 	saberStyle	staff
 	throwable	1
-	NotInOpen	1
 	//singleBladeStyle	desann
 	singleBladeThrowable	1
 	twoHanded		1

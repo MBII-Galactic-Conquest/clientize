@@ -13,7 +13,8 @@ ClassInfo
 	speed			1.0
 	BPmultiplier    1.0
 	APmultiplier    1.0
-	
+
+
 	damageGiven        1.10
 
 	uishader		"gfx/sup_icons/lego_jedi/mb2_icon_jedi"

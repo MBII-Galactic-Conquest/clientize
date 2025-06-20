@@ -14,8 +14,6 @@ ClassInfo
 	speed			0.65
 	BPmultiplier    1.0
 	APmultiplier    1.0
-	
-	damageGiven        1.05
 
 	uishader		"gfx/sup_icons/rakata/mb2_icon_vang"
 
@@ -109,6 +107,8 @@ WeaponInfo3
 	animReadyNoAmmo BOTH_DC15_READY
 	animAttack BOTH_DC15_ATTACK
 	animAttackWalk BOTH_DC15_ATTACK
+
+	damageMod	1.05
 }
 
 WeaponInfo4
@@ -131,6 +131,8 @@ WeaponInfo4
 	animReadyNoAmmo BOTH_DC15_READY
 	animAttack BOTH_DC15_ATTACK
 	animAttackWalk BOTH_DC15_ATTACK
+
+	damageMod	1.025
 }
 
 ForceInfo0

@@ -20,7 +20,7 @@ ClassInfo
 	resourceRegenAmount		2
 	forceregen		0.1
 	rateoffire		1.4
-	damageGiven		1.025
+
 	knockbackGiven	1.2
 
 
@@ -52,9 +52,9 @@ WeaponInfo1
 	FlashSound0			"sound/weapons/kotor/fire_light.wav"
 	MissileEffect		"blaster/Shot04R"
 	Missile3Effect		"Blaster/Shot04R"
-	MissileMissEffect	"effects/Grenades/EXP_Alt"
-	MissileHitHumanEffect "effects/Grenades/EXP_Alt"
-	MissileHitDroidEffect "effects/Grenades/EXP_Alt"
+	MissileMissEffect	"effects/Grenades/EXP_Alt_E"
+	MissileHitHumanEffect "effects/Grenades/EXP_Alt_E"
+	MissileHitDroidEffect "effects/Grenades/EXP_Alt_E"
 	ReloadTimeModifier	2
 	AltFireEnabled 0
 	customAmmo		250

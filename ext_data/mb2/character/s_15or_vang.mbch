@@ -88,6 +88,8 @@ WeaponInfo2
 	animReadyNoAmmo BOTH_DC15_READY
 	animAttack BOTH_DC15_ATTACK
 	animAttackWalk BOTH_DC15_ATTACK
+
+	damageMod	1.05
 }
 
 WeaponInfo3
@@ -114,6 +116,8 @@ WeaponInfo3
 	animReadyNoAmmo BOTH_DC15_READY
 	animAttack BOTH_DC15_ATTACK
 	animAttackWalk BOTH_DC15_ATTACK
+
+	damageMod	1.025
 }
 
 ForceInfo0

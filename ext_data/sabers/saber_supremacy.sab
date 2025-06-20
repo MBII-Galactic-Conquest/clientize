@@ -8,7 +8,6 @@ jediknight_supremacy1
 	soundOff	"sound/weapons/saber/saberoff.wav"
 	saberLength	40
 	saberColor	random
-	NotInOpen      1
 }
 
 jediknight_supremacy2
@@ -21,7 +20,6 @@ jediknight_supremacy2
 	soundOff	"sound/weapons/saber/saberoff.wav"
 	saberLength	40
 	saberColor	random
-	NotInOpen      1
 }
 
 jediknight_supremacy3
@@ -47,7 +45,6 @@ jediknight_supremacy4
 	soundOff	"sound/weapons/saber/saberoff.wav"
 	saberLength	40
 	saberColor	random
-	NotInOpen      1
 }
 
 jediknight_supremacy5
@@ -60,7 +57,6 @@ jediknight_supremacy5
 	soundOff	"sound/weapons/saber/saberoff.wav"
 	saberLength	40
 	saberColor	random
-	NotInOpen      1
 }
 
 sith_supremacy1
@@ -73,7 +69,6 @@ sith_supremacy1
 	soundOff	"sound/weapons/saberot/enemy_saber_off.wav"
 	saberLength 40
 	saberColor  red
-	NotInOpen      1
 }
 
 sith_supremacy2
@@ -86,7 +81,6 @@ sith_supremacy2
 	soundOff	"sound/weapons/saber/saberoff.wav"
 	saberLength	40
 	saberColor	red
-	NotInOpen      1
 }
 
 sith_supremacy3
@@ -97,7 +91,6 @@ sith_supremacy3
 	saberLength 40
 	saberColor  red
 	unstable 1
-	NotInOpen      1
 	
 	soundOn		"sound/weapons/saber_shadow/saberonfast.wav"
 	soundOff	"sound/weapons/saber_shadow/saberoffquick.wav"
@@ -131,7 +124,6 @@ sith_supremacy4
 	saberLength	40
 	saberColor red
 	isOpenMode	0
-	NotInOpen      1
 }
 
 assassin_shiv_supremacy
@@ -158,7 +150,6 @@ assassin_shiv_supremacy
 	blocking	0
 	saberRadius4	15
 	throwable	0
-	NotInOpen      1
 
 	blasterblocking		1
 	noManualDeactivate 	1
@@ -268,7 +259,6 @@ assassin_shiv_dual_supremacy
 	g2MarksShader		"gfx/damage/bloodcutmark"
 	g2WeaponMarkShader	"gfx/effects/bloodsplat"
 	noKicks 1
-	NotInOpen      1
 	
 	useGoreConfig	1
 	useGoreConfig2	1
@@ -306,7 +296,6 @@ supremacy_Knife
 	noDismemberment2 1
 	noBladeEffects	1
 	noBladeEffects2 1
-	NotInOpen      1
 
 
 	noCartwheels     1
@@ -376,7 +365,6 @@ droidmelee_supremacy
 	blasterblocking		0
 	throwable	0
 	disarmable	0
-	NotInOpen      1
 
 	blocking		0
 	onInWater		1
@@ -437,7 +425,6 @@ electrostaff_supremacy
 	
 	noRollStab       0
     noCartwheels     1
-	NotInOpen      1
 
 	bladeEffect		"electrostaff/energyblade.efx"
 	blade2Effect		"electrostaff/energyblade.efx"
@@ -509,7 +496,6 @@ vibro_BX_supremacy
 	noManualDeactivate	1
 	bounceOnWalls	1
 	saberColor	orange
-	NotInOpen      1
 
 	animspeedscale	1.15
 

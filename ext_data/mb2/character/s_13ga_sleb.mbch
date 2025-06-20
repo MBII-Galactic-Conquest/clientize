@@ -26,8 +26,6 @@ ClassInfo
 
 	uishader_7		"gfx/sup_icons/nrguard_abe/mb2_icon_sleb"
 
-	damageGiven		1.025
-
 	WP_BlasterPistolFlags	HELD_ALTRELOAD|HELD_AMMOREGEN
 	WP_BlasterFlags		HELD_ALTRELOAD|HELD_AMMOREGEN
 	WP_EE4Flags			HELD_ALTRELOAD|HELD_AMMOREGEN|HELD_SLOW

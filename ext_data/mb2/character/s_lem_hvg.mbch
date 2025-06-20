@@ -41,9 +41,9 @@ WeaponInfo0
     AltFlashSound0  "sound/weapsup/r/wpn_imp_pistol_fire.wav"
 	MissileEffect		"blaster/Shot04R"
 	Missile3Effect		"Blaster/Shot04R"
-	MissileMissEffect	"effects/Grenades/EXP_Alt"
-	MissileHitHumanEffect "effects/Grenades/EXP_Alt"
-	MissileHitDroidEffect "effects/Grenades/EXP_Alt"
+	MissileMissEffect	"effects/Grenades/EXP_Alt_E"
+	MissileHitHumanEffect "effects/Grenades/EXP_Alt_E"
+	MissileHitDroidEffect "effects/Grenades/EXP_Alt_E"
 	ReloadTimeModifier	2
 	AltFireEnabled 0
 	customAmmo		250

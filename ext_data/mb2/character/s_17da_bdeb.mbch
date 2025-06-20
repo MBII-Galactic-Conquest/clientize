@@ -12,7 +12,7 @@ ClassInfo
 	uishader		"gfx/sup_icons/battledroid/mb2_icon_sleb"
 	speed			1.0
 
-    damageGiven     1.05
+    damageGiven     1.025
 
 
 	WP_BlasterPistolFlags   HELD_ALTRELOAD|HELD_AMMOREGEN

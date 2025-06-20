@@ -13,8 +13,6 @@ ClassInfo
 	uishader		"gfx/sup_icons/skytrooper/mb2_icon_vang"
 
 
-	damageGiven		1.025
-
 
 	forceregen	2
 
@@ -38,6 +36,8 @@ WeaponInfo0
 	AltMissileEffect 	"concussion/shot"
 	
 	idleAnim		DC15_READY
+
+	damageMod	1.010
 }
 
 ForceInfo0
