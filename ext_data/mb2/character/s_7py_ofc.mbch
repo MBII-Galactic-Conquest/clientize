@@ -1,104 +1,88 @@
-
 ClassInfo
 {
-	name			"s_7py_ofc"
-	saber1			kotor_vibrosword_supremacy
-	saber1_1		kotor_vibrostaff_supremacy
-	maxhealth		125
-	maxarmor		125
-	forcepool		25
-	uishader		"models/players/pyke2/mb2_icon_default3"
-	rateoffire		0.675
-	speed			1.0
-
-	resourceRegenRate		1000
-	resourceRegenAmount		1
-	forceregen		0.1
-
-	resource		RESOURCE_RAGE
+name	"s_7py_ofc"
+saber1	kotor_vibrosword_supremacy
+saber1_1	kotor_vibrostaff_supremacy
+maxhealth	125
+maxarmor	125
+forcepool	25
+uishader	"models/players/pyke2/mb2_icon_default3"
+rateoffire	0.675
+speed	1.0
+resourceRegenRate	1000
+resourceRegenAmount	1
+forceregen	0.1
+resource	RESOURCE_RAGE
+isCustomBuild	1
+mbPoints	0
+hasCustomSpec	3
+isOnlyOneSpec	1
+customSpecName_1	""
+customSpecIcon_1	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_1	""
+customSpecName_2	""
+customSpecIcon_2	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_2	""
+customSpecName_3	""
+customSpecIcon_3	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_3	""
+c_att_skill_0	MB_ATT_INVALID
+c_att_names_0	""
+c_att_ranks_0	-1
 }
-
 WeaponInfo0
 {
-	WeaponToReplace		WP_BLASTER_PISTOL       					//Required: Weapon Slot of weapon you're replacing
-	WeaponBasedOff		WP_BLASTER_PISTOL      					//Required: For future use, should be the same as WeaponToReplace
-	NewWorldModel		"models/weapons2/kotor_hobpistol/kotor_hobpistol_w.glm"  	//Required: New 3rd person/dropped weapon model
-	NewViewModel		"models/weapons2/kotor_hobpistol/kotor_hobpistol.md3"   	//Required: New 1st person weapon model
-	Icon				"gfx/hud/w_icon_kotor_hobpistol_na" 				//Required: Weapon change icon
-	WeaponName			"Syndicate Pistol"    					//Required: Weapon change display name
-    FlashSound0			"sound/weapsup/sup/wpn_cis_sonicBlaster_fire.wav"
-    AltFlashSound0  	"sound/weapons/E-5s/alt_fire.mp3"
-	customAmmo      500
-	clipSize        100
-	FPMult          0.8
+WeaponToReplace	WP_BLASTER_PISTOL
+WeaponBasedOff	WP_BLASTER_PISTOL
+NewWorldModel	"models/weapons2/kotor_hobpistol/kotor_hobpistol_w.glm"
+NewViewModel	"models/weapons2/kotor_hobpistol/kotor_hobpistol.md3"
+Icon	"gfx/hud/w_icon_kotor_hobpistol_na"
+WeaponName	"Syndicate Pistol"
+FlashSound0	"sound/weapsup/sup/wpn_cis_sonicBlaster_fire.wav"
+AltFlashSound0	"sound/weapons/E-5s/alt_fire.mp3"
+customAmmo	500
+clipSize	100
+FPMult	0.8
 }
-
 WeaponInfo1
 {
-	WeaponToReplace		WP_SABER			
-	WeaponBasedOff		WP_SABER			
-	NewWorldModel		"models/weapons2/kotor_longsword/saber_w.glm"  
-	NewViewModel		"models/weapons2/dummy/dummy.md3" 	  
-	Icon			"gfx/hud/w_icon_vibrosword"
-	WeaponName		"Cortosis Vibrosword"    	 			
+WeaponToReplace	WP_SABER
+WeaponBasedOff	WP_SABER
+NewWorldModel	"models/weapons2/kotor_longsword/saber_w.glm"
+NewViewModel	"models/weapons2/dummy/dummy.md3"
+Icon	"gfx/hud/w_icon_vibrosword"
+WeaponName	"Cortosis Vibrosword"
 }
-
 WeaponInfo2
 {
-	WeaponToReplace		WP_A280       					//Required: Weapon Slot of weapon you're replacing
-	WeaponBasedOff		WP_BLASTER      					//Required: For future use, should be the same as WeaponToReplace
-	NewWorldModel		"models/weapons2/kotor_ionrifle/kotor_ionrifle.glm"  	//Required: New 3rd person/dropped weapon model
-	NewViewModel		"models/weapons2/kotor_ionrifle/kotor_ionrifle.md3"   	//Required: New 1st person weapon model
-	Icon				"gfx/hud/w_icon_kotor_ionrifle" 				//Required: Weapon change icon
-	WeaponName			"Syndicate Rifle"    					//Required: Weapon change display name
-    FlashSound0 "sound/weapons/E-5s/fire.mp3"
-    AltFlashSound0  "sound/weapons/E-5s/alt_fire.mp3"
-	customAmmo      500
-	clipSize        100
-	FPMult          0.8
+WeaponToReplace	WP_A280
+WeaponBasedOff	WP_BLASTER
+NewWorldModel	"models/weapons2/kotor_ionrifle/kotor_ionrifle.glm"
+NewViewModel	"models/weapons2/kotor_ionrifle/kotor_ionrifle.md3"
+Icon	"gfx/hud/w_icon_kotor_ionrifle"
+WeaponName	"Syndicate Rifle"
+FlashSound0	"sound/weapons/E-5s/fire.mp3"
+AltFlashSound0	"sound/weapons/E-5s/alt_fire.mp3"
+customAmmo	500
+clipSize	100
+FPMult	0.8
 }
-
 ForceInfo0
 {
-	ForceToReplace        FP_PUSH
-	Icon                 "gfx/mp/sup_repulsor_glove"
-	ForcePowerName		 "Repulsor Glove"
-	HandShader	"gfx/effects/forcePush"
-	HandShaderRed	0
-	HandShaderBlue	0
-	HandShaderGreen	200
+ForceToReplace	FP_PUSH
+Icon	"gfx/mp/sup_repulsor_glove"
+ForcePowerName	"Repulsor Glove"
+HandShader	"gfx/effects/forcePush"
+HandShaderRed	0
+HandShaderBlue	0
+HandShaderGreen	200
 }
-
 ForceInfo1
 {
-	ForceToReplace        FP_PROTECT
-	Icon                 "gfx/mp/sup_ofc_shroud"
-	ForcePowerName		 "Officer Shroud"
-	StartSound           "sound/forcesup/protect.mp3"
-	LoopSound            "sound/forcesup/protectloop.wav"
+ForceToReplace	FP_PROTECT
+Icon	"gfx/mp/sup_ofc_shroud"
+ForcePowerName	"Officer Shroud"
+StartSound	"sound/forcesup/protect.mp3"
+LoopSound	"sound/forcesup/protectloop.wav"
 }
-
-description	"Pyke Syndicate - Low Boss
-
-Weaponry:
-Cryogenic Grenade (1)
-Sonic Screamer (1)
-Syndicate Pistol (3)
-Syndicate Rifle (A280) (3)
-
-Vibrosword Info:
-Saber Offense (2)
-Saber Defense (1)
-
-Gadgets:
-Shield Generator (1)
-Web Turret (1)
-Binoculars (1)
-
-Attributes
-Close Combat Training (2)
-Blast Armor
-Gun Bash
-Rally
-
-A criminal ringleader of the Pyke Syndicate, he looks inspiring."
+description ""

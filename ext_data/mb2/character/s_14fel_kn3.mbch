@@ -1,77 +1,49 @@
-
 ClassInfo
 {
-	name			"s_14fel_kn3"
-	classflags		CFL_BPFREEJUMPS
-	maxhealth       80
-	maxarmor		25
-	forcepool		70
-	forceregen		1.25
-	speed			1.0
-	BPmultiplier    1.0
-	APmultiplier    1.0
-	
-	damageGiven        1.10
-
-	uishader		"gfx/sup_icons/felknight_foxheart/mb2_icon_jedi"
-
-	uishader_1		"gfx/sup_icons/felknight_jiix/mb2_icon_jedi"
-
-	uishader_2		"gfx/sup_icons/felknight_kaizen/mb2_icon_jedi"
-
-	uishader_3		"gfx/sup_icons/felknight_dain/mb2_icon_jedi"
-
-	uishader_4		"gfx/sup_icons/felknight_draconis/mb2_icon_jedi"
-
-	uishader_5		"gfx/sup_icons/felknight_vuk/mb2_icon_jedi"
-	
-	saber1			saber_imperial_supremacy
-	saber2			none
-	
-	saber1_1		lightsaber_pike_supremacy
-	saber2_1		none
-
-
+name	"s_14fel_kn3"
+classflags	CFL_BPFREEJUMPS
+maxhealth	80
+maxarmor	25
+forcepool	70
+forceregen	1.25
+speed	1.0
+BPmultiplier	1.0
+APmultiplier	1.0
+damageGiven	1.10
+uishader	"gfx/sup_icons/felknight_foxheart/mb2_icon_jedi"
+uishader_1	"gfx/sup_icons/felknight_jiix/mb2_icon_jedi"
+uishader_2	"gfx/sup_icons/felknight_kaizen/mb2_icon_jedi"
+uishader_3	"gfx/sup_icons/felknight_dain/mb2_icon_jedi"
+uishader_4	"gfx/sup_icons/felknight_draconis/mb2_icon_jedi"
+uishader_5	"gfx/sup_icons/felknight_vuk/mb2_icon_jedi"
+saber1	saber_imperial_supremacy
+saber2	none
+saber1_1	lightsaber_pike_supremacy
+saber2_1	none
+isCustomBuild	1
+mbPoints	0
+hasCustomSpec	3
+isOnlyOneSpec	1
+customSpecName_1	""
+customSpecIcon_1	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_1	""
+customSpecName_2	""
+customSpecIcon_2	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_2	""
+customSpecName_3	""
+customSpecIcon_3	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_3	""
+c_att_skill_0	MB_ATT_INVALID
+c_att_names_0	"Fel Knight (Adept)"
+c_att_ranks_0	-1
 }
-
 WeaponInfo0
 {
-	WeaponToReplace		WP_MELEE
-	WeaponBasedOff		WP_MELEE  
-	NewWorldModel		"models/weapons2/dummy/dummy.glm"
-	NewViewModel		"models/weapons2/dummy/dummy.md3"
-	Icon				"gfx/mp/duel/sup_fel_gauntlets"
-	WeaponName			"Cortosis Gauntlets"
+WeaponToReplace	WP_MELEE
+WeaponBasedOff	WP_MELEE
+NewWorldModel	"models/weapons2/dummy/dummy.glm"
+NewViewModel	"models/weapons2/dummy/dummy.md3"
+Icon	"gfx/mp/duel/sup_fel_gauntlets"
+WeaponName	"Cortosis Gauntlets"
 }
-
-description	"Fel-Empire - Imperial Knight - Adept
-
-	[GC]
-Special Unit
-Weakened
-
-Class: Jedi.
-Class Summary: 
-A weaker one-life Jedi saberist.
-
-Weapons
-Pistol (2)
-
-Lightsaber:
-- Defense (2)
-- Deflect (1)
-- Can use Blue, Red, and Yellow styles
-
-Force Powers:
-- Jump (1)
-- Push (2)
-- Pull (2)
-- Speed (1)
-- Sense (1)
-- Force Block (1)
-- Force Focus (1)
-
-Attributes
-- Cortosis
-
-The Imperial Knights of the Fel Empire, sworn protectors of it's dynasty, trained seperately in the arts of the force: to protect their Emperor until breath flee body. Only to turn on them if they fell to the dark side of the force..."
+description ""

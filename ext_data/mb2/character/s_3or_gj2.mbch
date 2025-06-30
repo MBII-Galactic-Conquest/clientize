@@ -1,71 +1,43 @@
-
 ClassInfo
 {
-	name			"s_3or_gj2"
-	classflags		CFL_HASQ3
-	maxhealth       100
-	forcepool		200
-	speed			1.0
-	BPmultiplier    1.0
-	APmultiplier    1.0
-	
-	damageGiven        1.10
-		
-	uishader		"gfx/sup_icons/jeditrainer/mb2_icon_jedi"
-	
-	uishader_1		"gfx/sup_icons/jedi/mb2_icon_jedi"
-	
-	uishader_2		"gfx/sup_icons/jedi_m/mb2_icon_jedi"
-
-	uishader_3		"gfx/sup_icons/jedi_f/mb2_icon_jedi"
-
-	uishader_4		"gfx/sup_icons/jaden/mb2_icon_jedi"
-				
-	saber1			jediknight_supremacy1
-	saber2			none
-			
-	saber1_1    	jediknight_supremacy2
-	saber2_1		none	
-		
-	saber1_2  		jediknight_supremacy3
-	saber2_2		none	
-	
-	saber1_3		jediknight_supremacy4
-	saber2_3		none
-	
-	saber1_4		jediknight_supremacy5
-	saber2_4		none
-
-
+name	"s_3or_gj2"
+classflags	CFL_HASQ3
+maxhealth	100
+forcepool	200
+speed	1.0
+BPmultiplier	1.0
+APmultiplier	1.0
+damageGiven	1.10
+uishader	"gfx/sup_icons/jeditrainer/mb2_icon_jedi"
+uishader_1	"gfx/sup_icons/jedi/mb2_icon_jedi"
+uishader_2	"gfx/sup_icons/jedi_m/mb2_icon_jedi"
+uishader_3	"gfx/sup_icons/jedi_f/mb2_icon_jedi"
+uishader_4	"gfx/sup_icons/jaden/mb2_icon_jedi"
+saber1	jediknight_supremacy1
+saber2	none
+saber1_1	jediknight_supremacy2
+saber2_1	none
+saber1_2	jediknight_supremacy3
+saber2_2	none
+saber1_3	jediknight_supremacy4
+saber2_3	none
+saber1_4	jediknight_supremacy5
+saber2_4	none
+isCustomBuild	1
+mbPoints	0
+hasCustomSpec	3
+isOnlyOneSpec	1
+customSpecName_1	""
+customSpecIcon_1	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_1	""
+customSpecName_2	""
+customSpecIcon_2	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_2	""
+customSpecName_3	""
+customSpecIcon_3	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_3	""
+c_att_skill_0	MB_ATT_INVALID
+c_att_names_0	"Sorcerer"
+c_att_ranks_0	-1
 }
-
-description	"Generic Leader: Jedi Sorcerer
-
-	[GC]
-Unlocked With:
-Leader Bonus
-
-Class: Jedi.
-Class Summary: 
-A single-life Jedi sorcerer.
-
-Lightsaber:
-- Defense (0)
-- Can use Blue and Red styles
-
-Force Powers:
-- Jump (3)
-- Push (3)
-- Pull (3)
-- Sense (3)
-- Speed (3)
-- Mind Trick (3)
-- Protect (3)
-- Absorb (3)
-- Team Heal (2)
-- Team Energize (2)
-- Force Block (2)
-- Force Focus (1)
-- Repulse
-
-For over a thousand generations, the Jedi Knights were the guardians of peace and justice in the Old Republic."
+description ""

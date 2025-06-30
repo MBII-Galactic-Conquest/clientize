@@ -1,132 +1,94 @@
-
 ClassInfo
 {
-	name			"s_16ie_med"
-	classflags		CFL_STATVIEWER
-	saber1			rakatan_vibrostaff_supremacy
-	forcepool		50
-	maxhealth		200
-	maxarmor		10
-	uishader		"gfx/sup_icons/rakata_2/mb2_icon_med"
-	speed			0.7
-
-	saberStanceAnim     BOTH_TAVION_STANCE
-
-
-	damageGiven        1.10
-	resourceRegenRate		1000
-	resourceRegenAmount		1
-	forceregen		0.1
-
-
-	resource	RESOURCE_RAGE
+name	"s_16ie_med"
+classflags	CFL_STATVIEWER
+saber1	rakatan_vibrostaff_supremacy
+forcepool	50
+maxhealth	200
+maxarmor	10
+uishader	"gfx/sup_icons/rakata_2/mb2_icon_med"
+speed	0.7
+saberStanceAnim	BOTH_TAVION_STANCE
+damageGiven	1.10
+resourceRegenRate	1000
+resourceRegenAmount	1
+forceregen	0.1
+resource	RESOURCE_RAGE
+isCustomBuild	1
+mbPoints	0
+hasCustomSpec	3
+isOnlyOneSpec	1
+customSpecName_1	""
+customSpecIcon_1	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_1	""
+customSpecName_2	""
+customSpecIcon_2	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_2	""
+customSpecName_3	""
+customSpecIcon_3	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_3	""
+c_att_skill_0	MB_ATT_INVALID
+c_att_names_0	""
+c_att_ranks_0	-1
 }
-
 WeaponInfo0
 {
-	WeaponToReplace		WP_MELEE
-	WeaponBasedOff		WP_MELEE  
-  NewWorldModel		"models/weapons2/dummy/dummy.glm"
-  NewViewModel		"models/weapons2/dummy/dummy.md3"
-  Icon			"gfx/mplevels/aliens3/aliens_claws"
-	WeaponName		"Claws"
-	primGore		1
-	altGore			1
+WeaponToReplace	WP_MELEE
+WeaponBasedOff	WP_MELEE
+NewWorldModel	"models/weapons2/dummy/dummy.glm"
+NewViewModel	"models/weapons2/dummy/dummy.md3"
+Icon	"gfx/mplevels/aliens3/aliens_claws"
+WeaponName	"Claws"
+primGore	1
+altGore	1
 }
-
 WeaponInfo1
 {
-	WeaponToReplace WP_SABER
-	WeaponBasedOff  WP_SABER
-	NewWorldModel "models/weapons2/kotor_vibroswords/vibrostaff_w.glm"
-	NewViewModel  "models/weapons2/dummy/dummy.md3"
-	Icon  "gfx/hud/w_icon_oldrepswords"
-	WeaponName  "Rakatan Vibrostaff"
+WeaponToReplace	WP_SABER
+WeaponBasedOff	WP_SABER
+NewWorldModel	"models/weapons2/kotor_vibroswords/vibrostaff_w.glm"
+NewViewModel	"models/weapons2/dummy/dummy.md3"
+Icon	"gfx/hud/w_icon_oldrepswords"
+WeaponName	"Rakatan Vibrostaff"
 }
-
 WeaponInfo2
 {
-	WeaponToReplace		WP_BRYAR_PISTOL
-	WeaponBasedOff		WP_BOWCASTER
-	NewWorldModel		"models/weapons2/kotor_bpistol2/kotor_bpistol2_w.glm"
-	NewViewModel		"models/weapons2/kotor_bpistol2/kotor_bpistol2.md3"
-	Icon				"gfx/hud/w_icon_kotor_bpistol2"
-	WeaponName			"BP-2 Hand Pistol"
-	FlashSound0			"sound/weapons/kotor/fire_light.wav"
-    AltFlashSound0		"sound/weapons/kotor/fire_hvy.wav"
+WeaponToReplace	WP_BRYAR_PISTOL
+WeaponBasedOff	WP_BOWCASTER
+NewWorldModel	"models/weapons2/kotor_bpistol2/kotor_bpistol2_w.glm"
+NewViewModel	"models/weapons2/kotor_bpistol2/kotor_bpistol2.md3"
+Icon	"gfx/hud/w_icon_kotor_bpistol2"
+WeaponName	"BP-2 Hand Pistol"
+FlashSound0	"sound/weapons/kotor/fire_light.wav"
+AltFlashSound0	"sound/weapons/kotor/fire_hvy.wav"
 }
-
 WeaponInfo3
 {
-    WeaponToReplace        WP_BLASTER                           //Required: Weapon Slot of weapon you're replacing
-    WeaponBasedOff        WP_BLASTER                          //Required: For future use, should be the same as WeaponToReplace
-    NewWorldModel        "models/weapons2/e5/e5_w.glm"      //Required: New 3rd person/dropped weapon model
-    NewViewModel        "models/weapons2/e5/e5.md3"       //Required: New 1st person weapon model
-    Icon                "gfx/hud/w_icon_e5"                 //Required: Weapon change icon
-    WeaponName            "Rakatan Blaster Carbine"                        //Required: Weapon change display name
-	FlashSound0			"sound/weapons/kotor/fire_med.wav"
-    AltFlashSound0		"sound/weapons/kotor/fire_hvy.wav"
-	idleAnim  			TORSO_WEAPONREADY3
-    customAmmo      500
-    clipSize        100
-    FPMult          0.8
-
-	hasAnimOverrides 1
-	animReady BOTH_DC15_READY
-	animReadyWalk BOTH_DC15_READY
-	animReadyNoAmmo BOTH_DC15_READY
-	animAttack BOTH_DC15_ATTACK
-	animAttackWalk BOTH_DC15_ATTACK
+WeaponToReplace	WP_BLASTER
+WeaponBasedOff	WP_BLASTER
+NewWorldModel	"models/weapons2/e5/e5_w.glm"
+NewViewModel	"models/weapons2/e5/e5.md3"
+Icon	"gfx/hud/w_icon_e5"
+WeaponName	"Rakatan Blaster Carbine"
+FlashSound0	"sound/weapons/kotor/fire_med.wav"
+AltFlashSound0	"sound/weapons/kotor/fire_hvy.wav"
+idleAnim	TORSO_WEAPONREADY3
+customAmmo	500
+clipSize	100
+FPMult	0.8
+hasAnimOverrides 1
+animReady BOTH_DC15_READY
+animReadyWalk BOTH_DC15_READY
+animReadyNoAmmo BOTH_DC15_READY
+animAttack BOTH_DC15_ATTACK
+animAttackWalk BOTH_DC15_ATTACK
 }
-
 ForceInfo0
 {
-	ForceToReplace        FP_TEAM_HEAL
-	Icon                 "gfx/mp/sup_med_heal"
-	ForcePowerName		 "Team Kolto Mist"
-	StartSound	"sound/player/pickuphealth.mp3"
+ForceToReplace	FP_TEAM_HEAL
+Icon	"gfx/mp/sup_med_heal"
+ForcePowerName	"Team Kolto Mist"
+StartSound	"sound/player/pickuphealth.mp3"
 }
-
-description	"Infinite Empire - Rakatan Medic
-
-	[GC]
-Unlocked With:
-Kolto Tank Bonus
-
-Wookiee Subclass
-* - Ability to Barge [CS4]
-* - Ability to Rage [CS2]
-
-Rakatan Fury:
-* - 2x Slower Melee
-* - Increased Melee Damage
-
-Weaponry:
-BP-2 Hand Pistol (2)
-Sith Assault Rifle (2)
-Rakatan Vibrostaff *
-
-Rakatan Vibrostaff:
-K/D Splash
-Offense (2)
-Defense (2)
-
-Gadgets:
-Personal Small Kolto (1)
-Personal Large Kolto (1)
-
-Attributes
-Close Combat Training (2)
-Hero Heal on Use
-Flip Kick (2)
-Wookiee Strength (1)
-Wookiee Fury (1)
-Rakatan Armor (Beskar) (2)
-Shield Recharge (1)
-Force Block (2)
-Dexterity (1)
-Stamina (2)
-Dash (2) [CS1]
-
-The Ancient Rakatans, builders and conquerers of all the known ancient galaxy, are diabolical users of the Dark Side of the force. Enslaving all of the galaxy under their supremacy with the use of the Star Forge."
+description ""//Medic class, dispense bacta tanks, pistol 3, hero heal, and dodge. 100 hp, No armor.
 

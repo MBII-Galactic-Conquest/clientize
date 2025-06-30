@@ -1,148 +1,101 @@
-
 ClassInfo
 {
-	name			"s_13vo_shp1"
-	classflags		CFL_BPFREEJUMPS|CFL_ACIDBLOOD|CFL_BLOODYMELEE|CFL_HEAVYMELEE|CFL_SEEING_STEALTH
-	maxhealth       250
-	forcepool		100
-	speed			0.8
-	BPmultiplier    1.0
-	APmultiplier    1.0
-	
-	damageGiven        1.10
-
-	uishader		"gfx/sup_icons/TsavongLah/mb2_icon_jedi"
-
-	uishader_1		"gfx/sup_icons/vong_shaper/mb2_icon_jedi"
-
-	rateoffire		1
-
-
-	WP_BowcasterFlags 	HELD_POISON
-
-	saber1		vong_amphistaff_supremacy
-	saber2			none
-	saberStanceAnim     BOTH_TAVION_STANCE
-
-	gloatAnim       BOTH_VICTORY_FAST
-
-	resource	RESOURCE_FORCE
-	
+name	"s_13vo_shp1"
+classflags	CFL_BPFREEJUMPS|CFL_ACIDBLOOD|CFL_BLOODYMELEE|CFL_HEAVYMELEE|CFL_SEEING_STEALTH
+maxhealth	250
+forcepool	100
+speed	0.8
+BPmultiplier	1.0
+APmultiplier	1.0
+damageGiven	1.10
+uishader	"gfx/sup_icons/TsavongLah/mb2_icon_jedi"
+uishader_1	"gfx/sup_icons/vong_shaper/mb2_icon_jedi"
+rateoffire	1
+WP_BowcasterFlags	HELD_POISON
+saber1	vong_amphistaff_supremacy
+saber2	none
+saberStanceAnim	BOTH_TAVION_STANCE
+gloatAnim	BOTH_VICTORY_FAST
+resource	RESOURCE_FORCE
+isCustomBuild	1
+mbPoints	0
+hasCustomSpec	3
+isOnlyOneSpec	1
+customSpecName_1	""
+customSpecIcon_1	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_1	""
+customSpecName_2	""
+customSpecIcon_2	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_2	""
+customSpecName_3	""
+customSpecIcon_3	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_3	""
+c_att_skill_0	MB_ATT_INVALID
+c_att_names_0	"Shaper Duelist"
+c_att_ranks_0	-1
 }
-
 WeaponInfo0
 {
-	WeaponToReplace		WP_MELEE
-	WeaponBasedOff		WP_MELEE  
-  NewWorldModel		"models/weapons2/dummy/dummy.glm"
-  NewViewModel		"models/weapons2/dummy/dummy.md3"
-  Icon			"gfx/mplevels/aliens3/aliens_claws"
-	WeaponName		"Claws"
-	primGore		1
-	altGore			1
+WeaponToReplace	WP_MELEE
+WeaponBasedOff	WP_MELEE
+NewWorldModel	"models/weapons2/dummy/dummy.glm"
+NewViewModel	"models/weapons2/dummy/dummy.md3"
+Icon	"gfx/mplevels/aliens3/aliens_claws"
+WeaponName	"Claws"
+primGore	1
+altGore	1
 }
-
 WeaponInfo1
 {
-	WeaponToReplace WP_SABER
-	WeaponBasedOff  WP_SABER
-	NewWorldModel "models/weapons2/saber_amphistaff/saber_amphistaff.glm"
-	NewViewModel  "models/weapons2/dummy/dummy.md3"
-	Icon  "gfx/hud/w_icon_beskarpike"
-	WeaponName  "Vong Amphistaff"
+WeaponToReplace	WP_SABER
+WeaponBasedOff	WP_SABER
+NewWorldModel	"models/weapons2/saber_amphistaff/saber_amphistaff.glm"
+NewViewModel	"models/weapons2/dummy/dummy.md3"
+Icon	"gfx/hud/w_icon_beskarpike"
+WeaponName	"Vong Amphistaff"
 }
-
 WeaponInfo2
 {
-	WeaponToReplace		WP_BOWCASTER
-	WeaponBasedOff		WP_BOWCASTER
-	NewWorldModel		"models/weapons2/saber_amphistaff/saber_amphistaff.glm" 
-	NewViewModel		"models/weapons2/dummy/dummy.md3"
-	Icon				"gfx/hud/w_icon_sonicrifle" 			
-	WeaponName			"Vong Amphistaff(B)"    			
-	
-	ChargeEffect		"gfx/effects/greenfrontflash"
-	MissileMissEffect 	"effects/sonic_pistol/wall_impact"
-	MuzzleEffect		"Disruptor/muzzle_flash"
-	MissileEffect		"effects/sonic_pistol/projectile"
-	AltMissileEffect	"effects/sonic_pistol/projectile" 	
-	FlashSound0		"sound/weapsup/vong/acidthrower2.mp3"
-
-	hasAnimOverrides 1
-	animReady BOTH_MAND_DUAL_PISTOLS_READY
-	animReadyWalk BOTH_MAND_DUAL_PISTOLS_READY
-	animReadyNoAmmo BOTH_DC15_READY
-	animAttack BOTH_TRIPLE3_REDSTANCE
-	animAttackWalk BOTH_TRIPLE3_REDSTANCE
-	animStand BOTH_STAND6
-
-	CustomAmmo 	500
-	ClipSize 	100
-	FPmult  1.25
-	AltFireEnabled 0
+WeaponToReplace	WP_BOWCASTER
+WeaponBasedOff	WP_BOWCASTER
+NewWorldModel	"models/weapons2/saber_amphistaff/saber_amphistaff.glm"
+NewViewModel	"models/weapons2/dummy/dummy.md3"
+Icon	"gfx/hud/w_icon_sonicrifle"
+WeaponName	"Vong Amphistaff(B)"
+ChargeEffect	"gfx/effects/greenfrontflash"
+MissileMissEffect	"effects/sonic_pistol/wall_impact"
+MuzzleEffect	"Disruptor/muzzle_flash"
+MissileEffect	"effects/sonic_pistol/projectile"
+AltMissileEffect	"effects/sonic_pistol/projectile"
+FlashSound0	"sound/weapsup/vong/acidthrower2.mp3"
+hasAnimOverrides 1
+animReady BOTH_MAND_DUAL_PISTOLS_READY
+animReadyWalk BOTH_MAND_DUAL_PISTOLS_READY
+animReadyNoAmmo BOTH_DC15_READY
+animAttack BOTH_TRIPLE3_REDSTANCE
+animAttackWalk BOTH_TRIPLE3_REDSTANCE
+animStand BOTH_STAND6
+CustomAmmo	500
+ClipSize	100
+FPmult  1.25
+AltFireEnabled 0
 }
-
 ForceInfo0
 {
-	ForceToReplace	FP_RAGE
-	Icon		"gfx/forcepowers/snoke"
-	ForcePowerName	"Null Ability Slot"
+ForceToReplace	FP_RAGE
+Icon	"gfx/forcepowers/snoke"
+ForcePowerName	"Null Ability Slot"
 }
-
 ForceInfo1
 {
-	ForceToReplace	FP_SPEED
-	Icon		"gfx/mplevels/aliens3/aliens_claws"
-	ForcePowerName	"Supernatural Speed"
+ForceToReplace	FP_SPEED
+Icon	"gfx/mplevels/aliens3/aliens_claws"
+ForcePowerName	"Supernatural Speed"
 }
-
 ForceInfo1
 {
-	ForceToReplace	FP_ABSORB
-	Icon		"gfx/mplevels/dc_universe/fp_sinestro"
-	ForcePowerName	"Natural Force Resist"
+ForceToReplace	FP_ABSORB
+Icon	"gfx/mplevels/dc_universe/fp_sinestro"
+ForcePowerName	"Natural Force Resist"
 }
-
-description	"Yuuzhan Vong - Shaper Caste - Adept
-
-	[GC]
-Unlocked With:
-Leader Bonus
-
-Attributes
-Uncanny Supernatural Athletics (Jump 3)
-Weighted Resilience (Wookie Strength 3)
-Yuuzhan Vong Bio-Armor (Cortosis & Mag Plating)
-Acid Blood (DoT on melee death)
-Enduring Exoskeleton (Beskar 3)
-Immune to the Force
-Cannot be Force Focused
-Cannot be Knocked Down
-Cannot be Mind Tricked
-Cannot be Sensed
-
-Abilities:
-Uncanny Supernatural Speed (Force Speed 1)
-Anti-Force Resilience (Absorb 3)
-Gun Bash
-
-Weakness:
-* - Yuuzhan Vong does not have armor, relying upon their health.
-
-Weapons
-Heavy Melee (Claws)
-Yuuzhan Vong Amphistaff (MW/B) *
-Vong Bio-Gadget (Thermal)
-
-Weapon Properties:
-
-* Shaper Amphistaff cannot block blaster fire.
-
-* Shaper Amphistaff has saber defense 2, and saber offense 3.
-* Shaper Amphistaff has staff and purple styles.
-
-* Shaper Amphistaff is capable of functioning as bowcaster, applying poison DOT.
-* Shaper Amphistaff is capable of knocking foes down by hitting the world.
-* Shaper Amphistaff offers a unique slap animation, with a forward kick.
-
-The Yuuzhan Vong are a horde of crusading warrior-like extradimensional aliens, who have slayed millions in their conquest against the known galaxy. With their horrific visage, resistance to the midichlorians, and their deadly countenance: their war against the galaxy has been swift yet tumultuous."
+description ""

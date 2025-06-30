@@ -1,96 +1,82 @@
-
 ClassInfo
 {
-	name			"s_14nr_sold"
-	maxhealth		75
-	maxarmor		25
-	uishader		"gfx/sup_icons/rebel/mb2_icon_sold"
-	speed			0.8
-
-	uishader_1		"gfx/sup_icons/rebel_guerilla/mb2_icon_sold"
-
-	uishader_2		"gfx/sup_icons/rebel_commando/mb2_icon_sold"
-
-	uishader_3		"gfx/sup_icons/rebel_commando_h/mb2_icon_sold"
+name	"s_14nr_sold"
+maxhealth	75
+maxarmor	25
+uishader	"gfx/sup_icons/rebel/mb2_icon_sold"
+speed	0.8
+uishader_1	"gfx/sup_icons/rebel_guerilla/mb2_icon_sold"
+uishader_2	"gfx/sup_icons/rebel_commando/mb2_icon_sold"
+uishader_3	"gfx/sup_icons/rebel_commando_h/mb2_icon_sold"
+isCustomBuild	1
+mbPoints	0
+hasCustomSpec	3
+isOnlyOneSpec	1
+customSpecName_1	""
+customSpecIcon_1	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_1	""
+customSpecName_2	""
+customSpecIcon_2	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_2	""
+customSpecName_3	""
+customSpecIcon_3	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_3	""
+c_att_skill_0	MB_ATT_INVALID
+c_att_names_0	""
+c_att_ranks_0	-1
 }
-
 WeaponInfo0
 {
-	WeaponToReplace		WP_BRYAR_PISTOL
-	WeaponBasedOff		WP_BOWCASTER
-	NewWorldModel		"models/weapons2/blaster_pistol/blaster_pistol_w.glm"
-	NewViewModel		"models/weapons2/blaster_pistol/blaster_pistol.md3"
-	Icon				"gfx/hud/w_icon_blaster_pistol"
-	WeaponName			"Pistol"
-	FlashSound0 "sound/weapsup/r/wpn_rebel_pistol_fire.wav"
-    AltFlashSound0  "sound/weapsup/r/wpn_rebel_pistol_fire.wav"
+WeaponToReplace	WP_BRYAR_PISTOL
+WeaponBasedOff	WP_BOWCASTER
+NewWorldModel	"models/weapons2/blaster_pistol/blaster_pistol_w.glm"
+NewViewModel	"models/weapons2/blaster_pistol/blaster_pistol.md3"
+Icon	"gfx/hud/w_icon_blaster_pistol"
+WeaponName	"Pistol"
+FlashSound0	"sound/weapsup/r/wpn_rebel_pistol_fire.wav"
+AltFlashSound0	"sound/weapsup/r/wpn_rebel_pistol_fire.wav"
 }
-
 WeaponInfo1
 {
-    WeaponToReplace        WP_BLASTER                           //Required: Weapon Slot of weapon you're replacing
-    WeaponBasedOff        WP_BLASTER                          //Required: For future use, should be the same as WeaponToReplace
-    NewWorldModel        "models/weapons2/dh-17/dh-17_w.glm"      //Required: New 3rd person/dropped weapon model
-    NewViewModel        "models/weapons2/dh-17/dh-17.md3"       //Required: New 1st person weapon model
-    Icon                "gfx/hud/w_icon_dh-17"                 //Required: Weapon change icon
-    WeaponName            "DH-17 Rebel Carbine"                        //Required: Weapon change display name
-    FlashSound0 "sound/weapsup/r/wpn_rebel_blaster_fire.wav"
-    AltFlashSound0  "sound/weapsup/r/wpn_rebel_blaster_fire.wav"
-    customAmmo      500
-    clipSize        100
-    FPMult          0.8
-
-	hasAnimOverrides 1
-	animReady BOTH_DC15_READY
-	animReadyWalk BOTH_DC15_READY
-	animReadyNoAmmo BOTH_DC15_READY
-	animAttack BOTH_DC15_ATTACK
-	animAttackWalk BOTH_DC15_ATTACK
+WeaponToReplace	WP_BLASTER
+WeaponBasedOff	WP_BLASTER
+NewWorldModel	"models/weapons2/dh-17/dh-17_w.glm"
+NewViewModel	"models/weapons2/dh-17/dh-17.md3"
+Icon	"gfx/hud/w_icon_dh-17"
+WeaponName	"DH-17 Rebel Carbine"
+FlashSound0	"sound/weapsup/r/wpn_rebel_blaster_fire.wav"
+AltFlashSound0	"sound/weapsup/r/wpn_rebel_blaster_fire.wav"
+MissileEffect	"blaster/Shot05R"
+AltMissileEffect	"blaster/Shot01R"
+customAmmo	500
+clipSize	100
+FPMult	0.8
+hasAnimOverrides 1
+animReady BOTH_DC15_READY
+animReadyWalk BOTH_DC15_READY
+animReadyNoAmmo BOTH_DC15_READY
+animAttack BOTH_DC15_ATTACK
+animAttackWalk BOTH_DC15_ATTACK
 }
-
 WeaponInfo2
 {
-    WeaponToReplace        WP_EE4                           //Required: Weapon Slot of weapon you're replacing
-    WeaponBasedOff        WP_EE4                          //Required: For future use, should be the same as WeaponToReplace
-    NewWorldModel        "models/weapons2/A280/A280_w.glm"      //Required: New 3rd person/dropped weapon model
-    NewViewModel        "models/weapons2/A280/A280.md3"       //Required: New 1st person weapon model
-    Icon                "gfx/hud/w_icon_A280"                 //Required: Weapon change icon
-    WeaponName            "Heavy A280 Blaster Rifle"                        //Required: Weapon change display name
-	MissileEffect		"blaster/Shot03R"
-	AltMissileEffect	"blaster/Shot04R"
-	FlashSound0		"sound/weapsup/r/wpn_rebel_blaster_fire.wav"
-	FlashSound1		"sound/weapsup/r/wpn_rebel_blaster_fire.wav"
-	FlashSound2		"sound/weapsup/r/wpn_rebel_blaster_fire.wav"
-	FlashSound3		"sound/weapsup/r/wpn_rebel_blaster_fire.wav"
-	FlashSound4		"sound/weapsup/r/wpn_rebel_blaster_fire.wav"
-	AltFlashSound0		"sound/weapsup/r/wpn_rebel_blaster_fire.wav"
-	AltFlashSound1		"sound/weapsup/r/wpn_rebel_blaster_fire.wav"
-	AltFlashSound2		"sound/weapsup/r/wpn_rebel_blaster_fire.wav"
-	AltFlashSound3		"sound/weapsup/r/wpn_rebel_blaster_fire.wav"
-	AltFlashSound4		"sound/weapsup/r/wpn_rebel_blaster_fire.wav"
-	AltFireEnabled	0
-    customAmmo      500
-    clipSize        100
-    FPMult          1.2
-
-	hasAnimOverrides 1
-	animReady BOTH_DC15_READY
-	animReadyWalk BOTH_DC15_READY
-	animReadyNoAmmo BOTH_DC15_READY
+WeaponToReplace	WP_EE4
+WeaponBasedOff	WP_EE4
+NewWorldModel	"models/weapons2/A280/A280_w.glm"
+NewViewModel	"models/weapons2/A280/A280.md3"
+Icon	"gfx/hud/w_icon_A280"
+WeaponName	"Heavy A280 Blaster Rifle"
+MissileEffect	"blaster/Shot03R"
+AltMissileEffect	"blaster/Shot05R"
+FlashSound0	"sound/weapsup/r/wpn_rebel_blaster_fire.wav"
+AltFlashSound0	"sound/weapsup/r/wpn_rebel_blaster_fire.wav"
+AltFireEnabled	0
+customAmmo	500
+clipSize	100
+FPMult	1.2
+hasAnimOverrides 1
+animReady BOTH_DC15_READY
+animReadyWalk BOTH_DC15_READY
+animReadyNoAmmo BOTH_DC15_READY
 }
-
-description	"New Republic Soldier
-
-Weaponry:
-Concussion Grenade (1)
-Frag Grenade (1)
-Pistol (2)
-DH-17 (2)
-
-Attributes
-Reinforcements (2)
-Close Combat Training (2)
-Gun Bash
-Assemble
-
-A valiant soldier of the New Republic."
+description ""

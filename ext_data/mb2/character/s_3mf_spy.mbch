@@ -1,115 +1,87 @@
-
 ClassInfo
 {
-	name			"s_3mf_spy"
-	APmultiplier	0.8	
-    forcepool       65
-	maxhealth		60
-	maxarmor		35
-	classflags		CFL_BPFREEJUMPS|CFL_HEAVYMELEE|CFL_SEEING_STEALTH|CFL_STRONGAGAINSTPHYSICAL
-    speed			1.1
-	saber1			kotor_vibrosword_supremacy
-	saber1_1		kotor_vibrostaff_supremacy
-	uishader		"gfx/sup_icons/manda_et/mb2_icon_spy"
-
-
-	damageGiven		1.2
-	rateoffire		0.675
-
-	WP_A280Flags	HELD_DISRUPTIFY|HELD_ALTRELOAD|HELD_FLAME|HELD_SLOWPROJ|HELD_LOWDAMAGE|HELD_IGNOREBLOCK
-
-
+name	"s_3mf_spy"
+APmultiplier	0.8
+forcepool	65
+maxhealth	60
+maxarmor	35
+classflags	CFL_BPFREEJUMPS|CFL_HEAVYMELEE|CFL_SEEING_STEALTH|CFL_STRONGAGAINSTPHYSICAL
+speed	1.1
+saber1	kotor_vibrosword_supremacy
+saber1_1	kotor_vibrostaff_supremacy
+uishader	"gfx/sup_icons/manda_et/mb2_icon_spy"
+damageGiven	1.2
+rateoffire	0.675
+WP_A280Flags	HELD_DISRUPTIFY|HELD_ALTRELOAD|HELD_FLAME|HELD_SLOWPROJ|HELD_LOWDAMAGE|HELD_IGNOREBLOCK
+isCustomBuild	1
+mbPoints	0
+hasCustomSpec	3
+isOnlyOneSpec	1
+customSpecName_1	""
+customSpecIcon_1	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_1	""
+customSpecName_2	""
+customSpecIcon_2	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_2	""
+customSpecName_3	""
+customSpecIcon_3	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_3	""
+c_att_skill_0	MB_ATT_INVALID
+c_att_names_0	""
+c_att_ranks_0	-1
 }
-
 WeaponInfo0
 {
-	WeaponToReplace		WP_SABER			
-	WeaponBasedOff		WP_SABER			
-	NewWorldModel		"models/weapons2/kotor_longsword/saber_w.glm"  
-	NewViewModel		"models/weapons2/dummy/dummy.md3" 	  
-	Icon			"gfx/hud/w_icon_vibrosword"
-	WeaponName		"Cortosis Vibrosword"    	 			
+WeaponToReplace	WP_SABER
+WeaponBasedOff	WP_SABER
+NewWorldModel	"models/weapons2/kotor_longsword/saber_w.glm"
+NewViewModel	"models/weapons2/dummy/dummy.md3"
+Icon	"gfx/hud/w_icon_vibrosword"
+WeaponName	"Cortosis Vibrosword"
 }
-
-
 WeaponInfo1
 {
-	WeaponToReplace		WP_BRYAR_PISTOL
-	WeaponBasedOff		WP_BOWCASTER
-	NewWorldModel		"models/weapons2/kotor_bpistol2/kotor_bpistol2_w.glm"
-	NewViewModel		"models/weapons2/kotor_bpistol2/kotor_bpistol2.md3"
-	Icon				"gfx/hud/w_icon_kotor_bpistol2"
-	WeaponName			"BP-2 Hand Pistol"
-	FlashSound0 "sound/weapons/kotor/fire_hvy.wav"
-    AltFlashSound0  "sound/weapons/kotor/fire_hvy.wav"
+WeaponToReplace	WP_BRYAR_PISTOL
+WeaponBasedOff	WP_BOWCASTER
+NewWorldModel	"models/weapons2/kotor_bpistol2/kotor_bpistol2_w.glm"
+NewViewModel	"models/weapons2/kotor_bpistol2/kotor_bpistol2.md3"
+Icon	"gfx/hud/w_icon_kotor_bpistol2"
+WeaponName	"BP-2 Hand Pistol"
+FlashSound0	"sound/weapons/kotor/fire_hvy.wav"
+AltFlashSound0	"sound/weapons/kotor/fire_hvy.wav"
 }
-
-
 WeaponInfo2
-{           
-	WeaponToReplace        	WP_TRIP_MINE
-	WeaponBasedOff         	WP_TRIP_MINE
-	NewWorldModel		"models/weapons2/laser_trap/laser_trap_w.glm"  	
-	NewViewModel	  	"models/weapons2/laser_trap/laser_trap.md3"  	
-	Icon             	"gfx/hud/w_icon_tripmine"
-	WeaponName		"Trip Mine"
-	customAmmo    		3
+{
+WeaponToReplace	WP_TRIP_MINE
+WeaponBasedOff	WP_TRIP_MINE
+NewWorldModel	"models/weapons2/laser_trap/laser_trap_w.glm"
+NewViewModel	"models/weapons2/laser_trap/laser_trap.md3"
+Icon	"gfx/hud/w_icon_tripmine"
+WeaponName	"Trip Mine"
+customAmmo	3
 }
-
 WeaponInfo3
 {
-    WeaponToReplace			WP_A280
-    WeaponBasedOff			WP_A280
-   	NewWorldModel        "models/weapons2/CR-1_cannon/rifle_w.glm"      //Required: New 3rd person/dropped weapon model
-    NewViewModel        "models/weapons2/CR-1_cannon/rifle.md3"       //Required: New 1st person weapon model
-    Icon                "gfx/hud/w_icon_cr1_blastcannon"
-    FlashSound0 		"sound/weapsup/sup/incinerator.wav"
-    WeaponName             "Bothan Incinerator"
-	MuzzleEffect  		"Blaster/MuzzleFlash01B"
-	AltMuzzleEffect		"Blaster/MuzzleFlash01B"
-	MissileEffect		"effects/INVIS_Missile/null"
-	AltMissileEffect	"effects/INVIS_Missile/null"
-	MissileMissEffect	"effects/bothan_incinerator/incinerator_miss"
-	AltMissileMissEffect	"effects/bothan_incinerator/incinerator_miss"
-	MissileHitHumanEffect "Impacts/impactflame"
-	MissileHitDroidEffect "Impacts/impactflame"
-	AltFireEnabled		 0
-	ReloadTimeModifier	 2
-    customAmmo           500
-    clipsize             50
-	rateMod		1.5
-	damageMod	1.25
+WeaponToReplace	WP_A280
+WeaponBasedOff	WP_A280
+NewWorldModel	"models/weapons2/CR-1_cannon/rifle_w.glm"
+NewViewModel	"models/weapons2/CR-1_cannon/rifle.md3"
+Icon	"gfx/hud/w_icon_cr1_blastcannon"
+FlashSound0	"sound/weapsup/sup/incinerator.wav"
+WeaponName	"Bothan Incinerator"
+MuzzleEffect	"Blaster/MuzzleFlash01B"
+AltMuzzleEffect	"Blaster/MuzzleFlash01B"
+MissileEffect	"effects/INVIS_Missile/null"
+AltMissileEffect	"effects/INVIS_Missile/null"
+MissileMissEffect	"effects/bothan_incinerator/incinerator_miss"
+AltMissileMissEffect	"effects/bothan_incinerator/incinerator_miss"
+MissileHitHumanEffect "Impacts/impactflame"
+MissileHitDroidEffect "Impacts/impactflame"
+AltFireEnabled	0
+ReloadTimeModifier	2
+customAmmo	500
+clipSize	50
+rateMod	1.5
+damageMod	1.25
 }
-
-description	"Mandalorian Neo Crusader - Spy Lieutenant
-
-	[GC]
-Unlocked With:
-Sabotage Bonus
-
-Weaponry:
-Cortosis Vibrosword *
-Trip Mine (2)
-BP-2 Hand Pistol (3)
-
-Vibrosword Info:
-Fast and Medium Style
-Offense (3)
-Defense (1)
-
-Gadgets:
-Stealth field generator [Inventory Use]
-Disguise [press saber style/gun mode switch while in melee]
-
-Attributes
-Reinforcements (1)
-Melee Resistant Plating
-Grappling Hook (2)
-Dexterity (2)
-Stamina (2)
-Immune to Sense
-Force Block (2)
-Flip Kick (1)
-Beskar (1)
-
-An elite mandalorian neo crusader, a master of stealth, equipped with a stealth field generator and thermal plating."
+description ""

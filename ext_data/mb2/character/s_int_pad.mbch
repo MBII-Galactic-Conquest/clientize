@@ -1,39 +1,43 @@
-
 ClassInfo
 {
-	name			"s_int_pad"
-	maxhealth       400
-	maxarmor		100
-	forcepool		500
-	speed			1.0
-	BPmultiplier    1.0
-	APmultiplier    1.0
-
-
-	uishader		"models/players/jedi_tf/mb2_icon_default"
-
-	uishader_1		"models/players/jedi_rm/mb2_icon_default"
-				
-	saber1			jediknight_supremacy1
-	saber2			none
-			
-	saber1_1    	jediknight_supremacy2
-	saber2_1		none	
-		
-	saber1_2  		jediknight_supremacy3
-	saber2_2		none	
-	
-	saber1_3		jediknight_supremacy4
-	saber2_3		none
-	
-	saber1_4		jediknight_supremacy5
-	saber2_4		none
-
-
-	damageTaken		0
-	damageGiven		0
-	knockbackTaken	0
-	saberDamage -1
+name	"s_int_pad"
+maxhealth	400
+maxarmor	100
+forcepool	500
+speed	1.0
+BPmultiplier	1.0
+APmultiplier	1.0
+uishader	"models/players/jedi_tf/mb2_icon_default"
+uishader_1	"models/players/jedi_rm/mb2_icon_default"
+saber1	jediknight_supremacy1
+saber2	none
+saber1_1	jediknight_supremacy2
+saber2_1	none
+saber1_2	jediknight_supremacy3
+saber2_2	none
+saber1_3	jediknight_supremacy4
+saber2_3	none
+saber1_4	jediknight_supremacy5
+saber2_4	none
+damageTaken	0
+damageGiven	0
+knockbackTaken	0
+saberDamage -1
+isCustomBuild	1
+mbPoints	0
+hasCustomSpec	3
+isOnlyOneSpec	1
+customSpecName_1	""
+customSpecIcon_1	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_1	""
+customSpecName_2	""
+customSpecIcon_2	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_2	""
+customSpecName_3	""
+customSpecIcon_3	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_3	""
+c_att_skill_0	MB_ATT_INVALID
+c_att_names_0	""
+c_att_ranks_0	-1
 }
-
-description	"Padawan"
+description ""

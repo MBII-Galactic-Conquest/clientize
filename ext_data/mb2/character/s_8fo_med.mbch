@@ -1,84 +1,70 @@
-
 ClassInfo
 {
-	name			"s_8fo_med"
-	classflags		CFL_STATVIEWER
-	maxhealth		100
-	maxarmor		20
-	forcepool		50
-	uishader		"gfx/sup_icons/stormie_tfa_c/mb2_icon_med"
-	speed			0.7
-
-	resourceRegenRate		1000
-	resourceRegenAmount		1
-	forceregen		0.1
-
-	resource	RESOURCE_RAGE
+name	"s_8fo_med"
+classflags	CFL_STATVIEWER
+maxhealth	100
+maxarmor	20
+forcepool	50
+uishader	"gfx/sup_icons/stormie_tfa_c/mb2_icon_med"
+speed	0.7
+resourceRegenRate	1000
+resourceRegenAmount	1
+forceregen	0.1
+resource	RESOURCE_RAGE
+isCustomBuild	1
+mbPoints	0
+hasCustomSpec	3
+isOnlyOneSpec	1
+customSpecName_1	""
+customSpecIcon_1	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_1	""
+customSpecName_2	""
+customSpecIcon_2	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_2	""
+customSpecName_3	""
+customSpecIcon_3	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_3	""
+c_att_skill_0	MB_ATT_INVALID
+c_att_names_0	""
+c_att_ranks_0	-1
 }
-
 WeaponInfo0
 {
-	WeaponToReplace		WP_BRYAR_PISTOL
-	WeaponBasedOff		WP_BOWCASTER
-	NewWorldModel		"models/weapons2/SE-44C/se-44c_w.glm"
-	NewViewModel		"models/weapons2/SE-44C/se-44c.md3"
-	Icon				"gfx/hud/w_icon_SE-44c"
-	WeaponName			"SE-44c Pistol"
-	FlashSound0 "sound/weapsup/sup/pistol_fire.wav"
-    AltFlashSound0  "sound/weapsup/sup/pistol_altfire.wav"
+WeaponToReplace	WP_BRYAR_PISTOL
+WeaponBasedOff	WP_BOWCASTER
+NewWorldModel	"models/weapons2/SE-44C/se-44c_w.glm"
+NewViewModel	"models/weapons2/SE-44C/se-44c.md3"
+Icon	"gfx/hud/w_icon_SE-44c"
+WeaponName	"SE-44c Pistol"
+FlashSound0	"sound/weapsup/sup/pistol_fire.wav"
+AltFlashSound0	"sound/weapsup/sup/pistol_altfire.wav"
 }
-
 WeaponInfo1
 {
-    WeaponToReplace        WP_BLASTER                           //Required: Weapon Slot of weapon you're replacing
-    WeaponBasedOff        WP_BLASTER                          //Required: For future use, should be the same as WeaponToReplace
-    NewWorldModel        "models/weapons2/f11d_blaster/F11D_Stock_w.glm"      //Required: New 3rd person/dropped weapon model
-    NewViewModel        "models/weapons2/f11d_blaster/blaster.md3"       //Required: New 1st person weapon model
-    Icon                "gfx/hud/w_icon_f11"                 //Required: Weapon change icon
-    WeaponName            "F-11d Carbine"                        //Required: Weapon change display name
-    FlashSound0 "sound/weapsup/sup/f11_fire.mp3"
-    AltFlashSound0  "sound/weapsup/sup/f11_alt_fire.mp3"
-    customAmmo      500
-    clipSize        100
-    FPMult          0.8
-
-	hasAnimOverrides 1
-	animReady BOTH_DC15_READY
-	animReadyWalk BOTH_DC15_READY
-	animReadyNoAmmo BOTH_DC15_READY
-	animAttack BOTH_DC15_ATTACK
-	animAttackWalk BOTH_DC15_ATTACK
+WeaponToReplace	WP_BLASTER
+WeaponBasedOff	WP_BLASTER
+NewWorldModel	"models/weapons2/f11d_blaster/F11D_Stock_w.glm"
+NewViewModel	"models/weapons2/f11d_blaster/blaster.md3"
+Icon		"gfx/hud/w_icon_f11"
+WeaponName	"F-11d Carbine"
+FlashSound0	"sound/weapsup/sup/f11_fire.mp3"
+AltFlashSound0	"sound/weapsup/sup/f11_alt_fire.mp3"
+customAmmo	500
+clipSize	100
+FPMult	0.8
+hasAnimOverrides 1
+animReady BOTH_DC15_READY
+animReadyWalk BOTH_DC15_READY
+animReadyNoAmmo BOTH_DC15_READY
+animAttack BOTH_DC15_ATTACK
+animAttackWalk BOTH_DC15_ATTACK
 }
-
 ForceInfo0
 {
-	ForceToReplace        FP_TEAM_HEAL
-	Icon                 "gfx/mp/sup_med_heal"
-	ForcePowerName		 "Team Bacta Mist"
-	StartSound	"sound/player/pickuphealth.mp3"
+ForceToReplace	FP_TEAM_HEAL
+Icon		"gfx/mp/sup_med_heal"
+ForcePowerName	"Team Bacta Mist"
+StartSound	"sound/player/pickuphealth.mp3"
 }
-
-description	"First Order - Medic
-
-	[GC]
-Unlocked With:
-Bacta Tank Bonus
-
-Weaponry:
-SE-44c Pistol (2)
-F-11d Carbine (2)
-
-Gadgets:
-Personal Small Bacta (1)
-Personal Large Bacta (1)
-
-Attributes
-Close Combat Training (2)
-Hero Heal on Use
-Flip Kick (2)
-Dodge (2)
-Dash (2)
-Gun Bash
-
-A medic of the First Order."
+description ""//Medic class, dispense bacta tanks, pistol 3, hero heal, and dodge. 100 hp, No armor.
 

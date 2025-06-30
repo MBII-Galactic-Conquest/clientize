@@ -1,128 +1,100 @@
-
 ClassInfo
 {
-	name			"s_15et_bh1"
-	classflags		CFL_REALTD|CFL_BPFREEJUMPS|CFL_HEAVYMELEE|CFL_SEEING_STEALTH
-	APmultiplier	0.8
-    forcepool       65
-	maxhealth		200
-	maxarmor		100
-	uishader		"gfx/sup_icons/weequay/mb2_icon_sni"
-	speed			0.8
-	saber1			kotor_vibrosword_supremacy
-	saber1_1		kotor_vibrostaff_supremacy
-
-
-	resource	RESOURCE_FORCE
-
-
+name	"s_15et_bh1"
+classflags	CFL_REALTD|CFL_BPFREEJUMPS|CFL_HEAVYMELEE|CFL_SEEING_STEALTH
+APmultiplier	0.8
+forcepool	65
+maxhealth	200
+maxarmor	100
+uishader	"gfx/sup_icons/weequay/mb2_icon_sni"
+speed	0.8
+saber1	kotor_vibrosword_supremacy
+saber1_1	kotor_vibrostaff_supremacy
+resource	RESOURCE_FORCE
+isCustomBuild	1
+mbPoints	0
+hasCustomSpec	3
+isOnlyOneSpec	1
+customSpecName_1	""
+customSpecIcon_1	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_1	""
+customSpecName_2	""
+customSpecIcon_2	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_2	""
+customSpecName_3	""
+customSpecIcon_3	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_3	""
+c_att_skill_0	MB_ATT_INVALID
+c_att_names_0	""
+c_att_ranks_0	-1
 }
-
 WeaponInfo0
 {
-	WeaponToReplace		WP_SABER			
-	WeaponBasedOff		WP_SABER			
-	NewWorldModel		"models/weapons2/kotor_longsword/saber_w.glm"  
-	NewViewModel		"models/weapons2/dummy/dummy.md3" 	  
-	Icon			"gfx/hud/w_icon_vibrosword"
-	WeaponName		"Cortosis Vibrosword"    	 			
+WeaponToReplace	WP_SABER
+WeaponBasedOff	WP_SABER
+NewWorldModel	"models/weapons2/kotor_longsword/saber_w.glm"
+NewViewModel	"models/weapons2/dummy/dummy.md3"
+Icon	"gfx/hud/w_icon_vibrosword"
+WeaponName	"Cortosis Vibrosword"
 }
-
 WeaponInfo1
 {
-	WeaponToReplace		WP_BLASTER_PISTOL
-	WeaponBasedOff		WP_BLASTER_PISTOL
-	NewWorldModel		"models/weapons2/kotor_bpistol2/kotor_bpistol2_w.glm"
-	NewViewModel		"models/weapons2/kotor_bpistol2/kotor_bpistol2.md3"
-	Icon				"gfx/hud/w_icon_kotor_bpistol2"
-	WeaponName			"Overcharged BP-2 Hand Pistol"
-	MuzzleEffect		"Blaster/MuzzleFlash01B"
-	AltMuzzleEffect		"Blaster/MuzzleFlash01B"
-	MissileEffect		"blaster/Shot01B"
-	Missile3Effect		"Blaster/Shot10B"
-	AltMissileEffect	"blaster/Shot01B"
-	PowerupShotEffect	"Blaster/Shot04B"
-	ChargeEffect		"gfx/effects/clonefrontflash"
-	OverchargeEffect	"Blaster/MuzzleFlash04B"
-	FlashSound0 "sound/weapons/kotor/fire_light.wav"
-	FlashSound4	"sound/weapons/kotor/fire_hvy.wav"
-	AltFlashSound4	"sound/weapons/kotor/fire_hvy.wav"
-	idleAnim		MAND_SPISTOL 
-	firingAnim		MAND_SPISTOL_FIRE
+WeaponToReplace	WP_BLASTER_PISTOL
+WeaponBasedOff	WP_BLASTER_PISTOL
+NewWorldModel	"models/weapons2/kotor_bpistol2/kotor_bpistol2_w.glm"
+NewViewModel	"models/weapons2/kotor_bpistol2/kotor_bpistol2.md3"
+Icon	"gfx/hud/w_icon_kotor_bpistol2"
+WeaponName	"Overcharged BP-2 Hand Pistol"
+MuzzleEffect	"Blaster/MuzzleFlash01B"
+AltMuzzleEffect	"Blaster/MuzzleFlash01B"
+MissileEffect	"blaster/Shot01B"
+Missile3Effect	"Blaster/Shot10B"
+AltMissileEffect	"blaster/Shot01B"
+PowerupShotEffect	"Blaster/Shot04B"
+ChargeEffect	"gfx/effects/clonefrontflash"
+OverchargeEffect	"Blaster/MuzzleFlash04B"
+FlashSound0	"sound/weapons/kotor/fire_light.wav"
+FlashSound4	"sound/weapons/kotor/fire_hvy.wav"
+AltFlashSound4	"sound/weapons/kotor/fire_hvy.wav"
+idleAnim	MAND_SPISTOL
+firingAnim	MAND_SPISTOL_FIRE
 }
-
 WeaponInfo2
 {
-    WeaponToReplace        WP_BLASTER                           //Required: Weapon Slot of weapon you're replacing
-    WeaponBasedOff        WP_BLASTER                          //Required: For future use, should be the same as WeaponToReplace
-    NewWorldModel        "models/weapons2/beamRIFLE/beamrifle_w.glm"      //Required: New 3rd person/dropped weapon model
-    NewViewModel        "models/weapons2/beamRIFLE/beamrifle.md3"       //Required: New 1st person weapon model
-    Icon                "gfx/hud/w_icon_droidassassin"                 //Required: Weapon change icon
-    WeaponName            "Imperial Assault Rifle"                        //Required: Weapon change display name
-	FlashSound0			"sound/weapons/kotor/fire_med.wav"
-    AltFlashSound0		"sound/weapons/kotor/fire_hvy.wav"
-	MuzzleEffect		"Blaster/MuzzleFlash01B"
-	AltMuzzleEffect		"Blaster/MuzzleFlash01B"
-	MissileEffect		"blaster/Shot01B"
-	AltMissileEffect 	"blaster/Shot01B"
-    customAmmo      500
-    clipSize        100
-    FPMult          0.8
-
-	hasAnimOverrides 1
-	animReady BOTH_DC15_READY
-	animReadyWalk BOTH_DC15_READY
-	animReadyNoAmmo BOTH_DC15_READY
-	animAttack BOTH_DC15_ATTACK
-	animAttackWalk BOTH_DC15_ATTACK
+WeaponToReplace	WP_BLASTER
+WeaponBasedOff	WP_BLASTER
+NewWorldModel	"models/weapons2/beamRIFLE/beamrifle_w.glm"
+NewViewModel	"models/weapons2/beamRIFLE/beamrifle.md3"
+Icon	"gfx/hud/w_icon_droidassassin"
+WeaponName	"Imperial Assault Rifle"
+FlashSound0	"sound/weapons/kotor/fire_med.wav"
+AltFlashSound0	"sound/weapons/kotor/fire_hvy.wav"
+MuzzleEffect	"Blaster/MuzzleFlash01B"
+AltMuzzleEffect	"Blaster/MuzzleFlash01B"
+MissileEffect	"blaster/Shot05B"
+AltMissileEffect	"blaster/Shot01B"
+customAmmo	500
+clipSize	100
+FPMult	0.8
+hasAnimOverrides 1
+animReady BOTH_DC15_READY
+animReadyWalk BOTH_DC15_READY
+animReadyNoAmmo BOTH_DC15_READY
+animAttack BOTH_DC15_ATTACK
+animAttackWalk BOTH_DC15_ATTACK
 }
-
 WeaponInfo3
 {
-	WeaponToReplace		WP_PROJ				 
-	WeaponBasedOff      WP_SBD
-	NewWorldModel "models/weapons2/dlt-18_repeater/dlt-18_repeater_w.glm"
-	NewViewModel  "models/weapons2/dlt-18_repeater/dlt-18_repeater.md3"
-	Icon  "gfx/hud/w_icon_dlt-18"
-	FlashSound0  "sound/weapons/Glie-44/alt_fire.wav"		
-	WeaponName			"Imperial Sniper Rifle"    				 
-	CustomAmmo 	12
-	MuzzleEffect		"Blaster/MuzzleFlash01B"
-	MissileEffect		"Blaster/Shot10B"
-	fpmult 1.1
+WeaponToReplace	WP_PROJ
+WeaponBasedOff	WP_SBD
+NewWorldModel	"models/weapons2/dlt-18_repeater/dlt-18_repeater_w.glm"
+NewViewModel	"models/weapons2/dlt-18_repeater/dlt-18_repeater.md3"
+Icon	"gfx/hud/w_icon_dlt-18"
+FlashSound0	"sound/weapons/Glie-44/alt_fire.wav"
+WeaponName	"Imperial Sniper Rifle"
+CustomAmmo	12
+MuzzleEffect	"Blaster/MuzzleFlash01B"
+MissileEffect	"Blaster/Shot10B"
+fpmult 1.1
 }
-
-description	"Generic Leader: Eternal Empire - Bounty Hunter Sniper
-
-	[GC]
-Unlocked With:
-Leader Bonus
-
-Weaponry:
-Thermal Detonator (1)
-Frag Grenade (2)
-Imperial Sniper Rifle
-Overcharged BP-2 Hand Pistol (3)
-Imperial Assault Rifle (3)
-Cortosis Vibrosword *
-
-Vibrosword Info:
-Medium Style
-Offense (3)
-Defense (2)
-
-Gadgets:
-Stealth Field Generator
-
-Attributes
-Close Combat Training (2)
-Deadly Punches (Wookie Melee)
-Quick Throw (2)
-Force Block (2)
-Flip Kick (2)
-Dexterity (1)
-Stamina (2)
-Dodge (3)
-Dash (2)
-
-A bounty hunter contracted into service of the Eternal Empire, he looks incredibly terrifying."
+description ""

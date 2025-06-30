@@ -1,73 +1,103 @@
-
 ClassInfo
 {
-	name			"s_15et_hvre"
-	maxhealth		40
-	maxarmor		50
-	uishader		"gfx/sup_icons/skytrooper/mb2_icon_hvr"
-	speed			0.8
-	
-
-
-
-	resource	RESOURCE_FUEL
+name	"s_15et_hvre"
+maxhealth	40
+maxarmor	50
+uishader	"gfx/sup_icons/skytrooper/mb2_icon_hvr"
+speed	0.8
+resource	RESOURCE_FUEL
+isCustomBuild	1
+mbPoints	0
+hasCustomSpec	3
+isOnlyOneSpec	1
+customSpecName_1	""
+customSpecIcon_1	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_1	""
+customSpecName_2	""
+customSpecIcon_2	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_2	""
+customSpecName_3	""
+customSpecIcon_3	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_3	""
+c_att_skill_0	MB_ATT_INVALID
+c_att_names_0	""
+c_att_ranks_0	-1
 }
-
 WeaponInfo0
 {
-    WeaponToReplace        WP_BLASTER                           //Required: Weapon Slot of weapon you're replacing
-    WeaponBasedOff        WP_BLASTER                          //Required: For future use, should be the same as WeaponToReplace
-    NewWorldModel        "models/weapons2/beamRIFLE/beamrifle_w.glm"      //Required: New 3rd person/dropped weapon model
-    NewViewModel        "models/weapons2/beamRIFLE/beamrifle.md3"       //Required: New 1st person weapon model
-    Icon                "gfx/hud/w_icon_droidassassin"                 //Required: Weapon change icon
-    WeaponName            "Skytrooper Carbine"                        //Required: Weapon change display name
-	FlashSound0			"sound/weapons/kotor/fire_med.wav"
-    AltFlashSound0		"sound/weapons/kotor/fire_hvy.wav"
-	MuzzleEffect		"Blaster/MuzzleFlash01B"
-	AltMuzzleEffect		"Blaster/MuzzleFlash01B"
-	MissileEffect		"blaster/Shot01B"
-	AltMissileEffect 	"blaster/Shot01B"
-
-    customAmmo      500
-    clipSize        100
-    FPMult          0.8
-
-	hasAnimOverrides 1
-	animReady BOTH_DC15_READY
-	animReadyWalk BOTH_DC15_READY
-	animReadyNoAmmo BOTH_DC15_READY
-	animAttack BOTH_DC15_ATTACK
-	animAttackWalk BOTH_DC15_ATTACK
+WeaponToReplace	WP_BLASTER
+WeaponBasedOff	WP_BLASTER
+NewWorldModel	"models/weapons2/beamRIFLE/beamrifle_w.glm"
+NewViewModel	"models/weapons2/beamRIFLE/beamrifle.md3"
+Icon	"gfx/hud/w_icon_droidassassin"
+WeaponName	"Skytrooper Carbine"
+FlashSound0	"sound/weapons/kotor/fire_med.wav"
+AltFlashSound0	"sound/weapons/kotor/fire_hvy.wav"
+MuzzleEffect	"Blaster/MuzzleFlash01B"
+AltMuzzleEffect	"Blaster/MuzzleFlash01B"
+MissileEffect	"blaster/Shot05B"
+AltMissileEffect	"blaster/Shot01B"
+customAmmo	500
+clipSize	100
+FPMult	0.8
+hasAnimOverrides 1
+animReady BOTH_DC15_READY
+animReadyWalk BOTH_DC15_READY
+animReadyNoAmmo BOTH_DC15_READY
+animAttack BOTH_DC15_ATTACK
+animAttackWalk BOTH_DC15_ATTACK
 }
-
 WeaponInfo1
 {
-	WeaponToReplace		WP_PLX1
-	WeaponBasedOff		WP_PLX1
-	NewWorldModel		"models/weapons2/MiniMag_launcher/launcher_w.glm"
-	NewViewModel		"models/weapons2/MiniMag_launcher/launcher.md3"
-	Icon				"gfx/hud/w_icon_MiniMag"
-	WeaponName			"MiniMag PTL Launcher"
-	customAmmo           1
-	damageMod	1.5
+WeaponToReplace	WP_PLX1
+WeaponBasedOff	WP_PLX1
+NewWorldModel	"models/weapons2/MiniMag_launcher/launcher_w.glm"
+NewViewModel	"models/weapons2/MiniMag_launcher/launcher.md3"
+Icon	"gfx/hud/w_icon_MiniMag"
+WeaponName	"MiniMag PTL Launcher"
+customAmmo	1
+damageMod	1.5
 }
-
-description	"Eternal Empire - Sky Trooper (Rocket)
-
-Class: SBD
-
-Weaponry:
-Frag Grenade (2)
-Skytrooper Carbine (2)
-Rocket Launcher (1)
-
-Attributes
-Reinforcements (1)
-Jump Pack (Fuel 1)
-Magnetic Plating (1)
-Advanced Sensor Plating (ANTI-MT) (1)
-Cortosis (1)
-Beskar (1)
-Recharge (1)
-
-A skytrooper, a standard combat droid of the Eternal Empire."
+WeaponInfo2
+{
+WeaponToReplace	WP_TRIP_MINE
+WeaponBasedOff	WP_TRIP_MINE
+Icon	"gfx/hud/w_icon_tripmine_r_na"
+WeaponName	"Frag Mines"
+NewWorldModel	"models/weapons2/laser_trap_r/laser_trap_r_w.glm"
+NewViewModel	"models/weapons2/laser_trap_r/laser_trap_r_hand.md3"
+MissileModel	"models/weapons2/laser_trap_r/laser_trap_r_1.md3"
+AltMissileModel	"models/weapons2/laser_trap_r/laser_trap_r_1.md3"
+FlashSound0	"sound/weapsup/r/wpn_arm_mine.mp3"
+AltFlashSound0	"sound/weapsup/r/wpn_arm_mine.mp3"
+MissileMissEffect	"effects/Grenades/EXP_Explosion_E"
+MissileHitHumanEffect	"effects/Grenades/EXP_Explosion_E"
+MissileHitDroidEffect	"effects/Grenades/EXP_Explosion_E"
+AltMissileMissEffect	"effects/Grenades/EXP_Explosion_E"
+AltMissileHitHumanEffect	"effects/Grenades/EXP_Explosion_E"
+AltMissileHitDroidEffect	"effects/Grenades/EXP_Explosion_E"
+velocityMod	0.001
+damageMod	1.5
+rateMod	2
+AltFireEnabled	0
+}
+WeaponInfo3
+{
+WeaponToReplace	WP_SONIC_NADE
+WeaponBasedOff	WP_SONIC_NADE
+Icon	"gfx/hud/w_icon_stungrenade"
+WeaponName	"Sticky Flashbang"
+NewWorldModel	"models/weapons/Grenade_Concussion/model.glm"
+NewViewModel	"models/weapons/Grenade_Concussion/viewmodel.md3"
+MissileEffect	"effects/Grenades/GlowConcB"
+AltMissileEffect	"effects/Grenades/GlowConcB"
+FlashSound0	"sound/weapsup/r/wpn_arm_mine.mp3"
+AltFlashSound0	"sound/weapsup/r/wpn_arm_mine.mp3"
+MissileMissEffect	"effects/Grenades/EXP_Flash"
+MissileHitHumanEffect	"effects/Grenades/EXP_Flash"
+MissileHitDroidEffect	"effects/Grenades/EXP_Flash"
+AltMissileMissEffect	"effects/Grenades/EXP_Flash"
+AltMissileHitHumanEffect	"effects/Grenades/EXP_Flash"
+AltMissileHitDroidEffect	"effects/Grenades/EXP_Flash"
+}
+description ""

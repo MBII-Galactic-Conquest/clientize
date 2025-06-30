@@ -1,79 +1,66 @@
-
 ClassInfo
 {
-	name			"s_15or_hg1"
-	maxhealth		100
-	maxarmor		75
-	speed			0.7
-	uishader		"gfx/sup_icons/swtor_republictrooper/mb2_icon_vang"
-	rateoffire		2
-
-
-	resource	RESOURCE_RAGE
-
-	WP_BowcasterFlags HELD_KNOCKDOWN|HELD_EXPLOSIVE|HELD_ALTRELOAD|HELD_HIGHDAMAGE|HELD_SLOWPROJ|HELD_KNOCKBACK
-
+name	"s_15or_hg1"
+maxhealth	100
+maxarmor	75
+speed	0.7
+uishader	"gfx/sup_icons/swtor_republictrooper/mb2_icon_vang"
+rateoffire	2
+resource	RESOURCE_RAGE
+WP_BowcasterFlags HELD_KNOCKDOWN|HELD_EXPLOSIVE|HELD_ALTRELOAD|HELD_HIGHDAMAGE|HELD_SLOWPROJ|HELD_KNOCKBACK
+isCustomBuild	1
+mbPoints	0
+hasCustomSpec	3
+isOnlyOneSpec	1
+customSpecName_1	""
+customSpecIcon_1	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_1	""
+customSpecName_2	""
+customSpecIcon_2	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_2	""
+customSpecName_3	""
+customSpecIcon_3	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_3	""
+c_att_skill_0	MB_ATT_INVALID
+c_att_names_0	""
+c_att_ranks_0	-1
 }
-
 WeaponInfo0
 {
-	WeaponToReplace		WP_BRYAR_PISTOL
-	WeaponBasedOff		WP_BOWCASTER
-	NewWorldModel		"models/weapons2/kotor_bpistol2/kotor_bpistol2_w.glm"
-	NewViewModel		"models/weapons2/kotor_bpistol2/kotor_bpistol2.md3"
-	Icon				"gfx/hud/w_icon_kotor_bpistol2"
-	WeaponName			"Republic Hand Pistol"
-	FlashSound0			"sound/weapons/kotor/fire_light.wav"
-    AltFlashSound0		"sound/weapons/kotor/fire_hvy.wav"
-	ChargeEffect		"gfx/effects/clonefrontflash"
-	OverchargeEffect	"Blaster/MuzzleFlash04B"
-	PowerupShotEffect	"Blaster/Shot04B"
-	MuzzleEffect		"Blaster/MuzzleFlash01B"
-	AltMuzzleEffect		"Blaster/MuzzleFlash01B"
-	Missile3Effect		"Blaster/Shot10B"
-	MissileEffect		"blaster/Shot01B"
-	AltMissileEffect 	"blaster/Shot01B"
+WeaponToReplace	WP_BRYAR_PISTOL
+WeaponBasedOff	WP_BOWCASTER
+NewWorldModel	"models/weapons2/kotor_bpistol2/kotor_bpistol2_w.glm"
+NewViewModel	"models/weapons2/kotor_bpistol2/kotor_bpistol2.md3"
+Icon	"gfx/hud/w_icon_kotor_bpistol2"
+WeaponName	"Republic Hand Pistol"
+FlashSound0	"sound/weapons/kotor/fire_light.wav"
+AltFlashSound0	"sound/weapons/kotor/fire_hvy.wav"
+ChargeEffect	"gfx/effects/clonefrontflash"
+OverchargeEffect	"Blaster/MuzzleFlash04B"
+PowerupShotEffect	"Blaster/Shot04B"
+MuzzleEffect	"Blaster/MuzzleFlash01B"
+AltMuzzleEffect	"Blaster/MuzzleFlash01B"
+Missile3Effect	"Blaster/Shot10B"
+MissileEffect	"blaster/Shot01B"
+AltMissileEffect	"blaster/Shot01B"
 }
-
 WeaponInfo1
 {
-    WeaponToReplace        WP_BOWCASTER
-    WeaponBasedOff        WP_BOWCASTER
-    MissileEffect         "rockets/Missile" 
-    AltMissileEffect     "rockets/Missile"
-    MissileMissEffect        "effects/Grenades/EXP_Conc"
-    MissileHitHumanEffect    "effects/Grenades/EXP_Conc"
-    MissileHitDroidEffect    "effects/Grenades/EXP_Conc"
-    FlashSound0            "sound/weapons/WhistlingBird/Fire3.mp3"     
-    NewWorldModel        "models/weapons2/z6_rotary/rotary_cannon_w.glm"
-    NewViewModel        "models/weapons2/z6_rotary/rotary_cannon.md3"
-    Icon            "gfx/hud/w_icon_rotary_cannon"
-    WeaponName        "Republic Concussion Repeater"
-    clipSize 20
-    CustomAmmo 500
-    ReloadTimeModifier     1.2    
-    FPMult                 1.5
+WeaponToReplace	WP_BOWCASTER
+WeaponBasedOff	WP_BOWCASTER
+MissileEffect	"rockets/Missile"
+AltMissileEffect	"rockets/Missile"
+MissileMissEffect	"effects/Grenades/EXP_Conc"
+MissileHitHumanEffect	"effects/Grenades/EXP_Conc"
+MissileHitDroidEffect	"effects/Grenades/EXP_Conc"
+FlashSound0	"sound/weapons/WhistlingBird/Fire3.mp3"
+NewWorldModel	"models/weapons2/z6_rotary/rotary_cannon_w.glm"
+NewViewModel	"models/weapons2/z6_rotary/rotary_cannon.md3"
+Icon	"gfx/hud/w_icon_rotary_cannon"
+WeaponName	"Republic Concussion Repeater"
+clipSize 20
+CustomAmmo 500
+ReloadTimeModifier	1.2
+FPMult	1.5
 }
-
-description	"Old Republic - Heavy Grenadier
-
-Weapons
-Frag Grenades (2)
-Fire Grenades (2)
-Overcharged Republic Pistol (3)
-Republic Concussion Repeater *
-
-* Special Weapon Descriptions:
---- Republic Concussion Repeater
-- Based on Bowcaster
-- Slower rate of fire
-- Fires rockets that explode into concussion grenades on target
-
-Abilities:
-Close Combat Training (2)
-Republic Soldier Strength (Wookiee Melee 2)
-Knockdown (Wookiee Slap)
-Soldier Fury 1 (Wookiee Shoulder Charge)
-Gun Bash
-
-An old republic heavy grenadier, he appears stalwart and carries high ordinance."
+description ""

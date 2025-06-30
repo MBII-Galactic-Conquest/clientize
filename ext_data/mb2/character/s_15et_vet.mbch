@@ -1,74 +1,114 @@
-
 ClassInfo
 {
-	name			"s_15et_vet"
-	maxhealth		40
-	maxarmor		50
-	speed			0.7
-	uishader		"gfx/sup_icons/skytrooper/mb2_icon_vang"
-
-
-
-	forceregen	2
-
-	resource	RESOURCE_FUEL
+name	"s_15et_vet"
+classflags	CFL_STATVIEWER
+maxhealth	40
+maxarmor	50
+speed	0.7
+uishader	"gfx/sup_icons/skytrooper/mb2_icon_vang"
+forceregen	2
+isCustomBuild	1
+mbPoints	18
+hasCustomSpec	3
+isOnlyOneSpec	1
+customSpecName_1	"Sergeant"
+customSpecIcon_1	"gfx/sup_builds/units/sup_sgt"
+customSpecDesc_1	""
+customSpecName_2	"Splicer"
+customSpecIcon_2	"gfx/sup_builds/units/sup_splc"
+customSpecDesc_2	""
+customSpecName_3	""
+customSpecIcon_3	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_3	""
+c_att_skill_1	MB_ATT_FP_TEAM_FORCE
+c_att_names_1	"Morale Boost"
+c_att_ranks_1	1,1
+c_att_skill_2	MB_ATT_ASSEMBLE
+c_att_names_2	"Assemble"
+c_att_ranks_2	1
+c_att_skill_4	MB_ATT_INVALID
+c_att_names_4	"^5-Weapon Availability-"
+c_att_ranks_4	-1
+c_att_skill_5	MB_ATT_T21
+c_att_names_5	"Heavy Rifle:"
+c_att_ranks_5	13,1,1
+c_att_skill_6	MB_ATT_A280
+c_att_names_6	"Burst Rifle:"
+c_att_ranks_6	13,1,1
+c_att_skill_16	MB_ATT_DISP_HEALTH
+c_att_names_16	"Repair Droids"
+c_att_ranks_16	1
+c_att_skill_18	MB_ATT_INVALID
+c_att_names_18	"^5-Weapon Availability-"
+c_att_ranks_18	-1
+c_att_skill_19	MB_ATT_T21
+c_att_names_19	"Heavy Rifle:"
+c_att_ranks_19	13,1,1
+c_att_skill_20	MB_ATT_A280
+c_att_names_20	"Burst Rifle:"
+c_att_ranks_20	13,1,1
+resource	RESOURCE_FUEL
 }
-
 WeaponInfo0
 {
-	WeaponToReplace		WP_BOWCASTER
-	WeaponBasedOff		WP_BOWCASTER
-	NewWorldModel		"models/weapons2/merr_sonn/merr_sonn_w.glm"
-	NewViewModel		"models/weapons2/merr_sonn/merr_sonn.md3"
-	Icon				"gfx/hud/w_icon_merrsonn"
-	WeaponName			"Skytrooper Rifle"
-	FlashSound0			"sound/weapons/kotor/fire_med.wav"
-    AltFlashSound0		"sound/weapons/kotor/fire_hvy.wav"
-	ChargeEffect		"gfx/effects/clonefrontflash"
-	MuzzleEffect		"mini_concussion/muzzle_flash"
-	AltMuzzleEffect		"mini_concussion/muzzle_flash"
-	MissileEffect		"concussion/shot"
-	AltMissileEffect 	"concussion/shot"
-	
-	idleAnim		DC15_READY
-
-	damageMod	1.010
+WeaponToReplace	WP_A280
+WeaponBasedOff	WP_A280
+NewWorldModel	"models/weapons2/merr_sonn/merr_sonn_w.glm"
+NewViewModel	"models/weapons2/merr_sonn/merr_sonn.md3"
+Icon	"gfx/hud/w_icon_merrsonn"
+WeaponName	"Burst Rifle"
+FlashSound0	"sound/weapons/kotor/fire_med.wav"
+AltFlashSound0	"sound/weapons/kotor/fire_hvy.wav"
+ChargeEffect	"gfx/effects/clonefrontflash"
+MuzzleEffect	"mini_concussion/muzzle_flash"
+AltMuzzleEffect	"mini_concussion/muzzle_flash"
+MissileEffect	"blaster/Shot05B"
+AltMissileEffect	"concussion/shot"
+idleAnim	DC15_READY
+damageMod	1.05
 }
-
+WeaponInfo1
+{
+WeaponToReplace	WP_T21
+WeaponBasedOff	WP_T21
+NewWorldModel	"models/weapons2/merr_sonn/merr_sonn_w.glm"
+NewViewModel	"models/weapons2/merr_sonn/merr_sonn.md3"
+Icon	"gfx/hud/w_icon_merrsonn"
+WeaponName	"Heavy Rifle"
+FlashSound0	"sound/weapons/kotor/fire_hvy.wav"
+AltFlashSound0	"sound/weapons/kotor/fire_med.wav"
+ChargeEffect	"gfx/effects/clonefrontflash"
+MuzzleEffect	"mini_concussion/muzzle_flash"
+AltMuzzleEffect	"mini_concussion/muzzle_flash"
+MissileEffect	"concussion/shot"
+AltMissileEffect	"blaster/Shot05B"
+idleAnim	DC15_READY
+damageMod	1.025
+}
 ForceInfo0
 {
-	ForceToReplace        FP_PUSH
-	Icon                 "gfx/mp/sup_repulsor_glove"
-	ForcePowerName		 "Repulsor Glove"
-	HandShader	"gfx/effects/forcePush"
-	HandShaderRed	0
-	HandShaderBlue	0
-	HandShaderGreen	200
+ForceToReplace	FP_PUSH
+Icon	"gfx/mp/sup_repulsor_glove"
+ForcePowerName	"Repulsor Glove"
+HandShader	"gfx/effects/forcePush"
+HandShaderRed	0
+HandShaderBlue	0
+HandShaderGreen	200
 }
-
 ForceInfo1
 {
-	ForceToReplace        FP_ABSORB
-	Icon                 "gfx/mp/sup_vet_nullify"
-	ForcePowerName		 "Nullify Force"
-	StartSound           "sound/forcesup/protect.mp3"
-	LoopSound            "sound/forcesup/protectloop.wav"
+ForceToReplace	FP_ABSORB
+Icon	"gfx/mp/sup_vet_nullify"
+ForcePowerName	"Nullify Force"
+StartSound	"sound/forcesup/protect.mp3"
+LoopSound	"sound/forcesup/protectloop.wav"
 }
-
-description	"Eternal Empire - Veteran Skytrooper
-
-Weapons
-Frag Grenade (1)
-Concussion Grenade (1)
-Skytrooper Rifle (Bowcaster) (3)
-
-Abilities:
-Reinforcements (1)
-Jump Pack (Fuel 1)
-Magnetic Plating (1)
-Advanced Sensor Plating (ANTI-MT) (1)
-Cortosis (1)
-Beskar (1)
-Recharge (1)
-
-A veteran skytrooper, a standard combat droid of the Eternal Empire."
+ForceInfo2
+{
+ForceToReplace	FP_TEAM_FORCE
+Icon	"gfx/mp/sup_morale_boost"
+ForcePowerName	"Morale Boost"
+StartSound	"sound/forcesup/synergize.mp3"
+LoopSound	"sound/forcesup/protectloop.wav"
+}
+description ""

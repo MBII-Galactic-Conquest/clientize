@@ -1,28 +1,36 @@
-
 ClassInfo
 {
-	name			"s_int_jed"
-	classflags		CFL_BPFREEJUMPS|CFL_HASQ3
-	maxhealth       400
-	maxarmor		100
-	forcepool		500
-	speed			1.0
-	BPmultiplier    1.0
-	APmultiplier    1.0
-
-
-	uishader		"models/players/anakin_tcw/mb2_icon_cw"
-
-	uishader_1		"models/players/obiwan_cw/mb2_icon_obiwan_cw"
-				
-	saber1			jediknight_supremacy1
-	saber2			none
-	
-
-	damageTaken		0
-	damageGiven		0
-	knockbackTaken	0
-	saberDamage -1
+name	"s_int_jed"
+classflags	CFL_BPFREEJUMPS|CFL_HASQ3
+maxhealth	400
+maxarmor	100
+forcepool	500
+speed	1.0
+BPmultiplier	1.0
+APmultiplier	1.0
+uishader	"models/players/anakin_tcw/mb2_icon_cw"
+uishader_1	"models/players/obiwan_cw/mb2_icon_obiwan_cw"
+saber1	jediknight_supremacy1
+saber2	none
+damageTaken	0
+damageGiven	0
+knockbackTaken	0
+saberDamage -1
+isCustomBuild	1
+mbPoints	0
+hasCustomSpec	3
+isOnlyOneSpec	1
+customSpecName_1	""
+customSpecIcon_1	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_1	""
+customSpecName_2	""
+customSpecIcon_2	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_2	""
+customSpecName_3	""
+customSpecIcon_3	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_3	""
+c_att_skill_0	MB_ATT_INVALID
+c_att_names_0	""
+c_att_ranks_0	-1
 }
-
-description	"Campaign Coordinator"
+description ""

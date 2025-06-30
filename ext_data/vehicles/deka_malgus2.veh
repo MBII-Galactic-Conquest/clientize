@@ -32,7 +32,7 @@ armor       800
 toughness     10
 model      "sithdeka"
 skin      "default"
-radarIcon    "gfx/menus/radar/deka"
+radarIcon	  "gfx/menus/radar/deka"
 explosionRadius 400
 explosionDamage 1000
 explodeFX    "ships/ship_explosion2"

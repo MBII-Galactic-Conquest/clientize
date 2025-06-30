@@ -1,101 +1,77 @@
-
-Classinfo
+ClassInfo
 {
-	name			"s_lem_flm"
-	classflags		CFL_EXTRAFLAMEDAMAGE
-	maxhealth		100
-	maxarmor		75
-	speed           0.7
-	
-	rateOfFire      0.95
-	
-	WP_ThrowerFlags HELD_ALTRELOAD
-	
-	Damagegiven 1.1
-
-	
-	uishader		"gfx/sup_icons/lego_sandtrooper/mb2_icon_flm"
-	
+name	"s_lem_flm"
+classflags	CFL_EXTRAFLAMEDAMAGE
+maxhealth	100
+maxarmor	75
+speed	0.7
+rateOfFire	0.95
+WP_ThrowerFlags HELD_ALTRELOAD
+Damagegiven 1.1
+uishader	"gfx/sup_icons/lego_sandtrooper/mb2_icon_flm"
+isCustomBuild	1
+mbPoints	0
+hasCustomSpec	3
+isOnlyOneSpec	1
+customSpecName_1	""
+customSpecIcon_1	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_1	""
+customSpecName_2	""
+customSpecIcon_2	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_2	""
+customSpecName_3	""
+customSpecIcon_3	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_3	""
+c_att_skill_0	MB_ATT_INVALID
+c_att_names_0	""
+c_att_ranks_0	-1
 }
-
 WeaponInfo0
 {
-	WeaponToReplace		WP_BLASTER
-	WeaponBasedOff		WP_BLASTER
-	NewWorldModel		"models/weapons2/lego_blaster/blaster_w.glm"
-	NewViewModel		"models/weapons2/lego_blaster/blaster.md3"
-	Icon			"gfx/mplevels/legosw/icon_blaster"
-	WeaponName		"Blaster"
-	FlashSound0 "sound/weapsup/r/wpn_imp_blaster_fire.wav"
-    AltFlashSound0  "sound/weapsup/r/wpn_imp_blaster_fire.wav"
-    customAmmo      500
-    clipSize        100
-    FPMult          0.8
-
-	hasAnimOverrides 1
-	animReady BOTH_DC15_READY
-	animReadyWalk BOTH_DC15_READY
-	animReadyNoAmmo BOTH_DC15_READY
-	animAttack BOTH_DC15_ATTACK
-	animAttackWalk BOTH_DC15_ATTACK
+WeaponToReplace	WP_BLASTER
+WeaponBasedOff	WP_BLASTER
+NewWorldModel	"models/weapons2/lego_blaster/blaster_w.glm"
+NewViewModel	"models/weapons2/lego_blaster/blaster.md3"
+Icon	"gfx/mplevels/legosw/icon_blaster"
+WeaponName	"Blaster"
+FlashSound0	"sound/weapsup/r/wpn_imp_blaster_fire.wav"
+AltFlashSound0	"sound/weapsup/r/wpn_imp_blaster_fire.wav"
+customAmmo	500
+clipSize	100
+FPMult	0.8
+hasAnimOverrides 1
+animReady BOTH_DC15_READY
+animReadyWalk BOTH_DC15_READY
+animReadyNoAmmo BOTH_DC15_READY
+animAttack BOTH_DC15_ATTACK
+animAttackWalk BOTH_DC15_ATTACK
 }
-
 WeaponInfo1
 {
-	WeaponToReplace		WP_THROWER			//Required: Weapon Slot of weapon you're replacing
-	WeaponBasedOff		WP_THROWER					//Required: For future use, should be the same as WeaponToReplace
-	NewWorldModel		"models/weapons2/lego_blaster/blaster_w.glm"
-	NewViewModel		"models/weapons2/lego_blaster/blaster.md3"
-	Icon			"gfx/mplevels/legosw/icon_blaster"
-	WeaponName			"Lego Flamer"    					//Required: Weapon change display name
-	customAmmo		600
-	clipsize		120
-
-	hasAnimOverrides 1
-	animReady BOTH_DC15_READY
-	animReadyWalk BOTH_DC15_READY
-	animReadyNoAmmo BOTH_DC15_READY
-	animAttack BOTH_DC15_ATTACK
-	animAttackWalk BOTH_DC15_ATTACK
-
-	damageMod	1.4
-
-	ReloadTimeModifier 	1.4
+WeaponToReplace	WP_THROWER
+WeaponBasedOff	WP_THROWER
+NewWorldModel	"models/weapons2/lego_blaster/blaster_w.glm"
+NewViewModel	"models/weapons2/lego_blaster/blaster.md3"
+Icon	"gfx/mplevels/legosw/icon_blaster"
+WeaponName	"Lego Flamer"
+customAmmo	600
+clipSize	120
+hasAnimOverrides 1
+animReady BOTH_DC15_READY
+animReadyWalk BOTH_DC15_READY
+animReadyNoAmmo BOTH_DC15_READY
+animAttack BOTH_DC15_ATTACK
+animAttackWalk BOTH_DC15_ATTACK
+damageMod	1.4
+ReloadTimeModifier	1.4
 }
-
 WeaponInfo2
 {
-	WeaponToReplace		WP_MELEE
-	WeaponBasedOff		WP_MELEE  
-  NewWorldModel		"models/weapons2/dummy/dummy.glm"
-  NewViewModel		"models/weapons2/dummy/dummy.md3"
-  Icon			"gfx/mplevels/legosw/icon_melee"
-	WeaponName		"Melee"
+WeaponToReplace	WP_MELEE
+WeaponBasedOff	WP_MELEE
+NewWorldModel	"models/weapons2/dummy/dummy.glm"
+NewViewModel	"models/weapons2/dummy/dummy.md3"
+Icon	"gfx/mplevels/legosw/icon_melee"
+WeaponName	"Melee"
 }
-
-description "Imperial Flame Trooper
-
-Weaponry:
-Lego E-11 (3)
-Lego Flamer *
-Fire Grenades (2)
-
-* Special Weapon Descriptions:
---- Lego Flamer 
-Flamethrower Rifle
-Higher damage than Wrist-Flamethrower
-Magazine style reload
-
-Attributes
-Extra Life
-Assemble
-Blast Armor
-Shield Regeneration (1)
-Dexterity (2)
-
-Abilities:
-Wrist Laser [Class Special 2]
-Dodge (1) [Class Special 1]
-Gun Bash
-
-A variant of the Imperial stormtrooper, equipped with incendiary weapons."
+description ""

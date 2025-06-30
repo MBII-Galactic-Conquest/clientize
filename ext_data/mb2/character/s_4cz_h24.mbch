@@ -1,134 +1,111 @@
-
 ClassInfo
 {
-	name			"s_4cz_h24"
-	classflags		CFL_REALTD|CFL_BPFREEJUMPS|CFL_FASTHACKING|CFL_HEAVYMELEE|CFL_SEEING_STEALTH
-	APmultiplier	0.8
-    forcepool       65
-	maxhealth		150
-	maxarmor		100
-	uishader		"models/players/hk47/mb2_icon_hk50"
-	speed 			1.16
-	saber1			droidmelee_legends
-
-	saberStanceAnim		BOTH_RAGESTAND
-	WalkForward 		SBD_WALK_NOGUN
-	WalkBackward		SBD_WALKBACK_NOGUN
-
+name	"s_4cz_h24"
+classflags	CFL_REALTD|CFL_BPFREEJUMPS|CFL_FASTHACKING|CFL_HEAVYMELEE|CFL_SEEING_STEALTH
+APmultiplier	0.8
+forcepool	65
+maxhealth	150
+maxarmor	100
+uishader	"models/players/hk47/mb2_icon_hk50"
+speed	1.16
+saber1	droidmelee_legends
+saberStanceAnim	BOTH_RAGESTAND
+WalkForward	SBD_WALK_NOGUN
+WalkBackward	SBD_WALKBACK_NOGUN
+isCustomBuild	1
+mbPoints	0
+hasCustomSpec	3
+isOnlyOneSpec	1
+customSpecName_1	""
+customSpecIcon_1	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_1	""
+customSpecName_2	""
+customSpecIcon_2	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_2	""
+customSpecName_3	""
+customSpecIcon_3	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_3	""
+c_att_skill_0	MB_ATT_INVALID
+c_att_names_0	""
+c_att_ranks_0	-1
 }
-
 WeaponInfo0
 {
-	WeaponToReplace		WP_CLONE_PISTOL
-	WeaponBasedOff		WP_MANDO_PISTOL
-	NewWorldModel           "models/weapons2/kotor_hpistol/kotor_hpistol_w.glm"
-	NewViewModel            "models/weapons2/kotor_hpistol/kotor_hpistol.md3"
-	Icon                    "gfx/hud/w_icon_kotor_hpistol_dual"
-	FlashSound0			"sound/weapons/kotor/fire_light.wav"
-    AltFlashSound0		"sound/weapons/kotor/fire_hvy.wav"
-	MuzzleEffect		"Blaster/MuzzleCharge01R"
-	AltMuzzleEffect		"Blaster/MuzzleFlash01R"
-	MissileEffect		"Blaster/Shot02Y"
-	Missile3Effect		"Blaster/Shot03Y"
-	AltMissileEffect	"Blaster/Shot03Y"
-	PowerupShotEffect	"Blaster/Shot03Y"
-	ChargeEffect		"gfx/effects/blasterfrontflash"
-	WeaponName			"HK-24 Dual Pistols"
-	customAmmo			800
+WeaponToReplace	WP_CLONE_PISTOL
+WeaponBasedOff	WP_MANDO_PISTOL
+NewWorldModel	"models/weapons2/kotor_hpistol/kotor_hpistol_w.glm"
+NewViewModel	"models/weapons2/kotor_hpistol/kotor_hpistol.md3"
+Icon		"gfx/hud/w_icon_kotor_hpistol_dual"
+FlashSound0	"sound/weapons/kotor/fire_light.wav"
+AltFlashSound0	"sound/weapons/kotor/fire_hvy.wav"
+MuzzleEffect	"Blaster/MuzzleCharge01R"
+AltMuzzleEffect	"Blaster/MuzzleFlash01R"
+MissileEffect	"Blaster/Shot02Y"
+Missile3Effect	"Blaster/Shot03Y"
+AltMissileEffect	"Blaster/Shot03Y"
+PowerupShotEffect	"Blaster/Shot03Y"
+ChargeEffect	"gfx/effects/blasterfrontflash"
+WeaponName	"HK-24 Dual Pistols"
+customAmmo	800
 }
-
 WeaponInfo1
 {
-	WeaponToReplace WP_SABER
-	WeaponBasedOff  WP_SABER
-	NewWorldModel		"models/weapons2/dummy/dummy.glm"
-	NewViewModel		"models/weapons2/dummy/dummy.md3"
-	Icon			"models/weapons2/halo_melee/icon.png"
-	WeaponName		"Droid Melee"
-	primGore		1
-	altGore			1
+WeaponToReplace	WP_SABER
+WeaponBasedOff	WP_SABER
+NewWorldModel	"models/weapons2/dummy/dummy.glm"
+NewViewModel	"models/weapons2/dummy/dummy.md3"
+Icon	"models/weapons2/halo_melee/icon.png"
+WeaponName	"Droid Melee"
+primGore	1
+altGore	1
 }
-
 WeaponInfo2
 {
-    WeaponToReplace        WP_BLASTER                           //Required: Weapon Slot of weapon you're replacing
-    WeaponBasedOff        WP_BLASTER                          //Required: For future use, should be the same as WeaponToReplace
-	NewWorldModel		"models/weapons2/kotor_brifle1/kotor_brifle1_w.glm"
-	NewViewModel		"models/weapons2/kotor_brifle1/kotor_brifle1.md3"
-	Icon				"gfx/hud/w_icon_kotor_brifle1"
-    WeaponName            "Czerka Assault Rifle"                        //Required: Weapon change display name
-	FlashSound0			"sound/weapons/kotor/fire_med.wav"
-    AltFlashSound0		"sound/weapons/kotor/fire_hvy.wav"
-	FlashSound1			"sound/weapons/kotor/fire_med.wav"
-	AltFlashSound1		"sound/weapons/kotor/fire_hvy.wav"
-	FlashSound2			"sound/weapons/kotor/fire_med.wav"
-	AltFlashSound2		"sound/weapons/kotor/fire_hvy.wav"
-	MuzzleEffect		"Blaster/MuzzleFlash01R"
-	AltMuzzleEffect		"Blaster/MuzzleFlash01R"
-	MissileEffect		"Blaster/Shot02Y"
-	AltMissileEffect	"Blaster/Shot02Y"
-    customAmmo      500
-    clipSize        100
-    FPMult          0.8
-
-	hasAnimOverrides 1
-	animReady BOTH_DC15_READY
-	animReadyWalk BOTH_DC15_READY
-	animReadyNoAmmo BOTH_DC15_READY
-	animAttack BOTH_DC15_ATTACK
-	animAttackWalk BOTH_DC15_ATTACK
+WeaponToReplace	WP_BLASTER
+WeaponBasedOff	WP_BLASTER
+NewWorldModel	"models/weapons2/kotor_brifle1/kotor_brifle1_w.glm"
+NewViewModel	"models/weapons2/kotor_brifle1/kotor_brifle1.md3"
+Icon	"gfx/hud/w_icon_kotor_brifle1"
+WeaponName	"Czerka Assault Rifle"
+FlashSound0	"sound/weapons/kotor/fire_med.wav"
+AltFlashSound0	"sound/weapons/kotor/fire_hvy.wav"
+FlashSound1	"sound/weapons/kotor/fire_med.wav"
+AltFlashSound1	"sound/weapons/kotor/fire_hvy.wav"
+FlashSound2	"sound/weapons/kotor/fire_med.wav"
+AltFlashSound2	"sound/weapons/kotor/fire_hvy.wav"
+MuzzleEffect	"Blaster/MuzzleFlash01R"
+AltMuzzleEffect	"Blaster/MuzzleFlash01R"
+MissileEffect	"Blaster/Shot02Y"
+AltMissileEffect	"Blaster/Shot02Y"
+customAmmo	500
+clipSize	100
+FPMult	0.8
+hasAnimOverrides 1
+animReady BOTH_DC15_READY
+animReadyWalk BOTH_DC15_READY
+animReadyNoAmmo BOTH_DC15_READY
+animAttack BOTH_DC15_ATTACK
+animAttackWalk BOTH_DC15_ATTACK
 }
-
 WeaponInfo3
 {
-	WeaponToReplace		WP_PROJ				 
-	WeaponBasedOff      WP_SBD
-	NewWorldModel "models/weapons2/disruptor/disruptor_w.glm"
-	NewViewModel  "models/weapons2/disruptor/disruptor.md3"
-	Icon  "gfx/hud/w_icon_disruptor"
-	FlashSound0 		"sound/weapons/E-5s/fire.mp3"
-	AltFlashSound0	    "sound/weapons/E-5s/alt_fire.mp3"		
-	WeaponName			"Droid Sniper Rifle"    				 
-	CustomAmmo 	12
-	MuzzleEffect		"Bowcaster/muzzle_flash"
-	MissileEffect		"Bowcaster/shot"
-	fpmult 1.1
+WeaponToReplace	WP_PROJ
+WeaponBasedOff	WP_SBD
+NewWorldModel	"models/weapons2/disruptor/disruptor_w.glm"
+NewViewModel	"models/weapons2/disruptor/disruptor.md3"
+Icon	"gfx/hud/w_icon_disruptor"
+FlashSound0	"sound/weapons/E-5s/fire.mp3"
+AltFlashSound0	"sound/weapons/E-5s/alt_fire.mp3"
+WeaponName	"Droid Sniper Rifle"
+CustomAmmo	12
+MuzzleEffect	"Bowcaster/muzzle_flash"
+MissileEffect	"Bowcaster/shot"
+fpmult 1.1
 }
-
 ForceInfo0
 {
-	ForceToReplace	FP_SEE
-	Icon		"gfx/forcepowers/radar"
-	ForcePowerName	"Meatbag Scanner"
+ForceToReplace	FP_SEE
+Icon	"gfx/forcepowers/radar"
+ForcePowerName	"Meatbag Scanner"
 }
-
-description	"Generic Leader: Czerka HK-24 Assassin
-
-	[GC]
-Unlocked With:
-Leader Bonus
-
-Weaponry:
-Thermal Detonator (1)
-Frag Grenade (2)
-Droid Sniper Rifle (1)
-Droid Arms (strong style)
-Czerka Assault Rifle (3)
-Dual Pistols (3)
-
-Gadgets:
-Stealth Field Generator
-Meatbag Scanner
-
-Attributes
-Self-Repairing Ablative Armor
-Droid Lethality (wookie melee)
-Close Combat Training (2)
-HK-24 Swiftness (speed)
-Cortosis Plating
-Flamethrower
-Quick Throw (2)
-Beskar (3)
-Gun Bash
-
-A terrifyingly green plated HK-24 Assassin Droid, manufactured by the Czerka Corporation during the Mandalorian Wars to protect their assets."
+description ""
