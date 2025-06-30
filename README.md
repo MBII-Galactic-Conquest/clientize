@@ -1,6 +1,6 @@
 
 
-ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ![image](https://github.com/MBII-Galactic-Conquest/clientize/blob/main/gc.png?raw=true)
+ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ![image](https://github.com/MBII-Galactic-Conquest/clientize/blob/main/SUPREMACY.png?raw=true)
 
 ㅤ
 
