@@ -1,76 +1,146 @@
 ClassInfo
 {
-	name			"s_17ca_cs4"
-	maxhealth		100
-	maxarmor		75
-	uishader		"gfx/sup_icons/clonetrooper_p2_501/mb2_icon_vang"
-	speed			0.8
-
-
-	uishader_1		"gfx/sup_icons/clonemarine/mb2_icon_vang"
-
+name	"s_17ca_cs4"
+classflags	CFL_STATVIEWER
+maxhealth	80
+maxarmor	50
+forcepool	50
+uishader	"gfx/sup_icons/clonetrooper_p2_501/mb2_icon_vang"
+speed	0.8
+uishader_1	"gfx/sup_icons/clonemarine/mb2_icon_vang"
+isCustomBuild	1
+mbPoints	18
+hasCustomSpec	3
+isOnlyOneSpec	1
+customSpecName_1	"Sergeant"
+customSpecIcon_1	"gfx/sup_builds/units/sup_sgt"
+customSpecDesc_1	""
+customSpecName_2	"Corpsman"
+customSpecIcon_2	"gfx/sup_builds/units/sup_corp"
+customSpecDesc_2	""
+customSpecName_3	""
+customSpecIcon_3	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_3	""
+c_att_skill_1	MB_ATT_FP_TEAM_FORCE
+c_att_names_1	"Morale Boost"
+c_att_ranks_1	1,1
+c_att_skill_2	MB_ATT_ASSEMBLE
+c_att_names_2	"Assemble"
+c_att_ranks_2	1
+c_att_skill_4	MB_ATT_INVALID
+c_att_names_4	"^5-Weapon Availability-"
+c_att_ranks_4	-1
+c_att_skill_5	MB_ATT_T21
+c_att_names_5	"Heavy Rifle:"
+c_att_ranks_5	13,1,1
+c_att_skill_6	MB_ATT_A280
+c_att_names_6	"Burst Rifle:"
+c_att_ranks_6	13,1,1
+c_att_skill_16	MB_ATT_DISP_HEALTH
+c_att_names_16	"Treat Soldiers"
+c_att_ranks_16	1
+c_att_skill_18	MB_ATT_INVALID
+c_att_names_18	"^5-Weapon Availability-"
+c_att_ranks_18	-1
+c_att_skill_19	MB_ATT_T21
+c_att_names_19	"Heavy Rifle:"
+c_att_ranks_19	13,1,1
+c_att_skill_20	MB_ATT_A280
+c_att_names_20	"Burst Rifle:"
+c_att_ranks_20	13,1,1
 }
-
 WeaponInfo0
 {
-    WeaponToReplace        WP_CLONE_PISTOL                           //Required: Weapon Slot of weapon you're replacing
-    WeaponBasedOff        WP_BLASTER_PISTOL                          //Required: For future use, should be the same as WeaponToReplace
-    NewWorldModel        "models/weapons2/dc-17/dc-17_w.glm"      //Required: New 3rd person/dropped weapon model
-    NewViewModel        "models/weapons2/dc-17/dc-17.md3"       //Required: New 1st person weapon model
-    Icon                "gfx/hud/w_icon_dc-17"                 //Required: Weapon change icon
-    WeaponName            "DC-17 Clone Pistol"                        //Required: Weapon change display name
-    FlashSound0 "sound/weapsup/sup/wpn_rep_pistol_fire.wav"
-    AltFlashSound0  "sound/weapsup/sup/wpn_rep_pistol_fire.wav"
-	FlashSound4	"sound/weapsup/sup/wpn_rep_pistol_fire.wav"
-	AltFlashSound4	"sound/weapsup/sup/wpn_rep_pistol_fire.wav"
-	ChargeEffect	"gfx/effects/clonefrontflash"
-	MuzzleEffect		"Blaster/MuzzleFlash01B"
-	MissileEffect		"blaster/Shot01B"
-	AltMissileEffect 	"blaster/Shot01B"
-    customAmmo      200
-    clipSize        100
+WeaponToReplace	WP_BRYAR_PISTOL
+WeaponBasedOff	WP_BOWCASTER
+NewWorldModel	"models/weapons2/kotor_bpistol2/kotor_bpistol2_w.glm"
+NewViewModel	"models/weapons2/kotor_bpistol2/kotor_bpistol2.md3"
+Icon	"gfx/hud/w_icon_kotor_bpistol2"
+WeaponName	"BP-2 Hand Pistol"
+FlashSound0	"sound/weapons/kotor/fire_light.wav"
+AltFlashSound0	"sound/weapons/kotor/fire_hvy.wav"
+ChargeEffect	"gfx/effects/clonefrontflash"
+OverchargeEffect	"Blaster/MuzzleFlash04B"
+PowerupShotEffect	"Blaster/Shot04B"
+MuzzleEffect	"Blaster/MuzzleFlash01B"
+AltMuzzleEffect	"Blaster/MuzzleFlash01B"
+MissileEffect	"blaster/Shot01B"
+AltMissileEffect	"blaster/Shot01B"
 }
-
 WeaponInfo1
 {
-    WeaponToReplace        WP_CLONE_RIFLE                           //Required: Weapon Slot of weapon you're replacing
-    WeaponBasedOff        WP_BLASTER                          //Required: For future use, should be the same as WeaponToReplace
-    NewWorldModel        "models/weapons2/dc-15a/dc-15a_w.glm"      //Required: New 3rd person/dropped weapon model
-    NewViewModel        "models/weapons2/dc-15s/dc-15a.md3"       //Required: New 1st person weapon model
-    Icon                "gfx/hud/w_icon_clonerifle"                 //Required: Weapon change icon
-    WeaponName            "DC-15A Clone Longrifle"                        //Required: Weapon change display name
-    FlashSound0 "sound/weapsup/sup/wpn_rep_blaster_fire.wav"
-	AltFlashSound0 "sound/weapsup/sup/wpn_rep_blaster_fire.wav"
-	MuzzleEffect		"Blaster/MuzzleFlash01B"
-	AltMuzzleEffect		"Blaster/MuzzleFlash01B"
-	MissileEffect		"blaster/Shot01B"
-	AltMissileEffect 	"blaster/Shot01B"
-    customAmmo      500
-    clipSize        30
+WeaponToReplace	WP_A280
+WeaponBasedOff	WP_A280
+NewWorldModel	"models/weapons2/dc-15a/dc-15a_w.glm"
+NewViewModel	"models/weapons2/dc-15s/dc-15a.md3"
+Icon	"gfx/hud/w_icon_clonerifle"
+WeaponName	"Republic Burst Rifle"
+FlashSound0	"sound/weapsup/sup/wpn_rep_blaster_fire.wav"
+AltFlashSound0	"sound/weapsup/sup/wpn_rep_blaster_fire.wav"
+MuzzleEffect	"Blaster/MuzzleFlash01B"
+AltMuzzleEffect	"Blaster/MuzzleFlash01B"
+MissileEffect	"blaster/Shot05B"
+AltMissileEffect	"blaster/Shot03B"
+customAmmo	500
+clipSize	100
+FPMult	0.8
+hasAnimOverrides 1
+animReady BOTH_DC15_READY
+animReadyWalk BOTH_DC15_READY
+animReadyNoAmmo BOTH_DC15_READY
+animAttack BOTH_DC15_ATTACK
+animAttackWalk BOTH_DC15_ATTACK
+damageMod	1.05
 }
-
-description	"Phase 2 - Clone Veteran - Longrifle
-
-Weaponry:
-Frag Grenade (1)
-Pulse Grenade (2)
-Clone Pistol (2)
-DC-15A Rifle (2) *
-
-Weapon Information:
-DC-15A Rifle functions as a CR2 with smaller magazine
--- Saber Style Switch to change,
-- Concussion Blobs (2)
-- Ion Blobs (2)
-
-Attributes
-Reinforcements (1)
-Close Combat Training (2)
-Dexterity (2)
-Stamina (3)
-Gun Bash
-Assemble
-
-A veteran phase two clone trooper of the 501st Legion, who has seen some action and has been given better arsenal.
-
-The upgraded genetic mastery of the kaminoans offer additional vigor, and military advances of the republic offer substantial combat upgrades."
+WeaponInfo2
+{
+WeaponToReplace	WP_T21
+WeaponBasedOff	WP_T21
+NewWorldModel	"models/weapons2/dc-15a/dc-15a_w.glm"
+NewViewModel	"models/weapons2/dc-15s/dc-15a.md3"
+Icon	"gfx/hud/w_icon_clonerifle"
+WeaponName	"Republic Heavy Rifle"
+FlashSound0	"sound/weapsup/sup/wpn_rep_blaster_fire_2.wav"
+AltFlashSound0	"sound/weapsup/sup/wpn_rep_blaster_fire.wav"
+MuzzleEffect	"Blaster/MuzzleFlash05B"
+AltMuzzleEffect	"Blaster/MuzzleFlash03B"
+MissileEffect	"blaster/Shot05B"
+AltMissileEffect	"blaster/Shot03B"
+customAmmo	500
+clipSize	100
+FPMult	0.8
+hasAnimOverrides 1
+animReady BOTH_DC15_READY
+animReadyWalk BOTH_DC15_READY
+animReadyNoAmmo BOTH_DC15_READY
+animAttack BOTH_DC15_ATTACK
+animAttackWalk BOTH_DC15_ATTACK
+damageMod	1.025
+}
+ForceInfo0
+{
+ForceToReplace	FP_PUSH
+Icon		"gfx/mp/sup_repulsor_glove"
+ForcePowerName	"Repulsor Glove"
+HandShader	"gfx/effects/forcePush"
+HandShaderRed	0
+HandShaderBlue	0
+HandShaderGreen	200
+}
+ForceInfo1
+{
+ForceToReplace	FP_ABSORB
+Icon		"gfx/mp/sup_vet_nullify"
+ForcePowerName	"Nullify Force"
+StartSound		"sound/forcesup/protect.mp3"
+LoopSound		"sound/forcesup/protectloop.wav"
+}
+ForceInfo2
+{
+ForceToReplace	FP_TEAM_FORCE
+Icon	"gfx/mp/sup_morale_boost"
+ForcePowerName	"Morale Boost"
+StartSound	"sound/forcesup/synergize.mp3"
+LoopSound	"sound/forcesup/protectloop.wav"
+}
+description ""

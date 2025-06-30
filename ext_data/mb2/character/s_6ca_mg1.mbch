@@ -1,94 +1,67 @@
 ClassInfo
 {
-	name				"s_6ca_mg1"
-	saber1				electrostaff_legends
-	maxhealth			80
-	maxarmor            10
- 	speed 		        1.05
-	forcepool			80
-	BPmultiplier		1
-	ASmultiplier		1.25
-	CSmultiplier		1.25
-	APmultiplier		1.3
-	classflags			CFL_BPFREEJUMPS
-	WP_BowcasterFlags   HELD_KNOCKBACK|HELD_PULSE|HELD_STUN|HELD_SONIC
-	WP_SaberFlags		HELD_PULSE
-	
-	damageTaken 		0.9
-	
-	uishader			"models/players/magnaguard/mb2_icon_default_magutapau"
-	
-	uishader_1			"models/players/magnaguard/mb2_icon_default_cape"
-	
-	uishader_2			"models/players/magnaguard/mb2_icon_default"
-	
-	
+name	"s_6ca_mg1"
+saber1	electrostaff_legends
+maxhealth	80
+maxarmor	10
+speed	1.05
+forcepool	80
+BPmultiplier	1
+ASmultiplier	1.25
+CSmultiplier	1.25
+APmultiplier	1.3
+classflags	CFL_BPFREEJUMPS
+WP_BowcasterFlags   HELD_KNOCKBACK|HELD_PULSE|HELD_STUN|HELD_SONIC
+WP_SaberFlags	HELD_PULSE
+damageTaken	0.9
+uishader	"models/players/magnaguard/mb2_icon_default_magutapau"
+uishader_1	"models/players/magnaguard/mb2_icon_default_cape"
+uishader_2	"models/players/magnaguard/mb2_icon_default"
+isCustomBuild	1
+mbPoints	0
+hasCustomSpec	3
+isOnlyOneSpec	1
+customSpecName_1	""
+customSpecIcon_1	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_1	""
+customSpecName_2	""
+customSpecIcon_2	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_2	""
+customSpecName_3	""
+customSpecIcon_3	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_3	""
+c_att_skill_0	MB_ATT_INVALID
+c_att_names_0	""
+c_att_ranks_0	-1
 }
-
 WeaponInfo0
 {
-	WeaponToReplace		WP_SABER
-	WeaponBasedOff		WP_SABER
-	NewWorldModel		"models/weapons2/electrostaff/electrostaff.glm" 
-	NewViewModel		"models/weapons2/dummy/dummy.md3"
-	Icon				"gfx/hud/w_icon_electrostaff"
-	WeaponName			"Electrostaff"
+WeaponToReplace	WP_SABER
+WeaponBasedOff	WP_SABER
+NewWorldModel	"models/weapons2/electrostaff/electrostaff.glm"
+NewViewModel	"models/weapons2/dummy/dummy.md3"
+Icon	"gfx/hud/w_icon_electrostaff"
+WeaponName	"Electrostaff"
 }
-
 WeaponInfo1
 {
-	WeaponToReplace		WP_BOWCASTER
-	WeaponBasedOff		WP_BOWCASTER
-	NewWorldModel			"models/weapons2/e5/e5_w.glm"
-	NewViewModel			"models/weapons2/e5/e5.md3"
-	Icon					"gfx/hud/w_icon_e5.tga"			
-	WeaponName			"IG-100 Pulse Shock Blaster"
-
-	idleAnim		MAND_SPISTOL 
-	firingAnim		MAND_SPISTOL_FIRE  			
-	
-	MissileHitHumanEffect "effects/geonosian/altdetonate"
-	MissileHitDroid 	"effects/geonosian/altdetonate"
-	MissileMissEffect 	"effects/sonic_pistol/wall_impact"
-	MissileEffect		"effects/sonic_pistol/projectile"  					
-	MuzzleEffect		"effects/geonosian/muzzle_flash"   	
-	FlashSound0		"sound/weapsup/sup/wpn_cis_sonicBlaster_fire.wav"
-
-	CustomAmmo 	200
-	ClipSize 		3
-	FPmult              1.25
-	AltFireEnabled 0
+WeaponToReplace	WP_BOWCASTER
+WeaponBasedOff	WP_BOWCASTER
+NewWorldModel	"models/weapons2/e5/e5_w.glm"
+NewViewModel	"models/weapons2/e5/e5.md3"
+Icon		"gfx/hud/w_icon_e5.tga"
+WeaponName	"IG-100 Pulse Shock Blaster"
+idleAnim	MAND_SPISTOL
+firingAnim	MAND_SPISTOL_FIRE
+MissileHitHumanEffect "effects/geonosian/altdetonate"
+MissileHitDroid	"effects/geonosian/altdetonate"
+MissileMissEffect	"effects/sonic_pistol/wall_impact"
+MissileEffect	"effects/sonic_pistol/projectile"
+MuzzleEffect	"effects/geonosian/muzzle_flash"
+FlashSound0	"sound/weapsup/sup/wpn_cis_sonicBlaster_fire.wav"
+CustomAmmo	200
+clipSize	3
+FPmult	1.25
+AltFireEnabled 0
 }
-
-description	"Corporate Sector Authority - IG-100 Magna Guard 
-
-	[GC]
-Unlocked With:
-Capital Defense
-
-Weaponry:
-Electrostaff * 
-E-5m Pulse Shock Blaster (1)
-
-* Special Weapon Descriptions:
---- Electrostaff
-- Offense (2)
-- Defense (1)
-- Can block lightsabers
-- Can block blaster shots
-- Reduced damage compared to lightsaber
-
-Attributes
-Extra Life
-Magnetic Plating
-BP Free Jumps
-Assemble
-
-Forcepowers
-Jump (2)
-Force Block (3)
-Immune to Mind Trick
-
-A favorite of General Grievous, these expert IG-100 droids are known for their remarkable lethality, and deft swiftness.
-
-This modified version of the IG-100 is used by the Corporate Sector Authority to accomodate wealthy leaders, and protect strategic locations."
+description ""

@@ -1,89 +1,72 @@
 ClassInfo
 {
-	name				"s_usu_wook"
-	maxhealth			250
-	maxarmor			75
-		
-	uishader			"gfx/sup_icons/wookiee/mb2_icon_wook_r"
-
-	resource		RESOURCE_RAGE
-	
-	WP_E22Flags		HELD_SLOW
-
-	speed               0.9
+name	"s_usu_wook"
+maxhealth	250
+maxarmor	75
+uishader	"gfx/sup_icons/wookiee/mb2_icon_wook_r"
+resource	RESOURCE_RAGE
+WP_E22Flags	HELD_SLOW
+speed	0.9
+isCustomBuild	1
+mbPoints	0
+hasCustomSpec	3
+isOnlyOneSpec	1
+customSpecName_1	""
+customSpecIcon_1	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_1	""
+customSpecName_2	""
+customSpecIcon_2	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_2	""
+customSpecName_3	""
+customSpecIcon_3	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_3	""
+c_att_skill_0	MB_ATT_INVALID
+c_att_names_0	""
+c_att_ranks_0	-1
 }
-
 WeaponInfo0
 {
-	WeaponToReplace		WP_BRYAR_PISTOL
-	WeaponBasedOff		WP_BOWCASTER
-	NewWorldModel		"models/weapons2/blaster_pistol/blaster_pistol_w.glm"
-	NewViewModel		"models/weapons2/blaster_pistol/blaster_pistol.md3"
-	Icon				"gfx/hud/w_icon_blaster_pistol"
-	WeaponName			"Pistol"
-	FlashSound0 "sound/weapsup/r/wpn_rebel_pistol_fire.wav"
-    AltFlashSound0  "sound/weapsup/r/wpn_rebel_pistol_fire.wav"
+WeaponToReplace	WP_BRYAR_PISTOL
+WeaponBasedOff	WP_BOWCASTER
+NewWorldModel	"models/weapons2/blaster_pistol/blaster_pistol_w.glm"
+NewViewModel	"models/weapons2/blaster_pistol/blaster_pistol.md3"
+Icon	"gfx/hud/w_icon_blaster_pistol"
+WeaponName	"Pistol"
+FlashSound0	"sound/weapsup/r/wpn_rebel_pistol_fire.wav"
+AltFlashSound0	"sound/weapsup/r/wpn_rebel_pistol_fire.wav"
 }
-
 WeaponInfo1
 {
-    WeaponToReplace        WP_E_22                           //Required: Weapon Slot of weapon you're replacing
-    WeaponBasedOff        WP_E_22                          //Required: For future use, should be the same as WeaponToReplace
-    NewWorldModel        "models/weapons2/bowcaster/bowcaster_w.glm"      //Required: New 3rd person/dropped weapon model
-    NewViewModel        "models/weapons2/bowcaster/bowcaster.md3"       //Required: New 1st person weapon model
-    Icon                "gfx/hud/w_icon_bowcaster"                 //Required: Weapon change icon
-    WeaponName            "Wookiee Bowcaster"                        //Required: Weapon change display name
-	ChargeEffect		"gfx/effects/greenfrontflash"
-	MuzzleEffect		"Bowcaster/muzzle_flash"
-	AltMuzzleEffect		"Bowcaster/muzzle_flash"
-	MissileEffect		"Bowcaster/shot"
-	AltMissileEffect	"blaster/Shot04G"
-	MissileMissEffect	"effects/impacts/impactmediumgreen1"
-	MissileHitHumanEffect	"effects/impacts/impactmediumgreen1"
-	MissileHitDroidEffect	"effects/impacts/impactmediumgreen1"
-	AltMissileMissEffect	"effects/Grenades/EXP_Alt_E"
-	AltMissileHitHumanEffect	"effects/Grenades/EXP_Alt_E"
-	AltMissileHitDroidEffect	"effects/Grenades/EXP_Alt_E"
-	FlashSound0			"sound/weapsup/r/wpn_all_bowcaster_fire.wav"
-	AltFlashSound0		"sound/weapsup/r/wpn_all_bowcaster_fire_2.wav"
-    customAmmo      500
-    clipSize        100
-    FPMult          0.8
-
-	hasAnimOverrides 1
-	animReady BOTH_DC15_READY
-	animReadyWalk BOTH_DC15_READY
-	animReadyNoAmmo BOTH_DC15_READY
-	animAttack BOTH_DC15_ATTACK
-	animAttackWalk BOTH_DC15_ATTACK
-
-	rateMod		1.6
-	velocityMod	0.8
-	damageMod	1.025
+WeaponToReplace	WP_E_22
+WeaponBasedOff	WP_E_22
+NewWorldModel	"models/weapons2/bowcaster/bowcaster_w.glm"
+NewViewModel	"models/weapons2/bowcaster/bowcaster.md3"
+Icon	"gfx/hud/w_icon_bowcaster"
+WeaponName	"Wookiee Bowcaster"
+ChargeEffect	"gfx/effects/greenfrontflash"
+MuzzleEffect	"Bowcaster/muzzle_flash"
+AltMuzzleEffect	"Bowcaster/muzzle_flash"
+MissileEffect	"Bowcaster/shot"
+AltMissileEffect	"blaster/Shot04G"
+MissileMissEffect	"effects/impacts/impactmediumgreen1"
+MissileHitHumanEffect	"effects/impacts/impactmediumgreen1"
+MissileHitDroidEffect	"effects/impacts/impactmediumgreen1"
+AltMissileMissEffect	"effects/Grenades/EXP_Alt_E"
+AltMissileHitHumanEffect	"effects/Grenades/EXP_Alt_E"
+AltMissileHitDroidEffect	"effects/Grenades/EXP_Alt_E"
+FlashSound0	"sound/weapsup/r/wpn_all_bowcaster_fire.wav"
+AltFlashSound0	"sound/weapsup/r/wpn_all_bowcaster_fire_2.wav"
+customAmmo	500
+clipSize	100
+FPMult	0.8
+hasAnimOverrides 1
+animReady BOTH_DC15_READY
+animReadyWalk BOTH_DC15_READY
+animReadyNoAmmo BOTH_DC15_READY
+animAttack BOTH_DC15_ATTACK
+animAttackWalk BOTH_DC15_ATTACK
+rateMod	1.6
+velocityMod	0.8
+damageMod	1.025
 }
-
-description	"Purge Coalition - Wookiee Soldier
-
-    [GC]
-Planetary Restriction:
-Kashyyyk
-
-Class: Wookiee
-
-Weaponry:
-Pistol (2)
-Wookiee Bowcaster (3)
-Frag Grenades (2)
-
-Attributes
-Magnetic Plating (Wookiee Armor)
-Wookiee Health (3)
-Wookiee Strength (3)
-
-Abilities:
-Wookiee Fury (1) [Class Special 1 and 2 in Melee]
-Gunbash [Class Special 2]
-
-A wookie soldier enlisted in the forces of the New Republic, joining the Coalition for survival against the wicked necromancy of Dathomir. Equipped with heavy blaster deflecting armor. They became a tanky frontliner of choice to be used by the Coalition.
-
-Tough fighters with a cunning feel for tactics, Wookiees hailed from the planet Kashyyyk. These hardy soldiers were great allies to the Rebel Alliance and their stand against evil in the known galaxy."
+description ""

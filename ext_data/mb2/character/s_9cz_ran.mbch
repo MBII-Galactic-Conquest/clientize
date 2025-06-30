@@ -1,120 +1,100 @@
 ClassInfo
 {
-	name			"s_9cz_ran"
-	classflags		CFL_REALTD|CFL_BPFREEJUMPS|CFL_HEAVYMELEE|CFL_SEEING_STEALTH
-	APmultiplier	0.8
-    forcepool       65
-	maxhealth		200
-	maxarmor		100
-	uishader		"models/players/rebel_gag/mb2_icon_default"
-	speed			1.0
-	saber1			kotor_vibrosword_supremacy
-	saber1_1		kotor_vibrostaff_supremacy
-
+name	"s_9cz_ran"
+classflags	CFL_REALTD|CFL_BPFREEJUMPS|CFL_HEAVYMELEE|CFL_SEEING_STEALTH
+APmultiplier	0.8
+forcepool	65
+maxhealth	200
+maxarmor	100
+uishader	"models/players/rebel_gag/mb2_icon_default"
+speed	1.0
+saber1	kotor_vibrosword_supremacy
+saber1_1	kotor_vibrostaff_supremacy
+isCustomBuild	1
+mbPoints	0
+hasCustomSpec	3
+isOnlyOneSpec	1
+customSpecName_1	""
+customSpecIcon_1	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_1	""
+customSpecName_2	""
+customSpecIcon_2	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_2	""
+customSpecName_3	""
+customSpecIcon_3	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_3	""
+c_att_skill_0	MB_ATT_INVALID
+c_att_names_0	""
+c_att_ranks_0	-1
 }
-
 WeaponInfo0
 {
-	WeaponToReplace		WP_SABER			
-	WeaponBasedOff		WP_SABER			
-	NewWorldModel		"models/weapons2/kotor_longsword/saber_w.glm"  
-	NewViewModel		"models/weapons2/dummy/dummy.md3" 	  
-	Icon			"gfx/hud/w_icon_vibrosword"
-	WeaponName		"Cortosis Vibrosword"    	 			
+WeaponToReplace	WP_SABER
+WeaponBasedOff	WP_SABER
+NewWorldModel	"models/weapons2/kotor_longsword/saber_w.glm"
+NewViewModel	"models/weapons2/dummy/dummy.md3"
+Icon	"gfx/hud/w_icon_vibrosword"
+WeaponName	"Cortosis Vibrosword"
 }
-
 WeaponInfo1
 {
-	WeaponToReplace		WP_BLASTER_PISTOL
-	WeaponBasedOff		WP_BLASTER_PISTOL
-	NewWorldModel		"models/weapons2/kotor_bpistol2/kotor_bpistol2_w.glm"
-	NewViewModel		"models/weapons2/kotor_bpistol2/kotor_bpistol2.md3"
-	Icon				"gfx/hud/w_icon_kotor_bpistol2"
-	WeaponName			"Overcharged Czerka Pistol"
-	MuzzleEffect		"Blaster/MuzzleFlash01R"
-	AltMuzzleEffect		"Blaster/MuzzleFlash01R"
-	MissileEffect		"Blaster/Shot02Y"
-	Missile3Effect		"Blaster/Shot02Y"
-	AltMissileEffect	"Blaster/Shot02Y"
-	PowerupShotEffect	"Blaster/Shot04Y"
-	ChargeEffect		"gfx/effects/blasterfrontflash"
-	OverchargeEffect	"Blaster/Shot04Y"
-	FlashSound0 "sound/weapons/kotor/fire_light.wav"
-	FlashSound4	"sound/weapons/kotor/fire_hvy.wav"
-	AltFlashSound4	"sound/weapons/kotor/fire_hvy.wav"
-	idleAnim		MAND_SPISTOL 
-	firingAnim		MAND_SPISTOL_FIRE
+WeaponToReplace	WP_BLASTER_PISTOL
+WeaponBasedOff	WP_BLASTER_PISTOL
+NewWorldModel	"models/weapons2/kotor_bpistol2/kotor_bpistol2_w.glm"
+NewViewModel	"models/weapons2/kotor_bpistol2/kotor_bpistol2.md3"
+Icon	"gfx/hud/w_icon_kotor_bpistol2"
+WeaponName	"Overcharged Czerka Pistol"
+MuzzleEffect	"Blaster/MuzzleFlash01R"
+AltMuzzleEffect	"Blaster/MuzzleFlash01R"
+MissileEffect	"Blaster/Shot02Y"
+Missile3Effect	"Blaster/Shot02Y"
+AltMissileEffect	"Blaster/Shot02Y"
+PowerupShotEffect	"Blaster/Shot04Y"
+ChargeEffect	"gfx/effects/blasterfrontflash"
+OverchargeEffect	"Blaster/Shot04Y"
+FlashSound0	"sound/weapons/kotor/fire_light.wav"
+FlashSound4	"sound/weapons/kotor/fire_hvy.wav"
+AltFlashSound4	"sound/weapons/kotor/fire_hvy.wav"
+idleAnim	MAND_SPISTOL
+firingAnim	MAND_SPISTOL_FIRE
 }
-
 WeaponInfo2
 {
-    WeaponToReplace        WP_BLASTER                           //Required: Weapon Slot of weapon you're replacing
-    WeaponBasedOff        WP_BLASTER                          //Required: For future use, should be the same as WeaponToReplace
-	NewWorldModel		"models/weapons2/kotor_brifle1/kotor_brifle1_w.glm"
-	NewViewModel		"models/weapons2/kotor_brifle1/kotor_brifle1.md3"
-	Icon				"gfx/hud/w_icon_kotor_brifle1"
-    WeaponName            "Czerka Assault Rifle"                        //Required: Weapon change display name
-	FlashSound0			"sound/weapons/kotor/fire_med.wav"
-    AltFlashSound0		"sound/weapons/kotor/fire_hvy.wav"
-	MuzzleEffect		"Blaster/MuzzleFlash01R"
-	AltMuzzleEffect		"Blaster/MuzzleFlash01R"
-	MissileEffect		"Blaster/Shot02Y"
-	AltMissileEffect	"Blaster/Shot02Y"
-    customAmmo      500
-    clipSize        100
-    FPMult          0.8
-
-	hasAnimOverrides 1
-	animReady BOTH_DC15_READY
-	animReadyWalk BOTH_DC15_READY
-	animReadyNoAmmo BOTH_DC15_READY
-	animAttack BOTH_DC15_ATTACK
-	animAttackWalk BOTH_DC15_ATTACK
+WeaponToReplace	WP_BLASTER
+WeaponBasedOff	WP_BLASTER
+NewWorldModel	"models/weapons2/kotor_brifle1/kotor_brifle1_w.glm"
+NewViewModel	"models/weapons2/kotor_brifle1/kotor_brifle1.md3"
+Icon	"gfx/hud/w_icon_kotor_brifle1"
+WeaponName	"Czerka Assault Rifle"
+FlashSound0	"sound/weapons/kotor/fire_med.wav"
+AltFlashSound0	"sound/weapons/kotor/fire_hvy.wav"
+MuzzleEffect	"Blaster/MuzzleFlash01R"
+AltMuzzleEffect	"Blaster/MuzzleFlash01R"
+MissileEffect	"Blaster/Shot02Y"
+AltMissileEffect	"Blaster/Shot02Y"
+customAmmo	500
+clipSize	100
+FPMult	0.8
+hasAnimOverrides 1
+animReady BOTH_DC15_READY
+animReadyWalk BOTH_DC15_READY
+animReadyNoAmmo BOTH_DC15_READY
+animAttack BOTH_DC15_ATTACK
+animAttackWalk BOTH_DC15_ATTACK
 }
-
 WeaponInfo3
 {
-	WeaponToReplace		WP_PROJ				 
-	WeaponBasedOff      WP_SBD
-	NewWorldModel "models/weapons2/czerka_adventurer_rifle/model_w.glm"
-	NewViewModel  "models/weapons2/czerka_adventurer_rifle/model.md3"
-	Icon  "gfx/hud/w_icon_czerka_adventurer"
-	FlashSound0 		"sound/weapons/E-5s/fire.mp3"
-	AltFlashSound0	    "sound/weapons/E-5s/alt_fire.mp3"		
-	WeaponName			"Czerka Sniper Rifle"    				 
-	CustomAmmo 	12
-	MuzzleEffect		"Bowcaster/muzzle_flash"
-	MissileEffect		"Bowcaster/shot"
-	fpmult 1.1
+WeaponToReplace	WP_PROJ
+WeaponBasedOff	WP_SBD
+NewWorldModel	"models/weapons2/czerka_adventurer_rifle/model_w.glm"
+NewViewModel	"models/weapons2/czerka_adventurer_rifle/model.md3"
+Icon	"gfx/hud/w_icon_czerka_adventurer"
+FlashSound0	"sound/weapons/E-5s/fire.mp3"
+AltFlashSound0	"sound/weapons/E-5s/alt_fire.mp3"
+WeaponName	"Czerka Sniper Rifle"
+CustomAmmo	12
+MuzzleEffect	"Bowcaster/muzzle_flash"
+MissileEffect	"Bowcaster/shot"
+fpmult 1.1
 }
-
-description	"Czerka Corporation - Ranger
-
-Weaponry:
-Thermal Detonator (1)
-Frag Grenade (2)
-Czerka Sniper Rifle
-Overcharged Czerka Pistol (3)
-Czerka Assault Rifle (2)
-Cortosis Vibrosword *
-
-Vibrosword Info:
-Fast and Medium Styles
-Offense (3)
-Defense (3)
-
-Gadgets:
-Stealth Field Generator
-
-Attributes
-Reinforcements (1)
-Close Combat Training (2)
-Deadly Punches (Wookie Melee)
-Quick Throw (2)
-Force Block (2)
-Flip Kick (2)
-Dexterity (2)
-Stamina (2)
-Dodge (3)
-
-An elite Czerka Ranger, he looks incredibly inspiring."
+description ""

@@ -1,118 +1,90 @@
 ClassInfo
 {
-	name			"s_14kr_bh1"
-
-	classflags		CFL_REALTD|CFL_BPFREEJUMPS|CFL_HEAVYMELEE|CFL_SEEING_STEALTH
-	APmultiplier	0.8
-    forcepool       65
-	maxhealth		200
-	maxarmor		100
-	uishader		"gfx/sup_icons/human_merc/mb2_icon_sni"
-	speed			0.8
-	saber1		legends_Knife
-
-	uishader_1	"gfx/sup_icons/human_merc_a/mb2_icon_sni"
-
-	uishader_2	"gfx/sup_icons/human_merc_k/mb2_icon_sni"
-
-	uishader_3	"gfx/sup_icons/human_merc_d/mb2_icon_sni"
-
-
-	resource	RESOURCE_FORCE
-
-
-	resource	RESOURCE_STAMINA
-
-
+name	"s_14kr_bh1"
+classflags	CFL_REALTD|CFL_BPFREEJUMPS|CFL_HEAVYMELEE|CFL_SEEING_STEALTH
+APmultiplier	0.8
+forcepool	65
+maxhealth	200
+maxarmor	100
+uishader	"gfx/sup_icons/human_merc/mb2_icon_sni"
+speed	0.8
+saber1	legends_Knife
+uishader_1	"gfx/sup_icons/human_merc_a/mb2_icon_sni"
+uishader_2	"gfx/sup_icons/human_merc_k/mb2_icon_sni"
+uishader_3	"gfx/sup_icons/human_merc_d/mb2_icon_sni"
+resource	RESOURCE_FORCE
+isCustomBuild	1
+mbPoints	0
+hasCustomSpec	3
+isOnlyOneSpec	1
+customSpecName_1	""
+customSpecIcon_1	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_1	""
+customSpecName_2	""
+customSpecIcon_2	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_2	""
+customSpecName_3	""
+customSpecIcon_3	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_3	""
+c_att_skill_0	MB_ATT_INVALID
+c_att_names_0	""
+c_att_ranks_0	-1
 }
-
 WeaponInfo0
 {
-	WeaponToReplace		WP_SABER
-	WeaponBasedOff		WP_SABER
-	NewWorldModel		"models/weapons2/ct_weapon/ct_knife_F.glm"
-	NewViewModel		"models/weapons2/dummy/dummy.md3"
-	Icon			"gfx/hud/w_icon_prisonknife"
-	WeaponName		"Vibro Knife"
+WeaponToReplace	WP_SABER
+WeaponBasedOff	WP_SABER
+NewWorldModel	"models/weapons2/ct_weapon/ct_knife_F.glm"
+NewViewModel	"models/weapons2/dummy/dummy.md3"
+Icon	"gfx/hud/w_icon_prisonknife"
+WeaponName	"Vibro Knife"
 }
-
 WeaponInfo1
 {
-	WeaponToReplace		WP_BLASTER_PISTOL
-	WeaponBasedOff		WP_BLASTER_PISTOL
-    NewWorldModel        "models/weapons2/se-14c_pistol/blaster_pistol_w.glm"      //Required: New 3rd person/dropped weapon model
-    NewViewModel        "models/weapons2/se-14c_pistol/blaster_pistol.md3"       //Required: New 1st person weapon model
-    Icon                "gfx/hud/w_icon_se-14c"
-	WeaponName			"Overcharged SE-14c Pistol"
-	MuzzleEffect		"Blaster/MuzzleFlash01R"
-	AltMuzzleEffect		"Blaster/MuzzleFlash01R"
-	MissileEffect		"blaster/Shot01R"
-	Missile3Effect		"Blaster/Shot10R"
-	AltMissileEffect	"blaster/Shot01R"
-	PowerupShotEffect	"Blaster/Shot10R"
-	OverchargeEffect	"Blaster/MuzzleFlash04R"
-	FlashSound0 "sound/weapsup/r/wpn_imp_pistol_fire.wav"
-    AltFlashSound0  "sound/weapsup/r/wpn_imp_pistol_fire.wav"
-	idleAnim		MAND_SPISTOL 
-	firingAnim		MAND_SPISTOL_FIRE
+WeaponToReplace	WP_BLASTER_PISTOL
+WeaponBasedOff	WP_BLASTER_PISTOL
+NewWorldModel	"models/weapons2/se-14c_pistol/blaster_pistol_w.glm"
+NewViewModel	"models/weapons2/se-14c_pistol/blaster_pistol.md3"
+Icon	"gfx/hud/w_icon_se-14c"
+WeaponName	"Overcharged SE-14c Pistol"
+MuzzleEffect	"Blaster/MuzzleFlash01R"
+AltMuzzleEffect	"Blaster/MuzzleFlash01R"
+MissileEffect	"blaster/Shot01R"
+Missile3Effect	"Blaster/Shot10R"
+AltMissileEffect	"blaster/Shot01R"
+PowerupShotEffect	"Blaster/Shot10R"
+OverchargeEffect	"Blaster/MuzzleFlash04R"
+FlashSound0	"sound/weapsup/r/wpn_imp_pistol_fire.wav"
+AltFlashSound0	"sound/weapsup/r/wpn_imp_pistol_fire.wav"
+idleAnim	MAND_SPISTOL
+firingAnim	MAND_SPISTOL_FIRE
 }
-
 WeaponInfo2
 {
-	WeaponToReplace		WP_PROJ				 
-	WeaponBasedOff      WP_SBD
-	NewWorldModel "models/weapons2/dlt-18_repeater/dlt-18_repeater_w.glm"
-	NewViewModel  "models/weapons2/dlt-18_repeater/dlt-18_repeater.md3"
-	Icon  "gfx/hud/w_icon_dlt-18"
-	FlashSound0  "sound/weapons/Glie-44/alt_fire.wav"		
-	WeaponName			"Valken-38x-m Sniper Rifle"    				 
-	CustomAmmo 	12
-	MuzzleEffect		"Blaster/MuzzleFlash01R"
-	MissileEffect		"Blaster/Shot10R"
-	fpmult 1.1
+WeaponToReplace	WP_PROJ
+WeaponBasedOff	WP_SBD
+NewWorldModel	"models/weapons2/dlt-18_repeater/dlt-18_repeater_w.glm"
+NewViewModel	"models/weapons2/dlt-18_repeater/dlt-18_repeater.md3"
+Icon	"gfx/hud/w_icon_dlt-18"
+FlashSound0	"sound/weapons/Glie-44/alt_fire.wav"
+WeaponName	"Valken-38x-m Sniper Rifle"
+CustomAmmo	12
+MuzzleEffect	"Blaster/MuzzleFlash01R"
+MissileEffect	"Blaster/Shot10R"
+fpmult 1.1
 }
-
 WeaponInfo3
 {
-	WeaponToReplace		WP_BLASTER       					//Required: Weapon Slot of weapon you're replacing
-	WeaponBasedOff		WP_BLASTER      					//Required: For future use, should be the same as WeaponToReplace
-    NewWorldModel        "models/weapons2/blaster_r/blaster_w.glm"      //Required: New 3rd person/dropped weapon model
-    NewViewModel        "models/weapons2/blaster_r/blaster.md3"       //Required: New 1st person weapon model
-    Icon                "gfx/hud/w_icon_e11"                 //Required: Weapon change icon
-	WeaponName			"E-11 Blaster Rifle"    					//Required: Weapon change display name
-    FlashSound0 "sound/weapsup/r/wpn_imp_blaster_fire.wav"
-    AltFlashSound0  "sound/weapsup/r/wpn_imp_blaster_fire.wav"
-	customAmmo      500
-	clipSize        100
-	FPMult          0.8
+WeaponToReplace	WP_BLASTER
+WeaponBasedOff	WP_BLASTER
+NewWorldModel	"models/weapons2/blaster_r/blaster_w.glm"
+NewViewModel	"models/weapons2/blaster_r/blaster.md3"
+Icon	"gfx/hud/w_icon_e11"
+WeaponName	"E-11 Blaster Rifle"
+FlashSound0	"sound/weapsup/r/wpn_imp_blaster_fire.wav"
+AltFlashSound0	"sound/weapsup/r/wpn_imp_blaster_fire.wav"
+customAmmo	500
+clipSize	100
+FPMult	0.8
 }
-
-description	"Generic Leader: Bounty Hunter Sniper
-
-	[GC]
-Unlocked With:
-Leader Bonus
-
-Weaponry:
-Thermal Detonator (1)
-Frag Grenade (2)
-Valken-38x-m Sniper Rifle
-Overcharged SE-14c (3)
-E-11 Blaster Rifle (3)
-
-Gadgets:
-Stealth Field Generator
-
-Attributes
-Close Combat Training (2)
-Deadly Punches (Wookie Melee)
-Quick Throw (2)
-Flip Kick (2)
-Dexterity (2)
-Stamina (2)
-Dodge (3)
-Gun Bash
-
-A bounty hunter contracted by the Sith, he looks incredibly terrifying.
-
-Darth Krayt's Empire, the contender to the Imperial Throne, in the belief of returning the rule of two to the galaxy, and the oppression of the Sith. Is at an all out open war with the New Republic, and the Fel-Empire."
+description ""

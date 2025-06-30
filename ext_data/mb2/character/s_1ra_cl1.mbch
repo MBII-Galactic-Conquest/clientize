@@ -1,77 +1,68 @@
 ClassInfo
 {
-	name			"s_ra_cl1"
-	maxhealth		75
-	maxarmor		50
-	uishader		"gfx/sup_icons/clonetrooper_p1/mb2_icon_vang"
-	speed			0.8
-
-	uishader_1		"gfx/sup_icons/clonetrooper_p1_p/mb2_icon_vang"
+name	"s_ra_cl1"
+maxhealth	75
+maxarmor	50
+uishader	"gfx/sup_icons/clonetrooper_p1/mb2_icon_vang"
+speed	0.8
+uishader_1	"gfx/sup_icons/clonetrooper_p1_p/mb2_icon_vang"
+isCustomBuild	1
+mbPoints	0
+hasCustomSpec	3
+isOnlyOneSpec	1
+customSpecName_1	""
+customSpecIcon_1	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_1	""
+customSpecName_2	""
+customSpecIcon_2	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_2	""
+customSpecName_3	""
+customSpecIcon_3	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_3	""
+c_att_skill_0	MB_ATT_INVALID
+c_att_names_0	""
+c_att_ranks_0	-1
 }
-
 WeaponInfo0
 {
-    WeaponToReplace        WP_CLONE_PISTOL                           //Required: Weapon Slot of weapon you're replacing
-    WeaponBasedOff        WP_BLASTER_PISTOL                          //Required: For future use, should be the same as WeaponToReplace
-    NewWorldModel        "models/weapons2/dc-17/dc-17_w.glm"      //Required: New 3rd person/dropped weapon model
-    NewViewModel        "models/weapons2/dc-17/dc-17.md3"       //Required: New 1st person weapon model
-    Icon                "gfx/hud/w_icon_dc-17"                 //Required: Weapon change icon
-    WeaponName            "DC-17 Clone Pistol"                        //Required: Weapon change display name
-    FlashSound0 "sound/weapsup/sup/wpn_rep_pistol_fire.wav"
-    AltFlashSound0  "sound/weapsup/sup/wpn_rep_pistol_fire.wav"
-	FlashSound4	"sound/weapsup/sup/wpn_rep_pistol_fire.wav"
-	AltFlashSound4	"sound/weapsup/sup/wpn_rep_pistol_fire.wav"
-	MuzzleEffect		"Blaster/MuzzleFlash01B"
-	MissileEffect		"blaster/Shot01B"
-	AltMissileEffect 	"blaster/Shot01B"
-    customAmmo      200
-    clipSize        100
+WeaponToReplace	WP_CLONE_PISTOL
+WeaponBasedOff	WP_BLASTER_PISTOL
+NewWorldModel	"models/weapons2/dc-17/dc-17_w.glm"
+NewViewModel	"models/weapons2/dc-17/dc-17.md3"
+Icon	"gfx/hud/w_icon_dc-17"
+WeaponName	"DC-17 Clone Pistol"
+FlashSound0	"sound/weapsup/sup/wpn_rep_pistol_fire.wav"
+AltFlashSound0	"sound/weapsup/sup/wpn_rep_pistol_fire.wav"
+FlashSound4	"sound/weapsup/sup/wpn_rep_pistol_fire.wav"
+AltFlashSound4	"sound/weapsup/sup/wpn_rep_pistol_fire.wav"
+MuzzleEffect	"Blaster/MuzzleFlash01B"
+MissileEffect	"blaster/Shot01B"
+AltMissileEffect	"blaster/Shot01B"
+customAmmo	200
+clipSize	100
 }
-
 WeaponInfo1
 {
-    WeaponToReplace        WP_BLASTER                           //Required: Weapon Slot of weapon you're replacing
-    WeaponBasedOff        WP_BLASTER                          //Required: For future use, should be the same as WeaponToReplace
-    NewWorldModel        "models/weapons2/dc-15s/dc-15s_w.glm"      //Required: New 3rd person/dropped weapon model
-    NewViewModel        "models/weapons2/dc-15s/dc-15s.md3"       //Required: New 1st person weapon model
-    Icon                "gfx/hud/w_icon_dc-15s"                 //Required: Weapon change icon
-    WeaponName            "DC-15s Clone Rifle"                        //Required: Weapon change display name
-    FlashSound0 "sound/weapsup/sup/wpn_rep_blaster_fire.wav"
-    AltFlashSound0  "sound/weapsup/sup/wpn_rep_blaster_fire.wav"
-	MuzzleEffect		"Blaster/MuzzleFlash01B"
-	AltMuzzleEffect		"Blaster/MuzzleFlash01B"
-	MissileEffect		"blaster/Shot01B"
-	AltMissileEffect 	"blaster/Shot01B"
-    customAmmo      500
-    clipSize        100
-    FPMult          0.8
-
-	hasAnimOverrides 1
-	animReady BOTH_DC15_READY
-	animReadyWalk BOTH_DC15_READY
-	animReadyNoAmmo BOTH_DC15_READY
-	animAttack BOTH_DC15_ATTACK
-	animAttackWalk BOTH_DC15_ATTACK
+WeaponToReplace	WP_BLASTER
+WeaponBasedOff	WP_BLASTER
+NewWorldModel	"models/weapons2/dc-15s/dc-15s_w.glm"
+NewViewModel	"models/weapons2/dc-15s/dc-15s.md3"
+Icon	"gfx/hud/w_icon_dc-15s"
+WeaponName	"DC-15s Clone Rifle"
+FlashSound0	"sound/weapsup/sup/wpn_rep_blaster_fire.wav"
+AltFlashSound0	"sound/weapsup/sup/wpn_rep_blaster_fire.wav"
+MuzzleEffect	"Blaster/MuzzleFlash01B"
+AltMuzzleEffect	"Blaster/MuzzleFlash01B"
+MissileEffect	"blaster/Shot05B"
+AltMissileEffect	"blaster/Shot01B"
+customAmmo	500
+clipSize	100
+FPMult	0.8
+hasAnimOverrides 1
+animReady BOTH_DC15_READY
+animReadyWalk BOTH_DC15_READY
+animReadyNoAmmo BOTH_DC15_READY
+animAttack BOTH_DC15_ATTACK
+animAttackWalk BOTH_DC15_ATTACK
 }
-
-description	"Rebel Alliance - Kaminoan Clone Trooper
-
-	[GC]
-Planetary Circumstance:
-Kamino, Only
-
-Can be played as an ordinary soldier, in defense of the planet only.
-
-Weaponry:
-Pulse Grenade (1)
-Clone Pistol (1)
-DC-15s (3)
-
-Attributes
-Reinforcements (2)
-Close Combat Training (2)
-Stamina (1)
-Gun Bash
-Assemble
-
-A phase one clone trooper, this one was bred by rogue kaminoans to rise up against the empire."
+description ""

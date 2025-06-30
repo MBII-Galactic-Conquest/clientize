@@ -1,55 +1,30 @@
 ClassInfo
 {
-	name				"s_17da_sbd1"
-	attributes		    MB_ATT_AMMO,4|MB_ATT_BESKAR,1|MB_ATT_HULL_STRENGTH,3|MB_ATT_WOOKIE_STRENGTH,1|MB_ATT_ANTI_MT,2|MB_ATT_RECHARGE,3|MB_ATT_SBD_CANNON,1|MB_ATT_FIREPOWER,3|MB_ATT_MAGNETIC_PLATING,1|MB_ATT_BLAST_ARMOUR,1|MB_ATT_RADAR|MB_ATT_ZOOM,1
-
-
-	maxhealth			400
-	maxarmor			10
-	
-	speed				1.0
-	rateOfFire			1.15
-
-
-	uishader		    "models/players/sbd/mb2_icon_default"
-	
-	uishader_1		    "models/players/sbd/mb2_icon_mando"
-
-	uishader_2		    "models/players/sbd/mb2_icon_rusty"
-		
-	meleeMoves				M_PUNCH|M_KICK
-
-	resource	RESOURCE_BATTERY
-	
+name	"s_17da_sbd1"
+maxhealth	400
+maxarmor	10
+speed	1.0
+rateOfFire	1.15
+uishader	"models/players/sbd/mb2_icon_default"
+uishader_1	"models/players/sbd/mb2_icon_mando"
+uishader_2	"models/players/sbd/mb2_icon_rusty"
+meleeMoves	M_PUNCH|M_KICK
+resource	RESOURCE_BATTERY
+isCustomBuild	1
+mbPoints	0
+hasCustomSpec	3
+isOnlyOneSpec	1
+customSpecName_1	""
+customSpecIcon_1	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_1	""
+customSpecName_2	""
+customSpecIcon_2	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_2	""
+customSpecName_3	""
+customSpecIcon_3	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_3	""
+c_att_skill_0	MB_ATT_INVALID
+c_att_names_0	"Super Battle Droid (Standard)"
+c_att_ranks_0	-1
 }
-
-description	"Phase 2 - B2 Super Battle Droid
-
-Class: SBD.
-Class Summary:
-A heavily modified advanced Super Battle Droid with tougher armor, that can engage in melee and ranged combat.
-
-Weaponry:
-Arm Blaster + Arm Cannon 
-(toggle via gun mode / lightsaber style control)
-Heavy Melee
-
-Attributes
-Firepower (3)
-Magnetic Plating
-Blast Armor
-Beskar (1)
-Advanced Logic (3)
---- Advanced Electronics
-Can continue firing at a reduced rate while pulsed
---- Reactive Servos
-Only Strength (3) level characters and upwards can cause melee knockdowns
---- Prototype Force Shield
-Cannot be targeted by force powers
-
-Abilities:
-- Recharge (3) [Class Special 1]
-- Radar (Enter recharge mode to reveal enemies on radar screen)
-- Advanced Targeting [Class Special 2]
-
-A B2 Super Battle Droid, engineered by the Techno Union, for the use of the Confederacy of Independent Systems in their ever growing war machine."
+description ""

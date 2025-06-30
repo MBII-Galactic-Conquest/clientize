@@ -1,66 +1,53 @@
 ClassInfo
 {
-	name			"s_7cd_ma1"
-	classflags		CFL_STRONGAGAINSTPHYSICAL
-	forcepool		50
-	maxhealth		100
-	maxarmor		30
-	uishader		"models/players/deathwatch/red"
-	speed			0.8
-
-	resource	RESOURCE_FUEL
-
+name	"s_7cd_ma1"
+classflags	CFL_STRONGAGAINSTPHYSICAL
+forcepool	50
+maxhealth	100
+maxarmor	30
+uishader	"models/players/deathwatch/red"
+speed	0.8
+resource	RESOURCE_FUEL
+isCustomBuild	1
+mbPoints	0
+hasCustomSpec	3
+isOnlyOneSpec	1
+customSpecName_1	""
+customSpecIcon_1	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_1	""
+customSpecName_2	""
+customSpecIcon_2	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_2	""
+customSpecName_3	""
+customSpecIcon_3	"gfx/sup_builds/null/sup_empty"
+customSpecDesc_3	""
+c_att_skill_0	MB_ATT_INVALID
+c_att_names_0	""
+c_att_ranks_0	-1
 }
-
 WeaponInfo0
 {
-	WeaponToReplace		WP_BRYAR_PISTOL
-	WeaponBasedOff		WP_BOWCASTER
-	NewWorldModel       "models/weapons2/westar35/westar35.glm"
-	NewViewModel        "models/weapons2/westar35/model.md3"
-	Icon                "gfx/hud/w_icon_westar35"
-	WeaponName			"Westar Pistol"
-	FlashSound0			"sound/weapons/westar/fire.mp3"
-	AltFlashSound0		"sound/weapons/westar/alt_fire.mp3"
+WeaponToReplace	WP_BRYAR_PISTOL
+WeaponBasedOff	WP_BOWCASTER
+NewWorldModel	"models/weapons2/westar35/westar35.glm"
+NewViewModel	"models/weapons2/westar35/model.md3"
+Icon	"gfx/hud/w_icon_westar35"
+WeaponName	"Westar Pistol"
+FlashSound0	"sound/weapons/westar/fire.mp3"
+AltFlashSound0	"sound/weapons/westar/alt_fire.mp3"
 }
-
 WeaponInfo1
 {
-	WeaponToReplace		WP_EE4
-	WeaponBasedOff		WP_EE4
-	NewWorldModel		"models/weapons2/ee-3/ee-3_w.glm"
-	NewViewModel		"models/weapons2/ee-3/ee-3.md3"
-	Icon				"gfx/hud/w_icon_ee-3"
-	WeaponName			"Mandalorian EE-3 Rifle"
-	customAmmo			600
-	clipSize            60
-	firingAnim	        BOTH_ATTACK4
-	ReloadTimeModifier 	2
-	FPMult     			0.9
+WeaponToReplace	WP_EE4
+WeaponBasedOff	WP_EE4
+NewWorldModel	"models/weapons2/ee-3/ee-3_w.glm"
+NewViewModel	"models/weapons2/ee-3/ee-3.md3"
+Icon	"gfx/hud/w_icon_ee-3"
+WeaponName	"Mandalorian EE-3 Rifle"
+customAmmo	600
+clipSize	60
+firingAnim	BOTH_ATTACK4
+ReloadTimeModifier	2
+FPMult	0.9
 }
-
-description	"Crimson Dawn - Mandalorian - Multi-Purpose
-
-Weaponry:
-Pulse Grenade (2)
-Westar Pistol (2)
-Mandalorian EE-3 Rifle (3)
-Mandalorian Rocket (1) (CS1)
-
-Wrist Gadgets:
--- Middle mouse button to cycle
-Flamethrower (CS2)
-Wrist Laser (CS3)
-
-Attributes
-Reinforcements (1)
-Close Combat Training (2)
-Melee Resistant Plating
-Quick Throw (1) (CS4)
-Force Block (2)
-Dexterity (2)
-Jet Pack (2)
-Beskar (2)
-Assemble
-
-An elite mandalorian of the Crimson Dawn, fitted in their finest beskar and clan regalia."
+description ""

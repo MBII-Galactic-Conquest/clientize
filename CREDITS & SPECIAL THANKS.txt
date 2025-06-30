@@ -51,6 +51,7 @@ Noodle -
 
 Kitsu-Nesh'Kaa -
 `modeler team, kitbashing custom model content, jetpack troopers`
+`red laser tripmine assets for use in supremacy`
 
 LwKill -
 `acclamator bridge for gc_intermission, permission to modify`
@@ -98,9 +99,6 @@ TheEffacer-
 
 DarthValeria-
 `TOR sith droideka`
-
-brushworks-
-`Sith Duel Chamber map`
 
 Delta-
 `platduel map for krayt fa`

@@ -32,7 +32,7 @@ armor       800
 toughness     10
 model      "sithdeka"
 skin      "default"
-radarIcon    "gfx/menus/radar/deka"
+radarIcon	  "gfx/menus/radar/deka"
 explosionRadius 400
 explosionDamage 1000
 explodeFX    "ships/ship_explosion2"
@@ -46,16 +46,16 @@ flammable    0
 GroundTrace 1 //set to 1 for droidekas
 
 //deka_laser
-weap1      droideka_laser
+weap1      deka_laser
 weap1Delay    320
 weap1AmmoMax    30
 weap1AmmoRechargeMS  300
 
 //deka_laser
-weapMuzzle1    droideka_laser
-weapMuzzle2    droideka_laser
-weapMuzzle3    droideka_laser
-weapMuzzle4    droideka_laser
+weapMuzzle1    deka_laser
+weapMuzzle2    deka_laser
+weapMuzzle3    deka_laser
+weapMuzzle4    deka_laser
 
 weap2	special_droideka_discharge
 weap2Delay	500
