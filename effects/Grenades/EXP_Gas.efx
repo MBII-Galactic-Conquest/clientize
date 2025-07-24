@@ -46,6 +46,14 @@ Particle
 	]
 }
 
+Sound
+{
+	sounds
+	[
+		sound/weapsup/g/wpn_poisonnade.wav
+	]
+}
+
 Particle
 {
 	name				Copy of Unnamed Particle 0

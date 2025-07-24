@@ -1,8 +1,8 @@
 ClassInfo
 {
 name	"s_17da_bd4w"
-maxhealth	45
-maxarmor	50
+maxhealth	85
+maxarmor	75
 forcepool	25
 uishader	"gfx/sup_icons/battledroid_of/mb2_icon_ofc"
 rateoffire	0.675
