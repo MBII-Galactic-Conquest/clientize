@@ -4,7 +4,7 @@ name			deka_rocket
 projectile		1
 saberBlockable	0
 speed			2000
-damage			10
+damage			20
 ammoPerShot		1
 splashDamage    5
 splashRadius    100
