@@ -1,4 +1,5 @@
-//Siege class def file.ClassInfo
+//Siege class def file.
+ClassInfo
 {
 name	"s_d_fkni_1"
 weapons	WP_MELEE|WP_SABER|WP_BLASTER
