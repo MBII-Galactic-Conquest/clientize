@@ -1,7 +1,7 @@
 ClassInfo
 {
 name	"s_17da_sbd1"
-maxhealth	400
+maxhealth	250
 maxarmor	10
 speed	1.0
 rateOfFire	1.15

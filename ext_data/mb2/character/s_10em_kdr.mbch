@@ -39,7 +39,7 @@ WeaponName	"SE-14r"
 FlashSound0	"sound/weapsup/sup/pistol_fire.wav"
 altFlashSound0	"sound/weapons/se-14c/fire.mp3"
 idleAnim	BOTH_STAND4TOATTACK2
-firingAnim	MAND_SPISTOL_FIRE
+firingAnim	BOTH_MAND_PISTOL_ATTACK
 clipsize 20
 }
 description ""

@@ -155,7 +155,7 @@ AltMissileHitHumanEffect	"effects/Grenades/EXP_Alt_E"
 AltMissileHitDroidEffect	"effects/Grenades/EXP_Alt_E"
 customAmmo	500
 clipSize	15
-FPMult	0.8
+FPMult	1.4
 hasAnimOverrides 1
 animAttack BOTH_DC15_ATTACK
 animAttackWalk BOTH_DC15_ATTACK

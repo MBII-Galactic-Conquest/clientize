@@ -95,6 +95,7 @@ AltFireEnabled	0
 ReloadTimeModifier	2
 customAmmo	500
 clipSize	50
+FPMult	10
 rateMod	1.5
 damageMod	1.25
 }

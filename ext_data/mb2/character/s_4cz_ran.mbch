@@ -55,8 +55,8 @@ OverchargeEffect	"Blaster/Shot04Y"
 FlashSound0	"sound/weapons/kotor/fire_light.wav"
 FlashSound4	"sound/weapons/kotor/fire_hvy.wav"
 AltFlashSound4	"sound/weapons/kotor/fire_hvy.wav"
-idleAnim	MAND_SPISTOL
-firingAnim	MAND_SPISTOL_FIRE
+idleAnim	BOTH_MAND_PISTOL_READY
+firingAnim	BOTH_MAND_PISTOL_ATTACK
 }
 WeaponInfo2
 {

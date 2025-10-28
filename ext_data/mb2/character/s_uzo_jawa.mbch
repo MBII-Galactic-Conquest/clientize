@@ -49,7 +49,7 @@ ChargeSound "Sound/chars/doomimp/misc/fireball_loop.wav"
 WeaponName	"Fireballs"
 primGore  1
 altGore 1
-idleAnim  BOTH_MELEEPOSE
+idleAnim  BOTH_MELEE_STAND2
   firingAnim  BOTH_SUPERPUSH
 }
 description ""

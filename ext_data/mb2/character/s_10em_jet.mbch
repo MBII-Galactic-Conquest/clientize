@@ -69,8 +69,8 @@ WeaponInfo2
 {
 WeaponToReplace	WP_CLONE_RIFLE
 WeaponBasedOff	WP_CLONE_RIFLE
-idleAnim	JET_FORWARD
-firingAnim	MAND_FLAME
+idleAnim	BOTH_JET_FORWARD
+firingAnim	BOTH_MAND_FLAME_ATTACK
 NewWorldModel	"models/weapons2/dummy/dummy.glm"
 NewViewModel	"models/weapons2/dummy/dummy.md3"
 Icon	"gfx/hud/w_icon_wristrocket"

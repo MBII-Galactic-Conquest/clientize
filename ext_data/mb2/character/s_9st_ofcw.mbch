@@ -130,7 +130,7 @@ animReadyWalk BOTH_DC15_READY
 animReadyNoAmmo BOTH_DC15_READY
 animAttack BOTH_DC15_ATTACK
 animAttackWalk BOTH_DC15_ATTACK
-damageMod	0.25
+damageMod	0.50
 }
 WeaponInfo4
 {

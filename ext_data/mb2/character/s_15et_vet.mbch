@@ -64,7 +64,7 @@ MuzzleEffect	"mini_concussion/muzzle_flash"
 AltMuzzleEffect	"mini_concussion/muzzle_flash"
 MissileEffect	"blaster/Shot05B"
 AltMissileEffect	"concussion/shot"
-idleAnim	DC15_READY
+idleAnim	BOTH_DC15_READY
 damageMod	1.05
 }
 WeaponInfo1
@@ -82,7 +82,7 @@ MuzzleEffect	"mini_concussion/muzzle_flash"
 AltMuzzleEffect	"mini_concussion/muzzle_flash"
 MissileEffect	"concussion/shot"
 AltMissileEffect	"blaster/Shot05B"
-idleAnim	DC15_READY
+idleAnim	BOTH_DC15_READY
 damageMod	1.025
 }
 ForceInfo0

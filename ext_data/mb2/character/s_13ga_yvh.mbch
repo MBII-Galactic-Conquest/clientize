@@ -10,8 +10,8 @@ damageTaken	0.85
 speed 1.4
 saber1	qstaff_supremacy
 uishader	"gfx/sup_icons/T800/mb2_icon_vang"
-WalkBackward	SBD_WALKBACK_NOGUN
-WalkForward	SBD_WALK_NOGUN
+WalkBackward	BOTH_SBD_WALKBACK1
+WalkForward	BOTH_SBD_WALK1
 jetpackJetTag	"*r_leg_foot"//*r_leg_foot"
 jetpackJet2Tag	"*l_leg_foot"//"*l_leg_foot"
 jetpackJetOffset	"0, 0, 10"// 30"
@@ -45,9 +45,9 @@ NewWorldModel	"models/weapons2/dummy/dummy.glm"
 NewViewModel	"models/weapons2/dummy/dummy.md3"
 Icon	"gfx/hud/w_icon_sbdarm"
 WeaponName	"Wrist Blaster"
-idleAnim	SBD_GUN_OUT_STAND
-firingAnim	SBD_FIRE
-altFiringAnim	SBD_FIRE
+idleAnim	BOTH_STAND1_BLASTER
+firingAnim	BOTH_BLASTER_ATTACK
+altFiringAnim	BOTH_BLASTER_ATTACK
 }
 WeaponInfo1
 {
@@ -81,9 +81,9 @@ damageMod	1.5
 clipSize	1
 ReloadTimeModifier	2
 AltFireEnabled	0
-idleAnim	SBD_GUN_OUT_STAND
-firingAnim	SBD_FIRE
-altFiringAnim	SBD_FIRE
+idleAnim	BOTH_STAND1_BLASTER
+firingAnim	BOTH_BLASTER_ATTACK
+altFiringAnim	BOTH_BLASTER_ATTACK
 }
 ForceInfo0
 {
