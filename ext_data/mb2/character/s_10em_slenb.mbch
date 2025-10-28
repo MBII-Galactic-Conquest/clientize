@@ -34,81 +34,81 @@ c_att_ranks_0	-1
 c_att_skill_2	MB_ATT_BLASTER
 c_att_names_2	"Blaster Carbine"
 c_att_ranks_2	4,1
-c_att_skill_5	MB_ATT_INVALID
-c_att_names_5	"^5-AVAILABILITY-"
-c_att_ranks_5	-1
-c_att_skill_6	MB_ATT_HEALING
-c_att_names_6	"Passive Healing:"
-c_att_ranks_6	15
-c_att_skill_7	MB_ATT_STAMINA
-c_att_names_7	"STAM: ^3[CS1]"
+c_att_skill_4	MB_ATT_INVALID
+c_att_names_4	"^5-AVAILABILITY-"
+c_att_ranks_4	-1
+c_att_skill_5	MB_ATT_HEALING
+c_att_names_5	"Passive Healing:"
+c_att_ranks_5	15
+c_att_skill_6	MB_ATT_STAMINA
+c_att_names_6	"STAM: ^3[CS1]"
+c_att_ranks_6	15,5
+c_att_skill_7	MB_ATT_DEXTERITY
+c_att_names_7	"DEX: ^3[CS4]"
 c_att_ranks_7	15,5
-c_att_skill_8	MB_ATT_DEXTERITY
-c_att_names_8	"DEX: ^3[CS4]"
-c_att_ranks_8	15,5
-c_att_skill_9	MB_ATT_ASSEMBLE
-c_att_names_9	"Assemble:"
-c_att_ranks_9	1
+c_att_skill_8	MB_ATT_ASSEMBLE
+c_att_names_8	"Assemble:"
+c_att_ranks_8	1
+c_att_skill_10	MB_ATT_INVALID
+c_att_names_10	"^5-STATS-"
+c_att_ranks_10	-1
 c_att_skill_11	MB_ATT_INVALID
-c_att_names_11	"^5-STATS-"
+c_att_names_11	"^1+10 Health"
 c_att_ranks_11	-1
-c_att_skill_12	MB_ATT_INVALID
-c_att_names_12	"^1+10 Health"
-c_att_ranks_12	-1
-c_att_skill_0	MB_ATT_INVALID
-c_att_names_0	"Energy Boost & Bacta Tank"
-c_att_ranks_0	-1
-c_att_skill_2	MB_ATT_EE4
-c_att_names_2	"Blaster Rifle"
-c_att_ranks_2	4,1
-c_att_skill_5	MB_ATT_INVALID
-c_att_names_5	"^5-AVAILABILITY-"
-c_att_ranks_5	-1
-c_att_skill_6	MB_ATT_HEALING
-c_att_names_6	"Passive Healing:"
-c_att_ranks_6	15
-c_att_skill_7	MB_ATT_STAMINA
-c_att_names_7	"STAM: ^3[CS1]"
-c_att_ranks_7	15,5
-c_att_skill_8	MB_ATT_DEXTERITY
-c_att_names_8	"DEX: ^3[CS4]"
-c_att_ranks_8	15,5
-c_att_skill_9	MB_ATT_ASSEMBLE
-c_att_names_9	"Assemble:"
-c_att_ranks_9	1
-c_att_skill_11	MB_ATT_INVALID
-c_att_names_11	"^5-STATS-"
-c_att_ranks_11	-1
-c_att_skill_12	MB_ATT_INVALID
-c_att_names_12	"^1+10 Health"
-c_att_ranks_12	-1
-c_att_skill_0	MB_ATT_INVALID
-c_att_names_0	"Energy Boost & Bacta Tank"
-c_att_ranks_0	-1
-c_att_skill_2	MB_ATT_E_22
-c_att_names_2	"Burst Rifle"
-c_att_ranks_2	4,1,1
-c_att_skill_5	MB_ATT_INVALID
-c_att_names_5	"^5-AVAILABILITY-"
-c_att_ranks_5	-1
-c_att_skill_6	MB_ATT_HEALING
-c_att_names_6	"Passive Healing:"
-c_att_ranks_6	15
-c_att_skill_7	MB_ATT_STAMINA
-c_att_names_7	"STAM: ^3[CS1]"
-c_att_ranks_7	15,5
-c_att_skill_8	MB_ATT_DEXTERITY
-c_att_names_8	"DEX: ^3[CS4]"
-c_att_ranks_8	15,5
-c_att_skill_9	MB_ATT_ASSEMBLE
-c_att_names_9	"Assemble:"
-c_att_ranks_9	1
-c_att_skill_11	MB_ATT_INVALID
-c_att_names_11	"^5-STATS-"
-c_att_ranks_11	-1
-c_att_skill_12	MB_ATT_INVALID
-c_att_names_12	"^1+10 Health"
-c_att_ranks_12	-1
+c_att_skill_15	MB_ATT_INVALID
+c_att_names_15	"Energy Boost & Bacta Tank"
+c_att_ranks_15	-1
+c_att_skill_17	MB_ATT_EE4
+c_att_names_17	"Blaster Rifle"
+c_att_ranks_17	4,1
+c_att_skill_19	MB_ATT_INVALID
+c_att_names_19	"^5-AVAILABILITY-"
+c_att_ranks_19	-1
+c_att_skill_20	MB_ATT_HEALING
+c_att_names_20	"Passive Healing:"
+c_att_ranks_20	15
+c_att_skill_21	MB_ATT_STAMINA
+c_att_names_21	"STAM: ^3[CS1]"
+c_att_ranks_21	15,5
+c_att_skill_22	MB_ATT_DEXTERITY
+c_att_names_22	"DEX: ^3[CS4]"
+c_att_ranks_22	15,5
+c_att_skill_23	MB_ATT_ASSEMBLE
+c_att_names_23	"Assemble:"
+c_att_ranks_23	1
+c_att_skill_25	MB_ATT_INVALID
+c_att_names_25	"^5-STATS-"
+c_att_ranks_25	-1
+c_att_skill_26	MB_ATT_INVALID
+c_att_names_26	"^1+10 Health"
+c_att_ranks_26	-1
+c_att_skill_30	MB_ATT_INVALID
+c_att_names_30	"Energy Boost & Bacta Tank"
+c_att_ranks_30	-1
+c_att_skill_32	MB_ATT_E_22
+c_att_names_32	"Burst Rifle"
+c_att_ranks_32	4,1,1
+c_att_skill_34	MB_ATT_INVALID
+c_att_names_34	"^5-AVAILABILITY-"
+c_att_ranks_34	-1
+c_att_skill_35	MB_ATT_HEALING
+c_att_names_35	"Passive Healing:"
+c_att_ranks_35	15
+c_att_skill_36	MB_ATT_STAMINA
+c_att_names_36	"STAM: ^3[CS1]"
+c_att_ranks_36	15,5
+c_att_skill_37	MB_ATT_DEXTERITY
+c_att_names_37	"DEX: ^3[CS4]"
+c_att_ranks_37	15,5
+c_att_skill_38	MB_ATT_ASSEMBLE
+c_att_names_38	"Assemble:"
+c_att_ranks_38	1
+c_att_skill_40	MB_ATT_INVALID
+c_att_names_40	"^5-STATS-"
+c_att_ranks_40	-1
+c_att_skill_41	MB_ATT_INVALID
+c_att_names_41	"^1+10 Health"
+c_att_ranks_41	-1
 }
 WeaponInfo0
 {
@@ -181,7 +181,7 @@ AltMissileHitHumanEffect	"effects/Grenades/EXP_Alt_E"
 AltMissileHitDroidEffect	"effects/Grenades/EXP_Alt_E"
 customAmmo	500
 clipSize	15
-FPMult	0.8
+FPMult	1.4
 hasAnimOverrides 1
 animAttack BOTH_DC15_ATTACK
 animAttackWalk BOTH_DC15_ATTACK

@@ -173,7 +173,7 @@ electro-bisento_supremacy
 	useGoreConfig 1
 	useGoreConfig2 1
 	disarmable 0
-	readyAnim      TRIPLE3_BLUESTANCE
+	readyAnim      BOTH_TRIPLE3_BLUESTANCE
 }
 
 vibro-voulge_supremacy
@@ -232,7 +232,7 @@ vibro-voulge_supremacy
 	g2WeaponMarkShader	"gfx/effects/bloodsplat"
 	useGoreConfig 1
 	useGoreConfig2 1
-	readyAnim     TRIPLE3_REDSTANCE
+	readyAnim     BOTH_TRIPLE3_REDSTANCE
 	lungeAtkMove LS_PULL_ATTACK_STAB
 	saberStyleLearned strong
 }
@@ -310,7 +310,7 @@ lightsaber_pike_supremacy
 	disarmable 0
 
 	
-	readyAnim     TRIPLE3_REDSTANCE
+	readyAnim     BOTH_TRIPLE3_REDSTANCE
 	lungeAtkMove LS_PULL_ATTACK_STAB
 }
 

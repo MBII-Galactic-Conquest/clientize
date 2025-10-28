@@ -47,8 +47,8 @@ Icon	"gfx/hud/w_icon_kotor_hobpistol_na"
 WeaponName	"Syndicate Pistol"
 FlashSound0	"sound/weapsup/sup/wpn_cis_sonicBlaster_fire.wav"
 AltFlashSound0	"sound/weapons/E-5s/alt_fire.mp3"
-idleAnim	MAND_SPISTOL
-firingAnim	MAND_SPISTOL_FIRE
+idleAnim	BOTH_MAND_PISTOL_READY
+firingAnim	BOTH_MAND_PISTOL_ATTACK
 }
 WeaponInfo2
 {

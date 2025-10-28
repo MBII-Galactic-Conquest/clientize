@@ -57,8 +57,8 @@ PowerupShotEffect	"Blaster/Shot10R"
 OverchargeEffect	"Blaster/MuzzleFlash04R"
 FlashSound0	"sound/weapsup/sup/wpn_cis_pistol_fire.wav"
 FlashSound4	"sound/weapsup/sup/wpn_cis_pistol_fire.wav"
-idleAnim	MAND_SPISTOL
-firingAnim	MAND_SPISTOL_FIRE
+idleAnim	BOTH_MAND_PISTOL_READY
+firingAnim	BOTH_MAND_PISTOL_ATTACK
 }
 WeaponInfo2
 {

@@ -64,8 +64,8 @@ damageMod	1.5
 clipSize	1
 ReloadTimeModifier	2
 AltFireEnabled	0
-idleAnim	SBD_GUN_OUT_STAND
-firingAnim	SBD_FIRE
-altFiringAnim	SBD_FIRE
+idleAnim	BOTH_STAND1_BLASTER
+firingAnim	BOTH_BLASTER_ATTACK
+altFiringAnim	BOTH_BLASTER_ATTACK
 }
 description ""

@@ -54,14 +54,21 @@ forceregen	0.1
 }
 WeaponInfo0
 {
-WeaponToReplace	WP_BRYAR_PISTOL
-WeaponBasedOff	WP_BOWCASTER
-NewWorldModel	"models/weapons2/imp_pistol/pistol_w.glm"
-NewViewModel	"models/weapons2/imp_pistol/pistol_fpv.md3"
-Icon	"gfx/hud/w_icon_imp_pistol"
-WeaponName	"Pistol"
-FlashSound0	"sound/weapsup/r/wpn_imp_pistol_fire.wav"
-AltFlashSound0	"sound/weapsup/r/wpn_imp_pistol_fire.wav"
+WeaponToReplace	WP_BLASTER_PISTOL
+WeaponBasedOff	WP_BLASTER_PISTOL
+NewWorldModel	"models/weapons2/se-14c_pistol/blaster_pistol_w.glm"
+NewViewModel	"models/weapons2/se-14c_pistol/blaster_pistol.md3"
+Icon	"gfx/hud/w_icon_se-14c"
+WeaponName	"SE-14c BlasTech Pistol"
+FlashSound0	"sound/weapsup/sup/wpn_cis_pistol_fire.wav"
+AltFlashSound0	"sound/weapsup/sup/wpn_cis_pistol_fire.wav"
+FlashSound4	"sound/weapsup/sup/wpn_cis_pistol_fire.wav"
+AltFlashSound4 "sound/weapsup/sup/wpn_cis_pistol_fire.wav"
+MuzzleEffect	"Blaster/MuzzleFlash01R"
+MissileEffect	"blaster/Shot01R"
+AltMissileEffect	"blaster/Shot01R"
+customAmmo	200
+clipSize	100
 }
 WeaponInfo1
 {

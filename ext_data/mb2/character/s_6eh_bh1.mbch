@@ -10,9 +10,9 @@ uishader	"gfx/sup_icons/IG88/mb2_icon_sni"
 speed	1.16
 saber1	droidmelee_legends
 saber2	droidmelee_legends
-saberStanceAnim	BOTH_RAGESTAND
-WalkForward	SBD_WALK_NOGUN
-WalkBackward	SBD_WALKBACK_NOGUN
+saberStanceAnim	BOTH_WOOKIEE_RAGE_STAND_IDLE
+WalkForward	BOTH_SBD_WALK1
+WalkBackward	BOTH_SBD_WALKBACK1
 resource	RESOURCE_FORCE
 isCustomBuild	1
 mbPoints	0
